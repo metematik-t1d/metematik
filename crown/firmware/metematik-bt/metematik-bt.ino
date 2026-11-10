@@ -68,7 +68,7 @@ static const uint32_t GLK_EN_LEN = 0;
 #include "metematik_assets.h"   // yazi tipleri + logo (ayni klasorde olmali)
 
 
-#define FIRMWARE_VERSION "4.0.4"
+#define FIRMWARE_VERSION "4.0.5"
 
 // ---- forward declarations (Arduino sirasi icin) ----
 bool fetchData();
@@ -2353,8 +2353,15 @@ void drawMinuteBars(int y, unsigned long ageSec, bool withAgeText = true) {
     cv->setTextDatum(MC_DATUM);
     String at = ageText();
     int ty = y + barH + 10;
-    if (langIdx >= 2 && dsNonAscii(at.c_str())) ty -= 4;   // 3.6.1: Noto 6pt daha uzun - ekranin altindan kesilmesin (Rusca)
-    dsN(cv, at, 160, ty, 1);
+    if (langIdx == 0) {                                     // 4.0.4: Turkcede "önce" (yerlesik font o harfi cizemiyordu)
+      at.replace("once", "önce");
+      cv->setFont((const lgfx::IFont*)&FreeSansTR6pt);
+      cv->drawString(at.c_str(), 160, ty - 4);
+      cv->setTextFont(1);
+    } else {
+      if (langIdx >= 2 && dsNonAscii(at.c_str())) ty -= 4;   // 3.6.1: Noto 6pt daha uzun - ekranin altindan kesilmesin (Rusca)
+      dsN(cv, at, 160, ty, 1);
+    }
   }
 }
 
@@ -2497,7 +2504,7 @@ void loadSettings() {
   nightSoundLevel = prefs.getInt("nights", 1);
   if (nightSoundLevel < 0 || nightSoundLevel > 3) nightSoundLevel = 1;
   schoolModeOn = prefs.getBool("schoolon", false);
-  teacherModeOn = prefs.getBool("teachon", true);          // 3.4.17: varsayilan acik
+  teacherModeOn = prefs.getBool("teachon", false);         // 4.0.4: varsayilan kapali (Burak)
   schoolStartHour = prefs.getInt("schoolsh", 8);
   if (schoolStartHour < 0 || schoolStartHour > 23) schoolStartHour = 8;
   schoolEndHour = prefs.getInt("schooleh", 15);
