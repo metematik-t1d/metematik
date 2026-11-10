@@ -1,0 +1,191 @@
+#id	es	pt	fr	de	it	ru	id
+33ae7e7e	Lo hice para mi hijo Mete. Burak	Fiz para o meu filho Mete. Burak	Fait pour mon fils Mete. Burak	Für meinen Sohn Mete gemacht. Burak	L'ho fatto per mio figlio Mete. Burak	Сделано для моего сына Мете. Бурак	Dibuat untuk putraku Mete. Burak
+47dbb628	Rojo	Vermelho	Rouge	Rot	Rosso	Красный	Merah
+6807bafa	Naranja	Laranja	Orange	Orange	Arancione	Оранжевый	Oranye
+b0f723bb	Amarillo	Amarelo	Jaune	Gelb	Giallo	Жёлтый	Kuning
+738a22ea	Blanco	Branco	Blanc	Weiß	Bianco	Белый	Putih
+2f5ceafe	Verde	Verde	Vert	Grün	Verde	Зелёный	Hijau
+f2d5d94b	Azul	Azul	Bleu	Blau	Blu	Синий	Biru
+ad521566	Grande	Grande	Grand	Groß	Grande	Крупный	Besar
+95ef7054	Calendario	Calendário	Calendrier	Kalender	Calendario	Календарь	Kalender
+e7415d9d	Vertical	Vertical	Portrait	Hochformat	Verticale	Вертикально	Potret
+5b748e2a	Marco de fotos	Moldura de fotos	Cadre photo	Bilderrahmen	Cornice foto	Фоторамка	Bingkai Foto
+0c6537b1	Clásico	Clássico	Classique	Klassisch	Classico	Классика	Klasik
+06369b8b	Modo noche en silencio: sin alarma	Modo noturno em silêncio: sem alarme	Mode nuit silencieux : pas d'alarme	Nachtmodus stumm: kein Alarmton	Modalità notte muta: nessun allarme	Ночной режим без звука: тревоги нет	Mode malam senyap: alarm tak berbunyi
+4582c07e	Modo escuela en silencio: sin alarma	Modo escola em silêncio: sem alarme	Mode école silencieux : pas d'alarme	Schulmodus stumm: kein Alarmton	Modalità scuola muta: nessun allarme	Школьный режим без звука: тревоги нет	Mode sekolah senyap: alarm tak berbunyi
+693b6c0d	Silencio: las alarmas no sonarán	Silêncio: os alarmes não tocam	Silencieux : les alarmes ne sonnent pas	Stumm: Alarme ertönen nicht	Muto: gli allarmi non suonano	Без звука: тревоги не звучат	Senyap: alarm tidak berbunyi
+6d3ca1c8	Sonido de bajo crítico apagado	Som de baixo crítico desligado	Son bas critique coupé	Ton für kritisch niedrig aus	Suono basso critico spento	Звук критически низкого выкл.	Suara rendah kritis mati
+1596f930	Algunos sonidos de alarma apagados	Alguns sons de alarme desligados	Certains sons d'alarme coupés	Einige Alarmtöne aus	Alcuni suoni di allarme spenti	Часть звуков тревоги выкл.	Beberapa suara alarm mati
+83f563fe	Bajo	Baixo	Bas	Niedrig	Basso	Низкий	Rendah
+84ae2dda	Medio	Médio	Moyen	Mittel	Medio	Средний	Sedang
+34e9140e	Alto	Alto	Haut	Hoch	Alto	Высокий	Tinggi
+44d5e8ce	Enero	Janeiro	Janvier	Januar	Gennaio	Январь	Januari
+1a89d35b	Febrero	Fevereiro	Février	Februar	Febbraio	Февраль	Februari
+b2052cc5	Marzo	Março	Mars	März	Marzo	Март	Maret
+945d4391	Abril	Abril	Avril	April	Aprile	Апрель	April
+8c65170c	Mayo	Maio	Mai	Mai	Maggio	Май	Mei
+97cc2d15	Junio	Junho	Juin	Juni	Giugno	Июнь	Juni
+1bcac44a	Julio	Julho	Juillet	Juli	Luglio	Июль	Juli
+81de7b2b	Agosto	Agosto	Août	August	Agosto	Август	Agustus
+54a8b33a	Septiembre	Setembro	Septembre	September	Settembre	Сентябрь	September
+7ae6b03c	Octubre	Outubro	Octobre	Oktober	Ottobre	Октябрь	Oktober
+5b818d0f	Noviembre	Novembro	Novembre	November	Novembre	Ноябрь	November
+f12c8f09	Diciembre	Dezembro	Décembre	Dezember	Dicembre	Декабрь	Desember
+e4cbc694	Ene	Jan	Jan	Jan	Gen	Янв	Jan
+e4f3e577	Feb	Fev	Fév	Feb	Feb	Фев	Feb
+df8eeb1c	Mar	Mar	Mar	Mär	Mar	Мар	Mar
+81382823	Abr	Abr	Avr	Apr	Apr	Апр	Apr
+247cfc20	May	Mai	Mai	Mai	Mag	Май	Mei
+3ea8fe52	Jun	Jun	Juin	Jun	Giu	Июн	Jun
+6ebe882d	Jul	Jul	Juil	Jul	Lug	Июл	Jul
+b705e4bc	Ago	Ago	Aoû	Aug	Ago	Авг	Agu
+432a3512	Sep	Set	Sep	Sep	Set	Сен	Sep
+2c096519	Oct	Out	Oct	Okt	Ott	Окт	Okt
+b195b882	Nov	Nov	Nov	Nov	Nov	Ноя	Nov
+1d95926a	Dic	Dez	Déc	Dez	Dic	Дек	Des
+4c854088	Silencio	Mudo	Muet	Stumm	Muto	Без звука	Senyap
+58138fe9	Bajo	Baixo	Bas	Niedrig	Basso	Низкий	Rendah
+a64968b6	Alto	Alto	Haut	Hoch	Alto	Высокий	Tinggi
+c0cc4fd2	Últimas 24 horas	Últimas 24 horas	Dernières 24 heures	Letzte 24 Stunden	Ultime 24 ore	Последние 24 часа	24 jam terakhir
+96fcfc90	Aprox. últimas %d horas	Aprox. últimas %d horas	Env. dernières %d heures	Ca. letzte %d Stunden	Circa ultime %d ore	Примерно %d ч	Sekitar %d jam terakhir
+aa5bb79b	~%d h	~%d h	~%d h	~%d h	~%d h	~%d ч	~%d jam
+e02c5d1e	Sin datos	Sem dados	Sans données	Keine Daten	Nessun dato	Нет данных	Tanpa data
+e9e37c56	hace %lu s	há %lu s	il y a %lu s	vor %lu s	%lu s fa	%lu с назад	%lu dtk lalu
+475b9d24	hace %lu min	há %lu min	il y a %lu min	vor %lu Min.	%lu min fa	%lu мин назад	%lu mnt lalu
+f704b296	hace %lu h %lu min	há %lu h %lu min	il y a %lu h %lu	vor %lu h %lu min	%lu h %lu min fa	%lu ч %lu мин назад	%lu j %lu mnt lalu
+76c1725b	Última lectura: -	Última leitura: -	Dernière mesure : -	Letzter Wert: -	Ultima lettura: -	Последнее: -	Bacaan terakhir: -
+7707ca1a	Actualizando...	Atualizando...	Mise à jour...	Aktualisierung...	Aggiornamento...	Обновление...	Memperbarui...
+1f699ac5	¡Listo!	Sucesso!	Réussi !	Erfolgreich!	Fatto!	Готово!	Berhasil!
+a8677b4a	Error de actualización	Erro na atualização	Erreur de mise à jour	Update-Fehler	Errore di aggiornamento	Ошибка обновления	Gagal memperbarui
+403dcb9c	WiFi no conectado	WiFi não conectado	WiFi non connecté	WLAN nicht verbunden	WiFi non connesso	WiFi не подключён	WiFi tidak terhubung
+fa8b2da4	Error de inicio de sesión	Falha no login	Échec de connexion	Anmeldung fehlgeschlagen	Accesso non riuscito	Ошибка входа	Gagal masuk
+6001a119	Sin internet	Sem internet	Pas d'internet	Kein Internet	Nessun internet	Нет интернета	Tidak ada internet
+d5b135da	El servidor no responde	O servidor não responde	Le serveur ne répond pas	Server antwortet nicht	Il server non risponde	Сервер не отвечает	Server tidak merespons
+9a20f649	Sin datos	Sem dados	Pas de données	Keine Daten	Nessun dato	Нет данных	Tidak ada data
+5dc555c6	Fuente no configurada	Fonte não configurada	Source non configurée	Quelle nicht eingerichtet	Fonte non configurata	Источник не настроен	Sumber belum diatur
+4cd84f41	No se pudieron leer datos	Não foi possível ler os dados	Lecture des données impossible	Daten nicht lesbar	Impossibile leggere i dati	Не удалось прочитать данные	Data tidak dapat dibaca
+980740ea	Algo salió mal	Algo deu errado	Un problème est survenu	Etwas ist schiefgelaufen	Qualcosa è andato storto	Что-то пошло не так	Terjadi masalah
+429bf989	Revise el WiFi. Mantenga BOOT 2 s.	Verifique o WiFi. Segure BOOT 2 s.	Vérifiez le WiFi. BOOT 2 s.	WLAN prüfen. BOOT 2 s halten.	Controlla il WiFi. Tieni BOOT 2 s.	Проверьте WiFi. BOOT 2 с.	Cek WiFi. Tahan BOOT 2 dtk.
+9b840e58	Usuario o clave pueden ser incorrectos.	Usuário ou senha podem estar errados.	Identifiant ou mot de passe erroné ?	Benutzer oder Passwort evtl. falsch.	Utente o password forse errati.	Возможно, неверный логин или пароль.	Pengguna/sandi mungkin salah.
+42533f39	Revise internet o la URL de la fuente.	Verifique a internet ou a URL da fonte.	Vérifiez internet ou l'URL source.	Internet oder Quell-URL prüfen.	Controlla internet o l'URL fonte.	Проверьте интернет или адрес.	Cek internet atau URL sumber.
+851ee762	El CGM quizá aún no envió datos.	O CGM talvez ainda não enviou dados.	Le CGM n'a peut-être rien envoyé.	CGM hat evtl. noch nichts gesendet.	Il CGM forse non ha ancora inviato.	CGM ещё не прислал данные.	CGM mungkin belum kirim data.
+d7079f67	Ingrese la fuente por QR/Web o BOOT.	Informe a fonte via QR/Web ou BOOT.	Saisir la source via QR/Web ou BOOT.	Quelle per QR/Web oder BOOT eingeben.	Inserisci la fonte via QR/Web o BOOT.	Укажите источник: QR/Web или BOOT.	Isi sumber lewat QR/Web atau BOOT.
+88d9b9cb	Respuesta inesperada. Se reintentará.	Resposta inesperada. Nova tentativa.	Réponse inattendue. Nouvel essai.	Unerwartete Antwort. Neuer Versuch.	Risposta inattesa. Nuovo tentativo.	Странный ответ. Повтор позже.	Respons tak terduga. Akan dicoba lagi.
+88c2a8f8	Se reintentará en breve.	Nova tentativa em breve.	Nouvel essai sous peu.	Gleich neuer Versuch.	Nuovo tentativo a breve.	Скоро повторим.	Akan dicoba lagi sebentar.
+354d4104	Red: 	Rede: 	Réseau : 	Netz: 	Rete: 	Сеть: 	Jaringan:
+c62f8a9e	Fuente: 	Fonte: 	Source : 	Quelle: 	Fonte: 	Источник: 	Sumber:
+71af8e54	Reintentar	Repetir	Réessayer	Erneut	Riprova	Повтор	Coba lagi
+efb43d78	Config.	Config.	Config.	Setup	Config.	Настройка	Atur
+92d635e6	WiFi / acceso	WiFi / login	WiFi / connexion	WLAN / Login	WiFi / accesso	WiFi / вход	WiFi / masuk
+89b46fd2	Atrás	Voltar	Retour	Zurück	Indietro	Назад	Kembali
+dd9b0888	Config. conserva redes guardadas - BOOT 2 s = Config.	A config. mantém as redes salvas - BOOT 2 s = Config.	Config. garde les réseaux - BOOT 2 s = Config.	Setup behält Netze - BOOT 2 s = Setup	Config. mantiene le reti - BOOT 2 s = Config.	Настройка сохраняет сети - BOOT 2 с	Atur tetap simpan jaringan - BOOT 2 dtk = Atur
+7be5b4d1	WiFi perdido - reconectando	WiFi caiu - reconectando	WiFi perdu - reconnexion	WLAN getrennt - verbinde neu	WiFi perso - riconnessione	WiFi пропал - переподключение	WiFi putus - menyambung ulang
+7916e1ee	Lu	Seg	Lu	Mo	Lu	Пн	Sen
+91707445	Ma	Ter	Ma	Di	Ma	Вт	Sel
+86aa1dd7	Mi	Qua	Me	Mi	Me	Ср	Rab
+518fc397	Ju	Qui	Je	Do	Gi	Чт	Kam
+82a65a3e	Vi	Sex	Ve	Fr	Ve	Пт	Jum
+b12a2897	Sá	Sáb	Sa	Sa	Sa	Сб	Sab
+28b8e6e4	Do	Dom	Di	So	Do	Вс	Min
+21d0a239	Subir foto	Enviar foto	Envoyer photo	Foto hochladen	Carica foto	Загрузить фото	Unggah foto
+763abfe0	Escanee - suba la foto por web	Escaneie - envie pela web	Scannez - envoi par le web	Scannen - Upload per Web	Scansiona - carica dal web	Сканируйте - загрузка через веб	Pindai - unggah lewat web
+42628134	Toque: solución	Toque: solução	Touchez : solution	Tippen: Lösung	Tocca: soluzione	Нажмите: решение	Ketuk: solusi
+073e5928	Esperando datos...	Esperando dados...	En attente...	Warte auf Daten...	In attesa di dati...	Ждём данные...	Menunggu data...
+99113421	Posponer	Adiar	Reporter	Pause	Posticipa	Отложить	Tunda
+742512db	%d min	%d min	%d min	%d Min.	%d min	%d мин	%d mnt
+51767b90	Alerta	Alerta	Alerte	Achtung	Allerta	Внимание	Waspada
+28bfd40b	IOB %s U   COB %s g	IOB %s U   COB %s g	IOB %s U   COB %s g	IOB %s U   COB %s g	IOB %s U   COB %s g	IOB %s U   COB %s g	IOB %s U   COB %s g
+fc0d8423	ahora	agora	maintenant	jetzt	ora	сейчас	sekarang
+b00f2bec	DETALLE (NS)	DETALHE (NS)	DÉTAIL (NS)	DETAIL (NS)	DETTAGLIO (NS)	ПОДРОБНО (NS)	DETAIL (NS)
+184bfdb1	IOB	IOB	IOB	IOB	IOB	IOB	IOB
+726ff8ae	COB	COB	COB	COB	COB	COB	COB
+83fdf3b8	Últimos 5 bolos	Últimos 5 bolus	5 derniers bolus	Letzte 5 Boli	Ultimi 5 boli	Последние 5 болюсов	5 bolus terakhir
+73a039e8	Hora	Hora	Heure	Zeit	Ora	Время	Waktu
+f7e44137	Tipo	Tipo	Type	Typ	Tipo	Тип	Jenis
+6b7a5fa9	Sin bolos / plugin apagado	Sem bolus / plugin desligado	Pas de bolus / plugin coupé	Kein Bolus / Plugin aus	Nessun bolo / plugin spento	Нет болюсов / плагин выкл.	Tak ada bolus / plugin mati
+8d72e1bc	Detalle	Detalhe	Détail	Detail	Dett.	Детали	Detail
+19b9ce81	%d h	%d h	%d h	%d h	%d h	%d ч	%d jam
+2aeddbb5	%d h	%d h	%d h	%d h	%d h	%d ч	%d j
+6ef56445	%dd %dh	%dd %dh	%dj %dh	%dT %dh	%dg %dh	%dд %dч	%dhr %dj
+00936427	Pasado	Decorrido	Écoulé	Vergangen	Trascorso	Прошло	Berlalu
+40ad5ddc	Resta	Resta	Reste	Rest	Resta	Осталось	Sisa
+0dd26ea4	Vencido	Vencido	Dépassé	Überfällig	Scaduto	Истёк	Lewat
+ff6cf690	SENSOR / SET	SENSOR / SET	CAPTEUR / SET	SENSOR / SET	SENSORE / SET	СЕНСОР / НАБОР	SENSOR / SET
+2adef385	Ajustar	Ajustar	Régler	Einrichten	Imposta	Настроить	Atur
+79dadd1e	Seguimiento de sensor/set apagado	Acomp. de sensor/set desligado	Suivi capteur/set désactivé	Sensor/Set-Verfolgung aus	Monitoraggio sensore/set spento	Учёт сенсора/набора выкл.	Pelacakan sensor/set mati
+1b0a5998	Actívelo con Ajustar (arriba a la derecha)	Ative em Ajustar (no canto superior direito)	Activez-le via Régler (en haut à droite)	Mit Einrichten (oben rechts) einschalten	Attivalo con Imposta (in alto a destra)	Включите: «Настроить» вверху справа	Nyalakan lewat Atur (kanan atas)
+8b2c6c42	Sensor	Sensor	Capteur	Sensor	Sensore	Сенсор	Sensor
+eb21876c	Set de infusión / bomba	Conjunto de infusão / bomba	Cathéter / pompe	Infusionsset / Pumpe	Set di infusione / pompa	Инфузионный набор / помпа	Set infus / pompa
+9613db53	Restante = vida útil - pasado	Restante = vida útil - decorrido	Reste = durée de vie - écoulé	Rest = Laufzeit - vergangen	Rimanente = durata - trascorso	Осталось = срок - прошло	Sisa = masa pakai - berlalu
+b4279e4f	Set / Bomba	Set / Bomba	Set / Pompe	Set / Pumpe	Set / Pompa	Набор / помпа	Set / Pompa
+f5052453	QUEDAN %ld MINUTOS	FALTAM %ld MINUTOS	%ld MINUTES RESTANTES	NOCH %ld MINUTEN	MANCANO %ld MINUTI	ОСТАЛОСЬ %ld МИН	SISA %ld MENIT
+6e5b2db2	QUEDAN %ld HORAS	FALTAM %ld HORAS	%ld HEURES RESTANTES	NOCH %ld STUNDEN	MANCANO %ld ORE	ОСТАЛОСЬ %ld Ч	SISA %ld JAM
+df136776	QUEDAN %ld h %ld min	FALTAM %ld h %ld min	RESTE %ld h %ld min	NOCH %ld h %ld min	MANCANO %ld h %ld min	ОСТАЛОСЬ %ld ч %ld мин	SISA %ld j %ld mnt
+016ff7c1	está por vencer	está acabando	arrive à échéance	läuft bald ab	sta per scadere	скоро заканчивается	hampir habis
+0c1e3c9f	Vea la pantalla Sensor/Set para detalles	Veja a tela Sensor/Set para detalhes	Voir l'écran Capteur/Set pour détails	Details auf dem Sensor/Set-Bildschirm	Dettagli nella schermata Sensore/Set	Подробнее: экран Сенсор/Набор	Lihat layar Sensor/Set untuk detail
+78a24139	ESTADÍSTICAS	ESTATÍSTICAS	STATISTIQUES	STATISTIK	STATISTICHE	СТАТИСТИКА	STATISTIK
+77a5696e	Aún no hay suficientes datos	Ainda não há dados suficientes	Pas encore assez de données	Noch nicht genug Daten	Dati ancora insufficienti	Пока мало данных	Data belum cukup
+6cb734bb	Se necesitan al menos %d horas de datos.	São necessárias pelo menos %d horas.	Il faut au moins %d heures de données.	Mindestens %d Stunden Daten nötig.	Servono almeno %d ore di dati.	Нужно минимум %d ч данных.	Perlu data minimal %d jam.
+ace57808	Ahora: unas %d horas	Agora: cerca de %d horas	Maintenant : environ %d heures	Jetzt: ca. %d Stunden	Ora: circa %d ore	Сейчас: около %d ч	Sekarang: sekitar %d jam
+5f67cd6b	El equipo guarda su propio registro mientras funciona.	O aparelho guarda seu próprio registro enquanto liga.	L'appareil garde son propre historique en marche.	Das Gerät speichert eigene Werte im Betrieb.	Il dispositivo registra i dati mentre è acceso.	Устройство само копит данные, пока работает.	Perangkat menyimpan catatan sendiri selama menyala.
+e64cb91a	Último: 	Último: 	Dernier : 	Letzter: 	Ultimo: 	Последнее: 	Terakhir:
+aa1eb6d4	Mín	Mín	Min	Min	Min	Мин	Min
+81891934	Máx	Máx	Max	Max	Max	Макс	Maks
+01ade693	Prom	Méd	Moy	Ø	Media	Сред	Rata
+edf17748	Tiempo en rango	Tempo no alvo	Temps dans la cible	Zeit im Zielbereich	Tempo nel range	Время в диапазоне	Waktu dalam rentang
+0fc7db28	toque: siguiente	toque: próximo	touchez : suivant	tippen: weiter	tocca: avanti	нажмите: далее	ketuk: lanjut
+168c83c5	1. IMPORTANTE	1. IMPORTANTE	1. IMPORTANT	1. WICHTIG	1. IMPORTANTE	1. ВАЖНО	1. PENTING
+1bf8d298	No lo use para decisiones	Não use para decisões	Ne pas utiliser pour l'insuline	Nicht für Insulin- oder	Non usare per insulina	Не используйте для решений	Jangan pakai untuk keputusan
+fbb2e5d8	de insulina o tratamiento.	de insulina ou tratamento.	ni les décisions de traitement.	Behandlungsentscheidungen.	o decisioni di terapia.	об инсулине и лечении.	insulin atau pengobatan.
+e65bd8b8	- No es un dispositivo médico	- Não é um dispositivo médico	- Pas un dispositif médical	- Kein Medizinprodukt	- Non è un dispositivo medico	- Не медицинское изделие	- Bukan alat medis
+1117e691	- Solo con fines informativos	- Apenas para informação	- À titre informatif seulement	- Nur zur Information	- Solo a scopo informativo	- Только для информации	- Hanya untuk informasi
+3608adcf	- El riesgo es del usuario	- O risco é do usuário	- À vos propres risques	- Auf eigenes Risiko	- Rischio a carico dell'utente	- Риск на пользователе	- Risiko pada pengguna
+4082431f	Guíese por su app oficial de CGM.	Confie no app oficial do seu CGM.	Fiez-vous à votre app CGM officielle.	Maßgeblich ist Ihre CGM-App.	Affidati all'app CGM ufficiale.	Опирайтесь на официальное приложение CGM.	Andalkan aplikasi CGM resmi Anda.
+48c26763	2. PÁGINAS	2. PÁGINAS	2. PAGES	2. SEITEN	2. PAGINE	2. СТРАНИЦЫ	2. HALAMAN
+0f813ab5	1  Glucosa + tendencia + delta	1  Glicose + tendência + delta	1  Glycémie + tendance + delta	1  Zucker + Trend + Delta	1  Glicemia + trend + delta	1  Сахар + тренд + дельта	1  Glukosa + tren + delta
+9000ced9	2  Vista (Simple/Grande/Foto..)	2  Visual (Simples/Grande/Foto..)	2  Affichage (Simple/Grand/Photo..)	2  Ansicht (Einfach/Groß/Foto..)	2  Vista (Semplice/Grande/Foto..)	2  Вид (Простой/Крупный/Фото..)	2  Tampilan (Simpel/Besar/Foto..)
+f7d008d1	3  Gráfico 3/6/12/24 h	3  Gráfico 3/6/12/24 h	3  Graphique 3/6/12/24 h	3  Grafik 3/6/12/24 h	3  Grafico 3/6/12/24 h	3  График 3/6/12/24 ч	3  Grafik 3/6/12/24 jam
+25738dc4	4  Estadísticas diarias	4  Estatísticas diárias	4  Statistiques du jour	4  Tagesstatistik	4  Statistiche giornaliere	4  Статистика за день	4  Statistik harian
+967d9c8b	5  Temporizador	5  Temporizador	5  Minuteur	5  Timer	5  Timer	5  Таймер	5  Pengatur waktu
+416c19db	6  Ajustes	6  Configurações	6  Réglages	6  Einstellungen	6  Impostazioni	6  Настройки	6  Pengaturan
+ef9bec2b	Navegar: toque izquierda / derecha	Navegar: toque esquerda / direita	Navigation : toucher gauche / droite	Wechseln: links / rechts tippen	Navigare: tocca sinistra / destra	Переход: нажмите слева / справа	Navigasi: ketuk kiri / kanan
+b624a6c1	3. AJUSTES	3. CONFIGURAÇÕES	3. RÉGLAGES	3. EINSTELLUNGEN	3. IMPOSTAZIONI	3. НАСТРОЙКИ	3. PENGATURAN
+7b6cc14a	Arriba: Brillo | Sonido | Alarma	Topo: Brilho | Som | Alarme	Haut : Lumière | Son | Alarme	Oben: Hell | Ton | Alarm	Su: Luce | Suono | Allarme	Верх: Яркость | Звук | Тревога	Atas: Terang | Suara | Alarm
+d3b80c67	Abajo: Rangos | QR | Más	Baixo: Alvos | QR | Mais	Bas : Cibles | QR | Plus	Unten: Ziele | QR | Mehr	Giù: Soglie | QR | Altro	Низ: Цели | QR | Ещё	Bawah: Target | QR | Lain
+b09094be	Rangos: crít./bajo/alto	Alvos: crít./baixo/alto	Cibles : crit./bas/haut	Ziele: krit./niedrig/hoch	Soglie: crit./basso/alto	Цели: крит./низк./выс.	Target: krit./rendah/tinggi
+0323be60	Alarma: visual, posponer, modos	Alarme: visual, adiar, modos	Alarme : visuelle, report, modes	Alarm: visuell, Pause, Modi	Allarme: visivo, posticipa, modi	Тревога: свет, отложить, режимы	Alarm: visual, tunda, mode
+e257104a	QR: ajuste web por teléfono	QR: ajuste web pelo celular	QR : réglage web par téléphone	QR: Web-Setup per Handy	QR: impostazioni web da telefono	QR: настройка с телефона	QR: atur lewat web ponsel
+850bfc04	BOOT 2 s: WiFi / fuente	BOOT 2 s: WiFi / fonte	BOOT 2 s : WiFi / source	BOOT 2 s: WLAN / Quelle	BOOT 2 s: WiFi / fonte	BOOT 2 с: WiFi / источник	BOOT 2 dtk: WiFi / sumber
+0297caa0	4. MODOS + ALERTA	4. MODOS + ALERTA	4. MODES + ALERTE	4. MODI + ACHTUNG	4. MODI + ALLERTA	4. РЕЖИМЫ + ВНИМАНИЕ	4. MODE + WASPADA
+d2a7b15e	Escuela/Noche: horas + sonido/brillo	Escola/Noite: horas + som/brilho	École/Nuit : heures + son/lumière	Schule/Nacht: Zeiten + Ton/Hell	Scuola/Notte: orari + suono/luce	Школа/Ночь: часы + звук/яркость	Sekolah/Malam: jam + suara/terang
+372a49b7	Guía: botón Alerta	Guia: botão Alerta	Guide : bouton Alerte	Helfer: Achtung-Taste	Guida: pulsante Allerta	Подсказки: кнопка «Внимание»	Panduan: tombol Waspada
+168e1f15	  Las tarjetas siguen sus rangos	  Os cartões seguem seus alvos	  Les cartes suivent vos seuils	  Karten folgen Ihren Grenzen	  Le schede seguono le soglie	  Карточки по вашим порогам	  Kartu mengikuti ambang Anda
+6d449681	  Inconsciente: guía de glucagón	  Inconsciente: guia de glucagon	  Inconscient : guide glucagon	  Bewusstlos: Glukagon-Anleitung	  Incosciente: guida glucagone	  Без сознания: глюкагон	  Tak sadar: panduan glukagon
+234bcd8a	Posponer: 15 / 30 / 60 min	Adiar: 15 / 30 / 60 min	Report : 15 / 30 / 60 min	Pause: 15 / 30 / 60 Min.	Posticipa: 15 / 30 / 60 min	Отложить: 15 / 30 / 60 мин	Tunda: 15 / 30 / 60 mnt
+6b7d450a	Fuente: NS / Dexcom / Libre / Medtrum	Fonte: NS / Dexcom / Libre / Medtrum	Source : NS / Dexcom / Libre / Medtrum	Quelle: NS / Dexcom / Libre / Medtrum	Fonte: NS / Dexcom / Libre / Medtrum	Источник: NS / Dexcom / Libre / Medtrum	Sumber: NS / Dexcom / Libre / Medtrum
+ba5928de	5. WEB + OTA	5. WEB + OTA	5. WEB + OTA	5. WEB + OTA	5. WEB + OTA	5. WEB + OTA	5. WEB + OTA
+122cdb3c	En el mismo WiFi, abra un navegador:	No mesmo WiFi, abra um navegador:	Même WiFi, ouvrez un navigateur :	Im selben WLAN Browser öffnen:	Stesso WiFi, apri un browser:	В той же сети WiFi откройте браузер:	Di WiFi yang sama, buka peramban:
+50b470f9	IP-EQUIPO	IP-APARELHO	IP-APPAREIL	GERÄTE-IP	IP-DISPOSITIVO	IP-УСТРОЙСТВА	IP-PERANGKAT
+d0441d63	O escanee el QR del equipo.	Ou escaneie o QR do aparelho.	Ou scannez le QR de l'appareil.	Oder den QR am Gerät scannen.	Oppure scansiona il QR.	Или отсканируйте QR на экране.	Atau pindai QR di perangkat.
+e2b1583f	OTA: suba el archivo .bin.	OTA: envie o arquivo .bin.	OTA : envoyez le fichier .bin.	OTA: .bin-Datei hochladen.	OTA: carica il file .bin.	OTA: загрузите файл .bin.	OTA: unggah file .bin.
+5b53b045	La IP aparece en la página Info.	O IP aparece na página Info.	L'IP figure sur la page Info.	Die IP steht auf der Info-Seite.	L'IP è nella pagina Info.	IP указан на странице «Инфо».	IP tertera di halaman Info.
+33833e89	6. CONFIG. WIFI	6. CONFIG. WIFI	6. CONFIG. WIFI	6. WLAN-SETUP	6. CONFIG. WIFI	6. НАСТРОЙКА WIFI	6. ATUR WIFI
+765dfc7b	Escanee el QR o conéctese	Escaneie o QR ou conecte-se	Scannez le QR ou connectez-vous	QR scannen oder manuell mit	Scansiona il QR o collegati	Отсканируйте QR или подключитесь	Pindai QR atau sambungkan
+9d527cba	a "metematik" manualmente.	a "metematik" manualmente.	à "metematik" manuellement.	"metematik" verbinden.	a "metematik" a mano.	к "metematik" вручную.	ke "metematik" secara manual.
+bfdcf293	¿Usa el punto de acceso	Vai usar o hotspot do	Vous utilisez le partage	Nutzen Sie den Hotspot	Usi l'hotspot del tuo	Используете точку доступа	Pakai hotspot ponsel
+1ece03c4	de su teléfono como red?	seu celular como rede?	de connexion du téléphone ?	Ihres Handys als Netz?	telefono come rete?	своего телефона?	Anda sebagai jaringan?
+8d343e23	1. Apague el punto de acceso	1. Desligue o hotspot	1. Coupez le partage	1. Hotspot ausschalten	1. Spegni l'hotspot	1. Выключите точку доступа	1. Matikan hotspot
+257908ab	2. Conéctese a metematik-.... y complete	2. Conecte-se a metematik-.... e preencha	2. Connectez-vous à metematik-.... et remplissez	2. Mit metematik-.... verbinden, ausfüllen	2. Collegati a metematik-.... e compila	2. Подключитесь к metematik-.... и заполните	2. Sambung ke metematik-.... lalu isi
+0531b3d5	3. Vuelva a encenderlo	3. Ligue o hotspot de novo	3. Réactivez le partage	3. Hotspot wieder einschalten	3. Riaccendi l'hotspot	3. Снова включите точку доступа	3. Nyalakan lagi hotspot
+a90b3519	RANGOS	ALVOS	CIBLES	ZIELE	SOGLIE	ЦЕЛИ	TARGET
+0bb32454	ALARMA	ALARME	ALARME	ALARM	ALLARME	ТРЕВОГА	ALARM
+aeb8157f	Volumen: Ajustes > Sonido	Volume: Configurações > Som	Volume : Réglages > Son	Lautstärke: Einstellungen > Ton	Volume: Impostazioni > Suono	Громкость: Настройки > Звук	Volume: Pengaturan > Suara
+4b7b49f6	Visual	Visual	Visuel	Visuell	Visivo	Свет	Visual
+cca6bb99	Modos	Modos	Modes	Modi	Modi	Режимы	Mode
+43b2e759	Silenciar	Silenciar	Atténuer	Dämpfen	Silenzia	Приглушать	Redam
+b28f9299	Flechas rápidas	Setas rápidas	Flèches rapides	Schnelle Pfeile	Frecce rapide	Быстрые стрелки	Panah cepat
+6cf77956	ALARMAS DE FLECHA DOBLE	ALARMES DE SETA DUPLA	ALARMES DOUBLE FLÈCHE	DOPPELPFEIL-ALARME	ALLARMI FRECCIA DOPPIA	ТРЕВОГИ ДВОЙНОЙ СТРЕЛКИ	ALARM PANAH GANDA
+c4b41bdf	Cuando la glucosa cambia muy rápido	Quando a glicose muda muito rápido	Quand la glycémie varie très vite	Wenn sich der Zucker sehr schnell ändert	Quando la glicemia cambia molto in fretta	Когда сахар меняется очень быстро	Saat glukosa berubah sangat cepat
+139294bf	(flecha doble), avisa antes del límite.	(seta dupla), avisa antes do limite.	(double flèche), alerte avant le seuil.	(Doppelpfeil), warnt vor der Grenze.	(doppia freccia), avvisa prima.	(двойная стрелка), предупредит заранее.	(panah ganda), memberi peringatan dini.
+61725ac1	Funciona con Nightscout y Dexcom.	Funciona com Nightscout e Dexcom.	Fonctionne avec Nightscout et Dexcom.	Funktioniert mit Nightscout und Dexcom.	Funziona con Nightscout e Dexcom.	Работает с Nightscout и Dexcom.	Bekerja dengan Nightscout dan Dexcom.
+5ec9d25d	Caída rápida	Queda rápida	Chute rapide	Schneller Abfall	Discesa rapida	Быстрое падение	Turun cepat

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MeteMatik – Yükleyici / Installer</title>
+<script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+<style>
+body{font-family:system-ui,sans-serif;background:#0f1115;color:#e8e8e8;margin:0;padding:20px;line-height:1.5}
+.wrap{max-width:640px;margin:0 auto}
+h1{color:#4fc3f7;margin:.2em 0}
+.card{background:#1a1d24;border-radius:12px;padding:16px 20px;margin:16px 0}
+.warn{border-left:4px solid #f5a623}
+ol li{margin:6px 0}
+esp-web-install-button button{font-size:1.1rem;padding:14px 24px;border:none;border-radius:10px;background:#1a73e8;color:#fff;cursor:pointer}
+a{color:#4fc3f7}
+small{color:#9a9a9a}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>MeteMatik Crown</h1>
+<p><small>Elecrow CrowPanel Advance 2.8" ESP32-S3 (V1.2) · yazılım / firmware 4.0.3</small></p>
+
+<div class="card warn">
+<b>Tıbbi cihaz değildir.</b> Tedavi kararları için resmi CGM cihazınızı / uygulamanızı esas alın. Asıl CGM alarmlarınızı kapatmayın. Garanti verilmez.<br>
+<b>Not a medical device.</b> Rely on your official CGM device / app for treatment decisions. Do not turn off your CGM alarms. No warranty.
+</div>
+
+<div class="card">
+<h2>Türkçe</h2>
+<ol>
+<li>Bilgisayarda <b>Chrome</b> veya <b>Edge</b> kullanın (telefonda ve Safari'de çalışmaz).</li>
+<li>Kartı, üzerinde <b>USB</b> yazan girişten, veri taşıyan bir USB-C kabloyla bilgisayara takın.</li>
+<li>Aşağıdaki düğmeye basın, listeden kartı seçin (<i>USB JTAG/serial</i> veya <i>ESP32-S3</i>), <b>Yükle</b>'ye basın.</li>
+<li>İlk kurulumda "cihazı sil" seçeneğini işaretleyebilirsiniz. Güncellemede işaretlemeyin: ayarlarınız ve fotoğraflarınız kalır.</li>
+<li>Bitince kartın <b>RESET</b> tuşuna bir kez basın.</li>
+</ol>
+<p>Kart listede yoksa: kabloyu değiştirin; kartın <b>BOOT</b> tuşunu basılı tutup <b>RESET</b>'e basın, BOOT'u bırakın ve tekrar deneyin.</p>
+</div>
+
+<div class="card">
+<h2>English</h2>
+<ol>
+<li>Use <b>Chrome</b> or <b>Edge</b> on a computer (does not work on phones or Safari).</li>
+<li>Connect the board's port marked <b>USB</b> with a USB-C cable that carries data.</li>
+<li>Press the button below, pick the board (<i>USB JTAG/serial</i> or <i>ESP32-S3</i>) and press <b>Install</b>.</li>
+<li>For a first install you may tick "erase device". For an update leave it unticked: your settings and photos are kept.</li>
+<li>When finished, press the board's <b>RESET</b> button once.</li>
+</ol>
+<p>Board not listed? Try another cable; hold <b>BOOT</b>, press <b>RESET</b>, release BOOT and try again.</p>
+</div>
+
+<p style="text-align:center">
+<esp-web-install-button manifest="manifest.json">
+  <span slot="unsupported">Bu tarayıcı desteklenmiyor — Chrome veya Edge kullanın. / This browser is not supported — use Chrome or Edge.</span>
+  <span slot="not-allowed">Sayfa https ile açılmalı. / The page must be opened over https.</span>
+</esp-web-install-button>
+</p>
+
+<p><small>GPL-3.0 · <a href="https://github.com/metematik-t1d/metematik">GitHub</a> · metematik.t1d@gmail.com · YouTube @metematik.t1d<br>
+Dexcom, Abbott, Medtrum, Medtronic ve Nightscout ile bağlantılı değildir. / Not affiliated with Dexcom, Abbott, Medtrum, Medtronic or Nightscout.</small></p>
+</div>
+</body>
+</html>

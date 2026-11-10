@@ -1,0 +1,9 @@
+# MeteMatik - CrowPanel Advance 2.8 (16MB flash)
+# 2 x 4MB uygulama (ElegantOTA ile kablosuz guncelleme icin) + ~7.9MB SPIFFS (fotolar)
+# Name,   Type, SubType,  Offset,   Size
+nvs,      data, nvs,      0x9000,   0x5000
+otadata,  data, ota,      0xe000,   0x2000
+app0,     app,  ota_0,    0x10000,  0x400000
+app1,     app,  ota_1,    0x410000, 0x400000
+spiffs,   data, spiffs,   0x810000, 0x7E0000
+coredump, data, coredump, 0xFF0000, 0x10000

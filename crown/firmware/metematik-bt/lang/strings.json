@@ -1,0 +1,9841 @@
+{
+ "33ae7e7e": {
+  "kind": "L",
+  "tr": "Oğlum Mete için yaptım. Burak",
+  "lines": [
+   1222
+  ],
+  "calls": [],
+  "en_src": "Made for my son Mete. Burak"
+ },
+ "47dbb628": {
+  "kind": "L",
+  "tr": "Kırmızı",
+  "lines": [
+   1295
+  ],
+  "calls": [],
+  "en_src": "Red"
+ },
+ "6807bafa": {
+  "kind": "L",
+  "tr": "Turuncu",
+  "lines": [
+   1295
+  ],
+  "calls": [],
+  "en_src": "Orange"
+ },
+ "b0f723bb": {
+  "kind": "L",
+  "tr": "Sarı",
+  "lines": [
+   1295
+  ],
+  "calls": [],
+  "en_src": "Yellow"
+ },
+ "738a22ea": {
+  "kind": "L",
+  "tr": "Beyaz",
+  "lines": [
+   1296
+  ],
+  "calls": [],
+  "en_src": "White"
+ },
+ "2f5ceafe": {
+  "kind": "L",
+  "tr": "Yeşil",
+  "lines": [
+   1296
+  ],
+  "calls": [],
+  "en_src": "Green"
+ },
+ "f2d5d94b": {
+  "kind": "L",
+  "tr": "Mavi",
+  "lines": [
+   1296
+  ],
+  "calls": [],
+  "en_src": "Blue"
+ },
+ "ad521566": {
+  "kind": "L",
+  "tr": "Büyük",
+  "lines": [
+   1314,
+   9356
+  ],
+  "calls": [],
+  "en_src": "Big"
+ },
+ "95ef7054": {
+  "kind": "L",
+  "tr": "Takvim",
+  "lines": [
+   1315,
+   9357
+  ],
+  "calls": [],
+  "en_src": "Calendar"
+ },
+ "e7415d9d": {
+  "kind": "L",
+  "tr": "Dikey",
+  "lines": [
+   1316,
+   9361
+  ],
+  "calls": [],
+  "en_src": "Portrait"
+ },
+ "5b748e2a": {
+  "kind": "L",
+  "tr": "Foto Çerçeve",
+  "lines": [
+   1317
+  ],
+  "calls": [],
+  "en_src": "Photo Frame"
+ },
+ "0c6537b1": {
+  "kind": "L",
+  "tr": "Klasik",
+  "lines": [
+   1318,
+   9355
+  ],
+  "calls": [],
+  "en_src": "Classic"
+ },
+ "06369b8b": {
+  "kind": "L",
+  "tr": "Gece modu sessiz: alarm çalmaz",
+  "lines": [
+   1560
+  ],
+  "calls": [],
+  "en_src": "Night mode silent: no alarm sound"
+ },
+ "4582c07e": {
+  "kind": "L",
+  "tr": "Okul modu sessiz: alarm çalmaz",
+  "lines": [
+   1561
+  ],
+  "calls": [],
+  "en_src": "School mode silent: no alarm sound"
+ },
+ "693b6c0d": {
+  "kind": "L",
+  "tr": "Sessiz: alarmlar çalmaz",
+  "lines": [
+   1562
+  ],
+  "calls": [],
+  "en_src": "Silent: alarms won't sound"
+ },
+ "6d3ca1c8": {
+  "kind": "L",
+  "tr": "Kritik düşük sesi kapalı",
+  "lines": [
+   1564
+  ],
+  "calls": [],
+  "en_src": "Critical low sound off"
+ },
+ "1596f930": {
+  "kind": "L",
+  "tr": "Bazı alarm sesleri kapalı",
+  "lines": [
+   1566
+  ],
+  "calls": [],
+  "en_src": "Some alarm sounds off"
+ },
+ "83f563fe": {
+  "kind": "L",
+  "tr": "Dusuk",
+  "lines": [
+   1641
+  ],
+  "calls": [],
+  "en_src": "Low"
+ },
+ "84ae2dda": {
+  "kind": "L",
+  "tr": "Orta",
+  "lines": [
+   1642,
+   1757,
+   1761,
+   7229,
+   11149,
+   11150
+  ],
+  "calls": [],
+  "en_src": "Med"
+ },
+ "34e9140e": {
+  "kind": "L",
+  "tr": "Yuksek",
+  "lines": [
+   1643
+  ],
+  "calls": [],
+  "en_src": "High"
+ },
+ "44d5e8ce": {
+  "kind": "L",
+  "tr": "Ocak",
+  "lines": [
+   1691
+  ],
+  "calls": [],
+  "en_src": "January"
+ },
+ "1a89d35b": {
+  "kind": "L",
+  "tr": "Şubat",
+  "lines": [
+   1691
+  ],
+  "calls": [],
+  "en_src": "February"
+ },
+ "b2052cc5": {
+  "kind": "L",
+  "tr": "Mart",
+  "lines": [
+   1692
+  ],
+  "calls": [],
+  "en_src": "March"
+ },
+ "945d4391": {
+  "kind": "L",
+  "tr": "Nisan",
+  "lines": [
+   1692
+  ],
+  "calls": [],
+  "en_src": "April"
+ },
+ "8c65170c": {
+  "kind": "L",
+  "tr": "Mayıs",
+  "lines": [
+   1693
+  ],
+  "calls": [],
+  "en_src": "May"
+ },
+ "97cc2d15": {
+  "kind": "L",
+  "tr": "Haziran",
+  "lines": [
+   1693
+  ],
+  "calls": [],
+  "en_src": "June"
+ },
+ "1bcac44a": {
+  "kind": "L",
+  "tr": "Temmuz",
+  "lines": [
+   1694
+  ],
+  "calls": [],
+  "en_src": "July"
+ },
+ "81de7b2b": {
+  "kind": "L",
+  "tr": "Ağustos",
+  "lines": [
+   1694
+  ],
+  "calls": [],
+  "en_src": "August"
+ },
+ "54a8b33a": {
+  "kind": "L",
+  "tr": "Eylül",
+  "lines": [
+   1695
+  ],
+  "calls": [],
+  "en_src": "September"
+ },
+ "7ae6b03c": {
+  "kind": "L",
+  "tr": "Ekim",
+  "lines": [
+   1695
+  ],
+  "calls": [],
+  "en_src": "October"
+ },
+ "5b818d0f": {
+  "kind": "L",
+  "tr": "Kasım",
+  "lines": [
+   1696
+  ],
+  "calls": [],
+  "en_src": "November"
+ },
+ "f12c8f09": {
+  "kind": "L",
+  "tr": "Aralık",
+  "lines": [
+   1696
+  ],
+  "calls": [],
+  "en_src": "December"
+ },
+ "e4cbc694": {
+  "kind": "L",
+  "tr": "Oca",
+  "lines": [
+   1701
+  ],
+  "calls": [],
+  "en_src": "Jan"
+ },
+ "e4f3e577": {
+  "kind": "L",
+  "tr": "Şub",
+  "lines": [
+   1701
+  ],
+  "calls": [],
+  "en_src": "Feb"
+ },
+ "df8eeb1c": {
+  "kind": "L",
+  "tr": "Mar",
+  "lines": [
+   1701
+  ],
+  "calls": [],
+  "en_src": "Mar"
+ },
+ "81382823": {
+  "kind": "L",
+  "tr": "Nis",
+  "lines": [
+   1702
+  ],
+  "calls": [],
+  "en_src": "Apr"
+ },
+ "247cfc20": {
+  "kind": "L",
+  "tr": "May",
+  "lines": [
+   1702
+  ],
+  "calls": [],
+  "en_src": "May"
+ },
+ "3ea8fe52": {
+  "kind": "L",
+  "tr": "Haz",
+  "lines": [
+   1702
+  ],
+  "calls": [],
+  "en_src": "Jun"
+ },
+ "6ebe882d": {
+  "kind": "L",
+  "tr": "Tem",
+  "lines": [
+   1703
+  ],
+  "calls": [],
+  "en_src": "Jul"
+ },
+ "b705e4bc": {
+  "kind": "L",
+  "tr": "Ağu",
+  "lines": [
+   1703
+  ],
+  "calls": [],
+  "en_src": "Aug"
+ },
+ "432a3512": {
+  "kind": "L",
+  "tr": "Eyl",
+  "lines": [
+   1703
+  ],
+  "calls": [],
+  "en_src": "Sep"
+ },
+ "2c096519": {
+  "kind": "L",
+  "tr": "Eki",
+  "lines": [
+   1704
+  ],
+  "calls": [],
+  "en_src": "Oct"
+ },
+ "b195b882": {
+  "kind": "L",
+  "tr": "Kas",
+  "lines": [
+   1704
+  ],
+  "calls": [],
+  "en_src": "Nov"
+ },
+ "1d95926a": {
+  "kind": "L",
+  "tr": "Ara",
+  "lines": [
+   1704
+  ],
+  "calls": [],
+  "en_src": "Dec"
+ },
+ "4c854088": {
+  "kind": "L",
+  "tr": "Sessiz",
+  "lines": [
+   1759,
+   7229
+  ],
+  "calls": [],
+  "en_src": "Mute"
+ },
+ "58138fe9": {
+  "kind": "L",
+  "tr": "Düşük",
+  "lines": [
+   1760,
+   7062,
+   7229,
+   7259,
+   7968,
+   8426,
+   11141,
+   11149,
+   11150,
+   11180,
+   11261
+  ],
+  "calls": [
+   "fNumSnd"
+  ],
+  "en_src": "Low"
+ },
+ "a64968b6": {
+  "kind": "L",
+  "tr": "Yüksek",
+  "lines": [
+   1762,
+   7062,
+   7229,
+   7259,
+   7970,
+   8427,
+   11141,
+   11149,
+   11150,
+   11181,
+   11262
+  ],
+  "calls": [
+   "fNumSnd"
+  ],
+  "en_src": "High"
+ },
+ "c0cc4fd2": {
+  "kind": "L",
+  "tr": "Son 24 saat",
+  "lines": [
+   2146
+  ],
+  "calls": [],
+  "en_src": "Last 24 hours"
+ },
+ "96fcfc90": {
+  "kind": "L",
+  "tr": "Yaklaşık son %d saat",
+  "lines": [
+   2148
+  ],
+  "calls": [],
+  "en_src": "Approx. last %d hours"
+ },
+ "aa5bb79b": {
+  "kind": "L",
+  "tr": "~%d saat",
+  "lines": [
+   2156,
+   6690
+  ],
+  "calls": [],
+  "en_src": "~%dh"
+ },
+ "e02c5d1e": {
+  "kind": "L",
+  "tr": "Veri yok",
+  "lines": [
+   2161,
+   2375,
+   4358,
+   6565,
+   7063,
+   9911,
+   10082,
+   10167,
+   11183,
+   13592
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "drawString",
+   "fNumSnd"
+  ],
+  "en_src": "No data"
+ },
+ "e9e37c56": {
+  "kind": "L",
+  "tr": "%lu sn once",
+  "lines": [
+   2164
+  ],
+  "calls": [],
+  "en_src": "%lus ago"
+ },
+ "475b9d24": {
+  "kind": "L",
+  "tr": "%lu dk once",
+  "lines": [
+   2166
+  ],
+  "calls": [],
+  "en_src": "%lum ago"
+ },
+ "f704b296": {
+  "kind": "L",
+  "tr": "%lu sa %lu dk once",
+  "lines": [
+   2167
+  ],
+  "calls": [],
+  "en_src": "%luh %lum ago"
+ },
+ "76c1725b": {
+  "kind": "L",
+  "tr": "Son ölçüm: -",
+  "lines": [
+   2376
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Last reading: -"
+ },
+ "7707ca1a": {
+  "kind": "L",
+  "tr": "Güncelleniyor...",
+  "lines": [
+   3027
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Updating..."
+ },
+ "1f699ac5": {
+  "kind": "L",
+  "tr": "Başarılı!",
+  "lines": [
+   3047
+  ],
+  "calls": [],
+  "en_src": "Success!"
+ },
+ "a8677b4a": {
+  "kind": "L",
+  "tr": "Güncelleme hatası",
+  "lines": [
+   3047
+  ],
+  "calls": [],
+  "en_src": "Update error"
+ },
+ "982a74c0": {
+  "kind": "L",
+  "tr": "Kişi ",
+  "lines": [
+   4241
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Person "
+ },
+ "a981ca44": {
+  "kind": "L",
+  "tr": "Kaynak yok",
+  "lines": [
+   4357
+  ],
+  "calls": [],
+  "en_src": "No source"
+ },
+ "99113421": {
+  "kind": "L",
+  "tr": "Ertele",
+  "lines": [
+   4386,
+   6127,
+   6136,
+   6888,
+   8414,
+   10440
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "textWidth",
+   "listAdd",
+   "drawString"
+  ],
+  "en_src": "Snooze"
+ },
+ "51767b90": {
+  "kind": "L",
+  "tr": "Dikkat",
+  "lines": [
+   4394,
+   6149,
+   10431
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "drawString"
+  ],
+  "en_src": "Alert"
+ },
+ "403dcb9c": {
+  "kind": "L",
+  "tr": "WiFi bağlı değil",
+  "lines": [
+   4904,
+   5996,
+   8664
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi not connected"
+ },
+ "fa8b2da4": {
+  "kind": "L",
+  "tr": "Giriş başarısız",
+  "lines": [
+   4905
+  ],
+  "calls": [],
+  "en_src": "Login failed"
+ },
+ "6001a119": {
+  "kind": "L",
+  "tr": "İnternet yok",
+  "lines": [
+   4906,
+   5610
+  ],
+  "calls": [
+   "setFetchError"
+  ],
+  "en_src": "No internet"
+ },
+ "d5b135da": {
+  "kind": "L",
+  "tr": "Sunucu yanıt vermiyor",
+  "lines": [
+   4906
+  ],
+  "calls": [],
+  "en_src": "Server not responding"
+ },
+ "9a20f649": {
+  "kind": "L",
+  "tr": "Veri gelmiyor",
+  "lines": [
+   4907
+  ],
+  "calls": [],
+  "en_src": "No data"
+ },
+ "5dc555c6": {
+  "kind": "L",
+  "tr": "Kaynak ayarı eksik",
+  "lines": [
+   4908
+  ],
+  "calls": [],
+  "en_src": "Source not configured"
+ },
+ "4cd84f41": {
+  "kind": "L",
+  "tr": "Veri okunamadı",
+  "lines": [
+   4909
+  ],
+  "calls": [],
+  "en_src": "Could not read data"
+ },
+ "980740ea": {
+  "kind": "L",
+  "tr": "Bir sorun oluştu",
+  "lines": [
+   4910
+  ],
+  "calls": [],
+  "en_src": "Something went wrong"
+ },
+ "429bf989": {
+  "kind": "L",
+  "tr": "Ayni WiFi agini kontrol edin. BOOT 2sn.",
+  "lines": [
+   4916
+  ],
+  "calls": [],
+  "en_src": "Check WiFi. Hold BOOT 2s."
+ },
+ "9b840e58": {
+  "kind": "L",
+  "tr": "Kullanici veya sifre yanlis olabilir.",
+  "lines": [
+   4917
+  ],
+  "calls": [],
+  "en_src": "User or password may be wrong."
+ },
+ "42533f39": {
+  "kind": "L",
+  "tr": "Internet veya kaynak adresini kontrol edin.",
+  "lines": [
+   4918
+  ],
+  "calls": [],
+  "en_src": "Check internet or source URL."
+ },
+ "851ee762": {
+  "kind": "L",
+  "tr": "CGM henuz olcum gondermemis olabilir.",
+  "lines": [
+   4919
+  ],
+  "calls": [],
+  "en_src": "CGM may not have sent data yet."
+ },
+ "d7079f67": {
+  "kind": "L",
+  "tr": "QR / Web veya BOOT ile kaynak girin.",
+  "lines": [
+   4920
+  ],
+  "calls": [],
+  "en_src": "Enter source via QR/Web or BOOT."
+ },
+ "88d9b9cb": {
+  "kind": "L",
+  "tr": "Kaynak yaniti beklenmedik. Tekrar denenecek.",
+  "lines": [
+   4921
+  ],
+  "calls": [],
+  "en_src": "Unexpected response. Will retry."
+ },
+ "88c2a8f8": {
+  "kind": "L",
+  "tr": "Biraz sonra yeniden denenecek.",
+  "lines": [
+   4922
+  ],
+  "calls": [],
+  "en_src": "Will retry shortly."
+ },
+ "354d4104": {
+  "kind": "L",
+  "tr": "Ağ: ",
+  "lines": [
+   4951
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Network: "
+ },
+ "c62f8a9e": {
+  "kind": "L",
+  "tr": "Kaynak: ",
+  "lines": [
+   4952,
+   7493,
+   8665
+  ],
+  "calls": [
+   "String",
+   "dsN",
+   "txtBody"
+  ],
+  "en_src": "Source: "
+ },
+ "71af8e54": {
+  "kind": "L",
+  "tr": "Yenile",
+  "lines": [
+   4988
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Retry"
+ },
+ "efb43d78": {
+  "kind": "L",
+  "tr": "Kurulum",
+  "lines": [
+   4990
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Setup"
+ },
+ "92d635e6": {
+  "kind": "L",
+  "tr": "WiFi / giriş",
+  "lines": [
+   4991
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi / login"
+ },
+ "89b46fd2": {
+  "kind": "L",
+  "tr": "Geri",
+  "lines": [
+   4995,
+   4999,
+   6349,
+   6943,
+   6981,
+   7016,
+   7025,
+   7063,
+   7216,
+   7247,
+   7273,
+   7433,
+   7532,
+   7578,
+   7636,
+   7671,
+   7703,
+   7926,
+   8022,
+   8101,
+   8138,
+   8484,
+   10712,
+   10737,
+   10898
+  ],
+  "calls": [
+   "textWidth",
+   "drawFreeTitle"
+  ],
+  "en_src": "Back"
+ },
+ "dd9b0888": {
+  "kind": "L",
+  "tr": "Kurulumda kayıtlı ağlar silinmez - BOOT 2 sn = Kurulum",
+  "lines": [
+   5003
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Setup keeps saved networks - BOOT 2 s = Setup"
+ },
+ "7be5b4d1": {
+  "kind": "L",
+  "tr": "WiFi koptu - yeniden bağlanılıyor",
+  "lines": [
+   5012
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi lost - reconnecting"
+ },
+ "7916e1ee": {
+  "kind": "L",
+  "tr": "Pt",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Mo"
+ },
+ "91707445": {
+  "kind": "L",
+  "tr": "Sa",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Tu"
+ },
+ "86aa1dd7": {
+  "kind": "L",
+  "tr": "Ça",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "We"
+ },
+ "518fc397": {
+  "kind": "L",
+  "tr": "Pe",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Th"
+ },
+ "82a65a3e": {
+  "kind": "L",
+  "tr": "Cu",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Fr"
+ },
+ "b12a2897": {
+  "kind": "L",
+  "tr": "Ct",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Sa"
+ },
+ "28b8e6e4": {
+  "kind": "L",
+  "tr": "Pz",
+  "lines": [
+   5739
+  ],
+  "calls": [],
+  "en_src": "Su"
+ },
+ "21d0a239": {
+  "kind": "L",
+  "tr": "Foto yükle",
+  "lines": [
+   5992
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Upload photo"
+ },
+ "763abfe0": {
+  "kind": "L",
+  "tr": "Okut - webden foto yükle",
+  "lines": [
+   6016
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Scan - upload from web"
+ },
+ "42628134": {
+  "kind": "L",
+  "tr": "Dokunun: çözüm",
+  "lines": [
+   6050
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Tap: fix it"
+ },
+ "073e5928": {
+  "kind": "L",
+  "tr": "Veri bekleniyor...",
+  "lines": [
+   6054
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Waiting for data..."
+ },
+ "742512db": {
+  "kind": "L",
+  "tr": "%d dk",
+  "lines": [
+   6139,
+   10442,
+   13574
+  ],
+  "calls": [],
+  "en_src": "%d min"
+ },
+ "28bfd40b": {
+  "kind": "L",
+  "tr": "AINS %s U   AKRB %s g",
+  "lines": [
+   6220
+  ],
+  "calls": [],
+  "en_src": "IOB %s U   COB %s g"
+ },
+ "fc0d8423": {
+  "kind": "L",
+  "tr": "şimdi",
+  "lines": [
+   6245
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "now"
+ },
+ "b00f2bec": {
+  "kind": "L",
+  "tr": "DETAY (NS)",
+  "lines": [
+   6290
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "DETAIL (NS)"
+ },
+ "184bfdb1": {
+  "kind": "L",
+  "tr": "AINS",
+  "lines": [
+   6298
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "IOB"
+ },
+ "726ff8ae": {
+  "kind": "L",
+  "tr": "AKRB",
+  "lines": [
+   6308
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "COB"
+ },
+ "83fdf3b8": {
+  "kind": "L",
+  "tr": "Son 5 bolus",
+  "lines": [
+   6319
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Last 5 boluses"
+ },
+ "73a039e8": {
+  "kind": "L",
+  "tr": "Saat",
+  "lines": [
+   6321
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Time"
+ },
+ "f7e44137": {
+  "kind": "L",
+  "tr": "Tip",
+  "lines": [
+   6323
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Type"
+ },
+ "6b7a5fa9": {
+  "kind": "L",
+  "tr": "Bolus kaydı yok / plugin kapalı",
+  "lines": [
+   6342
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "No bolus / plugin off"
+ },
+ "8d72e1bc": {
+  "kind": "L",
+  "tr": "Detay",
+  "lines": [
+   6400
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Detail"
+ },
+ "19b9ce81": {
+  "kind": "L",
+  "tr": "%d saat",
+  "lines": [
+   6408
+  ],
+  "calls": [],
+  "en_src": "%dh"
+ },
+ "2aeddbb5": {
+  "kind": "L",
+  "tr": "%d s",
+  "lines": [
+   6425
+  ],
+  "calls": [],
+  "en_src": "%dh"
+ },
+ "6ef56445": {
+  "kind": "L",
+  "tr": "%dg %dsa",
+  "lines": [
+   6520
+  ],
+  "calls": [
+   "snprintf"
+  ],
+  "en_src": "%dd %dh"
+ },
+ "00936427": {
+  "kind": "L",
+  "tr": "Geçen",
+  "lines": [
+   6544
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Elapsed"
+ },
+ "40ad5ddc": {
+  "kind": "L",
+  "tr": "Kalan",
+  "lines": [
+   6545
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Left"
+ },
+ "0dd26ea4": {
+  "kind": "L",
+  "tr": "Doldu",
+  "lines": [
+   6558
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Overdue"
+ },
+ "ff6cf690": {
+  "kind": "L",
+  "tr": "SENSÖR / SET",
+  "lines": [
+   6572,
+   11280
+  ],
+  "calls": [
+   "drawFormHeaderBtn"
+  ],
+  "en_src": "SENSOR / SET"
+ },
+ "2adef385": {
+  "kind": "L",
+  "tr": "Ayarla",
+  "lines": [
+   6572
+  ],
+  "calls": [],
+  "en_src": "Setup"
+ },
+ "79dadd1e": {
+  "kind": "L",
+  "tr": "Sensör/Set takibi kapalı",
+  "lines": [
+   6576
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Sensor/Set tracking is off"
+ },
+ "1b0a5998": {
+  "kind": "L",
+  "tr": "Açmak için sağ üstte Ayarla",
+  "lines": [
+   6577
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Use Setup (top right) to turn it on"
+ },
+ "8b2c6c42": {
+  "kind": "L",
+  "tr": "Sensör",
+  "lines": [
+   6579,
+   6582,
+   6612,
+   10559
+  ],
+  "calls": [
+   "drawAgeCard"
+  ],
+  "en_src": "Sensor"
+ },
+ "eb21876c": {
+  "kind": "L",
+  "tr": "İnfüzyon seti / pompa",
+  "lines": [
+   6580,
+   6584
+  ],
+  "calls": [
+   "drawAgeCard"
+  ],
+  "en_src": "Infusion set / pump"
+ },
+ "9613db53": {
+  "kind": "L",
+  "tr": "Kalan süre = ömür - geçen süre",
+  "lines": [
+   6589
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Remaining = life - elapsed"
+ },
+ "b4279e4f": {
+  "kind": "L",
+  "tr": "Set / Pompa",
+  "lines": [
+   6612
+  ],
+  "calls": [],
+  "en_src": "Set / Pump"
+ },
+ "f5052453": {
+  "kind": "L",
+  "tr": "%ld DAKİKA KALDI",
+  "lines": [
+   6629
+  ],
+  "calls": [],
+  "en_src": "%ld MINUTES LEFT"
+ },
+ "6e5b2db2": {
+  "kind": "L",
+  "tr": "%ld SAAT KALDI",
+  "lines": [
+   6630
+  ],
+  "calls": [],
+  "en_src": "%ld HOURS LEFT"
+ },
+ "df136776": {
+  "kind": "L",
+  "tr": "%ld SAAT %ld DK KALDI",
+  "lines": [
+   6631
+  ],
+  "calls": [],
+  "en_src": "%ldh %ldmin LEFT"
+ },
+ "016ff7c1": {
+  "kind": "L",
+  "tr": "süresi dolmak üzere",
+  "lines": [
+   6636
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "is running out"
+ },
+ "0c1e3c9f": {
+  "kind": "L",
+  "tr": "Detaylar için Sensör/Set ekranına bakın",
+  "lines": [
+   6639
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "See the Sensor/Set screen for details"
+ },
+ "78a24139": {
+  "kind": "L",
+  "tr": "İSTATİSTİK",
+  "lines": [
+   6649
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "STATISTICS"
+ },
+ "77a5696e": {
+  "kind": "L",
+  "tr": "Henüz yeterli veri yok",
+  "lines": [
+   6662
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Not enough data yet"
+ },
+ "6cb734bb": {
+  "kind": "L",
+  "tr": "İstatistik için en az %d saat gerekir.",
+  "lines": [
+   6664
+  ],
+  "calls": [],
+  "en_src": "Needs at least %d hours of data."
+ },
+ "ace57808": {
+  "kind": "L",
+  "tr": "Şu an: yaklaşık %d saat",
+  "lines": [
+   6666
+  ],
+  "calls": [],
+  "en_src": "Now: about %d hours"
+ },
+ "5f67cd6b": {
+  "kind": "L",
+  "tr": "Cihaz açık kaldıkça kendi kaydını biriktirir.",
+  "lines": [
+   6669
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "The device keeps its own log while it runs."
+ },
+ "e64cb91a": {
+  "kind": "L",
+  "tr": "Son veri: ",
+  "lines": [
+   6691
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Last: "
+ },
+ "aa1eb6d4": {
+  "kind": "L",
+  "tr": "Min",
+  "lines": [
+   6701
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Min"
+ },
+ "81891934": {
+  "kind": "L",
+  "tr": "Maks",
+  "lines": [
+   6702
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Max"
+ },
+ "01ade693": {
+  "kind": "L",
+  "tr": "Ort",
+  "lines": [
+   6703
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Avg"
+ },
+ "edf17748": {
+  "kind": "L",
+  "tr": "Hedef aralıkta kalma",
+  "lines": [
+   6719
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Time in range"
+ },
+ "0fc7db28": {
+  "kind": "L",
+  "tr": "dokun: ileri",
+  "lines": [
+   6754
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "tap: next"
+ },
+ "168c83c5": {
+  "kind": "L",
+  "tr": "1. ÖNEMLİ UYARI",
+  "lines": [
+   6764
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "1. IMPORTANT"
+ },
+ "1bf8d298": {
+  "kind": "L",
+  "tr": "İnsülin veya tedavi kararı için",
+  "lines": [
+   6768
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Do not use for insulin or"
+ },
+ "fbb2e5d8": {
+  "kind": "L",
+  "tr": "KULLANMAYIN.",
+  "lines": [
+   6769
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "treatment decisions."
+ },
+ "e65bd8b8": {
+  "kind": "L",
+  "tr": "- Tıbbi cihaz değildir",
+  "lines": [
+   6771
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "- Not a medical device"
+ },
+ "1117e691": {
+  "kind": "L",
+  "tr": "- Sadece bilgilendirme amaçlıdır",
+  "lines": [
+   6772
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "- Informational purposes only"
+ },
+ "3608adcf": {
+  "kind": "L",
+  "tr": "- Risk kullanıcıya aittir",
+  "lines": [
+   6773
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "- Risk is the user's"
+ },
+ "4082431f": {
+  "kind": "L",
+  "tr": "Resmi CGM uygulamanızı esas alın.",
+  "lines": [
+   6775
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Rely on your official CGM app."
+ },
+ "48c26763": {
+  "kind": "L",
+  "tr": "2. SAYFALAR",
+  "lines": [
+   6780
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "2. PAGES"
+ },
+ "0f813ab5": {
+  "kind": "L",
+  "tr": "1  Ana şeker + trend + delta",
+  "lines": [
+   6784
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "1  Glucose + trend + delta"
+ },
+ "9000ced9": {
+  "kind": "L",
+  "tr": "2  Arayüz (Basit/Büyük/Fotoğraf..)",
+  "lines": [
+   6785
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "2  UI (Simple/Big/Photo..)"
+ },
+ "f7d008d1": {
+  "kind": "L",
+  "tr": "3  Grafik 3/6/12/24 saat",
+  "lines": [
+   6786
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "3  Graph 3/6/12/24 h"
+ },
+ "25738dc4": {
+  "kind": "L",
+  "tr": "4  İstatistik (gün boyu)",
+  "lines": [
+   6787
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "4  Daily statistics"
+ },
+ "967d9c8b": {
+  "kind": "L",
+  "tr": "5  Zamanlayıcı",
+  "lines": [
+   6788
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "5  Timer"
+ },
+ "416c19db": {
+  "kind": "L",
+  "tr": "6  Ayarlar",
+  "lines": [
+   6789
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "6  Settings"
+ },
+ "ef9bec2b": {
+  "kind": "L",
+  "tr": "Geçiş: ekrana dokun (sol/sağ)",
+  "lines": [
+   6791
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Navigate: tap left / right"
+ },
+ "b624a6c1": {
+  "kind": "L",
+  "tr": "3. AYARLAR",
+  "lines": [
+   6796
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "3. SETTINGS"
+ },
+ "7b6cc14a": {
+  "kind": "L",
+  "tr": "Üst: Parlaklık | Ses | Alarm",
+  "lines": [
+   6800
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Top: Bright | Sound | Alarm"
+ },
+ "d3b80c67": {
+  "kind": "L",
+  "tr": "Alt: Hedefler | QR | Diğer",
+  "lines": [
+   6801
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Bot: Targets | QR | More"
+ },
+ "b09094be": {
+  "kind": "L",
+  "tr": "Hedefler: kritik/düşük/yüksek",
+  "lines": [
+   6803
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Targets: crit/low/high limits"
+ },
+ "0323be60": {
+  "kind": "L",
+  "tr": "Alarm: görsel, ertele, modlar",
+  "lines": [
+   6804
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Alarm: visual, snooze, modes"
+ },
+ "e257104a": {
+  "kind": "L",
+  "tr": "QR: telefondan web ayar",
+  "lines": [
+   6805
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "QR: phone web setup"
+ },
+ "850bfc04": {
+  "kind": "L",
+  "tr": "BOOT 2 sn: WiFi / kaynak",
+  "lines": [
+   6806
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "BOOT 2s: WiFi / source"
+ },
+ "0297caa0": {
+  "kind": "L",
+  "tr": "4. MODLAR + DİKKAT",
+  "lines": [
+   6811
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "4. MODES + ALERT"
+ },
+ "d2a7b15e": {
+  "kind": "L",
+  "tr": "Okul / Gece: saat + ses/ışık",
+  "lines": [
+   6815
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "School/Night: hours + vol/bright"
+ },
+ "372a49b7": {
+  "kind": "L",
+  "tr": "Rehber: Dikkat butonu",
+  "lines": [
+   6816
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Guide: Alert button"
+ },
+ "168e1f15": {
+  "kind": "L",
+  "tr": "  Hipo/hiper kartları eşiğe göre",
+  "lines": [
+   6818
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "  Cards follow your thresholds"
+ },
+ "6d449681": {
+  "kind": "L",
+  "tr": "  Bilinç yoksa Glukagon rehberi",
+  "lines": [
+   6819
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "  Unconscious: Glucagon guide"
+ },
+ "234bcd8a": {
+  "kind": "L",
+  "tr": "Ertele: 15 / 30 / 60 dk",
+  "lines": [
+   6821
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Snooze: 15 / 30 / 60 min"
+ },
+ "6b7d450a": {
+  "kind": "L",
+  "tr": "Kaynak: NS / Dexcom / Libre / Medtrum",
+  "lines": [
+   6823
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Source: NS / Dexcom / Libre / Medtrum"
+ },
+ "ba5928de": {
+  "kind": "L",
+  "tr": "5. WEB + OTA",
+  "lines": [
+   6828
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "5. WEB + OTA"
+ },
+ "122cdb3c": {
+  "kind": "L",
+  "tr": "Aynı WiFi'de tarayıcı açın:",
+  "lines": [
+   6832
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Same WiFi, open a browser:"
+ },
+ "50b470f9": {
+  "kind": "L",
+  "tr": "CIHAZ-IP",
+  "lines": [
+   6834,
+   6835
+  ],
+  "calls": [],
+  "en_src": "DEVICE-IP"
+ },
+ "d0441d63": {
+  "kind": "L",
+  "tr": "QR ile de açabilirsiniz.",
+  "lines": [
+   6837
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Or scan the on-device QR."
+ },
+ "e2b1583f": {
+  "kind": "L",
+  "tr": "OTA: .bin dosyasını yükleyin.",
+  "lines": [
+   6838
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "OTA: upload the .bin file."
+ },
+ "5b53b045": {
+  "kind": "L",
+  "tr": "Bilgi sayfasında IP yazar.",
+  "lines": [
+   6839
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "IP is shown on the Info page."
+ },
+ "33833e89": {
+  "kind": "L",
+  "tr": "6. WiFi KURULUMU",
+  "lines": [
+   6848
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "6. WIFI SETUP"
+ },
+ "765dfc7b": {
+  "kind": "L",
+  "tr": "QR'ı taratın veya \"metematik\"",
+  "lines": [
+   6852
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Scan the QR, or connect to"
+ },
+ "9d527cba": {
+  "kind": "L",
+  "tr": "ağına elle bağlanın.",
+  "lines": [
+   6853
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "\"metematik\" manually."
+ },
+ "bfdcf293": {
+  "kind": "L",
+  "tr": "Kendi hotspot'unuzu mu",
+  "lines": [
+   6855
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Using your own phone's"
+ },
+ "1ece03c4": {
+  "kind": "L",
+  "tr": "kullanacaksınız?",
+  "lines": [
+   6856
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "hotspot as the network?"
+ },
+ "8d343e23": {
+  "kind": "L",
+  "tr": "1. Hotspot'u kapatın",
+  "lines": [
+   6858
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "1. Turn your hotspot off"
+ },
+ "257908ab": {
+  "kind": "L",
+  "tr": "2. metematik-.... ağına bağlanıp doldurun",
+  "lines": [
+   6859
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "2. Connect to metematik-...., fill it in"
+ },
+ "0531b3d5": {
+  "kind": "L",
+  "tr": "3. Hotspot'u tekrar açın",
+  "lines": [
+   6860
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "3. Turn your hotspot back on"
+ },
+ "a90b3519": {
+  "kind": "L",
+  "tr": "HEDEFLER",
+  "lines": [
+   6876,
+   7054,
+   11174
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "TARGETS"
+ },
+ "0bb32454": {
+  "kind": "L",
+  "tr": "ALARM",
+  "lines": [
+   6877
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "ALARM"
+ },
+ "aeb8157f": {
+  "kind": "L",
+  "tr": "Ses seviyesi: Ayarlar > Ses",
+  "lines": [
+   6886
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Volume: Settings > Sound"
+ },
+ "4b7b49f6": {
+  "kind": "L",
+  "tr": "Görsel",
+  "lines": [
+   6888
+  ],
+  "calls": [],
+  "en_src": "Visual"
+ },
+ "cca6bb99": {
+  "kind": "L",
+  "tr": "Modlar",
+  "lines": [
+   6888,
+   8739,
+   10562
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Modes"
+ },
+ "43b2e759": {
+  "kind": "L",
+  "tr": "Ses Bastırma",
+  "lines": [
+   6922
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Suppress"
+ },
+ "b28f9299": {
+  "kind": "L",
+  "tr": "Çift Ok",
+  "lines": [
+   6934
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Fast Arrows"
+ },
+ "6cf77956": {
+  "kind": "L",
+  "tr": "ÇİFT OK ALARMLARI",
+  "lines": [
+   6950
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "FAST ARROW ALARMS"
+ },
+ "c4b41bdf": {
+  "kind": "L",
+  "tr": "Şeker çok hızlı değişirken (çift ok)",
+  "lines": [
+   6954
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "When glucose changes very fast"
+ },
+ "139294bf": {
+  "kind": "L",
+  "tr": "eşik dışına çıkmadan önce uyarır.",
+  "lines": [
+   6955
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "(double arrow), warns before limits."
+ },
+ "61725ac1": {
+  "kind": "L",
+  "tr": "Nightscout ve Dexcom'da çalışır.",
+  "lines": [
+   6957
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Works with Nightscout and Dexcom."
+ },
+ "5ec9d25d": {
+  "kind": "L",
+  "tr": "Hızlı düşüş",
+  "lines": [
+   6968,
+   8410,
+   11161
+  ],
+  "calls": [
+   "listAdd",
+   "fTog"
+  ],
+  "en_src": "Fast fall"
+ },
+ "d8b03145": {
+  "kind": "L",
+  "tr": "Hızlı yükseliş",
+  "lines": [
+   6968,
+   8411,
+   11162
+  ],
+  "calls": [
+   "listAdd",
+   "fTog"
+  ],
+  "en_src": "Fast rise"
+ },
+ "99a1e9aa": {
+  "kind": "L",
+  "tr": "AÇIK",
+  "lines": [
+   6973,
+   7009
+  ],
+  "calls": [],
+  "en_src": "ON"
+ },
+ "4ba281eb": {
+  "kind": "L",
+  "tr": "KAPALI",
+  "lines": [
+   6973,
+   7009
+  ],
+  "calls": [],
+  "en_src": "OFF"
+ },
+ "c2eb37dc": {
+  "kind": "L",
+  "tr": "SES BASTIRMA",
+  "lines": [
+   6987,
+   8795
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtBegin"
+  ],
+  "en_src": "SOUND SUPPRESS"
+ },
+ "64e0ec34": {
+  "kind": "L",
+  "tr": "Şeker eşik dışında olsa da",
+  "lines": [
+   6992
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Even if it's out of range,"
+ },
+ "bf0023f2": {
+  "kind": "L",
+  "tr": "normale belirgin gidiyorsa",
+  "lines": [
+   6993
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "if it's clearly heading back"
+ },
+ "7c3e7b67": {
+  "kind": "L",
+  "tr": "(en az 5 mg/dl fark),",
+  "lines": [
+   6994
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "(5+ mg/dl change),"
+ },
+ "eea10397": {
+  "kind": "L",
+  "tr": "SES otomatik susar.",
+  "lines": [
+   6995
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "SOUND mutes automatically."
+ },
+ "22cedb53": {
+  "kind": "L",
+  "tr": "Görsel alarm (renk/yanıp",
+  "lines": [
+   6997
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Visual alarm (color/blink)"
+ },
+ "f32845dc": {
+  "kind": "L",
+  "tr": "sönme) aynen devam eder.",
+  "lines": [
+   6998
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "still continues as normal."
+ },
+ "83a46195": {
+  "kind": "L",
+  "tr": "Kritik Düşük'te ASLA",
+  "lines": [
+   7000
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Never applies to Critical Low -"
+ },
+ "286e4184": {
+  "kind": "L",
+  "tr": "geçerli değil, her zaman çalar.",
+  "lines": [
+   7001
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "that alarm always sounds."
+ },
+ "99426679": {
+  "kind": "L",
+  "tr": "MODLAR",
+  "lines": [
+   7022,
+   8592,
+   11268
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "drawListHeader"
+  ],
+  "en_src": "MODES"
+ },
+ "f0da2139": {
+  "kind": "L",
+  "tr": "Okul Modu",
+  "lines": [
+   7024
+  ],
+  "calls": [],
+  "en_src": "School Mode"
+ },
+ "c61a4b58": {
+  "kind": "L",
+  "tr": "Gece Modu",
+  "lines": [
+   7024
+  ],
+  "calls": [],
+  "en_src": "Night Mode"
+ },
+ "a1e3b33a": {
+  "kind": "L",
+  "tr": "Rehber Modu",
+  "lines": [
+   7025
+  ],
+  "calls": [],
+  "en_src": "Guide Mode"
+ },
+ "1e2db7ff": {
+  "kind": "L",
+  "tr": "K<%s  D<%s  Y>%s  CY>%s  St%ddk",
+  "lines": [
+   7056
+  ],
+  "calls": [],
+  "en_src": "C<%s  L<%s  H>%s  VH>%s  St%dm"
+ },
+ "b19ff6c3": {
+  "kind": "L",
+  "tr": "Kritik",
+  "lines": [
+   7062
+  ],
+  "calls": [],
+  "en_src": "Critical"
+ },
+ "d6a806c8": {
+  "kind": "L",
+  "tr": "Çok yüksek",
+  "lines": [
+   7063,
+   11182
+  ],
+  "calls": [
+   "fNumSnd"
+  ],
+  "en_src": "Very high"
+ },
+ "de4a0ef1": {
+  "kind": "L",
+  "tr": "Düşük eşik",
+  "lines": [
+   7089
+  ],
+  "calls": [],
+  "en_src": "Low threshold"
+ },
+ "00b2c9d0": {
+  "kind": "L",
+  "tr": "Yüksek eşik",
+  "lines": [
+   7090
+  ],
+  "calls": [],
+  "en_src": "High threshold"
+ },
+ "f0e8b878": {
+  "kind": "L",
+  "tr": "Çok yüksek eşik",
+  "lines": [
+   7091
+  ],
+  "calls": [],
+  "en_src": "Very high threshold"
+ },
+ "8788f366": {
+  "kind": "L",
+  "tr": "Kritik düşük eşik",
+  "lines": [
+   7091
+  ],
+  "calls": [],
+  "en_src": "Critical low threshold"
+ },
+ "d3eade79": {
+  "kind": "L",
+  "tr": "bu degerin altinda - dokun: yaz",
+  "lines": [
+   7124
+  ],
+  "calls": [],
+  "en_src": "below this value - tap to type"
+ },
+ "7763a316": {
+  "kind": "L",
+  "tr": "bu degerin ustunde - dokun: yaz",
+  "lines": [
+   7125
+  ],
+  "calls": [],
+  "en_src": "above this value - tap to type"
+ },
+ "1519596a": {
+  "kind": "L",
+  "tr": "Tamam",
+  "lines": [
+   7141,
+   7180,
+   9056
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "OK"
+ },
+ "9d16fe32": {
+  "kind": "L",
+  "tr": "Veri yok alarmı",
+  "lines": [
+   7146
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "No-data alarm"
+ },
+ "cbf23343": {
+  "kind": "L",
+  "tr": "dakika veri gelmezse uyar",
+  "lines": [
+   7164
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "minutes without data"
+ },
+ "c31ff0eb": {
+  "kind": "L",
+  "tr": "ERTELEME",
+  "lines": [
+   7188
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "SNOOZE"
+ },
+ "b21da1d7": {
+  "kind": "L",
+  "tr": "15 dk",
+  "lines": [
+   7191
+  ],
+  "calls": [],
+  "en_src": "15 min"
+ },
+ "b8429017": {
+  "kind": "L",
+  "tr": "30 dk",
+  "lines": [
+   7191
+  ],
+  "calls": [],
+  "en_src": "30 min"
+ },
+ "625e3b27": {
+  "kind": "L",
+  "tr": "60 dk",
+  "lines": [
+   7191
+  ],
+  "calls": [],
+  "en_src": "60 min"
+ },
+ "6fbe6c83": {
+  "kind": "L",
+  "tr": "Kapalı",
+  "lines": [
+   7205,
+   7367,
+   7622,
+   7725,
+   7797,
+   8053,
+   8392,
+   11169
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "String"
+  ],
+  "en_src": "Off"
+ },
+ "1fc63537": {
+  "kind": "L",
+  "tr": "SESLİ ALARM",
+  "lines": [
+   7225
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "SOUND"
+ },
+ "4c087231": {
+  "kind": "L",
+  "tr": "Seviye seç (test çalar)",
+  "lines": [
+   7227
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Pick level (plays test)"
+ },
+ "3f15fe7a": {
+  "kind": "L",
+  "tr": "PARLAKLIK",
+  "lines": [
+   7255
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "BRIGHTNESS"
+ },
+ "3784af97": {
+  "kind": "L",
+  "tr": "Seviye seç",
+  "lines": [
+   7257
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Select level"
+ },
+ "c8acc5db": {
+  "kind": "L",
+  "tr": "Orta",
+  "lines": [
+   7259,
+   8428,
+   11141
+  ],
+  "calls": [],
+  "en_src": "Medium"
+ },
+ "761b5996": {
+  "kind": "L",
+  "tr": "QR / WEB",
+  "lines": [
+   7284
+  ],
+  "calls": [
+   "drawListHeader"
+  ],
+  "en_src": "QR / WEB"
+ },
+ "041f0358": {
+  "kind": "L",
+  "tr": "WiFi",
+  "lines": [
+   7292,
+   7346
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi"
+ },
+ "89cd352e": {
+  "kind": "L",
+  "tr": "bağlı değil",
+  "lines": [
+   7293,
+   7347
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "not connected"
+ },
+ "d03136ae": {
+  "kind": "L",
+  "tr": "Telefondan okut",
+  "lines": [
+   7308,
+   7362
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Scan with phone"
+ },
+ "d99f1b58": {
+  "kind": "L",
+  "tr": "Telefondan ayar",
+  "lines": [
+   7313
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Phone settings"
+ },
+ "b501c8b5": {
+  "kind": "L",
+  "tr": "Web şifresi",
+  "lines": [
+   7318,
+   7393
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Web password"
+ },
+ "d5e522d1": {
+  "kind": "L",
+  "tr": "Bilgi",
+  "lines": [
+   7321
+  ],
+  "calls": [],
+  "en_src": "Info"
+ },
+ "756b1bf4": {
+  "kind": "L",
+  "tr": "Kılavuz",
+  "lines": [
+   7321
+  ],
+  "calls": [],
+  "en_src": "Guide"
+ },
+ "d1ff8d96": {
+  "kind": "L",
+  "tr": "AİLE MODU",
+  "lines": [
+   7338,
+   11203
+  ],
+  "calls": [
+   "drawListHeader",
+   "fHead"
+  ],
+  "en_src": "FAMILY MODE"
+ },
+ "6bb442a2": {
+  "kind": "L",
+  "tr": "Açık",
+  "lines": [
+   7367,
+   7627,
+   7720,
+   7792,
+   8048,
+   8392,
+   11274
+  ],
+  "calls": [
+   "String",
+   "drawFreeTitle"
+  ],
+  "en_src": "On"
+ },
+ "294a40f2": {
+  "kind": "L",
+  "tr": " kişi",
+  "lines": [
+   7367
+  ],
+  "calls": [],
+  "en_src": " people"
+ },
+ "4d3d7f2e": {
+  "kind": "L",
+  "tr": "En fazla 3 kişinin",
+  "lines": [
+   7371
+  ],
+  "calls": [],
+  "en_src": "Follow up to 3"
+ },
+ "fe8e92c6": {
+  "kind": "L",
+  "tr": "şekeri izlenebilir.",
+  "lines": [
+   7372
+  ],
+  "calls": [],
+  "en_src": "people's glucose."
+ },
+ "f0a5dcd7": {
+  "kind": "L",
+  "tr": "Kaynak ve eşik",
+  "lines": [
+   7373
+  ],
+  "calls": [],
+  "en_src": "Scan the QR to set"
+ },
+ "e4c636c6": {
+  "kind": "L",
+  "tr": "ayarları için",
+  "lines": [
+   7374
+  ],
+  "calls": [],
+  "en_src": "sources and limits"
+ },
+ "4623ef6a": {
+  "kind": "L",
+  "tr": "QR'ı okutun.",
+  "lines": [
+   7375
+  ],
+  "calls": [],
+  "en_src": "for each person."
+ },
+ "a0685115": {
+  "kind": "L",
+  "tr": "Sırayla",
+  "lines": [
+   7379,
+   11202
+  ],
+  "calls": [],
+  "en_src": "In turn"
+ },
+ "0a80fe8e": {
+  "kind": "L",
+  "tr": "Bölünmüş",
+  "lines": [
+   7379,
+   11202
+  ],
+  "calls": [],
+  "en_src": "Split"
+ },
+ "8a33b5a0": {
+  "kind": "L",
+  "tr": "Sıfırla veya cihazı kapat",
+  "lines": [
+   7411
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Reset or power off"
+ },
+ "d9c93fca": {
+  "kind": "L",
+  "tr": "Cihaz Sıfırla",
+  "lines": [
+   7417
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Reset Device"
+ },
+ "94232a11": {
+  "kind": "L",
+  "tr": "WiFi + kaynak girişleri",
+  "lines": [
+   7419
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi + source logins"
+ },
+ "1f0c162d": {
+  "kind": "L",
+  "tr": "Cihazı Kapat",
+  "lines": [
+   7424
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Power off"
+ },
+ "bf48828c": {
+  "kind": "L",
+  "tr": "Güvenli kapatma",
+  "lines": [
+   7426
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Safe shutdown"
+ },
+ "cc6fe600": {
+  "kind": "L",
+  "tr": "Cihaz kapanacak.",
+  "lines": [
+   7441
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Device will power off."
+ },
+ "20853d08": {
+  "kind": "L",
+  "tr": "Emin misiniz?",
+  "lines": [
+   7443
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Are you sure?"
+ },
+ "0e273561": {
+  "kind": "L",
+  "tr": "WiFi ve kaynak girişleri",
+  "lines": [
+   7445
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi and source logins"
+ },
+ "47677a3e": {
+  "kind": "L",
+  "tr": "(kullanıcı adı/şifre) silinecek.",
+  "lines": [
+   7446
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "(user/password) will be erased."
+ },
+ "fa1385e6": {
+  "kind": "L",
+  "tr": "Alarm/ekran ayarları kalır. Emin misiniz?",
+  "lines": [
+   7448
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Alarm/display settings stay. Sure?"
+ },
+ "f662cc3f": {
+  "kind": "L",
+  "tr": "Evet",
+  "lines": [
+   7455,
+   7950,
+   7957
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "tfBtn"
+  ],
+  "en_src": "Yes"
+ },
+ "ed847f4a": {
+  "kind": "L",
+  "tr": "Hayır",
+  "lines": [
+   7460,
+   7951,
+   7958
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "tfBtn"
+  ],
+  "en_src": "No"
+ },
+ "6ea4f231": {
+  "kind": "L",
+  "tr": "BİLGİ",
+  "lines": [
+   7474,
+   8659
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtBegin"
+  ],
+  "en_src": "INFO"
+ },
+ "29c5d4ee": {
+  "kind": "L",
+  "tr": "Bağlı değil",
+  "lines": [
+   7486
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Not connected"
+ },
+ "f1a85f90": {
+  "kind": "L",
+  "tr": "WiFi: ",
+  "lines": [
+   7491
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "WiFi: "
+ },
+ "e6d2e882": {
+  "kind": "L",
+  "tr": "Pil: olcer yok",
+  "lines": [
+   7497
+  ],
+  "calls": [],
+  "en_src": "Battery: no gauge"
+ },
+ "959ca29f": {
+  "kind": "L",
+  "tr": "Pil: takili degil",
+  "lines": [
+   7498
+  ],
+  "calls": [],
+  "en_src": "Battery: none"
+ },
+ "353ad82c": {
+  "kind": "L",
+  "tr": "Pil: %%%d",
+  "lines": [
+   7500,
+   8679
+  ],
+  "calls": [
+   "batteryPctText"
+  ],
+  "en_src": "Battery: %d%%"
+ },
+ "fdfe6b04": {
+  "kind": "L",
+  "tr": " sarj",
+  "lines": [
+   7502
+  ],
+  "calls": [],
+  "en_src": " chg"
+ },
+ "f4b73d48": {
+  "kind": "L",
+  "tr": "Kaynaklar",
+  "lines": [
+   7526,
+   8693
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtH1"
+  ],
+  "en_src": "Sources"
+ },
+ "155be7c8": {
+  "kind": "L",
+  "tr": "KAYNAKLAR",
+  "lines": [
+   7544
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "SOURCES"
+ },
+ "983bd5ab": {
+  "kind": "L",
+  "tr": "Veri kaynakları",
+  "lines": [
+   7552
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Data sources"
+ },
+ "f75c36b8": {
+  "kind": "L",
+  "tr": "Bazıları üçüncü taraf API uçları kullanır",
+  "lines": [
+   7556
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Some use third-party API endpoints"
+ },
+ "870ddb5d": {
+  "kind": "L",
+  "tr": "Kütüphaneler",
+  "lines": [
+   7562
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Libraries"
+ },
+ "9b59a5e6": {
+  "kind": "L",
+  "tr": "Yazı tipi: Noto Sans (dönüştürülmüş)",
+  "lines": [
+   7567
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Font: Noto Sans (converted)"
+ },
+ "2e8f2f3e": {
+  "kind": "L",
+  "tr": "Tibbi cihaz degildir. Markalar sahiplerine aittir.",
+  "lines": [
+   7571
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "Not a medical device. Brands belong to owners."
+ },
+ "d6328249": {
+  "kind": "L",
+  "tr": "DİL / BİRİM",
+  "lines": [
+   7586
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "LANG / UNIT"
+ },
+ "a85364df": {
+  "kind": "L",
+  "tr": "Renk Dostu Modu",
+  "lines": [
+   7617
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Color Friendly Mode"
+ },
+ "dbf60dab": {
+  "kind": "L",
+  "tr": "ARAYÜZ",
+  "lines": [
+   7644
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "INTERFACE"
+ },
+ "3f6c6cb7": {
+  "kind": "L",
+  "tr": "Uygula",
+  "lines": [
+   7666
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Apply"
+ },
+ "096208f3": {
+  "kind": "L",
+  "tr": "ROTASYON",
+  "lines": [
+   7679
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "ROTATION"
+ },
+ "979829ac": {
+  "kind": "L",
+  "tr": "USB yönüne göre yatay",
+  "lines": [
+   7681
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Landscape by USB side"
+ },
+ "05dead34": {
+  "kind": "L",
+  "tr": "Sağ yan",
+  "lines": [
+   7692
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Right side"
+ },
+ "763e50f6": {
+  "kind": "L",
+  "tr": "Sol yan",
+  "lines": [
+   7696
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Left side"
+ },
+ "b540c078": {
+  "kind": "L",
+  "tr": "GECE MODU",
+  "lines": [
+   7711,
+   8825,
+   11220
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtBegin"
+  ],
+  "en_src": "NIGHT MODE"
+ },
+ "6701ea36": {
+  "kind": "L",
+  "tr": "Baslangic",
+  "lines": [
+   7734,
+   7805
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Start"
+ },
+ "7c2ef34a": {
+  "kind": "L",
+  "tr": "Bitis",
+  "lines": [
+   7747,
+   7818
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "End"
+ },
+ "8409e329": {
+  "kind": "L",
+  "tr": "Parlaklık",
+  "lines": [
+   7762,
+   13439
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Bright"
+ },
+ "3908707e": {
+  "kind": "L",
+  "tr": "Ses",
+  "lines": [
+   7769,
+   7838,
+   11227,
+   13446
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "fSeg"
+  ],
+  "en_src": "Sound"
+ },
+ "7e7ef6fb": {
+  "kind": "L",
+  "tr": "Kaydet",
+  "lines": [
+   7775,
+   7843,
+   10726,
+   10988,
+   11526
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Save"
+ },
+ "201e5e39": {
+  "kind": "L",
+  "tr": "OKUL MODU",
+  "lines": [
+   7783,
+   8871,
+   11220
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtBegin"
+  ],
+  "en_src": "SCHOOL MODE"
+ },
+ "b948e6d1": {
+  "kind": "L",
+  "tr": "Parlak",
+  "lines": [
+   7832
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Bright"
+ },
+ "dd82775e": {
+  "kind": "L",
+  "tr": "GLUKAGON",
+  "lines": [
+   7875,
+   12268
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "drawListHeader"
+  ],
+  "en_src": "GLUCAGON"
+ },
+ "b336dd98": {
+  "kind": "L",
+  "tr": "Önce 112'yi aratın!",
+  "lines": [
+   7882
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "Call emergency services first!"
+ },
+ "8bf9026f": {
+  "kind": "L",
+  "tr": "- Ciddi düşük şeker ilacıdır",
+  "lines": [
+   7884
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Medicine for severe low"
+ },
+ "75d07c3e": {
+  "kind": "L",
+  "tr": "- Bilinç kapalıysa / yutamıyorsa",
+  "lines": [
+   7885
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- If unconscious / cannot swallow"
+ },
+ "71d808d6": {
+  "kind": "L",
+  "tr": "- Zaman kaybetmeden uygulayın",
+  "lines": [
+   7886
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Give it without delay"
+ },
+ "45d83f0f": {
+  "kind": "L",
+  "tr": "- Aile / okul planına göre",
+  "lines": [
+   7887
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Follow the family/school plan"
+ },
+ "faa5a399": {
+  "kind": "L",
+  "tr": "Nasıl hazırlanır?",
+  "lines": [
+   7890
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "How to prepare?"
+ },
+ "66335366": {
+  "kind": "L",
+  "tr": "- Kit okulda hazır tutulsun",
+  "lines": [
+   7892
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Keep the kit ready at school"
+ },
+ "4284f10b": {
+  "kind": "L",
+  "tr": "- Kutudaki resimli talimata bakın",
+  "lines": [
+   7893
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Follow the picture guide"
+ },
+ "19cf6669": {
+  "kind": "L",
+  "tr": "- 4. sayfadaki videoyu izleyin",
+  "lines": [
+   7894
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Watch the video on page 4"
+ },
+ "439dc239": {
+  "kind": "L",
+  "tr": "- Doz yaş / kiloya göre değişir",
+  "lines": [
+   7895
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Dose depends on age/weight"
+ },
+ "df9a68c9": {
+  "kind": "L",
+  "tr": "Uygulama sonrası",
+  "lines": [
+   7898
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "After giving it"
+ },
+ "b11e44c8": {
+  "kind": "L",
+  "tr": "- Yan yatırın, solunum yolu açık",
+  "lines": [
+   7900,
+   7982
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Side position, airway open"
+ },
+ "d661ea5a": {
+  "kind": "L",
+  "tr": "- Uyanıp yutabilince meyve suyu",
+  "lines": [
+   7901
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- When awake and can swallow: juice"
+ },
+ "b277f6ea": {
+  "kind": "L",
+  "tr": "- 10 dk'da uyanmazsa 112",
+  "lines": [
+   7902
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Not awake in 10 min: call emergency"
+ },
+ "c5fdab8f": {
+  "kind": "L",
+  "tr": "- Saati not edin, aileyi arayın",
+  "lines": [
+   7903
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Note the time, call the family"
+ },
+ "14c04283": {
+  "kind": "L",
+  "tr": "Video: nasıl uygulanır?",
+  "lines": [
+   7907
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "Video: how to give it"
+ },
+ "08064884": {
+  "kind": "L",
+  "tr": "Videoyu oynat",
+  "lines": [
+   7913
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Play the video"
+ },
+ "5de3af16": {
+  "kind": "L",
+  "tr": "Video bu cihazda yüklü değil.",
+  "lines": [
+   7917
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "The video is not installed."
+ },
+ "132308de": {
+  "kind": "L",
+  "tr": "Kutudaki talimatı kullanın.",
+  "lines": [
+   7918
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Use the guide in the box."
+ },
+ "294a27a9": {
+  "kind": "L",
+  "tr": "İleri",
+  "lines": [
+   7930
+  ],
+  "calls": [],
+  "en_src": "Next"
+ },
+ "0fe98a61": {
+  "kind": "L",
+  "tr": "Kapat",
+  "lines": [
+   7930
+  ],
+  "calls": [],
+  "en_src": "Close"
+ },
+ "7f9a3712": {
+  "kind": "L",
+  "tr": "ÖNİZLEME",
+  "lines": [
+   7937
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "PREVIEW"
+ },
+ "7b2d3712": {
+  "kind": "L",
+  "tr": "REHBER",
+  "lines": [
+   7938,
+   7939
+  ],
+  "calls": [
+   "String",
+   "drawFreeTitle"
+  ],
+  "en_src": "GUIDE"
+ },
+ "c891df32": {
+  "kind": "L",
+  "tr": "Bilinci kapalı mı, nöbet geçiriyor",
+  "lines": [
+   7948
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Unconscious, having a seizure"
+ },
+ "8f9c3476": {
+  "kind": "L",
+  "tr": "ya da yutamıyor mu?",
+  "lines": [
+   7949
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "or unable to swallow?"
+ },
+ "4d024e96": {
+  "kind": "L",
+  "tr": "Parmaktan kan şekeri ölçün.",
+  "lines": [
+   7955
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Do a fingerstick now."
+ },
+ "27f40417": {
+  "kind": "L",
+  "tr": "Sonuç sensöre yakın mı?",
+  "lines": [
+   7956
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Close to the sensor value?"
+ },
+ "0d513685": {
+  "kind": "L",
+  "tr": "Ölçemiyorum",
+  "lines": [
+   7959
+  ],
+  "calls": [
+   "tfBtn"
+  ],
+  "en_src": "Can't test"
+ },
+ "b1408316": {
+  "kind": "L",
+  "tr": "Parmak ölçümü sonucu kaç?",
+  "lines": [
+   7963
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "What is the fingerstick result?"
+ },
+ "b47418b5": {
+  "kind": "L",
+  "tr": "%s altı",
+  "lines": [
+   7968
+  ],
+  "calls": [
+   "fmtS"
+  ],
+  "en_src": "below %s"
+ },
+ "cd7b8fc0": {
+  "kind": "L",
+  "tr": "Normal",
+  "lines": [
+   7969,
+   11192
+  ],
+  "calls": [],
+  "en_src": "Normal"
+ },
+ "5bd986ba": {
+  "kind": "L",
+  "tr": "%s üstü",
+  "lines": [
+   7970
+  ],
+  "calls": [
+   "fmtS"
+  ],
+  "en_src": "above %s"
+ },
+ "362274a6": {
+  "kind": "L",
+  "tr": "Emin değilseniz aileyi arayın.",
+  "lines": [
+   7973
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "If unsure, call the family."
+ },
+ "6318022a": {
+  "kind": "L",
+  "tr": "BİLİNÇ KAPALI / YUTAMIYOR:",
+  "lines": [
+   7979
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "UNCONSCIOUS / CANNOT SWALLOW:"
+ },
+ "6f7f8867": {
+  "kind": "L",
+  "tr": "- 112'yi arayın, aileye haber verin",
+  "lines": [
+   7981
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Call emergency and the family"
+ },
+ "164037d9": {
+  "kind": "L",
+  "tr": "- Yiyecek veya içecek vermeyin",
+  "lines": [
+   7983
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Give no food or drink"
+ },
+ "8a97ad37": {
+  "kind": "L",
+  "tr": "Glukagon nasıl uygulanır?",
+  "lines": [
+   7988
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "How to give glucagon?"
+ },
+ "639a6250": {
+  "kind": "L",
+  "tr": "- Yanından ayrılmayın",
+  "lines": [
+   7990,
+   8000
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Stay with the student"
+ },
+ "1b9726c0": {
+  "kind": "L",
+  "tr": "DÜŞÜK ŞEKER:",
+  "lines": [
+   7994
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "LOW GLUCOSE:"
+ },
+ "d03d2c50": {
+  "kind": "L",
+  "tr": "- Meyve suyu veya küp şeker verin",
+  "lines": [
+   7996
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Give juice or sugar cubes"
+ },
+ "abb69b2b": {
+  "kind": "L",
+  "tr": "- 15 dk bekleyin, tekrar ölçün",
+  "lines": [
+   7997
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Wait 15 min, recheck"
+ },
+ "bfe304fd": {
+  "kind": "L",
+  "tr": "- Yükselmezse tekrarlayın",
+  "lines": [
+   7998
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Repeat if still low"
+ },
+ "81f52e4c": {
+  "kind": "L",
+  "tr": "- Yutamaz hale gelirse 112",
+  "lines": [
+   7999
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- If cannot swallow: call emergency"
+ },
+ "93aad056": {
+  "kind": "L",
+  "tr": "ÇOK YÜKSEK:",
+  "lines": [
+   8003
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "VERY HIGH:"
+ },
+ "19916b71": {
+  "kind": "L",
+  "tr": "- Su içirin (zorlamayın)",
+  "lines": [
+   8005
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Water (do not force)"
+ },
+ "a460be83": {
+  "kind": "L",
+  "tr": "- Egzersiz yaptırmayın",
+  "lines": [
+   8006
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- No exercise"
+ },
+ "1fd94d40": {
+  "kind": "L",
+  "tr": "- Doz kararı vermeyin, aileye /",
+  "lines": [
+   8007
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Do not decide a dose; follow"
+ },
+ "23950392": {
+  "kind": "L",
+  "tr": "  okul planına başvurun",
+  "lines": [
+   8008
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "  the family/school plan"
+ },
+ "bb2b6a04": {
+  "kind": "L",
+  "tr": "- Kusma, karın ağrısı, hızlı nefes: 112",
+  "lines": [
+   8009
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Vomiting, belly pain, fast breath: emergency"
+ },
+ "72579194": {
+  "kind": "L",
+  "tr": "Durumu izleyin",
+  "lines": [
+   8012
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "Monitor the student"
+ },
+ "f8963c4b": {
+  "kind": "L",
+  "tr": "- Halsizlik varsa yanında kalın",
+  "lines": [
+   8014
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Stay close if weak"
+ },
+ "c6c441c5": {
+  "kind": "L",
+  "tr": "- Şüphede aileyi arayın",
+  "lines": [
+   8015
+  ],
+  "calls": [
+   "tfLine"
+  ],
+  "en_src": "- Call the family if unsure"
+ },
+ "10309abd": {
+  "kind": "L",
+  "tr": "Anasayfa",
+  "lines": [
+   8026
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Home"
+ },
+ "8ffd0fda": {
+  "kind": "L",
+  "tr": "REHBER MODU",
+  "lines": [
+   8034,
+   8760
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "txtBegin"
+  ],
+  "en_src": "GUIDE MODE"
+ },
+ "7ec705f9": {
+  "kind": "L",
+  "tr": "Alarmda 'Dikkat' butonu gösterir.",
+  "lines": [
+   8058
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Shows an Alert button on alarm."
+ },
+ "3ac4cf2b": {
+  "kind": "L",
+  "tr": "Hipoglisemi (<%s):",
+  "lines": [
+   8066
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Hypoglycemia (<%s):"
+ },
+ "0d84b7c2": {
+  "kind": "L",
+  "tr": "Meyve suyu / kup seker ver,",
+  "lines": [
+   8072
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "Give juice or sugar cubes,"
+ },
+ "b11d6403": {
+  "kind": "L",
+  "tr": "15 dk bekle, tekrar olc.",
+  "lines": [
+   8073
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "wait 15 min, recheck."
+ },
+ "be767046": {
+  "kind": "L",
+  "tr": "Siddetli Hipo (<%s):",
+  "lines": [
+   8079
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Severe hypo (<%s):"
+ },
+ "2049a8bd": {
+  "kind": "L",
+  "tr": "Agizdan hicbir sey vermeyin.",
+  "lines": [
+   8084
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "Give nothing by mouth."
+ },
+ "addb8a5c": {
+  "kind": "L",
+  "tr": "Glukagon yapin, 112 + aile arayin.",
+  "lines": [
+   8085
+  ],
+  "calls": [
+   "dsN"
+  ],
+  "en_src": "Give glucagon, call emergency + family."
+ },
+ "2dee4d7f": {
+  "kind": "L",
+  "tr": "Hiperglisemi (>%s):",
+  "lines": [
+   8091
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Hyperglycemia (>%s):"
+ },
+ "da31e942": {
+  "kind": "L",
+  "tr": "Su içir, egzersiz yaptırma.",
+  "lines": [
+   8094
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Water, no exercise."
+ },
+ "5e2bf7bb": {
+  "kind": "L",
+  "tr": "DİĞER AYARLAR",
+  "lines": [
+   8108
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "MORE SETTINGS"
+ },
+ "7b65a30a": {
+  "kind": "L",
+  "tr": "Dil/Birim",
+  "lines": [
+   8113
+  ],
+  "calls": [],
+  "en_src": "Lang/Unit"
+ },
+ "fe668e58": {
+  "kind": "L",
+  "tr": "Reset",
+  "lines": [
+   8113
+  ],
+  "calls": [],
+  "en_src": "Reset"
+ },
+ "f4424a56": {
+  "kind": "L",
+  "tr": "Rotasyon",
+  "lines": [
+   8113
+  ],
+  "calls": [],
+  "en_src": "Rotate"
+ },
+ "0d8122b5": {
+  "kind": "L",
+  "tr": "Yenile",
+  "lines": [
+   8113
+  ],
+  "calls": [],
+  "en_src": "Refresh"
+ },
+ "17e5c68c": {
+  "kind": "L",
+  "tr": "Alarmlar",
+  "lines": [
+   8397
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Alarms"
+ },
+ "05b83ab9": {
+  "kind": "L",
+  "tr": "Hedefler",
+  "lines": [
+   8398,
+   13462
+  ],
+  "calls": [
+   "listAdd",
+   "drawFreeTitle"
+  ],
+  "en_src": "Targets"
+ },
+ "a4b07225": {
+  "kind": "L",
+  "tr": "Ekran/Dil ayarları",
+  "lines": [
+   8399
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Display/Language"
+ },
+ "aaf6d256": {
+  "kind": "L",
+  "tr": "QR / Web",
+  "lines": [
+   8400,
+   13468
+  ],
+  "calls": [
+   "listAdd",
+   "drawFreeTitle"
+  ],
+  "en_src": "QR / Web"
+ },
+ "09ef4471": {
+  "kind": "L",
+  "tr": "bilgi, kılavuz",
+  "lines": [
+   8400
+  ],
+  "calls": [],
+  "en_src": "info, guide"
+ },
+ "752592bf": {
+  "kind": "L",
+  "tr": "Sayfaları düzenle",
+  "lines": [
+   8402
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Edit pages"
+ },
+ "fd4210f0": {
+  "kind": "L",
+  "tr": " sayfa",
+  "lines": [
+   8402
+  ],
+  "calls": [],
+  "en_src": " pages"
+ },
+ "165c5e0f": {
+  "kind": "L",
+  "tr": "Sıfırla / Kapat",
+  "lines": [
+   8403
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Reset / Power"
+ },
+ "3d8eaca3": {
+  "kind": "L",
+  "tr": " dk",
+  "lines": [
+   8409,
+   11183
+  ],
+  "calls": [],
+  "en_src": " min"
+ },
+ "dbd615ca": {
+  "kind": "L",
+  "tr": "Ses bastırma",
+  "lines": [
+   8412,
+   11163
+  ],
+  "calls": [
+   "listAdd",
+   "fTog"
+  ],
+  "en_src": "Suppress sound"
+ },
+ "72ef7050": {
+  "kind": "L",
+  "tr": "Görsel alarm",
+  "lines": [
+   8413
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Visual alarm"
+ },
+ "2bd00398": {
+  "kind": "L",
+  "tr": "Gece modu",
+  "lines": [
+   8419,
+   11222,
+   11270
+  ],
+  "calls": [
+   "listAdd",
+   "fAct"
+  ],
+  "en_src": "Night mode"
+ },
+ "915302b9": {
+  "kind": "L",
+  "tr": "Okul modu",
+  "lines": [
+   8420,
+   11222,
+   11271
+  ],
+  "calls": [
+   "listAdd",
+   "fAct"
+  ],
+  "en_src": "School mode"
+ },
+ "a9d2d37a": {
+  "kind": "L",
+  "tr": "Rehber modu",
+  "lines": [
+   8421,
+   11273
+  ],
+  "calls": [
+   "listAdd",
+   "fTog"
+  ],
+  "en_src": "Guide mode"
+ },
+ "ba9e2c23": {
+  "kind": "L",
+  "tr": "Rahatsız etme modu",
+  "lines": [
+   8422,
+   8433,
+   11234,
+   11272
+  ],
+  "calls": [
+   "listAdd",
+   "fTog",
+   "fAct"
+  ],
+  "en_src": "Do not disturb"
+ },
+ "6b59075e": {
+  "kind": "L",
+  "tr": "Şıklatma ile aç",
+  "lines": [
+   8434,
+   11235
+  ],
+  "calls": [
+   "listAdd",
+   "fTog"
+  ],
+  "en_src": "Snap to wake"
+ },
+ "0045970b": {
+  "kind": "L",
+  "tr": "Hassasiyet",
+  "lines": [
+   8435
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Sensitivity"
+ },
+ "61ba8805": {
+  "kind": "L",
+  "tr": "Şıklatma testi",
+  "lines": [
+   8436,
+   11237
+  ],
+  "calls": [
+   "listAdd",
+   "fAct"
+  ],
+  "en_src": "Snap test"
+ },
+ "7d3ea30d": {
+  "kind": "L",
+  "tr": "AYARLAR",
+  "lines": [
+   8590,
+   13396
+  ],
+  "calls": [
+   "drawListHeader",
+   "drawFreeTitle"
+  ],
+  "en_src": "SETTINGS"
+ },
+ "6ce514cc": {
+  "kind": "L",
+  "tr": "ALARMLAR",
+  "lines": [
+   8591,
+   11154
+  ],
+  "calls": [
+   "drawListHeader"
+  ],
+  "en_src": "ALARMS"
+ },
+ "d630bbce": {
+  "kind": "L",
+  "tr": "RAHATSIZ ETME",
+  "lines": [
+   8593,
+   8832,
+   11233
+  ],
+  "calls": [
+   "drawListHeader",
+   "txtBegin"
+  ],
+  "en_src": "DO NOT DISTURB"
+ },
+ "a8c2338c": {
+  "kind": "L",
+  "tr": "Bağlantı",
+  "lines": [
+   8660
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Connection"
+ },
+ "7c8765c7": {
+  "kind": "L",
+  "tr": "Cihaz",
+  "lines": [
+   8666
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Device"
+ },
+ "05e8be1e": {
+  "kind": "L",
+  "tr": "Ad: ",
+  "lines": [
+   8667
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Name: "
+ },
+ "c5da5af6": {
+  "kind": "L",
+  "tr": "Sürüm: ",
+  "lines": [
+   8669
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Version: "
+ },
+ "a492731b": {
+  "kind": "L",
+  "tr": "Otomatik yeniden başlatma: ",
+  "lines": [
+   8675
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Automatic restarts: "
+ },
+ "ee48d4b2": {
+  "kind": "L",
+  "tr": "Pil takılı değil",
+  "lines": [
+   8678
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "No battery"
+ },
+ "bcdd6346": {
+  "kind": "L",
+  "tr": "  şarj ",
+  "lines": [
+   8681
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "  charging "
+ },
+ "04bb01f2": {
+  "kind": "L",
+  "tr": "Telefondan ayar (web)",
+  "lines": [
+   8685
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Phone settings (web)"
+ },
+ "46af88b4": {
+  "kind": "L",
+  "tr": "Şifre: ",
+  "lines": [
+   8687
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Password: "
+ },
+ "6c1e9b20": {
+  "kind": "L",
+  "tr": "Tarayıcı 30 gün hatırlanır. Şifreyi web sayfasından değiştirebilirsin; Cihaz Sıfırla ilk (fabrika) şifreye döndürür; Bilgi ekranında yazar.",
+  "lines": [
+   8688
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "The browser is remembered for 30 days. You can change the password on the web page; Device Reset restores the original (factory) password, shown on the Info screen."
+ },
+ "a34e1a68": {
+  "kind": "L",
+  "tr": "İletişim",
+  "lines": [
+   8690
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Contact"
+ },
+ "68bde224": {
+  "kind": "L",
+  "tr": "Veri: Nightscout, Dexcom, LibreLinkUp, Medtrum",
+  "lines": [
+   8694
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Data: Nightscout, Dexcom, LibreLinkUp, Medtrum"
+ },
+ "2ffe3a60": {
+  "kind": "L",
+  "tr": "Bazıları üçüncü taraf API uçları kullanır.",
+  "lines": [
+   8695
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Some use third-party API endpoints."
+ },
+ "af994fd9": {
+  "kind": "L",
+  "tr": "Lisanslar",
+  "lines": [
+   8696
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Licenses"
+ },
+ "c773472a": {
+  "kind": "L",
+  "tr": "Yazı tipi: Noto Sans - SIL Open Font License 1.1, Copyright 2022 The Noto Project Authors",
+  "lines": [
+   8697
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Font: Noto Sans - SIL Open Font License 1.1, Copyright 2022 The Noto Project Authors"
+ },
+ "14905717": {
+  "kind": "L",
+  "tr": "ESP32 Arduino çekirdeği - LGPL 2.1 / Apache 2.0, Espressif Systems",
+  "lines": [
+   8703
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "ESP32 Arduino core - LGPL 2.1 / Apache 2.0, Espressif Systems"
+ },
+ "4828f0cc": {
+  "kind": "L",
+  "tr": "Lisans metinlerinin tamamı kullanım kılavuzundadır.",
+  "lines": [
+   8705
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Full license texts are in the user manual."
+ },
+ "adcfc9ba": {
+  "kind": "L",
+  "tr": "Önemli",
+  "lines": [
+   8706
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Important"
+ },
+ "a6b9225e": {
+  "kind": "L",
+  "tr": "Tıbbi cihaz değildir, bilgi amaçlıdır. Tedavi kararları için resmi CGM uygulamanızı esas alın.",
+  "lines": [
+   8707
+  ],
+  "calls": [],
+  "en_src": "Not a medical device, informational only. Rely on your official CGM app for treatment decisions."
+ },
+ "ef7321e2": {
+  "kind": "L",
+  "tr": "Asıl CGM alarmlarınızı kapatmayın.",
+  "lines": [
+   8709,
+   8722,
+   14081
+  ],
+  "calls": [
+   "txtItem",
+   "drawFreeTitle"
+  ],
+  "en_src": "Do not turn off your CGM alarms."
+ },
+ "aac19ab2": {
+  "kind": "L",
+  "tr": "MeteMatik; Dexcom, Abbott, Medtrum ve Nightscout ile bağlantılı değildir. Markalar sahiplerine aittir.",
+  "lines": [
+   8710
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "MeteMatik is not affiliated with Dexcom, Abbott, Medtrum or Nightscout. Brands belong to their owners."
+ },
+ "24d86b3f": {
+  "kind": "L",
+  "tr": "Açık kaynaklı, ücretsiz bir projedir; hiçbir garanti verilmez.",
+  "lines": [
+   8712
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "A free, open-source project; provided without any warranty."
+ },
+ "1af4b5a9": {
+  "kind": "L",
+  "tr": "Önizlemeler",
+  "lines": [
+   8713
+  ],
+  "calls": [
+   "txtButton"
+  ],
+  "en_src": "Previews"
+ },
+ "8b7c6ebc": {
+  "kind": "L",
+  "tr": "KILAVUZ",
+  "lines": [
+   8717
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "GUIDE"
+ },
+ "51baec4e": {
+  "kind": "L",
+  "tr": "Önemli uyarı",
+  "lines": [
+   8718
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Important"
+ },
+ "91c06f66": {
+  "kind": "L",
+  "tr": "İnsülin veya tedavi kararı için KULLANMAYIN.",
+  "lines": [
+   8719
+  ],
+  "calls": [],
+  "en_src": "Do NOT use for insulin or treatment decisions."
+ },
+ "0495c519": {
+  "kind": "L",
+  "tr": "Tıbbi cihaz değildir, sadece bilgilendirme amaçlıdır.",
+  "lines": [
+   8720
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Not a medical device; informational only."
+ },
+ "35972338": {
+  "kind": "L",
+  "tr": "Resmi CGM uygulamanızı esas alın. Risk kullanıcıya aittir.",
+  "lines": [
+   8721
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Rely on your official CGM app. Risk is the user's."
+ },
+ "bc75df8c": {
+  "kind": "L",
+  "tr": "Delta",
+  "lines": [
+   8723
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Delta"
+ },
+ "b2bc7028": {
+  "kind": "L",
+  "tr": "Delta: son 5 dakikadaki değişim.",
+  "lines": [
+   8724
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Delta: the change over the last 5 minutes."
+ },
+ "94d1fb35": {
+  "kind": "L",
+  "tr": "Yanında * varsa veride kesinti olmuştur; değişim 5 dakikaya çevrilerek tahmin edilmiştir.",
+  "lines": [
+   8725
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "A * means there was a gap in the data; the change was estimated per 5 minutes."
+ },
+ "993cb84f": {
+  "kind": "L",
+  "tr": "-- : 15 dakikadan uzun kesinti, değişim bilinmiyor.",
+  "lines": [
+   8727
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "-- : gap longer than 15 minutes, change unknown."
+ },
+ "8e1543cb": {
+  "kind": "L",
+  "tr": "Gezinme",
+  "lines": [
+   8728
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Navigation"
+ },
+ "ae1c7119": {
+  "kind": "L",
+  "tr": "Ana ekran: seçtiğin tema. Tema uygulamasından değiştirilir.",
+  "lines": [
+   8729
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Home: the theme you chose. Change it in the Theme app."
+ },
+ "11342522": {
+  "kind": "L",
+  "tr": "Ana ekranda parmağını sola kaydır: uygulamalar açılır.",
+  "lines": [
+   8730
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Swipe left on the home screen: apps open."
+ },
+ "0cf3c4ce": {
+  "kind": "L",
+  "tr": "Sağa kaydır ya da BOOT tuşuna kısa bas: bir geri.",
+  "lines": [
+   8731
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Swipe right or short-press BOOT: back."
+ },
+ "c5e9faf3": {
+  "kind": "L",
+  "tr": "Uygulamalar: Tema, Grafik, İstatistik, Sensör, Zamanlayıcı, Karb-Not, Modlar, Ayarlar",
+  "lines": [
+   8732
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Apps: Theme, Graph, Stats, Sensor, Timer, Carbs, Modes, Settings"
+ },
+ "830c0a6d": {
+  "kind": "L",
+  "tr": "Ayarlar",
+  "lines": [
+   8733,
+   10563
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Settings"
+ },
+ "cc60c4fa": {
+  "kind": "L",
+  "tr": "Liste parmakla yukarı-aşağı kaydırılır, dokununca açılır. Ayar sayfasında değiştir, sonra sağ üstteki Kaydet'e bas; kaydetmeden Geri'ye basarsan sorar. (i) işaretine dokunursan o özelliğin ne işe yaradığı yazar.",
+  "lines": [
+   8734
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Scroll the list with your finger, tap to open. Change a setting, then press Save at the top right; pressing Back without saving asks first. Tap (i) to see what a feature does."
+ },
+ "f61e2b69": {
+  "kind": "L",
+  "tr": "Alarmlar: hızlı düşüş/yükseliş, ses bastırma, görsel alarm, ertele",
+  "lines": [
+   8736
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Alarms: fast fall/rise, sound suppress, visual alarm, snooze"
+ },
+ "bbc2fb1a": {
+  "kind": "L",
+  "tr": "Hedefler: kritik düşük / düşük / yüksek / çok yüksek eşikleri ve sesleri",
+  "lines": [
+   8737
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Targets: critical low / low / high / very high limits and sounds"
+ },
+ "a9cf08a1": {
+  "kind": "L",
+  "tr": "Modlar: Gece, Okul, Rehber, Rahatsız etme",
+  "lines": [
+   8738
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Modes: Night, School, Guide"
+ },
+ "64c78d97": {
+  "kind": "L",
+  "tr": "Gece / Okul: seçtiğin saatlerde ses ve parlaklık otomatik değişir. Saate dokunarak istediğin saati yazabilirsin.",
+  "lines": [
+   8740
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Night / School: sound and brightness change automatically in the chosen hours. Tap a time to type it."
+ },
+ "6db86bf0": {
+  "kind": "L",
+  "tr": "Rehber: alarmda Dikkat butonu çıkar; yanındaki kişiye ne yapacağını adım adım gösterir.",
+  "lines": [
+   8742
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Guide: an Alert button appears on alarm and shows the person nearby what to do, step by step."
+ },
+ "1f011e8f": {
+  "kind": "L",
+  "tr": "Telefondan ayar ve güncelleme",
+  "lines": [
+   8744
+  ],
+  "calls": [
+   "txtH1"
+  ],
+  "en_src": "Phone settings and updates"
+ },
+ "28d08036": {
+  "kind": "L",
+  "tr": "Aynı WiFi'deki telefonda Ayarlar > QR / Web ekranındaki QR'ı okut veya tarayıcıda şu adresi aç:",
+  "lines": [
+   8745
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "On a phone on the same WiFi, scan the QR in Settings > QR / Web or open this address:"
+ },
+ "b78a1016": {
+  "kind": "L",
+  "tr": "Yazılım güncellemesi: aynı adreste /update sayfasından .bin dosyası yüklenir.",
+  "lines": [
+   8748
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Software update: upload the .bin file on the /update page at the same address."
+ },
+ "b45684ed": {
+  "kind": "L",
+  "tr": "WiFi kurulumu",
+  "lines": [
+   8750,
+   11249,
+   13718
+  ],
+  "calls": [
+   "txtH1",
+   "fAct"
+  ],
+  "en_src": "WiFi setup"
+ },
+ "35dc50a8": {
+  "kind": "L",
+  "tr": "Kurulum QR'ını okut veya telefonun WiFi listesinden şu ağa bağlan: ",
+  "lines": [
+   8751
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Scan the setup QR or join this network from the phone's WiFi list: "
+ },
+ "06c29a70": {
+  "kind": "L",
+  "tr": "Telefonun kendi hotspot'unu kullanacaksan:",
+  "lines": [
+   8752
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Using your phone's own hotspot:"
+ },
+ "6d9f3c58": {
+  "kind": "L",
+  "tr": "1. Hotspot'u kapat",
+  "lines": [
+   8753
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "1. Turn the hotspot off"
+ },
+ "18a63ccc": {
+  "kind": "L",
+  "tr": "2. ",
+  "lines": [
+   8754
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "2. "
+ },
+ "45d3c6ad": {
+  "kind": "L",
+  "tr": " ağına bağlanıp bilgileri gir",
+  "lines": [
+   8754
+  ],
+  "calls": [],
+  "en_src": " - join it and fill in the form"
+ },
+ "ed2b199e": {
+  "kind": "L",
+  "tr": "3. Hotspot'u tekrar aç",
+  "lines": [
+   8755
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "3. Turn the hotspot back on"
+ },
+ "dd1bfc8f": {
+  "kind": "L",
+  "tr": "BOOT tuşuna 2 saniye basmak WiFi / kaynak kurulumunu tekrar açar.",
+  "lines": [
+   8756
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Holding BOOT for 2 seconds reopens WiFi / source setup."
+ },
+ "4b8d8a1c": {
+  "kind": "L",
+  "tr": "Açıkken, şeker tehlikeli aralığa girdiğinde ana ekranda Dikkat butonu çıkar. Butona basan kişiye (öğretmen, bakıcı, arkadaş) ne yapması gerektiği adım adım gösterilir.",
+  "lines": [
+   8761
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "When on, an Alert button appears on the main screen if glucose enters a dangerous range. It shows the person who taps it (teacher, carer, friend) what to do, step by step."
+ },
+ "ddb1f6ac": {
+  "kind": "L",
+  "tr": "Açıp kapatmak için Modlar listesindeki anahtarı kullan.",
+  "lines": [
+   8763
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Use the switch in the Modes list to turn it on or off."
+ },
+ "61db2077": {
+  "kind": "L",
+  "tr": "Hipoglisemi (",
+  "lines": [
+   8764
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Hypoglycemia ("
+ },
+ "f66eee5d": {
+  "kind": "L",
+  "tr": "Meyve suyu veya küp şeker ver.",
+  "lines": [
+   8765
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Give juice or sugar cubes."
+ },
+ "549abdc6": {
+  "kind": "L",
+  "tr": "15 dakika bekle, tekrar ölç.",
+  "lines": [
+   8766
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Wait 15 minutes, check again."
+ },
+ "45ad025a": {
+  "kind": "L",
+  "tr": "Şiddetli hipo (",
+  "lines": [
+   8767
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Severe hypo ("
+ },
+ "ba6d0baf": {
+  "kind": "L",
+  "tr": "Bilinç yoksa ağızdan HİÇBİR ŞEY verme.",
+  "lines": [
+   8768
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "If unconscious, give NOTHING by mouth."
+ },
+ "f282944f": {
+  "kind": "L",
+  "tr": "Glukagon yap, 112'yi ve aileyi ara.",
+  "lines": [
+   8769
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Give glucagon, call emergency services and the family."
+ },
+ "fdbdb485": {
+  "kind": "L",
+  "tr": "Hiperglisemi (",
+  "lines": [
+   8770
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Hyperglycemia ("
+ },
+ "6ba94dbf": {
+  "kind": "L",
+  "tr": "Su içir, egzersiz yaptırma.",
+  "lines": [
+   8771
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Give water, no exercise."
+ },
+ "d074e1ad": {
+  "kind": "L",
+  "tr": "Aileye haber ver.",
+  "lines": [
+   8772
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Let the family know."
+ },
+ "ee8db3f0": {
+  "kind": "L",
+  "tr": "Eşikler Hedefler ayarından gelir.",
+  "lines": [
+   8773
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Limits come from the Targets setting."
+ },
+ "0fcc797f": {
+  "kind": "L",
+  "tr": "Bu adımlar bir diyabet hemşiresi tarafından gözden geçirildi; doktorunuzun talimatlarının yerini tutmaz.",
+  "lines": [
+   8774
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "These steps were reviewed by a diabetes nurse; they do not replace your doctor's instructions."
+ },
+ "f21f18a3": {
+  "kind": "L",
+  "tr": "HIZLI DÜŞÜŞ",
+  "lines": [
+   8779
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "FAST FALL"
+ },
+ "bad75250": {
+  "kind": "L",
+  "tr": "Şeker çok hızlı düşerken (CGM'de çift aşağı ok) uyarır; düşük eşiğine inmeden önce haber verir.",
+  "lines": [
+   8780
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Warns while glucose falls very fast (double down arrow on the CGM), before it reaches the low limit."
+ },
+ "03a95e6c": {
+  "kind": "L",
+  "tr": "Kendine özgü kısa 3'lü bip çalar. Eşik alarmları her zaman önceliklidir.",
+  "lines": [
+   8782
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Plays its own short triple beep. Limit alarms always take priority."
+ },
+ "1f4825d5": {
+  "kind": "L",
+  "tr": "Sadece Nightscout ve Dexcom'da çalışır; LibreLinkUp çift ok bilgisi vermez. Sadece 10 dakikadan yeni veride tetiklenir.",
+  "lines": [
+   8784
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Works with Nightscout and Dexcom only; LibreLinkUp does not report double arrows. Only fires on data newer than 10 minutes."
+ },
+ "60a5947f": {
+  "kind": "L",
+  "tr": "HIZLI YÜKSELİŞ",
+  "lines": [
+   8788
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "FAST RISE"
+ },
+ "81ce6ffe": {
+  "kind": "L",
+  "tr": "Şeker çok hızlı yükselirken (CGM'de çift yukarı ok) uyarır; yüksek eşiğine çıkmadan önce haber verir.",
+  "lines": [
+   8789
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Warns while glucose rises very fast (double up arrow on the CGM), before it reaches the high limit."
+ },
+ "a063620d": {
+  "kind": "L",
+  "tr": "Yemeklerden sonra sık çalabileceği için varsayılan olarak kapalıdır.",
+  "lines": [
+   8791
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Off by default, as it can go off often after meals."
+ },
+ "a1e6ec1c": {
+  "kind": "L",
+  "tr": "Sadece Nightscout ve Dexcom'da çalışır.",
+  "lines": [
+   8792
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Works with Nightscout and Dexcom only."
+ },
+ "1acebc3b": {
+  "kind": "L",
+  "tr": "Şeker eşik dışında olsa da normale doğru belirgin şekilde dönüyorsa (yüksekte en az 5 mg/dL düşüş; düşükte yukarı ok ve en az 5 mg/dL artış) alarm SESİ otomatik susar.",
+  "lines": [
+   8796
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "If glucose is out of range but clearly heading back to normal (high: a drop of at least 5 mg/dL; low: an up arrow and a rise of at least 5 mg/dL), the alarm SOUND mutes automatically."
+ },
+ "7b1d17df": {
+  "kind": "L",
+  "tr": "Görsel alarm (renk / yanıp sönme) aynen devam eder.",
+  "lines": [
+   8798
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "The visual alarm (color / blinking) continues as usual."
+ },
+ "d738412f": {
+  "kind": "L",
+  "tr": "Kritik düşükte ASLA geçerli değildir, o alarm her zaman çalar.",
+  "lines": [
+   8799
+  ],
+  "calls": [],
+  "en_src": "Never applies to critical low - that alarm always sounds."
+ },
+ "019f6690": {
+  "kind": "L",
+  "tr": "GÖRSEL ALARM",
+  "lines": [
+   8802,
+   9110,
+   11164
+  ],
+  "calls": [
+   "txtBegin",
+   "drawListHeader",
+   "fHead"
+  ],
+  "en_src": "VISUAL ALARM"
+ },
+ "78ef2feb": {
+  "kind": "L",
+  "tr": "Alarm sırasında ekran seçtiğin renkte yanıp söner. Ses kapalıyken, gece veya okul modunda bile uyarı görülür.",
+  "lines": [
+   8803
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "During an alarm the screen blinks in the color you choose. The alert is visible even when sound is off or in night/school mode."
+ },
+ "530b34d3": {
+  "kind": "L",
+  "tr": "Rengi ve açık/kapalı durumunu Görsel alarm sayfasından seçebilirsin.",
+  "lines": [
+   8805
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Choose the color and on/off on the Visual alarm page."
+ },
+ "9d857fa1": {
+  "kind": "L",
+  "tr": "ERTELE",
+  "lines": [
+   8808,
+   11167
+  ],
+  "calls": [
+   "txtBegin",
+   "fHead"
+  ],
+  "en_src": "SNOOZE"
+ },
+ "97e74964": {
+  "kind": "L",
+  "tr": "Alarm varken ana ekranda Ertele butonu çıkar. Basınca alarm (ses ve yanıp sönme) seçtiğin süre boyunca durur: 15, 30 veya 60 dakika.",
+  "lines": [
+   8809
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "During an alarm a Snooze button appears on the main screen. Tapping it stops the alarm (sound and blinking) for the chosen time: 15, 30 or 60 minutes."
+ },
+ "d62d3447": {
+  "kind": "L",
+  "tr": "Süre bitince şeker hâlâ eşik dışındaysa alarm yeniden başlar.",
+  "lines": [
+   8811
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "When the time is up, the alarm starts again if glucose is still out of range."
+ },
+ "131a514e": {
+  "kind": "L",
+  "tr": "Cihaz sessizdeyse buton gösterilmez. Kapalı seçilirse buton hiç çıkmaz.",
+  "lines": [
+   8812
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "The button is hidden when the device is silent. Choose Off to never show it."
+ },
+ "3ab59ea0": {
+  "kind": "L",
+  "tr": "RENK DOSTU",
+  "lines": [
+   8815
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "COLOR-SAFE"
+ },
+ "38334e4b": {
+  "kind": "L",
+  "tr": "Renk körlüğü olanlar için: kırmızı / sarı / yeşil / turuncu yerine birbirinden kolay ayırt edilen tonlar kullanılır.",
+  "lines": [
+   8816
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "For color-blind users: easy-to-tell-apart shades replace red / yellow / green / orange."
+ },
+ "87954eb3": {
+  "kind": "L",
+  "tr": "Kritik: vermilyon (koyu turuncu)",
+  "lines": [
+   8818
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Critical: vermilion (deep orange)"
+ },
+ "aa670776": {
+  "kind": "L",
+  "tr": "Düşük: gök mavisi",
+  "lines": [
+   8819
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Low: sky blue"
+ },
+ "ba358297": {
+  "kind": "L",
+  "tr": "Normal: mavimsi yeşil",
+  "lines": [
+   8820
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Normal: bluish green"
+ },
+ "36da1a50": {
+  "kind": "L",
+  "tr": "Yüksek: amber",
+  "lines": [
+   8821
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "High: amber"
+ },
+ "02d564d9": {
+  "kind": "L",
+  "tr": "Tüm sayfalara ve grafiğe uygulanır.",
+  "lines": [
+   8822
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Applies to every page and the graph."
+ },
+ "f74d40cb": {
+  "kind": "L",
+  "tr": "Belirlediğin saatler arasında ekran parlaklığı ve ses seviyesi otomatik olarak gece değerlerine iner. Saat bitince normale döner.",
+  "lines": [
+   8826
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Between the hours you set, screen brightness and sound drop to the night values automatically, then return to normal."
+ },
+ "fb970591": {
+  "kind": "L",
+  "tr": "Gece sesi Sessiz seçilmediyse alarmlar çalmaya devam eder.",
+  "lines": [
+   8828
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "Alarms still sound unless the night sound is set to Silent."
+ },
+ "b7ca01fa": {
+  "kind": "L",
+  "tr": "Saate dokunarak istediğin saati yazabilirsin. Gece ve okul saatleri çakışırsa gece modu geçerli olur.",
+  "lines": [
+   8829
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Tap a time to type it. If night and school hours overlap, night mode wins."
+ },
+ "16e48a1a": {
+  "kind": "L",
+  "tr": "Açıkken, şeker hedef aralıktaysa (düşük ile yüksek eşik arası) ekrana 15 saniye dokunulmayınca ekran kapanır.",
+  "lines": [
+   8833
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "When on, the screen turns off after 15 seconds without touch while glucose is in range (between the low and high limits)."
+ },
+ "fcbe49bc": {
+  "kind": "L",
+  "tr": "Ekranı açmak için ekrana dokun ya da parmaklarını iki kez şıklat. Ana ekran 15 saniye görünür, sonra tekrar kapanır.",
+  "lines": [
+   8835
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "To see it, touch the screen or snap your fingers twice. The main screen shows for 15 seconds, then turns off again."
+ },
+ "2f753698": {
+  "kind": "L",
+  "tr": "Şeker kritik düşük, düşük, yüksek veya çok yüksek olursa, hızlı düşüş/yükseliş varsa ya da veri gelmiyorsa ekran kendiliğinden açılır ve açık kalır.",
+  "lines": [
+   8837
+  ],
+  "calls": [],
+  "en_src": "If glucose is critical low, low, high or very high, falls/rises fast, or no data arrives, the screen turns on by itself and stays on."
+ },
+ "15b15faa": {
+  "kind": "L",
+  "tr": "Alarm sesleri rahatsız etme modunda da aynen çalar.",
+  "lines": [
+   8839
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Alarm sounds work as usual in sleep mode."
+ },
+ "1141534d": {
+  "kind": "L",
+  "tr": "ŞIKLATMA İLE AÇ",
+  "lines": [
+   8842
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "SNAP TO WAKE"
+ },
+ "4e6c77be": {
+  "kind": "L",
+  "tr": "Ekran uykudayken mikrofon sadece kısa ve ani sesleri (parmak şıklatma) dinler. İki şıklatma arka arkaya gelirse ekran açılır.",
+  "lines": [
+   8843
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "While the screen sleeps, the microphone only listens for short, sharp sounds (finger snaps). Two snaps in a row turn the screen on."
+ },
+ "078b529a": {
+  "kind": "L",
+  "tr": "Ses kaydedilmez ve hiçbir yere gönderilmez; sadece o anki ses şiddetine bakılır. Ekran açıkken mikrofon tamamen kapalıdır.",
+  "lines": [
+   8845
+  ],
+  "calls": [],
+  "en_src": "Nothing is recorded or sent anywhere; only the momentary loudness is checked. The microphone is fully off while the screen is on."
+ },
+ "bf0ffc28": {
+  "kind": "L",
+  "tr": "Algılamıyorsa Hassasiyet'i artır, kendiliğinden açılıyorsa azalt. Şıklatma testi ile deneyebilirsin.",
+  "lines": [
+   8847
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "If it misses snaps, raise the Sensitivity; if it wakes by itself, lower it. Try it with Snap test."
+ },
+ "21e56976": {
+  "kind": "L",
+  "tr": "MENÜ",
+  "lines": [
+   8851
+  ],
+  "calls": [
+   "txtBegin"
+  ],
+  "en_src": "MEAL"
+ },
+ "8571be23": {
+  "kind": "L",
+  "tr": "Menü boş.",
+  "lines": [
+   8852
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "The meal is empty."
+ },
+ "092370bf": {
+  "kind": "L",
+  "tr": " kalem daha (liste dolu)",
+  "lines": [
+   8856
+  ],
+  "calls": [],
+  "en_src": " more items (list full)"
+ },
+ "32704977": {
+  "kind": "L",
+  "tr": "Toplam: ",
+  "lines": [
+   8857,
+   12137
+  ],
+  "calls": [
+   "txtH1",
+   "String"
+  ],
+  "en_src": "Total: "
+ },
+ "3f1e3ea1": {
+  "kind": "L",
+  "tr": " g karb",
+  "lines": [
+   8857,
+   12090
+  ],
+  "calls": [],
+  "en_src": " g carbs"
+ },
+ "cfd678f7": {
+  "kind": "L",
+  "tr": "KARB-NOT",
+  "lines": [
+   8861,
+   12150
+  ],
+  "calls": [
+   "txtBegin",
+   "drawListHeader"
+  ],
+  "en_src": "CARB NOTES"
+ },
+ "5001c09c": {
+  "kind": "L",
+  "tr": "Yiyecek listesi telefondan hazırlanır. Aynı WiFi'deki telefonda şu adresi açın:",
+  "lines": [
+   8862
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "The food list is made on a phone. On a phone on the same WiFi open:"
+ },
+ "7e73209f": {
+  "kind": "L",
+  "tr": "Yiyecek adını, birimini (100 g, adet, porsiyon, kase, dilim, bardak, paket) ve karbonhidratını yazıp Kaydet'e basın.",
+  "lines": [
+   8865
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "Enter the food name, unit (100 g, piece, portion, bowl, slice, glass, pack) and carbs, then Save."
+ },
+ "228b68b4": {
+  "kind": "L",
+  "tr": "Cihazda yiyeceği seçip miktarı yazınca karbonhidrat hesaplanır. Sağ üstteki Ekle ile öğün toplamı tutulur; Menü toplamına dokununca içeriği görünür, Menüyü sıfırla ile temizlenir.",
+  "lines": [
+   8866
+  ],
+  "calls": [
+   "txtItem"
+  ],
+  "en_src": "On the device pick a food and type the amount to get the carbs. Add to meal keeps a meal total; tap the total row to reset it."
+ },
+ "879c608e": {
+  "kind": "L",
+  "tr": "Değerleri ürün etiketinden kontrol edin. Bu bir hesap yardımcısıdır.",
+  "lines": [
+   8868
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Check the values on the product label. This is a calculation helper."
+ },
+ "53b84457": {
+  "kind": "L",
+  "tr": "Okul saatlerinde ses ve parlaklık otomatik olarak seçtiğin okul değerlerine geçer; ders sırasında cihaz daha sessiz ve sönük olur.",
+  "lines": [
+   8872
+  ],
+  "calls": [
+   "txtBody"
+  ],
+  "en_src": "During school hours sound and brightness switch to your school values automatically, so the device is quieter and dimmer in class."
+ },
+ "47482778": {
+  "kind": "L",
+  "tr": "Saate dokunarak istediğin saati yazabilirsin.",
+  "lines": [
+   8874
+  ],
+  "calls": [
+   "txtNote"
+  ],
+  "en_src": "Tap a time to type it."
+ },
+ "2853d64d": {
+  "kind": "L",
+  "tr": "Dil",
+  "lines": [
+   8965,
+   11198,
+   11213
+  ],
+  "calls": [
+   "String",
+   "fAct"
+  ],
+  "en_src": "Language"
+ },
+ "c2fa8d2d": {
+  "kind": "L",
+  "tr": "Gün (2 hane) + saat (2 hane)",
+  "lines": [
+   9008
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Days (2 digits) + hours (2 digits)"
+ },
+ "dc79f5b4": {
+  "kind": "L",
+  "tr": "Gün, ay, saat, dakika: 8 rakam",
+  "lines": [
+   9018
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Day, month, hour, minute: 8 digits"
+ },
+ "da410bdf": {
+  "kind": "L",
+  "tr": "Aralık:",
+  "lines": [
+   9028
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Range:"
+ },
+ "2554f5ad": {
+  "kind": "L",
+  "tr": "Sil",
+  "lines": [
+   9055,
+   12100
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Del"
+ },
+ "68307073": {
+  "kind": "L",
+  "tr": "Yanıp sönme",
+  "lines": [
+   9116,
+   11165
+  ],
+  "calls": [
+   "drawFreeTitle",
+   "fTog"
+  ],
+  "en_src": "Blinking"
+ },
+ "ede29fee": {
+  "kind": "L",
+  "tr": "Renk seç",
+  "lines": [
+   9123
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Choose color"
+ },
+ "eeb61655": {
+  "kind": "L",
+  "tr": "Ses:",
+  "lines": [
+   9294
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Level:"
+ },
+ "09112e9c": {
+  "kind": "L",
+  "tr": "Eşik:",
+  "lines": [
+   9294
+  ],
+  "calls": [],
+  "en_src": "Threshold:"
+ },
+ "60893147": {
+  "kind": "L",
+  "tr": "Şıklatma:",
+  "lines": [
+   9300
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Snaps:"
+ },
+ "ea217986": {
+  "kind": "L",
+  "tr": "ÇİFT ŞIKLATMA ALGILANDI",
+  "lines": [
+   9309
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "DOUBLE SNAP DETECTED"
+ },
+ "0caf5447": {
+  "kind": "L",
+  "tr": "Hassasiyet: ",
+  "lines": [
+   9313
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Sensitivity: "
+ },
+ "57eff133": {
+  "kind": "L",
+  "tr": "  -  dokun: sıfırla",
+  "lines": [
+   9313
+  ],
+  "calls": [],
+  "en_src": "  -  tap: reset"
+ },
+ "0e16691d": {
+  "kind": "L",
+  "tr": "Mikrofon başlatılıyor...",
+  "lines": [
+   9314
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Starting microphone..."
+ },
+ "f28e2b94": {
+  "kind": "L",
+  "tr": "ŞIKLATMA TESTİ",
+  "lines": [
+   9321
+  ],
+  "calls": [
+   "drawListHeader"
+  ],
+  "en_src": "SNAP TEST"
+ },
+ "2080df9e": {
+  "kind": "L",
+  "tr": "Parmaklarını iki kez şıklat",
+  "lines": [
+   9324
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Snap your fingers twice"
+ },
+ "03151a7c": {
+  "kind": "L",
+  "tr": "Foto",
+  "lines": [
+   9358
+  ],
+  "calls": [],
+  "en_src": "Photo"
+ },
+ "f00fd01d": {
+  "kind": "L",
+  "tr": "Halka",
+  "lines": [
+   9359
+  ],
+  "calls": [],
+  "en_src": "Ring"
+ },
+ "b38a3f56": {
+  "kind": "L",
+  "tr": "Kart",
+  "lines": [
+   9360
+  ],
+  "calls": [],
+  "en_src": "Card"
+ },
+ "5bacd9a1": {
+  "kind": "L",
+  "tr": "Saat",
+  "lines": [
+   9362
+  ],
+  "calls": [],
+  "en_src": "Clock"
+ },
+ "4dbe6242": {
+  "kind": "L",
+  "tr": "Dalga",
+  "lines": [
+   9363
+  ],
+  "calls": [],
+  "en_src": "Wave"
+ },
+ "2309d518": {
+  "kind": "L",
+  "tr": "Minimal",
+  "lines": [
+   9364
+  ],
+  "calls": [],
+  "en_src": "Minimal"
+ },
+ "10b88950": {
+  "kind": "L",
+  "tr": "Termometre",
+  "lines": [
+   9365
+  ],
+  "calls": [],
+  "en_src": "Thermometer"
+ },
+ "76b3ee4e": {
+  "kind": "L",
+  "tr": "Panel",
+  "lines": [
+   9366
+  ],
+  "calls": [],
+  "en_src": "Dashboard"
+ },
+ "3f9dea97": {
+  "kind": "L",
+  "tr": "Nabız",
+  "lines": [
+   9367
+  ],
+  "calls": [],
+  "en_src": "Pulse"
+ },
+ "e133c0b3": {
+  "kind": "L",
+  "tr": "Yıldızlar",
+  "lines": [
+   9368
+  ],
+  "calls": [],
+  "en_src": "Stars"
+ },
+ "eef4be5d": {
+  "kind": "L",
+  "tr": "Balon",
+  "lines": [
+   9369
+  ],
+  "calls": [],
+  "en_src": "Balloon"
+ },
+ "4598a469": {
+  "kind": "L",
+  "tr": "Uzay",
+  "lines": [
+   9370
+  ],
+  "calls": [],
+  "en_src": "Space"
+ },
+ "f574625f": {
+  "kind": "L",
+  "tr": "Akvaryum",
+  "lines": [
+   9371
+  ],
+  "calls": [],
+  "en_src": "Aquarium"
+ },
+ "ba967530": {
+  "kind": "L",
+  "tr": "Gülen yüz",
+  "lines": [
+   9372
+  ],
+  "calls": [],
+  "en_src": "Smiley"
+ },
+ "3a48ede7": {
+  "kind": "L",
+  "tr": "Ana",
+  "lines": [
+   9373
+  ],
+  "calls": [],
+  "en_src": "Main"
+ },
+ "15fc9c05": {
+  "kind": "L",
+  "tr": "Gece mavisi",
+  "lines": [
+   9378
+  ],
+  "calls": [],
+  "en_src": "Midnight"
+ },
+ "f530f96e": {
+  "kind": "L",
+  "tr": "Antrasit",
+  "lines": [
+   9379
+  ],
+  "calls": [],
+  "en_src": "Graphite"
+ },
+ "a0b28768": {
+  "kind": "L",
+  "tr": "Orman",
+  "lines": [
+   9380
+  ],
+  "calls": [],
+  "en_src": "Forest"
+ },
+ "907efd44": {
+  "kind": "L",
+  "tr": "Mürdüm",
+  "lines": [
+   9381
+  ],
+  "calls": [],
+  "en_src": "Plum"
+ },
+ "50b6c9e8": {
+  "kind": "L",
+  "tr": "Karbon",
+  "lines": [
+   9382
+  ],
+  "calls": [],
+  "en_src": "Carbon"
+ },
+ "73ebfd55": {
+  "kind": "L",
+  "tr": "Nokta",
+  "lines": [
+   9383
+  ],
+  "calls": [],
+  "en_src": "Dots"
+ },
+ "abfce33a": {
+  "kind": "L",
+  "tr": "Degrade",
+  "lines": [
+   9384
+  ],
+  "calls": [],
+  "en_src": "Gradient"
+ },
+ "4d0b6620": {
+  "kind": "L",
+  "tr": "Çizgi",
+  "lines": [
+   9385
+  ],
+  "calls": [],
+  "en_src": "Lines"
+ },
+ "7aa7078f": {
+  "kind": "L",
+  "tr": "Krem",
+  "lines": [
+   9386
+  ],
+  "calls": [],
+  "en_src": "Cream"
+ },
+ "71fc5d07": {
+  "kind": "L",
+  "tr": "Buz mavisi",
+  "lines": [
+   9387
+  ],
+  "calls": [],
+  "en_src": "Ice blue"
+ },
+ "66c3d749": {
+  "kind": "L",
+  "tr": "Pembe",
+  "lines": [
+   9388
+  ],
+  "calls": [],
+  "en_src": "Pink"
+ },
+ "0e7c7fc2": {
+  "kind": "L",
+  "tr": "Nane",
+  "lines": [
+   9389
+  ],
+  "calls": [],
+  "en_src": "Mint"
+ },
+ "aed8dd84": {
+  "kind": "L",
+  "tr": "Kareli",
+  "lines": [
+   9390
+  ],
+  "calls": [],
+  "en_src": "Grid"
+ },
+ "cd8b3736": {
+  "kind": "L",
+  "tr": "Lavanta",
+  "lines": [
+   9391
+  ],
+  "calls": [],
+  "en_src": "Lavender"
+ },
+ "9813718d": {
+  "kind": "L",
+  "tr": "Siyah",
+  "lines": [
+   9392
+  ],
+  "calls": [],
+  "en_src": "Black"
+ },
+ "9a7cf766": {
+  "kind": "L",
+  "tr": "Veri bekleniyor",
+  "lines": [
+   9684,
+   9759,
+   9821,
+   9960,
+   10044,
+   10199
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "Waiting for data"
+ },
+ "a2ecae66": {
+  "kind": "L",
+  "tr": "Son 3 saat",
+  "lines": [
+   9766,
+   9827,
+   10100
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "Last 3 hours"
+ },
+ "6978fb70": {
+  "kind": "L",
+  "tr": " hedefte, harika!",
+  "lines": [
+   10004
+  ],
+  "calls": [],
+  "en_src": " is on target, great!"
+ },
+ "b96dc0a2": {
+  "kind": "L",
+  "tr": "Şeker",
+  "lines": [
+   10100
+  ],
+  "calls": [],
+  "en_src": "Glucose"
+ },
+ "471ca3a5": {
+  "kind": "L",
+  "tr": "Değişim",
+  "lines": [
+   10100
+  ],
+  "calls": [],
+  "en_src": "Change"
+ },
+ "fc0c73d7": {
+  "kind": "L",
+  "tr": "Hedefte (24 sa)",
+  "lines": [
+   10100
+  ],
+  "calls": [],
+  "en_src": "In range (24 h)"
+ },
+ "af08ec96": {
+  "kind": "L",
+  "tr": "veri az",
+  "lines": [
+   10124
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "not enough data"
+ },
+ "19afafa4": {
+  "kind": "L",
+  "tr": "en az ",
+  "lines": [
+   10134
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "min "
+ },
+ "079203b9": {
+  "kind": "L",
+  "tr": "  en çok ",
+  "lines": [
+   10134
+  ],
+  "calls": [],
+  "en_src": "  max "
+ },
+ "143a12d7": {
+  "kind": "L",
+  "tr": "hedef",
+  "lines": [
+   10216,
+   10251,
+   10281
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "target"
+ },
+ "8463f036": {
+  "kind": "L",
+  "tr": "Balon",
+  "lines": [
+   10234
+  ],
+  "calls": [
+   "kidMessage"
+  ],
+  "en_src": "The balloon"
+ },
+ "ecb060d2": {
+  "kind": "L",
+  "tr": "Roket",
+  "lines": [
+   10269
+  ],
+  "calls": [
+   "kidMessage"
+  ],
+  "en_src": "The rocket"
+ },
+ "94a48a3a": {
+  "kind": "L",
+  "tr": "Balık",
+  "lines": [
+   10310
+  ],
+  "calls": [
+   "kidMessage"
+  ],
+  "en_src": "The fish"
+ },
+ "c31dc47b": {
+  "kind": "L",
+  "tr": "Harika!",
+  "lines": [
+   10358
+  ],
+  "calls": [],
+  "en_src": "Great!"
+ },
+ "70d81158": {
+  "kind": "L",
+  "tr": "Çok iyi, hedeftesin",
+  "lines": [
+   10358
+  ],
+  "calls": [],
+  "en_src": "Well done, on target"
+ },
+ "32c48563": {
+  "kind": "L",
+  "tr": "<<  Kaydır: sayfalar / uygulamalar  >>",
+  "lines": [
+   10499
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "<<  Swipe: pages / apps  >>"
+ },
+ "deaeeb07": {
+  "kind": "L",
+  "tr": "Veri eski: ",
+  "lines": [
+   10516
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Old data: "
+ },
+ "02080596": {
+  "kind": "L",
+  "tr": "Tema",
+  "lines": [
+   10556
+  ],
+  "calls": [],
+  "en_src": "Theme"
+ },
+ "5e192a64": {
+  "kind": "L",
+  "tr": "Grafik",
+  "lines": [
+   10557,
+   11316
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Graph"
+ },
+ "f583ef61": {
+  "kind": "L",
+  "tr": "İstatistik",
+  "lines": [
+   10558,
+   11317
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Stats"
+ },
+ "d577eaf7": {
+  "kind": "L",
+  "tr": "Zamanlayıcı",
+  "lines": [
+   10560,
+   11318,
+   13540
+  ],
+  "calls": [
+   "fTog",
+   "drawFreeTitle"
+  ],
+  "en_src": "Timer"
+ },
+ "39700e4f": {
+  "kind": "L",
+  "tr": "Karb-Not",
+  "lines": [
+   10561,
+   11319
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Carbs"
+ },
+ "ebcfc38f": {
+  "kind": "L",
+  "tr": "<<  Ana ekran için sola kaydır",
+  "lines": [
+   10647
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "<<  Swipe left for home"
+ },
+ "98dc31cb": {
+  "kind": "L",
+  "tr": "2. sayfanın teması",
+  "lines": [
+   10902
+  ],
+  "calls": [],
+  "en_src": "Theme for page 2"
+ },
+ "e5d537c3": {
+  "kind": "L",
+  "tr": "3. sayfanın teması",
+  "lines": [
+   10902
+  ],
+  "calls": [],
+  "en_src": "Theme for page 3"
+ },
+ "01cac91e": {
+  "kind": "L",
+  "tr": "TEMALAR",
+  "lines": [
+   10906
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "THEMES"
+ },
+ "9952077e": {
+  "kind": "L",
+  "tr": "Temalar",
+  "lines": [
+   10940
+  ],
+  "calls": [
+   "thSection"
+  ],
+  "en_src": "Themes"
+ },
+ "5e099e66": {
+  "kind": "L",
+  "tr": "Animasyon",
+  "lines": [
+   10946
+  ],
+  "calls": [
+   "thSection"
+  ],
+  "en_src": "Animated"
+ },
+ "23b01312": {
+  "kind": "L",
+  "tr": "çocuk temaları dahil",
+  "lines": [
+   10946
+  ],
+  "calls": [],
+  "en_src": "incl. kids themes"
+ },
+ "5c363498": {
+  "kind": "L",
+  "tr": "Arka plan",
+  "lines": [
+   10954
+  ],
+  "calls": [
+   "thSection"
+  ],
+  "en_src": "Backdrop"
+ },
+ "2077befe": {
+  "kind": "L",
+  "tr": "Koyu - bu tema kendi resmini çizer; diğer sayfalarda geçerli",
+  "lines": [
+   10956
+  ],
+  "calls": [],
+  "en_src": "Dark - this theme draws its own scene"
+ },
+ "1ff41402": {
+  "kind": "L",
+  "tr": "Koyu (tüm sayfalar)",
+  "lines": [
+   10957
+  ],
+  "calls": [],
+  "en_src": "Dark (all pages)"
+ },
+ "0509429d": {
+  "kind": "L",
+  "tr": "Açık - uygun temalarda; diğer sayfalar mavi halkalı koyuyla",
+  "lines": [
+   10970
+  ],
+  "calls": [],
+  "en_src": "Light - suitable themes; other pages use the ringed dark"
+ },
+ "f7073aae": {
+  "kind": "L",
+  "tr": "Açık: bu temada kullanılamaz",
+  "lines": [
+   10971
+  ],
+  "calls": [],
+  "en_src": "Light: not for this theme"
+ },
+ "d4a3f019": {
+  "kind": "L",
+  "tr": "Önizle",
+  "lines": [
+   10987
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "Preview"
+ },
+ "198e9c89": {
+  "kind": "L",
+  "tr": "Seç",
+  "lines": [
+   10988
+  ],
+  "calls": [],
+  "en_src": "Choose"
+ },
+ "9afb44dd": {
+  "kind": "L",
+  "tr": "Önizleme - dokun: geri",
+  "lines": [
+   11003
+  ],
+  "calls": [
+   "drawString"
+  ],
+  "en_src": "Preview - tap: back"
+ },
+ "2dcfad5f": {
+  "kind": "L",
+  "tr": "girilmedi",
+  "lines": [
+   11131
+  ],
+  "calls": [],
+  "en_src": "not set"
+ },
+ "e49122fa": {
+  "kind": "L",
+  "tr": " gün ",
+  "lines": [
+   11138
+  ],
+  "calls": [],
+  "en_src": " d "
+ },
+ "d705b8d8": {
+  "kind": "L",
+  "tr": " sa",
+  "lines": [
+   11138
+  ],
+  "calls": [],
+  "en_src": " h"
+ },
+ "19c5024e": {
+  "kind": "L",
+  "tr": "Sessiz",
+  "lines": [
+   11150
+  ],
+  "calls": [],
+  "en_src": "Off"
+ },
+ "0c6aa24b": {
+  "kind": "L",
+  "tr": "Alarm sesi",
+  "lines": [
+   11155
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Alarm sound"
+ },
+ "b8a5fa61": {
+  "kind": "L",
+  "tr": "Sesi dene",
+  "lines": [
+   11156
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Test sound"
+ },
+ "ae1f6e1c": {
+  "kind": "L",
+  "tr": " - bu durumda alarm sesi çalmaz.",
+  "lines": [
+   11157,
+   11178
+  ],
+  "calls": [],
+  "en_src": " - alarm sound will not play."
+ },
+ "ef40696d": {
+  "kind": "L",
+  "tr": "Şu an gece modu saatinde: ses Gece modu ayarından gelir.",
+  "lines": [
+   11158
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Night hours now: sound comes from Night mode."
+ },
+ "1bb8493e": {
+  "kind": "L",
+  "tr": "Şu an okul saatinde: ses Okul modu ayarından gelir.",
+  "lines": [
+   11159
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "School hours now: sound comes from School mode."
+ },
+ "0e5d51ff": {
+  "kind": "L",
+  "tr": "ALARM TÜRLERİ",
+  "lines": [
+   11160
+  ],
+  "calls": [
+   "fHead"
+  ],
+  "en_src": "ALARM TYPES"
+ },
+ "ed1f17f8": {
+  "kind": "L",
+  "tr": "15 dk",
+  "lines": [
+   11169
+  ],
+  "calls": [],
+  "en_src": "15 m"
+ },
+ "8f3dfe38": {
+  "kind": "L",
+  "tr": "30 dk",
+  "lines": [
+   11169
+  ],
+  "calls": [],
+  "en_src": "30 m"
+ },
+ "c877c348": {
+  "kind": "L",
+  "tr": "60 dk",
+  "lines": [
+   11169
+  ],
+  "calls": [],
+  "en_src": "60 m"
+ },
+ "1ae29501": {
+  "kind": "L",
+  "tr": "Ertele süresi",
+  "lines": [
+   11170
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Snooze time"
+ },
+ "ad61ed22": {
+  "kind": "L",
+  "tr": "Bu eşikler: ",
+  "lines": [
+   11175
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "These limits: "
+ },
+ "f649dc87": {
+  "kind": "L",
+  "tr": "Değere dokun ve yaz (mg/dL). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
+  "lines": [
+   11176
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Tap a value to type it (mg/dL). The speaker on the right turns that alarm's sound on/off."
+ },
+ "aa6410b8": {
+  "kind": "L",
+  "tr": "Kritik düşük",
+  "lines": [
+   11179
+  ],
+  "calls": [
+   "fNumSnd"
+  ],
+  "en_src": "Critical low"
+ },
+ "c3a075fd": {
+  "kind": "L",
+  "tr": "EKRAN / DİL",
+  "lines": [
+   11187
+  ],
+  "calls": [],
+  "en_src": "DISPLAY / LANGUAGE"
+ },
+ "9eb358ee": {
+  "kind": "L",
+  "tr": "Parlaklık",
+  "lines": [
+   11188,
+   11226
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Brightness"
+ },
+ "b10222f5": {
+  "kind": "L",
+  "tr": "Şu an gece modu saatinde: parlaklık Gece modu ayarından gelir.",
+  "lines": [
+   11189
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Night hours now: brightness comes from Night mode."
+ },
+ "2151b684": {
+  "kind": "L",
+  "tr": "Şu an okul saatinde: parlaklık Okul modu ayarından gelir.",
+  "lines": [
+   11190
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "School hours now: brightness comes from School mode."
+ },
+ "9a21d9e2": {
+  "kind": "L",
+  "tr": "Ters",
+  "lines": [
+   11192
+  ],
+  "calls": [],
+  "en_src": "Flipped"
+ },
+ "f7db6fa8": {
+  "kind": "L",
+  "tr": "Ekran yönü",
+  "lines": [
+   11193
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Rotation"
+ },
+ "83ce1520": {
+  "kind": "L",
+  "tr": "Renk dostu",
+  "lines": [
+   11194
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Color-safe"
+ },
+ "76f570a8": {
+  "kind": "L",
+  "tr": "DİL VE BİRİM",
+  "lines": [
+   11195,
+   11210
+  ],
+  "calls": [
+   "fHead"
+  ],
+  "en_src": "LANGUAGE & UNIT"
+ },
+ "380859ab": {
+  "kind": "L",
+  "tr": "Birim",
+  "lines": [
+   11199,
+   11214
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Unit"
+ },
+ "eb5141ca": {
+  "kind": "L",
+  "tr": "Ana ekran",
+  "lines": [
+   11204
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Home screen"
+ },
+ "89a22894": {
+  "kind": "L",
+  "tr": "Kişi eklemek, ad ve kaynak vermek için telefondan web sayfasını açın.",
+  "lines": [
+   11205
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Add people, names and sources on the web page from a phone."
+ },
+ "d4cf8602": {
+  "kind": "L",
+  "tr": "Başlangıç",
+  "lines": [
+   11224
+  ],
+  "calls": [
+   "fTime"
+  ],
+  "en_src": "Start"
+ },
+ "0ad65b85": {
+  "kind": "L",
+  "tr": "Bitiş",
+  "lines": [
+   11225
+  ],
+  "calls": [
+   "fTime"
+  ],
+  "en_src": "End"
+ },
+ "9346f7b4": {
+  "kind": "L",
+  "tr": "Gece ve okul saatleri çakışırsa gece modu geçerli olur.",
+  "lines": [
+   11228
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "If night and school hours overlap, night mode wins."
+ },
+ "4e05f292": {
+  "kind": "L",
+  "tr": "Şıklatma hassasiyeti",
+  "lines": [
+   11236
+  ],
+  "calls": [
+   "fSeg"
+  ],
+  "en_src": "Snap sensitivity"
+ },
+ "47816ace": {
+  "kind": "L",
+  "tr": "Şeker hedef dışındaysa, hızlı değişiyorsa veya veri gelmiyorsa ekran kapanmaz.",
+  "lines": [
+   11238
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "The screen stays on if glucose is out of range, changing fast, or data is missing."
+ },
+ "d0549211": {
+  "kind": "L",
+  "tr": "SIFIRLA / KAPAT",
+  "lines": [
+   11243
+  ],
+  "calls": [],
+  "en_src": "RESET / POWER"
+ },
+ "c12f1538": {
+  "kind": "L",
+  "tr": "Veriyi şimdi yenile",
+  "lines": [
+   11245
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Refresh data now"
+ },
+ "bb0e750b": {
+  "kind": "L",
+  "tr": "Cihazı sıfırla",
+  "lines": [
+   11246
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Reset device"
+ },
+ "f89dcf9b": {
+  "kind": "L",
+  "tr": "Cihazda kayıtlı her şey silinir: WiFi ağları, hesap girişleri, tüm ayarlar, fotoğraflar ve karb listesi. Web şifresi ilk (fabrika) şifreye döner, kurulum ekranı açılır.",
+  "lines": [
+   11247
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Everything stored on the device is erased: WiFi networks, logins, all settings, photos and the carb list. The web password returns to the original (factory) password and setup opens."
+ },
+ "c2cfd128": {
+  "kind": "L",
+  "tr": "Kayıtlı ağlar ve ayarlar silinmez. Kurulum sayfası açılır; yeni ağı ekleyebilir veya şifreyi değiştirebilirsiniz.",
+  "lines": [
+   11250
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Saved networks and settings are kept. Setup opens so you can add a network or change its password."
+ },
+ "3a7ad48d": {
+  "kind": "L",
+  "tr": "Cihazı kapat",
+  "lines": [
+   11252
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Power off"
+ },
+ "352c8eb5": {
+  "kind": "L",
+  "tr": "Tekrar açmak için RESET tuşuna basın veya USB'yi takıp çıkarın.",
+  "lines": [
+   11253
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Press RESET or re-plug USB to turn it back on."
+ },
+ "ff58e9cc": {
+  "kind": "L",
+  "tr": "ÖNİZLEMELER",
+  "lines": [
+   11257
+  ],
+  "calls": [],
+  "en_src": "PREVIEWS"
+ },
+ "46ba94bf": {
+  "kind": "L",
+  "tr": "Glukagon Videosu Önizle",
+  "lines": [
+   11259
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Preview glucagon video"
+ },
+ "8324b240": {
+  "kind": "L",
+  "tr": "Dikkat butonundaki glukagon videosu oynatılır.",
+  "lines": [
+   11260
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Plays the glucagon video from the Attention button."
+ },
+ "49d1daa2": {
+  "kind": "L",
+  "tr": "Dikkat Butonu Önizle",
+  "lines": [
+   11261,
+   11262
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Preview Attention button"
+ },
+ "49bdae45": {
+  "kind": "L",
+  "tr": "Öğretmenin göreceği adımlar örnek bir şeker değeriyle gösterilir. Gerçek değer, alarmlar ve ayarlar etkilenmez.",
+  "lines": [
+   11263
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Shows the teacher's steps with a sample glucose value. The real value, alarms and settings are not affected."
+ },
+ "3cfec6a3": {
+  "kind": "L",
+  "tr": "Aile modu",
+  "lines": [
+   11274
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Family mode"
+ },
+ "5617eed0": {
+  "kind": "L",
+  "tr": "Gece ve okul saatleri çakışırsa gece modu geçerli olur. Rahatsız etme modu diğer modlarla birlikte çalışır; şeker hedef dışına çıkınca ekran kendiliğinden açılır.",
+  "lines": [
+   11275
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "If night and school hours overlap, night mode wins. Sleep mode works together with the others; the screen wakes by itself when glucose leaves the range."
+ },
+ "5627ad15": {
+  "kind": "L",
+  "tr": "Bu ayarlar: ",
+  "lines": [
+   11282
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "These settings: "
+ },
+ "b2c37102": {
+  "kind": "L",
+  "tr": "SENSÖR",
+  "lines": [
+   11283
+  ],
+  "calls": [
+   "fHead"
+  ],
+  "en_src": "SENSOR"
+ },
+ "dc84f4bf": {
+  "kind": "L",
+  "tr": "Sensör takibi",
+  "lines": [
+   11284
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Sensor tracking"
+ },
+ "7631776b": {
+  "kind": "L",
+  "tr": "Takılma",
+  "lines": [
+   11287
+  ],
+  "calls": [
+   "fDT"
+  ],
+  "en_src": "Inserted"
+ },
+ "26a4760e": {
+  "kind": "L",
+  "tr": "Şimdi taktım",
+  "lines": [
+   11288
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Inserted now"
+ },
+ "4f57ec73": {
+  "kind": "L",
+  "tr": "Sensör ömrü",
+  "lines": [
+   11290
+  ],
+  "calls": [
+   "fLife"
+  ],
+  "en_src": "Sensor life"
+ },
+ "39c7a66f": {
+  "kind": "L",
+  "tr": "SET / POMPA",
+  "lines": [
+   11292
+  ],
+  "calls": [
+   "fHead"
+  ],
+  "en_src": "SET / PUMP"
+ },
+ "53e4ede1": {
+  "kind": "L",
+  "tr": "Set takibi",
+  "lines": [
+   11293
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Set tracking"
+ },
+ "b315c8d3": {
+  "kind": "L",
+  "tr": "Değişim",
+  "lines": [
+   11296
+  ],
+  "calls": [
+   "fDT"
+  ],
+  "en_src": "Changed"
+ },
+ "daa41b3e": {
+  "kind": "L",
+  "tr": "Şimdi değiştirdim",
+  "lines": [
+   11297
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "Changed now"
+ },
+ "2f6b53bc": {
+  "kind": "L",
+  "tr": "Set / pompa ömrü",
+  "lines": [
+   11299
+  ],
+  "calls": [
+   "fLife"
+  ],
+  "en_src": "Set / pump life"
+ },
+ "6e35f83a": {
+  "kind": "L",
+  "tr": "Nightscout kullandığınız için geçen süre otomatik gelir; burada sadece ömrü (gün + saat) girersiniz. Kalan süre = ömür - geçen süre. Varsayılan: sensör 10 gün 12 saat, set 3 gün 8 saat.",
+  "lines": [
+   11301
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "With Nightscout the elapsed time comes automatically; here you only enter the life (days + hours). Remaining = life - elapsed. Default: sensor 10 d 12 h, set 3 d 8 h."
+ },
+ "4dbb66a5": {
+  "kind": "L",
+  "tr": "Kalan süre = ömür - takılmadan beri geçen süre. Ömre dokunup gün ve saat yazın (varsayılan: sensör 10 gün 12 saat, set 3 gün 8 saat). Tarih ve saati web sayfasından da girebilirsiniz.",
+  "lines": [
+   11303
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Remaining = life - time since insertion. Tap a life to type days and hours (default: sensor 10 d 12 h, set 3 d 8 h). You can also set the date and time on the web page."
+ },
+ "f84b5463": {
+  "kind": "L",
+  "tr": "SAYFALARI DÜZENLE",
+  "lines": [
+   11308
+  ],
+  "calls": [],
+  "en_src": "EDIT PAGES"
+ },
+ "a3b13f05": {
+  "kind": "L",
+  "tr": "Açtığınız her özellik cihaza ayrı bir sayfa olarak eklenir; kaydırarak gezersiniz. 1. sayfa ana temanız: ",
+  "lines": [
+   11310
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Each item you turn on becomes its own page; swipe to move between them. Page 1 is your main theme: "
+ },
+ "c07fe080": {
+  "kind": "L",
+  "tr": "2. tema",
+  "lines": [
+   11311
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "2nd theme"
+ },
+ "b4f39ab2": {
+  "kind": "L",
+  "tr": "   2. sayfanın teması",
+  "lines": [
+   11312
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "   Page 2 theme"
+ },
+ "50113d04": {
+  "kind": "L",
+  "tr": "3. tema",
+  "lines": [
+   11313
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "3rd theme"
+ },
+ "a2812100": {
+  "kind": "L",
+  "tr": "   3. sayfanın teması",
+  "lines": [
+   11314
+  ],
+  "calls": [
+   "fAct"
+  ],
+  "en_src": "   Page 3 theme"
+ },
+ "4e030690": {
+  "kind": "L",
+  "tr": "Sensör / set",
+  "lines": [
+   11315
+  ],
+  "calls": [
+   "fTog"
+  ],
+  "en_src": "Sensor / set"
+ },
+ "1383617b": {
+  "kind": "L",
+  "tr": "Sıra: ana tema, 2. tema, 3. tema, sensör / set, grafik, istatistik, zamanlayıcı, Karb-Not ve en sonda uygulamalar. Kapalı olanlar sayfa olmaz ama uygulamalar sayfasında durur.",
+  "lines": [
+   11320
+  ],
+  "calls": [
+   "fNote"
+  ],
+  "en_src": "Order: main theme, 2nd theme, 3rd theme, sensor / set, graph, stats, timer, carbs and the apps page last. Items turned off are not pages but stay on the apps page."
+ },
+ "c9bf6e6e": {
+  "kind": "L",
+  "tr": "Değişiklikler kaydedilsin mi?",
+  "lines": [
+   11526
+  ],
+  "calls": [],
+  "en_src": "Save your changes?"
+ },
+ "8b7c8752": {
+  "kind": "L",
+  "tr": "Kaydetme",
+  "lines": [
+   11526
+  ],
+  "calls": [],
+  "en_src": "Discard"
+ },
+ "fb5b3007": {
+  "kind": "L",
+  "tr": "Cihaz sıfırlansın mı?",
+  "lines": [
+   11527
+  ],
+  "calls": [],
+  "en_src": "Reset the device?"
+ },
+ "13012af7": {
+  "kind": "L",
+  "tr": "Vazgeç",
+  "lines": [
+   11527,
+   11528,
+   11529
+  ],
+  "calls": [],
+  "en_src": "Cancel"
+ },
+ "36ef838b": {
+  "kind": "L",
+  "tr": "Sıfırla",
+  "lines": [
+   11527
+  ],
+  "calls": [],
+  "en_src": "Reset"
+ },
+ "56be160d": {
+  "kind": "L",
+  "tr": "WiFi kurulumu açılsın mı?",
+  "lines": [
+   11528
+  ],
+  "calls": [],
+  "en_src": "Open WiFi setup?"
+ },
+ "d2019c2f": {
+  "kind": "L",
+  "tr": "Aç",
+  "lines": [
+   11528
+  ],
+  "calls": [],
+  "en_src": "Open"
+ },
+ "8739e8c4": {
+  "kind": "L",
+  "tr": "Cihaz kapatılsın mı?",
+  "lines": [
+   11529
+  ],
+  "calls": [],
+  "en_src": "Power off the device?"
+ },
+ "ef51bc49": {
+  "kind": "L",
+  "tr": "Kapat",
+  "lines": [
+   11529
+  ],
+  "calls": [],
+  "en_src": "Power off"
+ },
+ "7c91a3d3": {
+  "kind": "L",
+  "tr": "Kaydedildi",
+  "lines": [
+   11626,
+   13944
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Saved"
+ },
+ "784f6467": {
+  "kind": "L",
+  "tr": "KRİTİK DÜŞÜK",
+  "lines": [
+   11641
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "CRITICAL LOW"
+ },
+ "bb90fed4": {
+  "kind": "L",
+  "tr": "DÜŞÜK EŞİK",
+  "lines": [
+   11643,
+   14511
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "LOW LIMIT"
+ },
+ "2d92acd4": {
+  "kind": "L",
+  "tr": "YÜKSEK EŞİK",
+  "lines": [
+   11644,
+   14526
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "HIGH LIMIT"
+ },
+ "7f962138": {
+  "kind": "L",
+  "tr": "ÇOK YÜKSEK EŞİK",
+  "lines": [
+   11645,
+   14535
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "VERY HIGH LIMIT"
+ },
+ "2af0de5d": {
+  "kind": "L",
+  "tr": "VERİ YOK ALARMI",
+  "lines": [
+   11646,
+   14557
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "NO-DATA ALARM"
+ },
+ "9e5188a7": {
+  "kind": "L",
+  "tr": "dk",
+  "lines": [
+   11646,
+   14557
+  ],
+  "calls": [],
+  "en_src": "min"
+ },
+ "ad855d02": {
+  "kind": "L",
+  "tr": "Yenileniyor...",
+  "lines": [
+   11672
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Refreshing..."
+ },
+ "2c0a4da5": {
+  "kind": "L",
+  "tr": "Kapatılıyor...",
+  "lines": [
+   11695
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Shutting down..."
+ },
+ "7808e0e5": {
+  "kind": "L",
+  "tr": "Siliniyor...",
+  "lines": [
+   11763
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Erasing..."
+ },
+ "1fefa56e": {
+  "kind": "L",
+  "tr": "gün",
+  "lines": [
+   11933
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "d"
+ },
+ "c4395bae": {
+  "kind": "L",
+  "tr": "sa",
+  "lines": [
+   11933
+  ],
+  "calls": [],
+  "en_src": "h"
+ },
+ "ac511c0c": {
+  "kind": "L",
+  "tr": "adet",
+  "lines": [
+   11957
+  ],
+  "calls": [],
+  "en_src": "piece"
+ },
+ "298eb1b4": {
+  "kind": "L",
+  "tr": "porsiyon",
+  "lines": [
+   11958
+  ],
+  "calls": [],
+  "en_src": "portion"
+ },
+ "755fdd06": {
+  "kind": "L",
+  "tr": "kase",
+  "lines": [
+   11959
+  ],
+  "calls": [],
+  "en_src": "bowl"
+ },
+ "1bfb34d9": {
+  "kind": "L",
+  "tr": "dilim",
+  "lines": [
+   11960
+  ],
+  "calls": [],
+  "en_src": "slice"
+ },
+ "3f951de4": {
+  "kind": "L",
+  "tr": "çay bardağı",
+  "lines": [
+   11961
+  ],
+  "calls": [],
+  "en_src": "tea glass"
+ },
+ "bb4d4f06": {
+  "kind": "L",
+  "tr": "su bardağı",
+  "lines": [
+   11962
+  ],
+  "calls": [],
+  "en_src": "glass"
+ },
+ "4b776232": {
+  "kind": "L",
+  "tr": "paket",
+  "lines": [
+   11963
+  ],
+  "calls": [],
+  "en_src": "pack"
+ },
+ "b4b38045": {
+  "kind": "L",
+  "tr": "Ekmek",
+  "lines": [
+   11980
+  ],
+  "calls": [],
+  "en_src": "Bread"
+ },
+ "8ef0fa8d": {
+  "kind": "L",
+  "tr": "Liste boş",
+  "lines": [
+   12022
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "List is empty"
+ },
+ "2a910c78": {
+  "kind": "L",
+  "tr": "web'den ekleyin",
+  "lines": [
+   12022
+  ],
+  "calls": [],
+  "en_src": "add on the web"
+ },
+ "404a0567": {
+  "kind": "L",
+  "tr": "Web'den hazırlanır",
+  "lines": [
+   12025
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Made on the web"
+ },
+ "870c32cb": {
+  "kind": "L",
+  "tr": "nasıl?",
+  "lines": [
+   12025
+  ],
+  "calls": [],
+  "en_src": "how?"
+ },
+ "45285520": {
+  "kind": "L",
+  "tr": "Menü toplamı",
+  "lines": [
+   12028
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Meal total"
+ },
+ "c6f6bc27": {
+  "kind": "L",
+  "tr": "Menüyü sıfırla",
+  "lines": [
+   12029
+  ],
+  "calls": [
+   "listAdd"
+  ],
+  "en_src": "Reset meal"
+ },
+ "f61c608e": {
+  "kind": "L",
+  "tr": "Ekle",
+  "lines": [
+   12072
+  ],
+  "calls": [],
+  "en_src": "Add"
+ },
+ "96f88e4f": {
+  "kind": "L",
+  "tr": " g karb / ",
+  "lines": [
+   12076
+  ],
+  "calls": [],
+  "en_src": " g carbs / "
+ },
+ "7f6dd2f4": {
+  "kind": "L",
+  "tr": "Menü toplamı: ",
+  "lines": [
+   12105
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Meal total: "
+ },
+ "72cb13fb": {
+  "kind": "L",
+  "tr": "Miktarı yazıp sağ üstten Ekle'ye basın",
+  "lines": [
+   12106
+  ],
+  "calls": [
+   "String"
+  ],
+  "en_src": "Type the amount, then tap Add"
+ },
+ "578e7a3e": {
+  "kind": "L",
+  "tr": "Tekrar oynat",
+  "lines": [
+   12274
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Play again"
+ },
+ "2be5baaa": {
+  "kind": "L",
+  "tr": "Bir diyabet hemşiresi tarafından gözden geçirildi.",
+  "lines": [
+   12276
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Reviewed by a diabetes nurse."
+ },
+ "bd68f49b": {
+  "kind": "L",
+  "tr": "Doktorunuzun talimatlarının yerini tutmaz.",
+  "lines": [
+   12277
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Does not replace your doctor's instructions."
+ },
+ "b67b9ebb": {
+  "kind": "L",
+  "tr": "Sağa kaydır veya Geri: çıkış",
+  "lines": [
+   12279
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Swipe right or Back: exit"
+ },
+ "757aaace": {
+  "kind": "L",
+  "tr": "Cihazda video yok",
+  "lines": [
+   12286
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "No video on the device"
+ },
+ "93d588d9": {
+  "kind": "L",
+  "tr": "Glukagon videosu bu cihaza yüklenmemiş.",
+  "lines": [
+   12288
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "The glucagon video is not installed."
+ },
+ "466f2b19": {
+  "kind": "L",
+  "tr": "Kurulum kılavuzuna bakın.",
+  "lines": [
+   12289
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "See the setup guide."
+ },
+ "40f52897": {
+  "kind": "L",
+  "tr": "Alarm %d dk",
+  "lines": [
+   12455,
+   14732
+  ],
+  "calls": [],
+  "en_src": "Alarm %d min"
+ },
+ "2bfc654a": {
+  "kind": "L",
+  "tr": "ertelendi",
+  "lines": [
+   12457,
+   14734
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "snoozed"
+ },
+ "07fe7c11": {
+  "kind": "L",
+  "tr": "Kurulum açılıyor...",
+  "lines": [
+   12795
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Opening setup..."
+ },
+ "1e1475d4": {
+  "kind": "L",
+  "tr": "Cihaz yeniden başlıyor",
+  "lines": [
+   12797
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Device restarting"
+ },
+ "c41ffdab": {
+  "kind": "L",
+  "tr": "Yeniden deneniyor...",
+  "lines": [
+   12854
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Retrying..."
+ },
+ "7cf9e41e": {
+  "kind": "L",
+  "tr": "Kayıtlı WiFi yok. Kurulum'a dokunup ağınızı seçin.",
+  "lines": [
+   12902
+  ],
+  "calls": [],
+  "en_src": "No saved WiFi. Tap Setup and choose your network."
+ },
+ "8e862e40": {
+  "kind": "L",
+  "tr": "WiFi şifresi yanlış olabilir. Kurulum'a dokunup şifreyi yeniden girin.",
+  "lines": [
+   12904
+  ],
+  "calls": [],
+  "en_src": "The WiFi password may be wrong. Tap Setup and enter it again."
+ },
+ "d876c436": {
+  "kind": "L",
+  "tr": "Ağ bulunamadı. Modem açık ve yakında mı? Değilse Kurulum ile başka ağ seçin.",
+  "lines": [
+   12906
+  ],
+  "calls": [],
+  "en_src": "Network not found. Is the router on and nearby? Or pick another in Setup."
+ },
+ "2da82f84": {
+  "kind": "L",
+  "tr": "Bağlanılamadı. Şifre yanlış ya da modem kapalı / uzak olabilir. Kurulum'a dokunup şifreyi yeniden girin.",
+  "lines": [
+   12908
+  ],
+  "calls": [],
+  "en_src": "Could not connect. Wrong password, or router off / far away. Tap Setup and enter it again."
+ },
+ "4e9ed1fb": {
+  "kind": "L",
+  "tr": "LibreLinkUp uygulamasını açıp yeni kullanım koşullarını onaylayın, sonra Yenile'ye dokunun.",
+  "lines": [
+   12912
+  ],
+  "calls": [],
+  "en_src": "Open the LibreLinkUp app and accept the new terms, then tap Retry."
+ },
+ "719ed898": {
+  "kind": "L",
+  "tr": "Medtrum EasyFollow e-posta veya şifresi yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
+  "lines": [
+   12914
+  ],
+  "calls": [],
+  "en_src": "Medtrum EasyFollow e-mail or password may be wrong. Re-enter it in Setup or on the web page."
+ },
+ "0ebbf9d2": {
+  "kind": "L",
+  "tr": "Dexcom kullanıcı adı / şifre yanlış olabilir ya da sunucu (us / ous) hatalı. Kurulum'dan yeniden girin.",
+  "lines": [
+   12916
+  ],
+  "calls": [],
+  "en_src": "Dexcom username / password may be wrong, or the server (us / ous). Re-enter it in Setup."
+ },
+ "05d16c5a": {
+  "kind": "L",
+  "tr": "LibreLinkUp e-posta veya şifresi yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
+  "lines": [
+   12918
+  ],
+  "calls": [],
+  "en_src": "LibreLinkUp e-mail or password may be wrong. Re-enter it in Setup or on the web page."
+ },
+ "e0561a7f": {
+  "kind": "L",
+  "tr": "Nightscout API secret / token yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
+  "lines": [
+   12920
+  ],
+  "calls": [],
+  "en_src": "Nightscout API secret / token may be wrong. Re-enter it in Setup or on the web page."
+ },
+ "527a4723": {
+  "kind": "L",
+  "tr": "Cihaz WiFi'ye bağlı ama internete çıkamıyor. Modemin internet bağlantısını kontrol edin; bağlantı gelince veri kendiliğinden gelir.",
+  "lines": [
+   12923
+  ],
+  "calls": [],
+  "en_src": "Connected to WiFi but there is no internet. Check the router's internet; data returns by itself."
+ },
+ "a01471ce": {
+  "kind": "L",
+  "tr": "Nightscout'a ulaşılamadı. Adres doğru mu, site açık mı? Sitenin güvenlik sertifikası geçerli olmalı (https). Birazdan yeniden denenecek.",
+  "lines": [
+   12926
+  ],
+  "calls": [],
+  "en_src": "Could not reach Nightscout. Is the address right and the site up? Its https certificate must be valid. Will retry shortly."
+ },
+ "f4dd0d6c": {
+  "kind": "L",
+  "tr": "Kaynağa ulaşılamadı. İnternet ya da kaynak adresini kontrol edin; birazdan yeniden denenecek.",
+  "lines": [
+   12928
+  ],
+  "calls": [],
+  "en_src": "Could not reach the source. Check internet or the source address; will retry shortly."
+ },
+ "37353ac2": {
+  "kind": "L",
+  "tr": "LibreLinkUp'ta takip edilen kişi yok. Libre uygulamasından bu hesaba davet gönderin.",
+  "lines": [
+   12932
+  ],
+  "calls": [],
+  "en_src": "No one is shared in LibreLinkUp. Send an invite to this account from the Libre app."
+ },
+ "54dd8c7f": {
+  "kind": "L",
+  "tr": "Bu EasyFollow hesabı kimseyi takip etmiyor. Medtrum uygulamasından bu hesaba davet gönderin.",
+  "lines": [
+   12935
+  ],
+  "calls": [],
+  "en_src": "This EasyFollow account follows no one. Send an invite to it from the Medtrum app."
+ },
+ "2e4c8ffa": {
+  "kind": "L",
+  "tr": "Sensör ısınıyor; ısınma bitince değerler gelecek.",
+  "lines": [
+   12938
+  ],
+  "calls": [],
+  "en_src": "The sensor is warming up; readings will follow."
+ },
+ "c239fb40": {
+  "kind": "L",
+  "tr": "Aktif sensör yok ya da yeni ölçüm gelmedi. Medtrum uygulaması çalışıyor mu?",
+  "lines": [
+   12939
+  ],
+  "calls": [],
+  "en_src": "No active sensor or no new reading. Is the Medtrum app running?"
+ },
+ "b5636d41": {
+  "kind": "L",
+  "tr": "Son 24 saatte veri yok. Dexcom uygulamasında Paylaşım (Share) açık ve en az bir takipçi ekli mi?",
+  "lines": [
+   12941
+  ],
+  "calls": [],
+  "en_src": "No data in 24 h. Is Share on in the Dexcom app, with at least one follower?"
+ },
+ "f3cebdd8": {
+  "kind": "L",
+  "tr": "Sensörden yeni ölçüm gelmemiş. Libre uygulaması çalışıyor mu?",
+  "lines": [
+   12943
+  ],
+  "calls": [],
+  "en_src": "No new reading from the sensor. Is the Libre app running?"
+ },
+ "ff0cef4a": {
+  "kind": "L",
+  "tr": "Nightscout'a son 24 saatte veri gelmemiş. Telefon / uploader çalışıyor mu?",
+  "lines": [
+   12945
+  ],
+  "calls": [],
+  "en_src": "No data reached Nightscout in 24 h. Is the phone / uploader running?"
+ },
+ "9072a7c3": {
+  "kind": "L",
+  "tr": "Kaynak bilgisi eksik. Kurulum'a dokunup Nightscout, Dexcom, Libre veya Medtrum bilgisini girin.",
+  "lines": [
+   12947
+  ],
+  "calls": [],
+  "en_src": "Source is missing. Tap Setup and enter Nightscout, Dexcom or Libre details."
+ },
+ "0e8eb76b": {
+  "kind": "L",
+  "tr": "Kaynaktan beklenmeyen yanıt geldi. Birazdan yeniden denenecek.",
+  "lines": [
+   12949
+  ],
+  "calls": [],
+  "en_src": "Unexpected response from the source. Will retry shortly."
+ },
+ "bae21804": {
+  "kind": "L",
+  "tr": "Birazdan yeniden denenecek.",
+  "lines": [
+   12951
+  ],
+  "calls": [],
+  "en_src": "Will retry shortly."
+ },
+ "d5cd5f99": {
+  "kind": "L",
+  "tr": "WiFi yok - dokunun",
+  "lines": [
+   12957
+  ],
+  "calls": [],
+  "en_src": "No WiFi - tap"
+ },
+ "741258aa": {
+  "kind": "L",
+  "tr": "İnternet yok - dokunun",
+  "lines": [
+   12958
+  ],
+  "calls": [],
+  "en_src": "No internet - tap"
+ },
+ "35b76539": {
+  "kind": "L",
+  "tr": "Giriş hatası - dokunun",
+  "lines": [
+   12959
+  ],
+  "calls": [],
+  "en_src": "Login error - tap"
+ },
+ "724e478c": {
+  "kind": "L",
+  "tr": "Sunucuya ulaşılamıyor",
+  "lines": [
+   12961
+  ],
+  "calls": [],
+  "en_src": "Server unreachable"
+ },
+ "8725b746": {
+  "kind": "L",
+  "tr": "Temalar: basılı tutun",
+  "lines": [
+   12982
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Themes: keep holding"
+ },
+ "0871e0dd": {
+  "kind": "L",
+  "tr": "WiFi kurulumu: basılı tutun",
+  "lines": [
+   12998
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "WiFi setup: keep holding"
+ },
+ "8cfaceb7": {
+  "kind": "L",
+  "tr": "Pil azaldı: %%%d",
+  "lines": [
+   13017
+  ],
+  "calls": [
+   "batteryPctText"
+  ],
+  "en_src": "Battery low: %d%%"
+ },
+ "98a9b10d": {
+  "kind": "L",
+  "tr": "Pil bitti",
+  "lines": [
+   13051
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Battery empty"
+ },
+ "24221e8d": {
+  "kind": "L",
+  "tr": "Lütfen şarja takın",
+  "lines": [
+   13053
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Please plug in the charger"
+ },
+ "b5365d1c": {
+  "kind": "L",
+  "tr": "Şarja takılınca birkaç dakika içinde kendiliğinden açılır.",
+  "lines": [
+   13055
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "It turns on by itself a few minutes after plugging in."
+ },
+ "31b1fda9": {
+  "kind": "L",
+  "tr": "Ekran kısıldı - şarja takın",
+  "lines": [
+   13079
+  ],
+  "calls": [
+   "lowBatPopup"
+  ],
+  "en_src": "Screen dimmed - please charge"
+ },
+ "afb16d51": {
+  "kind": "L",
+  "tr": "Cihaz yakında kapanacak - şarja takın",
+  "lines": [
+   13084
+  ],
+  "calls": [],
+  "en_src": "Shutting down soon - please charge"
+ },
+ "5aebfb4a": {
+  "kind": "L",
+  "tr": "Şarja takın",
+  "lines": [
+   13085
+  ],
+  "calls": [],
+  "en_src": "Please charge"
+ },
+ "33684984": {
+  "kind": "L",
+  "tr": "Yeniden başlatıldı, bağlanıyor...",
+  "lines": [
+   13363
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Restarted, connecting..."
+ },
+ "26baec62": {
+  "kind": "L",
+  "tr": "WiFi yok",
+  "lines": [
+   13413
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "No WiFi"
+ },
+ "240ecf94": {
+  "kind": "L",
+  "tr": "Alarm",
+  "lines": [
+   13452
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Alarm"
+ },
+ "a4d9ea78": {
+  "kind": "L",
+  "tr": "Diğer",
+  "lines": [
+   13474
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "More"
+ },
+ "49382b37": {
+  "kind": "L",
+  "tr": "Boş alana dokun: sayfa değiştir",
+  "lines": [
+   13478
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Tap empty area: change page"
+ },
+ "52e24e07": {
+  "kind": "L",
+  "tr": "ZAMANLAYICI",
+  "lines": [
+   13510
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "TIMER"
+ },
+ "3cc1ab9f": {
+  "kind": "L",
+  "tr": "Anlık şeker",
+  "lines": [
+   13519
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Current glucose"
+ },
+ "d8b99bdc": {
+  "kind": "L",
+  "tr": "kalan",
+  "lines": [
+   13554
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "left"
+ },
+ "834b575b": {
+  "kind": "L",
+  "tr": "İPTAL",
+  "lines": [
+   13561
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "CANCEL"
+ },
+ "6d4dbf3c": {
+  "kind": "L",
+  "tr": "<%s: önce hipoyu tedavi et",
+  "lines": [
+   13565
+  ],
+  "calls": [],
+  "en_src": "<%s: treat the low first"
+ },
+ "fcd8ac0c": {
+  "kind": "L",
+  "tr": "Şeker/glukoz tablet/meyve suyu,",
+  "lines": [
+   13568
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Treat low first (tabs/juice),"
+ },
+ "6f2176c2": {
+  "kind": "L",
+  "tr": "10 dk bekle; bolusu yemekle yap.",
+  "lines": [
+   13569
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "wait 10 min; bolus with the meal."
+ },
+ "0b008214": {
+  "kind": "L",
+  "tr": "Bu durumda zamanlayıcı başlamaz.",
+  "lines": [
+   13570
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Timer will not start in this case."
+ },
+ "f94866ef": {
+  "kind": "L",
+  "tr": "(şeker / 10)",
+  "lines": [
+   13581
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "(glucose / 10)"
+ },
+ "50553fc3": {
+  "kind": "L",
+  "tr": "BAŞLAT",
+  "lines": [
+   13588
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "START"
+ },
+ "96f3ee84": {
+  "kind": "L",
+  "tr": "AFİYET",
+  "lines": [
+   13658
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "ENJOY"
+ },
+ "b98416d1": {
+  "kind": "L",
+  "tr": "OLSUN",
+  "lines": [
+   13659
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "YOUR MEAL"
+ },
+ "b082285d": {
+  "kind": "L",
+  "tr": "Süre bitti",
+  "lines": [
+   13663
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Time is up"
+ },
+ "1d7e78b1": {
+  "kind": "L",
+  "tr": "Yemeğe başlayabilirsiniz",
+  "lines": [
+   13665
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "You may start eating"
+ },
+ "ff5606d4": {
+  "kind": "L",
+  "tr": "1) Ağa bağlan",
+  "lines": [
+   13725
+  ],
+  "calls": [],
+  "en_src": "1) Join network"
+ },
+ "3852855e": {
+  "kind": "L",
+  "tr": "2) Sayfayı aç",
+  "lines": [
+   13725
+  ],
+  "calls": [],
+  "en_src": "2) Open page"
+ },
+ "dbf0fcfc": {
+  "kind": "L",
+  "tr": "Şifre:",
+  "lines": [
+   13748
+  ],
+  "calls": [],
+  "en_src": "Pass:"
+ },
+ "8d1629db": {
+  "kind": "L",
+  "tr": "Önce 1. QR ile ağa bağlanın. Kurulum sayfası",
+  "lines": [
+   13765
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Join with QR 1 first. If the setup page"
+ },
+ "177e4405": {
+  "kind": "L",
+  "tr": "gecikirse 2. QR'ı okutun (bekleme yok).",
+  "lines": [
+   13766
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "is slow to appear, scan QR 2."
+ },
+ "279a6224": {
+  "kind": "L",
+  "tr": "Kaydedildi, bağlandı",
+  "lines": [
+   13930
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Saved, connected"
+ },
+ "1a007c42": {
+  "kind": "L",
+  "tr": "WiFi'ye bağlanamadı",
+  "lines": [
+   13934
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Could not join WiFi"
+ },
+ "a1114210": {
+  "kind": "L",
+  "tr": "Şifre yanlış olabilir",
+  "lines": [
+   13939
+  ],
+  "calls": [],
+  "en_src": "Password may be wrong"
+ },
+ "067b7900": {
+  "kind": "L",
+  "tr": "Ağ bulunamadı veya şifre yanlış",
+  "lines": [
+   13940
+  ],
+  "calls": [],
+  "en_src": "Network not found or wrong password"
+ },
+ "b81e81c6": {
+  "kind": "L",
+  "tr": "Kurulum kapandı",
+  "lines": [
+   13944
+  ],
+  "calls": [],
+  "en_src": "Setup closed"
+ },
+ "3f6f5116": {
+  "kind": "L",
+  "tr": "WiFi bağlanıyor...",
+  "lines": [
+   13956
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Connecting WiFi..."
+ },
+ "d5fb763f": {
+  "kind": "L",
+  "tr": "Hazır",
+  "lines": [
+   14037
+  ],
+  "calls": [
+   "bootStage"
+  ],
+  "en_src": "Ready"
+ },
+ "9ceba351": {
+  "kind": "L",
+  "tr": "ÖNEMLİ UYARI",
+  "lines": [
+   14075
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "IMPORTANT"
+ },
+ "a3711752": {
+  "kind": "L",
+  "tr": "Tıbbi cihaz değildir",
+  "lines": [
+   14077
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Not a medical device"
+ },
+ "1cb19447": {
+  "kind": "L",
+  "tr": "İnsülin ve tedavi kararları için",
+  "lines": [
+   14079
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "For insulin and treatment decisions"
+ },
+ "48b6ee5f": {
+  "kind": "L",
+  "tr": "resmi CGM uygulamanızı esas alın.",
+  "lines": [
+   14080
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "rely on your official CGM app."
+ },
+ "971d495f": {
+  "kind": "L",
+  "tr": "Sorumluluk kullanıcıya aittir.",
+  "lines": [
+   14083
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Use at your own responsibility."
+ },
+ "3531a5b0": {
+  "kind": "L",
+  "tr": "İnternete bağlanıyor...",
+  "lines": [
+   14203
+  ],
+  "calls": [
+   "bootStage"
+  ],
+  "en_src": "Connecting to the internet..."
+ },
+ "eaf4b319": {
+  "kind": "L",
+  "tr": "Saat ayarlanıyor...",
+  "lines": [
+   14215
+  ],
+  "calls": [
+   "bootStage"
+  ],
+  "en_src": "Setting the clock..."
+ },
+ "81093ebd": {
+  "kind": "L",
+  "tr": "Veri alınıyor...",
+  "lines": [
+   14223
+  ],
+  "calls": [
+   "bootStage"
+  ],
+  "en_src": "Fetching data..."
+ },
+ "6bb91142": {
+  "kind": "L",
+  "tr": "Bekleyin...",
+  "lines": [
+   14391
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Wait..."
+ },
+ "cbb6f02a": {
+  "kind": "L",
+  "tr": "KRİTİK DÜŞÜK EŞİK",
+  "lines": [
+   14544
+  ],
+  "calls": [
+   "openNumberPicker"
+  ],
+  "en_src": "CRITICAL LOW"
+ },
+ "4354f6db": {
+  "kind": "L",
+  "tr": "GECE BAŞLANGIÇ",
+  "lines": [
+   14803
+  ],
+  "calls": [
+   "openTimePicker"
+  ],
+  "en_src": "NIGHT START"
+ },
+ "d2e4fa52": {
+  "kind": "L",
+  "tr": "GECE BİTİŞ",
+  "lines": [
+   14807
+  ],
+  "calls": [
+   "openTimePicker"
+  ],
+  "en_src": "NIGHT END"
+ },
+ "551a030e": {
+  "kind": "L",
+  "tr": "OKUL BAŞLANGIÇ",
+  "lines": [
+   14826
+  ],
+  "calls": [
+   "openTimePicker"
+  ],
+  "en_src": "SCHOOL START"
+ },
+ "ed680f01": {
+  "kind": "L",
+  "tr": "OKUL BİTİŞ",
+  "lines": [
+   14830
+  ],
+  "calls": [
+   "openTimePicker"
+  ],
+  "en_src": "SCHOOL END"
+ },
+ "dcc36811": {
+  "kind": "W",
+  "tr": "Kritik dusuk 40-80 arasinda olmali.",
+  "lines": [
+   2886
+  ],
+  "calls": []
+ },
+ "69575c59": {
+  "kind": "W",
+  "tr": "Dusuk 40-200 arasinda olmali.",
+  "lines": [
+   2887
+  ],
+  "calls": []
+ },
+ "8085f244": {
+  "kind": "W",
+  "tr": "Yuksek 100-400 arasinda olmali.",
+  "lines": [
+   2888
+  ],
+  "calls": []
+ },
+ "abcee728": {
+  "kind": "W",
+  "tr": "Cok yuksek 150-400 arasinda olmali.",
+  "lines": [
+   2889
+  ],
+  "calls": []
+ },
+ "81de9789": {
+  "kind": "W",
+  "tr": "Kritik dusuk, dusuk esikten en az 5 asagida olmali.",
+  "lines": [
+   2890
+  ],
+  "calls": []
+ },
+ "694710a5": {
+  "kind": "W",
+  "tr": "Dusuk esik, yuksek esikten en az 10 asagida olmali.",
+  "lines": [
+   2891
+  ],
+  "calls": []
+ },
+ "4403b022": {
+  "kind": "W",
+  "tr": "Yuksek esik, cok yuksek esikten en az 10 asagida olmali.",
+  "lines": [
+   2892
+  ],
+  "calls": []
+ },
+ "9c08179d": {
+  "kind": "W",
+  "tr": "<p class='err'>Cok fazla hatali deneme. 30 saniye bekleyin.</p>",
+  "lines": [
+   2900
+  ],
+  "calls": []
+ },
+ "d1baa84a": {
+  "kind": "W",
+  "tr": "<p class='err'>Sifre hatali.</p>",
+  "lines": [
+   2910
+  ],
+  "calls": []
+ },
+ "dbf52e7c": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><title>MeteMatik giris</title>",
+  "lines": [
+   2913
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "344b7348": {
+  "kind": "W",
+  "tr": "<form method='POST' action='/login'><input name='p' type='password' placeholder='Sifre' autocomplete='current-password' autofocus><button class='btn' type='submit'>Giris</button></form>",
+  "lines": [
+   2915
+  ],
+  "calls": []
+ },
+ "89b18742": {
+  "kind": "W",
+  "tr": "<p class='note'>Sifre cihazin Bilgi ekraninda yazar.</p></div></body></html>",
+  "lines": [
+   2918
+  ],
+  "calls": []
+ },
+ "54a53c2b": {
+  "kind": "W",
+  "tr": "Baska siteden istek reddedildi",
+  "lines": [
+   2943
+  ],
+  "calls": [
+   "send"
+  ]
+ },
+ "3194336d": {
+  "kind": "W",
+  "tr": "Mevcut sifre hatali.",
+  "lines": [
+   2952
+  ],
+  "calls": []
+ },
+ "77cb3a52": {
+  "kind": "W",
+  "tr": "Yeni sifreler ayni degil.",
+  "lines": [
+   2953
+  ],
+  "calls": []
+ },
+ "92b4e846": {
+  "kind": "W",
+  "tr": "Yeni sifre 6-32 karakter olmali.",
+  "lines": [
+   2954
+  ],
+  "calls": []
+ },
+ "e4ace632": {
+  "kind": "W",
+  "tr": "Sadece Ingilizce harf, rakam ve isaret kullanin (bosluk ve Turkce harf olmaz).",
+  "lines": [
+   2958
+  ],
+  "calls": []
+ },
+ "55f5222b": {
+  "kind": "W",
+  "tr": "<p class='ok'>Sifre degistirildi. Diger cihazlardaki oturumlar kapatildi.</p>",
+  "lines": [
+   2970
+  ],
+  "calls": []
+ },
+ "17cf5fc8": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><title>Sifre</title>",
+  "lines": [
+   2972
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "1ae1b389": {
+  "kind": "W",
+  "tr": "<p><a href='/'>&larr; Ayarlara don</a></p></div></body></html>",
+  "lines": [
+   2974
+  ],
+  "calls": []
+ },
+ "c3649fd8": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><title>Guncelleme</title>",
+  "lines": [
+   2984
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "4ef47f3c": {
+  "kind": "W",
+  "tr": "<h3>Yazılım güncelleme</h3><p class='note'>Şu anki sürüm: ",
+  "lines": [
+   2986
+  ],
+  "calls": []
+ },
+ "a9ddbc3b": {
+  "kind": "W",
+  "tr": "1. Güncelleme dosyasını (<b>.bin</b>) bilgisayarınıza veya telefonunuza indirin.<br>",
+  "lines": [
+   2988
+  ],
+  "calls": []
+ },
+ "4101cbd5": {
+  "kind": "W",
+  "tr": "2. <b>Dosyayı Seçin</b> ile o dosyayı seçin.<br>",
+  "lines": [
+   2989
+  ],
+  "calls": []
+ },
+ "99ff176d": {
+  "kind": "W",
+  "tr": "3. <b>Yükle</b>'ye basın ve bitmesini bekleyin.</div>",
+  "lines": [
+   2990
+  ],
+  "calls": []
+ },
+ "c291e875": {
+  "kind": "W",
+  "tr": "<button class='btn' id='b'>Yükle</button>",
+  "lines": [
+   2992
+  ],
+  "calls": []
+ },
+ "43f7ec2e": {
+  "kind": "W",
+  "tr": "<p class='note'>Yükleme bitene kadar sayfayı kapatmayın. Cihaz sonra kendiliğinden yeniden başlar; ayarlar, fotoğraflar ve video silinmez.</p>",
+  "lines": [
+   2994
+  ],
+  "calls": []
+ },
+ "3c064592": {
+  "kind": "W",
+  "tr": "<p><a href='/'>&larr; Ayarlar</a></p></div>",
+  "lines": [
+   2995,
+   3081,
+   3154
+  ],
+  "calls": []
+ },
+ "54f44407": {
+  "kind": "W",
+  "tr": "if(n.endsWith('.ino'))return 'Bu kod dosyası (.ino). Cihaza .bin dosyası yüklenir.';",
+  "lines": [
+   2999
+  ],
+  "calls": []
+ },
+ "94cffd4a": {
+  "kind": "W",
+  "tr": "if(!n.endsWith('.bin'))return 'Sadece .bin dosyası yüklenir.';",
+  "lines": [
+   3000
+  ],
+  "calls": []
+ },
+ "c046aa1d": {
+  "kind": "W",
+  "tr": "if(n.indexOf('merged')>=0||n.indexOf('bootloader')>=0||n.indexOf('partitions')>=0)return 'Yanlış dosya: güncelleme dosyasını (.bin) seçin.';",
+  "lines": [
+   3001
+  ],
+  "calls": []
+ },
+ "91c398b0": {
+  "kind": "W",
+  "tr": "if(f.size>4000000)return 'Dosya çok büyük: güncelleme dosyasını (.bin) seçin.';return '';}",
+  "lines": [
+   3002
+  ],
+  "calls": []
+ },
+ "4e20f846": {
+  "kind": "W",
+  "tr": "fi.onchange=function(){var f=fi.files[0];if(!f)return;var e=bad(f);st.style.color=e?'#f66':'#8f8';st.textContent=e||('Seçildi: '+f.name+' ('+Math.round(f.size/1024)+' KB)');};",
+  "lines": [
+   3003
+  ],
+  "calls": []
+ },
+ "490bb08d": {
+  "kind": "W",
+  "tr": "var f=fi.files[0];if(!f){st.textContent='Önce .bin dosyasını seçin';return;}",
+  "lines": [
+   3005
+  ],
+  "calls": []
+ },
+ "f442e4aa": {
+  "kind": "W",
+  "tr": "if(new Uint8Array(ab)[0]!=0xE9){st.style.color='#f66';st.textContent='Bu dosya geçerli bir ESP32 yazılımı değil.';return;}",
+  "lines": [
+   3008
+  ],
+  "calls": []
+ },
+ "15131669": {
+  "kind": "W",
+  "tr": "x.onerror=function(){st.textContent='Bağlantı koptu';};",
+  "lines": [
+   3012,
+   3176
+  ],
+  "calls": []
+ },
+ "8dffd44a": {
+  "kind": "W",
+  "tr": "x.open('POST','/update');x.send(fd);st.textContent='Yükleniyor...';});};",
+  "lines": [
+   3013
+  ],
+  "calls": []
+ },
+ "6ce29d12": {
+  "kind": "W",
+  "tr": "Basarili. Cihaz yeniden basliyor...",
+  "lines": [
+   3050
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "b5811a9f": {
+  "kind": "W",
+  "tr": "Hata: ",
+  "lines": [
+   3050,
+   3225
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "d976d0a7": {
+  "kind": "W",
+  "tr": "<h3>Karbonhidrat Notlarım</h3>",
+  "lines": [
+   3075
+  ],
+  "calls": []
+ },
+ "e83b7991": {
+  "kind": "W",
+  "tr": "<p class='note'>Her yiyecek için karbonhidrat miktarını seçtiğiniz birime göre girin: 100 gramında / 1 adetinde / 1 porsiyonunda / 1 kasesinde / 1 diliminde / 1 bardağında / 1 paketinde kaç gram karbonhidrat var. ",
+  "lines": [
+   3076
+  ],
+  "calls": []
+ },
+ "e2c5b9f5": {
+  "kind": "W",
+  "tr": "Cihazda Karb-Not uygulamasından yiyeceği seçip miktarı yazınca karbonhidratı hesaplar; en sık seçilen 5 yiyecek listenin başında durur. Değerleri ürün etiketinden veya güvenilir kaynaktan kontrol edin.</p>",
+  "lines": [
+   3077
+  ],
+  "calls": []
+ },
+ "5467b17c": {
+  "kind": "W",
+  "tr": "<button class='btn btn2' onclick='addRow()'>+ Yiyecek ekle</button> ",
+  "lines": [
+   3079
+  ],
+  "calls": []
+ },
+ "f4e0e509": {
+  "kind": "W",
+  "tr": "<button class='btn' onclick='save()'>Kaydet</button><p id='st'></p>",
+  "lines": [
+   3080
+  ],
+  "calls": []
+ },
+ "602d4800": {
+  "kind": "W",
+  "tr": "var U=[[0,'100 gramında'],[1,'1 adetinde'],[3,'1 porsiyonunda'],[4,'1 kasesinde'],[5,'1 diliminde'],[6,'1 çay bardağında'],[7,'1 su bardağında'],[8,'1 paketinde']];",
+  "lines": [
+   3083
+  ],
+  "calls": []
+ },
+ "a8f1d22a": {
+  "kind": "W",
+  "tr": "function draw(){var h='<tr><td>Yiyecek</td><td>Birim</td><td>Karb (g)</td><td></td><td></td></tr>';",
+  "lines": [
+   3085
+  ],
+  "calls": []
+ },
+ "8d208d35": {
+  "kind": "W",
+  "tr": "+'<td><button class=\"btn srch\" onclick=\"ara('+i+')\">Ara</button></td>'",
+  "lines": [
+   3089
+  ],
+  "calls": []
+ },
+ "ede9310e": {
+  "kind": "W",
+  "tr": "+'<td><button class=\"btn del\" onclick=\"D.splice('+i+',1);draw()\">Sil</button></td></tr>';});",
+  "lines": [
+   3090
+  ],
+  "calls": []
+ },
+ "0c2ee853": {
+  "kind": "W",
+  "tr": "function addRow(){if(D.length>=60){alert('En fazla 60 yiyecek');return;}D.push({n:'',t:0,c:0,u:0});draw();}",
+  "lines": [
+   3092
+  ],
+  "calls": []
+ },
+ "5c35f9f5": {
+  "kind": "W",
+  "tr": "function ara(i){var n=D[i].n||'';window.open('https://www.google.com/search?q='+encodeURIComponent(n+' 100 gram karbonhidrat'),'_blank');}",
+  "lines": [
+   3093
+  ],
+  "calls": []
+ },
+ "8fc94b99": {
+  "kind": "W",
+  "tr": ".then(function(r){return r.text();}).then(function(t){st.textContent=t;}).catch(function(){st.textContent='Bağlantı hatası';});}",
+  "lines": [
+   3096
+  ],
+  "calls": []
+ },
+ "c998ff3f": {
+  "kind": "W",
+  "tr": "Hata: liste okunamadı",
+  "lines": [
+   3105
+  ],
+  "calls": [
+   "send"
+  ]
+ },
+ "bf030b81": {
+  "kind": "W",
+  "tr": "Kaydedildi: ",
+  "lines": [
+   3127,
+   4117
+  ],
+  "calls": [
+   "String",
+   "send"
+  ]
+ },
+ "7bb6868a": {
+  "kind": "W",
+  "tr": " yiyecek",
+  "lines": [
+   3127
+  ],
+  "calls": []
+ },
+ "83cad710": {
+  "kind": "W",
+  "tr": "Hata: dosya yazılamadı",
+  "lines": [
+   3127
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "6398eb3a": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><title>Glukagon videosu</title>",
+  "lines": [
+   3142
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "5668db59": {
+  "kind": "W",
+  "tr": "<h3>Glukagon videosu</h3>",
+  "lines": [
+   3144
+  ],
+  "calls": []
+ },
+ "34bcaf6e": {
+  "kind": "W",
+  "tr": "<p class='note'>Telefonunuzdaki videoyu seçin. Tarayıcı videoyu cihazın oynatabileceği küçük karelere (288x216, saniyede 6 kare, sessiz) dönüştürüp yükler. ",
+  "lines": [
+   3145
+  ],
+  "calls": []
+ },
+ "7ab08c87": {
+  "kind": "W",
+  "tr": "Yaklaşık 60-70 saniyeye kadar sığar; daha uzunsa baştan bu kadarı alınır. Cihazda ses yoktur (sadece zil). Dönüştürme telefonda 1-2 dakika sürebilir, sayfayı kapatmayın.</p>",
+  "lines": [
+   3146
+  ],
+  "calls": []
+ },
+ "1a48d33a": {
+  "kind": "W",
+  "tr": "<p>Durum: <b>",
+  "lines": [
+   3147
+  ],
+  "calls": []
+ },
+ "1e4203b1": {
+  "kind": "W",
+  "tr": "Video var (",
+  "lines": [
+   3147
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "b9bce295": {
+  "kind": "W",
+  "tr": "Video yok",
+  "lines": [
+   3147
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "3482fab7": {
+  "kind": "W",
+  "tr": "</b> &nbsp; Boş alan: ",
+  "lines": [
+   3147
+  ],
+  "calls": []
+ },
+ "8ae6e8b7": {
+  "kind": "W",
+  "tr": "<button class='btn' id='b'>Dönüştür ve yükle</button>",
+  "lines": [
+   3149
+  ],
+  "calls": []
+ },
+ "c6906952": {
+  "kind": "W",
+  "tr": "<form method='POST' action='/video/del' onsubmit=\"return confirm('Video silinsin mi?')\"><button class='btn btn2'>Videoyu sil</button></form>",
+  "lines": [
+   3153
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "82885d57": {
+  "kind": "W",
+  "tr": "var file=document.getElementById('f').files[0];if(!file){st.textContent='Önce video seçin';return;}",
+  "lines": [
+   3161
+  ],
+  "calls": []
+ },
+ "6d224992": {
+  "kind": "W",
+  "tr": "try{await new Promise(function(r,j){v.onloadeddata=r;v.onerror=function(){j('Video açılamadı');};});}catch(e){st.textContent=e;this.disabled=false;return;}",
+  "lines": [
+   3163
+  ],
+  "calls": []
+ },
+ "629daa7d": {
+  "kind": "W",
+  "tr": "pr.value=t*100/dur;st.textContent='Dönüştürülüyor: '+n+' kare, '+Math.round(total/1024)+' KB';}",
+  "lines": [
+   3171
+  ],
+  "calls": []
+ },
+ "372dd906": {
+  "kind": "W",
+  "tr": "var x=new XMLHttpRequest();x.upload.onprogress=function(e){if(e.lengthComputable){pr.value=e.loaded*100/e.total;st.textContent='Yükleniyor... '+Math.round(e.loaded/1024)+' / '+Math.round(e.total/1024)+' KB';}};",
+  "lines": [
+   3174
+  ],
+  "calls": []
+ },
+ "6d3c1b22": {
+  "kind": "W",
+  "tr": "x.onload=function(){st.textContent=x.responseText+(cut?' (video uzun: ilk '+Math.round(n/FPS)+' sn alındı)':'');};",
+  "lines": [
+   3175
+  ],
+  "calls": []
+ },
+ "9286923d": {
+  "kind": "W",
+  "tr": "Giriş gerekli",
+  "lines": [
+   3186
+  ],
+  "calls": []
+ },
+ "7c849446": {
+  "kind": "W",
+  "tr": "Video çok büyük",
+  "lines": [
+   3193
+  ],
+  "calls": []
+ },
+ "9a80afbb": {
+  "kind": "W",
+  "tr": "Yer yok (boş ",
+  "lines": [
+   3194
+  ],
+  "calls": []
+ },
+ "7983e56f": {
+  "kind": "W",
+  "tr": " KB). Birkaç foto silin.",
+  "lines": [
+   3194
+  ],
+  "calls": []
+ },
+ "278422d7": {
+  "kind": "W",
+  "tr": "Dosya açılamadı",
+  "lines": [
+   3200
+  ],
+  "calls": []
+ },
+ "39ed02ea": {
+  "kind": "W",
+  "tr": "Yazma hatası (yer dolu olabilir)",
+  "lines": [
+   3204
+  ],
+  "calls": []
+ },
+ "b1ab1294": {
+  "kind": "W",
+  "tr": "Kaydedilemedi",
+  "lines": [
+   3212
+  ],
+  "calls": []
+ },
+ "14a026b4": {
+  "kind": "W",
+  "tr": "Yükleme yarıda kesildi",
+  "lines": [
+   3218
+  ],
+  "calls": []
+ },
+ "adb998a2": {
+  "kind": "W",
+  "tr": "Yüklendi (",
+  "lines": [
+   3225
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "5a8a96dd": {
+  "kind": "W",
+  "tr": " KB). Cihazda: Uygulamalar > Glukagon",
+  "lines": [
+   3225
+  ],
+  "calls": []
+ },
+ "9b2dbeeb": {
+  "kind": "W",
+  "tr": "Ayarları düzenlenen kişi",
+  "lines": [
+   3298
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "b1ae2aea": {
+  "kind": "W",
+  "tr": "Aşağıdaki kaynak, eşik ve sensör ayarları bu kişi için: ",
+  "lines": [
+   3301
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "99a237f3": {
+  "kind": "W",
+  "tr": "Aile modu",
+  "lines": [
+   3306
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "0a46248d": {
+  "kind": "W",
+  "tr": "Aynı cihazda en fazla 3 kişinin şekerini izleyin. Her kişinin kendi kaynağı ve eşikleri olur.",
+  "lines": [
+   3307
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "37acdb48": {
+  "kind": "W",
+  "tr": "Durum",
+  "lines": [
+   3309
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "12faacec": {
+  "kind": "W",
+  "tr": "Kapalı (1 kişi)",
+  "lines": [
+   3310
+  ],
+  "calls": []
+ },
+ "608f4754": {
+  "kind": "W",
+  "tr": "Açık",
+  "lines": [
+   3311
+  ],
+  "calls": []
+ },
+ "5c6994d8": {
+  "kind": "W",
+  "tr": "Kişi sayısı",
+  "lines": [
+   3313
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "af6cdf0e": {
+  "kind": "W",
+  "tr": "Ana ekran",
+  "lines": [
+   3315
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "1c8687c4": {
+  "kind": "W",
+  "tr": "Sırayla (15 sn)",
+  "lines": [
+   3316
+  ],
+  "calls": []
+ },
+ "35684155": {
+  "kind": "W",
+  "tr": "Bölünmüş (hepsi birlikte)",
+  "lines": [
+   3317
+  ],
+  "calls": []
+ },
+ "77cb1fe5": {
+  "kind": "W",
+  "tr": "kişinin adı",
+  "lines": [
+   3320
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "19470d89": {
+  "kind": "W",
+  "tr": "Kaydettikten sonra sayfanın üstünden kişiyi seçip kaynağını ve eşiklerini girin.",
+  "lines": [
+   3322
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "4a546291": {
+  "kind": "W",
+  "tr": "Kaydet",
+  "lines": [
+   3324
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "c12461cc": {
+  "kind": "W",
+  "tr": " &nbsp;|&nbsp; Kaynak: <b>",
+  "lines": [
+   3378
+  ],
+  "calls": []
+ },
+ "3a4bf01b": {
+  "kind": "W",
+  "tr": "\n<p><a class=\"btn\" href=\"/update\">Firmware Guncelle (OTA)</a>\n<a class=\"btn btn2\" href=\"/foto\">Foto yukle</a></p>\n<p><a class=\"btn btn2\" href=\"/karb\">Karb-Not listesi</a></p>\n</div>\n<div class=\"card\">\n<h1>Kaynak Ayarlari</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Once kullandiginiz kaynagi secin, sonra sadece o alanlari doldurun.</p>\n<form method=\"POST\" action=\"/save\">\n<label>Aktif kaynak</label>\n<select name=\"srcpick\" id=\"srcpick\" onchange=\"showSrc(this.value)\">\n<option value=\"nightscout\"",
+  "lines": [
+   3380
+  ],
+  "calls": []
+ },
+ "50b0ce20": {
+  "kind": "W",
+  "tr": "\">\n<label>API Secret (opsiyonel; yildizlar = kayitli)</label><input name=\"apisecret\" type=\"password\" autocomplete=\"off\" value=\"",
+  "lines": [
+   3411
+  ],
+  "calls": []
+ },
+ "977cbe81": {
+  "kind": "W",
+  "tr": "\" id=\"box-dexcom\">\n<h2 style=\"color:#e67e22\">Dexcom</h2>\n<p style=\"color:#aaa;font-size:.85rem\">Dexcom G6 / G7 / ONE uygulamasina giris yaptiginiz <b>kendi hesabiniz</b> (Follow uygulamasinin hesabi degil). Uygulamada Paylasim (Share) acik ve en az bir takipci ekli olmali (takipcinin uygulamayi kullanmasi gerekmez).</p>\n<label>Kullanici adi, e-posta veya telefon</label>\n<p style=\"color:#aaa;font-size:.8rem;margin:2px 0 6px\">Dexcom hesabiniz telefon numarasiyla kayitliysa numarayi ulke koduyla, bosluksuz yazin: +905XXXXXXXXX</p><input name=\"dexuser\" value=\"",
+  "lines": [
+   3419
+  ],
+  "calls": []
+ },
+ "25705cae": {
+  "kind": "W",
+  "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"dexpass\" type=\"password\" value=\"",
+  "lines": [
+   3425
+  ],
+  "calls": []
+ },
+ "c9da0351": {
+  "kind": "W",
+  "tr": "\" autocomplete=\"off\">\n<label>Sunucu</label><select name=\"dexsrv\"><option value=\"ous\"",
+  "lines": [
+   3428
+  ],
+  "calls": []
+ },
+ "4dbd0784": {
+  "kind": "W",
+  "tr": ">ous (EU vb.)</option><option value=\"us\"",
+  "lines": [
+   3431
+  ],
+  "calls": []
+ },
+ "0494341c": {
+  "kind": "W",
+  "tr": "\" id=\"box-libre\">\n<h2 style=\"color:#27ae60\">LibreLinkUp</h2>\n<p style=\"color:#aaa;font-size:.85rem\">LibreLinkUp <b>takipci hesabinin</b> e-posta ve sifresi (LibreLink / Libre uygulamasindan bu hesaba davet gonderilip LibreLinkUp uygulamasinda kabul edilmis olmali).</p>\n<label>E-posta</label><input name=\"libremail\" value=\"",
+  "lines": [
+   3438
+  ],
+  "calls": []
+ },
+ "05f5764d": {
+  "kind": "W",
+  "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"librepass\" type=\"password\" value=\"",
+  "lines": [
+   3443
+  ],
+  "calls": []
+ },
+ "57932a59": {
+  "kind": "W",
+  "tr": "\" autocomplete=\"off\">\n<label>Bolge</label><input name=\"librereg\" value=\"",
+  "lines": [
+   3446
+  ],
+  "calls": []
+ },
+ "692c3f8b": {
+  "kind": "W",
+  "tr": "\" id=\"box-medtrum\">\n<h2 style=\"color:#9b59b6\">Medtrum</h2>\n<p style=\"color:#aaa;font-size:.85rem\">EasyView / Medtrum uygulamasindan (Takip / Paylas) davet ettiginiz <b>EasyFollow hesabinin</b> e-posta ve sifresi. Sunucu: Avrupa (easyview.medtrum.eu).</p>\n<label>EasyFollow e-posta</label><input name=\"medemail\" value=\"",
+  "lines": [
+   3454
+  ],
+  "calls": []
+ },
+ "54355f6d": {
+  "kind": "W",
+  "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"medpass\" type=\"password\" value=\"",
+  "lines": [
+   3459
+  ],
+  "calls": []
+ },
+ "e00215af": {
+  "kind": "W",
+  "tr": "\" autocomplete=\"off\">\n</div>\n\n<button class=\"btn\" type=\"submit\">Kaydet</button>\n</form>\n</div>\n<script>\nfunction showSrc(v){\n  document.querySelectorAll('.srcbox').forEach(function(el){\n    el.classList.toggle('on', el.id === 'box-' + v);\n  });\n  document.querySelectorAll('.nsonly').forEach(function(el){\n    el.classList.toggle('on', v === 'nightscout');\n  });\n  document.querySelectorAll('.manonly').forEach(function(el){\n    el.classList.toggle('on', v !== 'nightscout');\n  });\n}\nfunction toggleBox(id, v){\n  document.getElementById(id).classList.toggle('on', v === '1');\n}\n</script>",
+  "lines": [
+   3462
+  ],
+  "calls": []
+ },
+ "e9f982a8": {
+  "kind": "W",
+  "tr": "\n<div class=\"card\">\n<h1>Sensor / Set Suresi</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Kalan sure = omur - gecen sure. Nightscout'ta gecen sure otomatik gelir. Dexcom / Libre kullaniyorsaniz takma zamanini asagiya (veya cihazda Uygulamalar &gt; Sensor'e) girin. Sure dolmaya 12 saat / 3 saat / 1 saat / 15 dakika kala cihazda kisa bir uyari cikar. Pompa kullanmiyorsaniz Set/Pompa takibini kapatabilirsiniz.</p>\n<form method=\"POST\" action=\"/save\">\n<div class=\"manonly",
+  "lines": [
+   3484
+  ],
+  "calls": []
+ },
+ "4ab973bc": {
+  "kind": "W",
+  "tr": "\">\n<label>Sensor takilma zamani</label><input name=\"sensins\" type=\"datetime-local\" value=\"",
+  "lines": [
+   3491
+  ],
+  "calls": []
+ },
+ "c5d5cd3c": {
+  "kind": "W",
+  "tr": "\">\n<label>Set / pompa degisim zamani</label><input name=\"setins\" type=\"datetime-local\" value=\"",
+  "lines": [
+   3494
+  ],
+  "calls": []
+ },
+ "f506bfae": {
+  "kind": "W",
+  "tr": "\">\n</div>\n<label>Sensor takibi</label><select name=\"strackon\" onchange=\"toggleBox('box-strack',this.value)\"><option value=\"1\"",
+  "lines": [
+   3497
+  ],
+  "calls": []
+ },
+ "b0dca3f0": {
+  "kind": "W",
+  "tr": ">Acik</option><option value=\"0\"",
+  "lines": [
+   3501,
+   3518,
+   3563,
+   3568,
+   3576
+  ],
+  "calls": []
+ },
+ "7ae3d9be": {
+  "kind": "W",
+  "tr": ">Kapali</option></select>\n<div class=\"modebox",
+  "lines": [
+   3503,
+   3520
+  ],
+  "calls": []
+ },
+ "c97576c1": {
+  "kind": "W",
+  "tr": "\" id=\"box-strack\">\n<div class=\"row\">\n<div><label>Sensor omru - gun</label><input name=\"slifed\" type=\"number\" min=\"0\" max=\"30\" value=\"",
+  "lines": [
+   3506
+  ],
+  "calls": []
+ },
+ "0e90c11f": {
+  "kind": "W",
+  "tr": "\"></div>\n<div><label>saat (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"",
+  "lines": [
+   3510
+  ],
+  "calls": []
+ },
+ "50e820e4": {
+  "kind": "W",
+  "tr": "\"></div>\n</div>\n</div>\n<label>Set / Pompa takibi</label><select name=\"ctrackon\" onchange=\"toggleBox('box-ctrack',this.value)\"><option value=\"1\"",
+  "lines": [
+   3513
+  ],
+  "calls": []
+ },
+ "00922179": {
+  "kind": "W",
+  "tr": "\" id=\"box-ctrack\">\n<div class=\"row\">\n<div><label>Set/Pompa omru - gun</label><input name=\"clifed\" type=\"number\" min=\"0\" max=\"14\" value=\"",
+  "lines": [
+   3523
+  ],
+  "calls": []
+ },
+ "9dd580cf": {
+  "kind": "W",
+  "tr": "\"></div>\n<div><label>saat (0-23)</label><input name=\"clifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"",
+  "lines": [
+   3527
+  ],
+  "calls": []
+ },
+ "d4dd313d": {
+  "kind": "W",
+  "tr": "\"></div>\n</div>\n</div>\n<button class=\"btn\" type=\"submit\">Sensor/Set kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Alarm esikleri</h1>\n<script>\nfunction chkTh(f){var c=+f.acrit.value,l=+f.alow.value,h=+f.ahigh.value,v=+f.avhigh.value,m='';\nif(c>l-5)m='Kritik dusuk, dusuk esikten en az 5 asagida olmali.';\nelse if(l>h-10)m='Dusuk esik, yuksek esikten en az 10 asagida olmali.';\nelse if(h>v-10)m='Yuksek esik, cok yuksek esikten en az 10 asagida olmali.';\nif(m){alert(m);return false;}return true;}\n</script>\n<form method=\"POST\" action=\"/save\" onsubmit=\"return chkTh(this)\">\n<label>Kritik dusuk</label><input name=\"acrit\" type=\"number\" min=\"40\" max=\"80\" value=\"",
+  "lines": [
+   3530
+  ],
+  "calls": []
+ },
+ "2c54dfe9": {
+  "kind": "W",
+  "tr": "\">\n<label>Dusuk</label><input name=\"alow\" type=\"number\" min=\"40\" max=\"200\" value=\"",
+  "lines": [
+   3548
+  ],
+  "calls": []
+ },
+ "5c68e05a": {
+  "kind": "W",
+  "tr": "\">\n<label>Yuksek</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"",
+  "lines": [
+   3551
+  ],
+  "calls": []
+ },
+ "d6aaeedc": {
+  "kind": "W",
+  "tr": "\">\n<label>Cok yuksek</label><input name=\"avhigh\" type=\"number\" min=\"150\" max=\"400\" value=\"",
+  "lines": [
+   3554
+  ],
+  "calls": []
+ },
+ "c0a845d1": {
+  "kind": "W",
+  "tr": "\">\n<label>Veri yok (dk)</label><input name=\"stale\" type=\"number\" min=\"5\" max=\"60\" value=\"",
+  "lines": [
+   3557
+  ],
+  "calls": []
+ },
+ "36378a01": {
+  "kind": "W",
+  "tr": "\">\n<label>Hizli dusus alarmi (cift asagi ok)</label><select name=\"afdn\"><option value=\"1\"",
+  "lines": [
+   3560
+  ],
+  "calls": []
+ },
+ "df10e158": {
+  "kind": "W",
+  "tr": ">Kapali</option></select>\n<label>Hizli yukselis alarmi (cift yukari ok)</label><select name=\"afup\"><option value=\"1\"",
+  "lines": [
+   3565
+  ],
+  "calls": []
+ },
+ "2060f2dc": {
+  "kind": "W",
+  "tr": ">Kapali</option></select>\n<label>Erteleme dk (0=yok)</label><input name=\"snooze\" type=\"number\" min=\"0\" max=\"60\" value=\"",
+  "lines": [
+   3570
+  ],
+  "calls": []
+ },
+ "582b7b17": {
+  "kind": "W",
+  "tr": "\">\n<label>Gorsel alarm</label><select name=\"visalm\"><option value=\"1\"",
+  "lines": [
+   3573
+  ],
+  "calls": []
+ },
+ "8eec23d0": {
+  "kind": "W",
+  "tr": ">Kapali</option></select>\n<button class=\"btn\" type=\"submit\">Alarm kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Cihaz</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Parlaklik</label><select name=\"bright\">",
+  "lines": [
+   3578
+  ],
+  "calls": []
+ },
+ "39ee84c7": {
+  "kind": "W",
+  "tr": ">Dusuk</option>",
+  "lines": [
+   3586,
+   3592,
+   3617,
+   3623,
+   3649,
+   3655
+  ],
+  "calls": []
+ },
+ "c58f687f": {
+  "kind": "W",
+  "tr": ">Orta</option>",
+  "lines": [
+   3587,
+   3593,
+   3618,
+   3624,
+   3650,
+   3656
+  ],
+  "calls": []
+ },
+ "532ed959": {
+  "kind": "W",
+  "tr": ">Yuksek</option>",
+  "lines": [
+   3588,
+   3594,
+   3619,
+   3625,
+   3651,
+   3657
+  ],
+  "calls": []
+ },
+ "b0dde471": {
+  "kind": "W",
+  "tr": "</select>\n<label>Alarm sesi</label><select name=\"sound\">",
+  "lines": [
+   3589
+  ],
+  "calls": []
+ },
+ "82b7fdcc": {
+  "kind": "W",
+  "tr": ">Sessiz</option>",
+  "lines": [
+   3591,
+   3622,
+   3654
+  ],
+  "calls": []
+ },
+ "af51ad83": {
+  "kind": "W",
+  "tr": "</select>\n<button class=\"btn\" type=\"submit\">Cihaz kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Gece modu</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Durum</label><select name=\"nighton\" onchange=\"toggleBox('box-night',this.value)\"><option value=\"0\"",
+  "lines": [
+   3595
+  ],
+  "calls": []
+ },
+ "7119c737": {
+  "kind": "W",
+  "tr": ">Kapali</option><option value=\"1\"",
+  "lines": [
+   3604,
+   3636
+  ],
+  "calls": []
+ },
+ "13cfd296": {
+  "kind": "W",
+  "tr": ">Acik</option></select>\n<div class=\"modebox",
+  "lines": [
+   3606,
+   3638
+  ],
+  "calls": []
+ },
+ "8949fadb": {
+  "kind": "W",
+  "tr": "\" id=\"box-night\">\n<label>Baslangic</label><input name=\"nighth\" type=\"time\" step=\"60\" value=\"",
+  "lines": [
+   3609
+  ],
+  "calls": []
+ },
+ "0a184273": {
+  "kind": "W",
+  "tr": "\">\n<label>Bitis</label><input name=\"nighte\" type=\"time\" step=\"60\" value=\"",
+  "lines": [
+   3612
+  ],
+  "calls": []
+ },
+ "8541dc61": {
+  "kind": "W",
+  "tr": "\">\n<label>Gece parlaklik</label><select name=\"nightb\">",
+  "lines": [
+   3615
+  ],
+  "calls": []
+ },
+ "ee1f5383": {
+  "kind": "W",
+  "tr": "</select>\n<label>Gece ses</label><select name=\"nights\">",
+  "lines": [
+   3620
+  ],
+  "calls": []
+ },
+ "b1ba73f3": {
+  "kind": "W",
+  "tr": "</select>\n</div>\n<button class=\"btn\" type=\"submit\">Gece kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Okul modu</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Durum</label><select name=\"schoolon\" onchange=\"toggleBox('box-school',this.value)\"><option value=\"0\"",
+  "lines": [
+   3626
+  ],
+  "calls": []
+ },
+ "42be5682": {
+  "kind": "W",
+  "tr": "\" id=\"box-school\">\n<label>Baslangic</label><input name=\"schoolsh\" type=\"time\" step=\"60\" value=\"",
+  "lines": [
+   3641
+  ],
+  "calls": []
+ },
+ "b4141f6b": {
+  "kind": "W",
+  "tr": "\">\n<label>Bitis</label><input name=\"schooleh\" type=\"time\" step=\"60\" value=\"",
+  "lines": [
+   3644
+  ],
+  "calls": []
+ },
+ "63d9eef6": {
+  "kind": "W",
+  "tr": "\">\n<label>Okul parlaklik</label><select name=\"schoolb\">",
+  "lines": [
+   3647
+  ],
+  "calls": []
+ },
+ "866405da": {
+  "kind": "W",
+  "tr": "</select>\n<label>Okul ses</label><select name=\"schools\">",
+  "lines": [
+   3652
+  ],
+  "calls": []
+ },
+ "4d71a8b5": {
+  "kind": "W",
+  "tr": "</select>\n</div>\n<button class=\"btn\" type=\"submit\">Okul kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Guvenlik</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Bu tarayici 30 gun boyunca hatirlanir. Sifre cihazin Bilgi ekraninda da yazar; unutursan oradan bakabilirsin. Cihaz Sifirla, sifreyi ilk (fabrika) sifresine dondurur; yeni sifre yine Bilgi ekraninda yazar.</p>\n<form method=\"POST\" action=\"/pass\">\n<label>Mevcut sifre</label><input name=\"cur\" type=\"password\" autocomplete=\"current-password\">\n<label>Yeni sifre (6-32 karakter, Turkce harf ve bosluk yok)</label><input name=\"np\" type=\"password\" autocomplete=\"new-password\">\n<label>Yeni sifre (tekrar)</label><input name=\"np2\" type=\"password\" autocomplete=\"new-password\">\n<button class=\"btn\" type=\"submit\">Sifreyi degistir</button>\n</form>\n<p><a class=\"btn btn2\" href=\"/logout\">Cikis yap</a></p>\n</div>\n</body></html>",
+  "lines": [
+   3658
+  ],
+  "calls": []
+ },
+ "e7556c48": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><title>Esikler</title>",
+  "lines": [
+   3734
+  ],
+  "calls": [
+   "String"
+  ]
+ },
+ "d30e1bb6": {
+  "kind": "W",
+  "tr": "</p><p>Hicbir ayar degistirilmedi.</p><p><a href='javascript:history.back()'>&larr; Geri don</a></p></div></body></html>",
+  "lines": [
+   3736
+  ],
+  "calls": []
+ },
+ "a9a9c9f5": {
+  "kind": "W",
+  "tr": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>Foto yukle</title>\n<link rel=\"icon\" href=\"/logo.png\">\n<style>\nbody{font-family:system-ui;background:#0f1115;color:#eee;padding:16px}\n.card{background:#1a1d24;border-radius:12px;padding:16px;max-width:480px;margin:auto}\n.btn{display:inline-block;margin-top:12px;padding:12px 18px;background:#1a73e8;color:#fff;border:none;border-radius:8px}\ncanvas{max-width:100%;background:#000;margin-top:8px}\nlabel{display:block;font-size:.85rem;color:#aaa;margin:14px 0 4px}\ninput[type=number]{width:100%;max-width:110px;padding:8px;border-radius:8px;border:1px solid #333;background:#111;color:#eee;font-size:1rem}\n#st{white-space:pre-wrap;font-family:monospace;font-size:12px;color:#ddd}\n</style></head><body><div class=\"card\">\n<h1>Foto yukle (256x192)</h1>\n<p>En fazla ",
+  "lines": [
+   3930
+  ],
+  "calls": []
+ },
+ "e8743b2e": {
+  "kind": "W",
+  "tr": " fotograf saklanabilir. Su an: <b id=\"cnt\">",
+  "lines": [
+   3946
+  ],
+  "calls": []
+ },
+ "1f5e5306": {
+  "kind": "W",
+  "tr": "</b> foto.</p>\n<p style=\"color:#888;font-size:13px\">Birden fazla dosya secebilirsiniz, sirayla otomatik yuklenir. ",
+  "lines": [
+   3948
+  ],
+  "calls": []
+ },
+ "eed41e48": {
+  "kind": "W",
+  "tr": " doluysa once \"Fotograflari Sil\"e basip yer acin.</p>\n<p style=\"color:#888;font-size:13px\">SPIFFS bos alan (su an): ",
+  "lines": [
+   3951
+  ],
+  "calls": []
+ },
+ "555fdc04": {
+  "kind": "W",
+  "tr": "</p>\n<input type=\"file\" id=\"f\" accept=\"image/*\" multiple>\n<canvas id=\"c\" width=\"256\" height=\"192\" style=\"width:100%;max-width:320px\"></canvas>\n<button class=\"btn\" id=\"clr\" style=\"background:#666\">Fotograflari Sil</button>\n<p id=\"st\"></p>\n\n<label>Fotograf arayuzunde kac dakikada bir bir sonrakine gecilsin</label>\n<input type=\"number\" id=\"rot\" min=\"1\" max=\"180\" value=\"",
+  "lines": [
+   3958
+  ],
+  "calls": []
+ },
+ "359b0f0c": {
+  "kind": "W",
+  "tr": "\">\n<button class=\"btn\" id=\"rotsave\" style=\"margin-top:10px\">Bu ayari kaydet</button>\n<p id=\"rotst\" style=\"color:#888;font-size:13px\">Sadece birden fazla foto yuklendiyse gecerli olur.</p>\n\n<p><a href=\"/\" style=\"color:#8af\">← Geri</a></p>\n</div>\n<script>\nconst W=256,H=192,FMAX=",
+  "lines": [
+   3967
+  ],
+  "calls": []
+ },
+ "e4b3f742": {
+  "kind": "W",
+  "tr": "Yukleniyor",
+  "lines": [
+   3977
+  ],
+  "calls": []
+ },
+ "7953b285": {
+  "kind": "W",
+  "tr": "HATA",
+  "lines": [
+   3977
+  ],
+  "calls": []
+ },
+ "6e3eef5b": {
+  "kind": "W",
+  "tr": "%1 foto doldu, %2 tanesi yuklendi. Kalanlar icin once sil.",
+  "lines": [
+   3978
+  ],
+  "calls": []
+ },
+ "0402fceb": {
+  "kind": "W",
+  "tr": "%1 foto yuklendi - Arayuz > Foto Cerceve sec",
+  "lines": [
+   3979
+  ],
+  "calls": []
+ },
+ "ebaedfaf": {
+  "kind": "W",
+  "tr": "%1 yuklendi, %2 hata verdi",
+  "lines": [
+   3980
+  ],
+  "calls": []
+ },
+ "cf866eaf": {
+  "kind": "W",
+  "tr": "Siliniyor...",
+  "lines": [
+   3981
+  ],
+  "calls": []
+ },
+ "63f7e593": {
+  "kind": "W",
+  "tr": "Kaydediliyor...",
+  "lines": [
+   3981
+  ],
+  "calls": []
+ },
+ "739f9fff": {
+  "kind": "W",
+  "tr": "Depolama okunamadi",
+  "lines": [
+   4095
+  ],
+  "calls": [
+   "send"
+  ]
+ },
+ "62a17f7b": {
+  "kind": "W",
+  "tr": "Tum fotograflar silindi, bos alan=",
+  "lines": [
+   4105
+  ],
+  "calls": [
+   "send"
+  ]
+ },
+ "3803d3c0": {
+  "kind": "W",
+  "tr": " dk",
+  "lines": [
+   4117
+  ],
+  "calls": []
+ },
+ "882b1140": {
+  "kind": "W",
+  "tr": "metematik Ayarlar",
+  "lines": [
+   13808
+  ],
+  "calls": [
+   "setTitle"
+  ]
+ },
+ "1381c399": {
+  "kind": "W",
+  "tr": "Kuruluma Devam Et",
+  "lines": [
+   13844
+  ],
+  "calls": []
+ },
+ "05430e32": {
+  "kind": "W",
+  "tr": "Kuruluma Devam Et (Taramasiz)",
+  "lines": [
+   13844
+  ],
+  "calls": []
+ },
+ "59430b7e": {
+  "kind": "W",
+  "tr": "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Asagida <b>sadece bir kaynak</b> doldurun. Daha sonra http://IP/ adresinden de degistirebilirsiniz.</p></div>",
+  "lines": [
+   13856
+  ],
+  "calls": [
+   "p_note"
+  ]
+ },
+ "fbd72885": {
+  "kind": "W",
+  "tr": "<div class='c' style='border-left:4px solid #e67e22'><b style='color:#e67e22'>Dexcom</b><br><small>Kendi Dexcom hesabiniz (Follow degil)</small></div>",
+  "lines": [
+   13864
+  ],
+  "calls": [
+   "p_hd_dx"
+  ]
+ },
+ "3537f0d5": {
+  "kind": "W",
+  "tr": "Dexcom kullanici adi / e-posta / telefon (+905XXXXXXXXX)",
+  "lines": [
+   13865
+  ],
+  "calls": [
+   "p_dexu"
+  ]
+ },
+ "6582cca2": {
+  "kind": "W",
+  "tr": "Dexcom sifre",
+  "lines": [
+   13866
+  ],
+  "calls": [
+   "p_dexp"
+  ]
+ },
+ "5cd99201": {
+  "kind": "W",
+  "tr": "us veya ous",
+  "lines": [
+   13867
+  ],
+  "calls": [
+   "p_dexs"
+  ]
+ },
+ "921b15b2": {
+  "kind": "W",
+  "tr": "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Takipci (LibreLinkUp) hesabi</small></div>",
+  "lines": [
+   13868
+  ],
+  "calls": [
+   "p_hd_lb"
+  ]
+ },
+ "f44ffd98": {
+  "kind": "W",
+  "tr": "Libre e-posta",
+  "lines": [
+   13869
+  ],
+  "calls": [
+   "p_leu"
+  ]
+ },
+ "80d003dc": {
+  "kind": "W",
+  "tr": "Libre sifre",
+  "lines": [
+   13870
+  ],
+  "calls": [
+   "p_lep"
+  ]
+ },
+ "b98d3f8b": {
+  "kind": "W",
+  "tr": "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>EasyFollow hesabi</small></div>",
+  "lines": [
+   13872
+  ],
+  "calls": [
+   "p_hd_md"
+  ]
+ },
+ "a32ebf0d": {
+  "kind": "W",
+  "tr": "EasyFollow e-posta",
+  "lines": [
+   13873
+  ],
+  "calls": [
+   "p_mdu"
+  ]
+ },
+ "dc3866a5": {
+  "kind": "W",
+  "tr": "EasyFollow sifre",
+  "lines": [
+   13874
+  ],
+  "calls": [
+   "p_mdp"
+  ]
+ }
+}

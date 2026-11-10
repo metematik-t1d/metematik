@@ -1,0 +1,190 @@
+#id	es	pt	fr	de	it	ru	id
+d8b03145	Subida rápida	Subida rápida	Hausse rapide	Schneller Anstieg	Salita rapida	Быстрый рост	Naik cepat
+99a1e9aa	SÍ	LIG	OUI	AN	ON	ВКЛ	NYALA
+4ba281eb	NO	DESL	NON	AUS	OFF	ВЫКЛ	MATI
+c2eb37dc	SILENCIAR	SILENCIAR	ATTÉNUER	TON DÄMPFEN	SILENZIA	ПРИГЛУШИТЬ	REDAM SUARA
+64e0ec34	Aunque esté fuera de rango,	Mesmo fora do alvo,	Même hors de la cible,	Auch außerhalb des Bereichs,	Anche se fuori range,	Даже вне диапазона,	Meski di luar rentang,
+bf0023f2	si vuelve claramente a lo normal	se voltar claramente ao normal	si elle revient nettement	wenn er klar zurückgeht	se rientra chiaramente	если явно идёт к норме	jika jelas menuju normal
+7c3e7b67	(cambio de 5+ mg/dl),	(mudança de 5+ mg/dl),	(variation 5+ mg/dl),	(Änderung 5+ mg/dl),	(variazione 5+ mg/dl),	(изменение 5+ mg/dl),	(perubahan 5+ mg/dl),
+eea10397	el SONIDO se apaga solo.	o SOM silencia sozinho.	le SON se coupe tout seul.	verstummt der TON von selbst.	il SUONO si spegne da solo.	ЗВУК отключится сам.	SUARA mati otomatis.
+22cedb53	La alarma visual (color/parpadeo)	O alarme visual (cor/pisca)	L'alarme visuelle (couleur)	Visueller Alarm (Farbe/Blinken)	L'allarme visivo (colore/lampeggio)	Световая тревога (цвет/мигание)	Alarm visual (warna/kedip)
+f32845dc	sigue igual.	continua normalmente.	continue comme avant.	läuft normal weiter.	continua come prima.	продолжается как обычно.	tetap berjalan.
+83a46195	Nunca se aplica a Bajo crítico:	Nunca vale para Baixo crítico:	Jamais pour Bas critique :	Nie bei kritisch niedrig:	Mai per Basso critico:	Не действует при крит. низком:	Tidak berlaku untuk Rendah kritis:
+286e4184	esa alarma siempre suena.	esse alarme sempre toca.	cette alarme sonne toujours.	dieser Alarm ertönt immer.	quell'allarme suona sempre.	эта тревога звучит всегда.	alarm itu selalu berbunyi.
+99426679	MODOS	MODOS	MODES	MODI	MODALITÀ	РЕЖИМЫ	MODE
+f0da2139	Modo escuela	Modo escola	Mode école	Schulmodus	Modalità scuola	Школьный режим	Mode sekolah
+c61a4b58	Modo noche	Modo noturno	Mode nuit	Nachtmodus	Modalità notte	Ночной режим	Mode malam
+a1e3b33a	Modo guía	Modo guia	Mode guide	Helfermodus	Modalità guida	Режим подсказок	Mode panduan
+1e2db7ff	C<%s  B<%s  A>%s  MA>%s  SD%dm	C<%s  B<%s  A>%s  MA>%s  SD%dm	C<%s  B<%s  H>%s  TH>%s  PD%dm	K<%s  N<%s  H>%s  SH>%s  KD%dm	C<%s  B<%s  A>%s  MA>%s  ND%dm	К<%s  Н<%s  В>%s  ОВ>%s  НД%dм	K<%s  R<%s  T>%s  ST>%s  TD%dm
+b19ff6c3	Crítico	Crítico	Critique	Kritisch	Critico	Критич.	Kritis
+d6a806c8	Muy alto	Muito alto	Très haut	Sehr hoch	Molto alto	Очень высокий	Sangat tinggi
+de4a0ef1	Umbral bajo	Limite baixo	Seuil bas	Untere Grenze	Soglia bassa	Нижний порог	Ambang rendah
+00b2c9d0	Umbral alto	Limite alto	Seuil haut	Obere Grenze	Soglia alta	Верхний порог	Ambang tinggi
+f0e8b878	Umbral muy alto	Limite muito alto	Seuil très haut	Sehr hohe Grenze	Soglia molto alta	Очень высокий порог	Ambang sangat tinggi
+8788f366	Umbral bajo crítico	Limite baixo crítico	Seuil bas critique	Kritisch niedrige Grenze	Soglia basso critico	Порог крит. низкого	Ambang rendah kritis
+d3eade79	por debajo de este valor - toque para escribir	abaixo deste valor - toque para digitar	sous cette valeur - touchez pour saisir	unter diesem Wert - tippen zum Eingeben	sotto questo valore - tocca per scrivere	ниже этого значения - нажмите	di bawah nilai ini - ketuk untuk isi
+7763a316	por encima de este valor - toque para escribir	acima deste valor - toque para digitar	au-dessus - touchez pour saisir	über diesem Wert - tippen zum Eingeben	sopra questo valore - tocca per scrivere	выше этого значения - нажмите	di atas nilai ini - ketuk untuk isi
+1519596a	OK	OK	OK	OK	OK	OK	OK
+9d16fe32	Alarma sin datos	Alarme sem dados	Alarme sans données	Alarm ohne Daten	Allarme senza dati	Тревога: нет данных	Alarm tanpa data
+cbf23343	minutos sin datos	minutos sem dados	minutes sans données	Minuten ohne Daten	minuti senza dati	минут без данных	menit tanpa data
+c31ff0eb	POSPONER	ADIAR	REPORT	PAUSE	POSTICIPA	ОТЛОЖИТЬ	TUNDA
+b21da1d7	15 min	15 min	15 min	15 Min.	15 min	15 мин	15 mnt
+b8429017	30 min	30 min	30 min	30 Min.	30 min	30 мин	30 mnt
+625e3b27	60 min	60 min	60 min	60 Min.	60 min	60 мин	60 mnt
+6fbe6c83	Apagado	Desligado	Désactivé	Aus	Spento	Выкл	Mati
+1fc63537	SONIDO	SOM	SON	TON	SUONO	ЗВУК	SUARA
+4c087231	Elija nivel (suena prueba)	Escolha o nível (toca teste)	Niveau (joue un test)	Stufe wählen (Testton)	Scegli livello (suona test)	Выберите уровень (тест)	Pilih level (bunyi tes)
+3f15fe7a	BRILLO	BRILHO	LUMINOSITÉ	HELLIGKEIT	LUMINOSITÀ	ЯРКОСТЬ	KECERAHAN
+3784af97	Elija nivel	Escolha o nível	Choisir le niveau	Stufe wählen	Scegli livello	Выберите уровень	Pilih level
+c8acc5db	Medio	Médio	Moyen	Mittel	Medio	Средне	Sedang
+761b5996	QR / WEB	QR / WEB	QR / WEB	QR / WEB	QR / WEB	QR / WEB	QR / WEB
+041f0358	WiFi	WiFi	WiFi	WLAN	WiFi	WiFi	WiFi
+89cd352e	no conectado	não conectado	non connecté	nicht verbunden	non connesso	не подключено	tidak terhubung
+d03136ae	Escanee con el teléfono	Escaneie com o celular	Scannez avec le téléphone	Mit Handy scannen	Scansiona col telefono	Сканируйте телефоном	Pindai dengan ponsel
+d99f1b58	Ajustes del teléfono	Ajustes pelo celular	Réglages téléphone	Einstellung per Handy	Impostazioni da telefono	Настройка с телефона	Atur dari ponsel
+b501c8b5	Clave web	Senha web	Mot de passe web	Web-Passwort	Password web	Веб-пароль	Sandi web
+d5e522d1	Info	Info	Info	Info	Info	Инфо	Info
+756b1bf4	Guía	Guia	Guide	Anleitung	Guida	Справка	Panduan
+8a33b5a0	Restablecer o apagar	Redefinir ou desligar	Réinitialiser ou éteindre	Zurücksetzen oder ausschalten	Reimposta o spegni	Сброс или выключение	Atur ulang atau matikan
+d9c93fca	Restablecer equipo	Redefinir aparelho	Réinitialiser	Gerät zurücksetzen	Reimposta dispositivo	Сброс устройства	Atur ulang perangkat
+94232a11	WiFi + accesos de fuente	WiFi + logins da fonte	WiFi + identifiants source	WLAN + Quell-Logins	WiFi + accessi fonte	WiFi + входы источника	WiFi + login sumber
+1f0c162d	Apagar	Desligar	Éteindre	Ausschalten	Spegni	Выключить	Matikan
+bf48828c	Apagado seguro	Desligamento seguro	Arrêt sécurisé	Sicher ausschalten	Spegnimento sicuro	Безопасное выключение	Matikan dengan aman
+cc6fe600	El equipo se apagará.	O aparelho vai desligar.	L'appareil va s'éteindre.	Das Gerät wird ausgeschaltet.	Il dispositivo si spegnerà.	Устройство выключится.	Perangkat akan mati.
+20853d08	¿Está seguro?	Tem certeza?	Êtes-vous sûr ?	Sind Sie sicher?	Sei sicuro?	Вы уверены?	Anda yakin?
+0e273561	Se borrarán el WiFi y los accesos	O WiFi e os logins da fonte	Le WiFi et les identifiants	WLAN und Quell-Logins	WiFi e accessi della fonte	WiFi и входы источника	WiFi dan login sumber
+47677a3e	(usuario/clave) de la fuente.	(usuário/senha) serão apagados.	(utilisateur/mdp) seront effacés.	(Benutzer/Passwort) werden gelöscht.	(utente/password) saranno cancellati.	(логин/пароль) будут удалены.	(pengguna/sandi) akan dihapus.
+fa1385e6	Alarmas/pantalla se conservan. ¿Seguro?	Alarmes/tela ficam. Tem certeza?	Alarmes/écran gardés. Sûr ?	Alarm/Anzeige bleiben. Sicher?	Allarmi/schermo restano. Sicuro?	Тревоги/экран останутся. Уверены?	Alarm/layar tetap. Yakin?
+f662cc3f	Sí	Sim	Oui	Ja	Sì	Да	Ya
+ed847f4a	No	Não	Non	Nein	No	Нет	Tidak
+6ea4f231	INFO	INFO	INFO	INFO	INFO	ИНФО	INFO
+29c5d4ee	No conectado	Não conectado	Non connecté	Nicht verbunden	Non connesso	Не подключено	Tidak terhubung
+f1a85f90	WiFi: 	WiFi: 	WiFi : 	WLAN: 	WiFi: 	WiFi: 	WiFi:
+e6d2e882	Batería: sin medidor	Bateria: sem medidor	Batterie : pas de jauge	Akku: keine Messung	Batteria: senza misura	Батарея: нет датчика	Baterai: tanpa pengukur
+959ca29f	Batería: ninguna	Bateria: nenhuma	Batterie : aucune	Akku: keiner	Batteria: nessuna	Батарея: нет	Baterai: tidak ada
+353ad82c	Batería: %d%%	Bateria: %d%%	Batterie : %d %%	Akku: %d %%	Batteria: %d%%	Батарея: %d%%	Baterai: %d%%
+fdfe6b04	 carga	 carga	 charge	 lädt	 carica	 заряд	 isi
+f4b73d48	Fuentes	Fontes	Sources	Quellen	Fonti	Источники	Sumber
+155be7c8	FUENTES	FONTES	SOURCES	QUELLEN	FONTI	ИСТОЧНИКИ	SUMBER
+983bd5ab	Fuentes de datos	Fontes de dados	Sources de données	Datenquellen	Fonti dei dati	Источники данных	Sumber data
+f75c36b8	Algunas usan API de terceros	Algumas usam APIs de terceiros	Certaines utilisent des API tierces	Teils Drittanbieter-APIs	Alcune usano API di terzi	Некоторые используют сторонние API	Sebagian memakai API pihak ketiga
+870ddb5d	Bibliotecas	Bibliotecas	Bibliothèques	Bibliotheken	Librerie	Библиотеки	Pustaka
+9b59a5e6	Fuente: Noto Sans (convertida)	Fonte: Noto Sans (convertida)	Police : Noto Sans (convertie)	Schrift: Noto Sans (konvertiert)	Font: Noto Sans (convertito)	Шрифт: Noto Sans (преобр.)	Font: Noto Sans (dikonversi)
+2e8f2f3e	No es un dispositivo médico. Marcas de sus dueños.	Não é dispositivo médico. Marcas dos donos.	Pas un dispositif médical. Marques à leurs propriétaires.	Kein Medizinprodukt. Marken der Inhaber.	Non è un dispositivo medico. Marchi dei titolari.	Не медизделие. Марки - их владельцев.	Bukan alat medis. Merek milik pemiliknya.
+d6328249	IDIOMA / UNID.	IDIOMA / UNID.	LANGUE / UNITÉ	SPRACHE / EINH.	LINGUA / UNITÀ	ЯЗЫК / ЕД.	BAHASA/UNIT
+a85364df	Modo para daltónicos	Modo daltonismo	Mode daltonien	Farbschwäche-Modus	Modalità daltonici	Режим для дальтоников	Mode buta warna
+6bb442a2	Encendido	Ligado	Activé	An	Acceso	Вкл	Nyala
+dbf60dab	VISTA	VISUAL	AFFICHAGE	ANSICHT	VISTA	ВИД	TAMPILAN
+3f6c6cb7	Aplicar	Aplicar	Appliquer	Anwenden	Applica	Применить	Terapkan
+096208f3	ROTACIÓN	ROTAÇÃO	ROTATION	DREHUNG	ROTAZIONE	ПОВОРОТ	ROTASI
+979829ac	Horizontal según el lado USB	Horizontal pelo lado do USB	Paysage selon le côté USB	Querformat nach USB-Seite	Orizzontale lato USB	Горизонтально по стороне USB	Lanskap sesuai sisi USB
+05dead34	Lado derecho	Lado direito	Côté droit	Rechte Seite	Lato destro	Справа	Sisi kanan
+763e50f6	Lado izquierdo	Lado esquerdo	Côté gauche	Linke Seite	Lato sinistro	Слева	Sisi kiri
+b540c078	MODO NOCHE	MODO NOTURNO	MODE NUIT	NACHTMODUS	MODALITÀ NOTTE	НОЧНОЙ РЕЖИМ	MODE MALAM
+6701ea36	Inicio	Início	Début	Beginn	Inizio	Начало	Mulai
+7c2ef34a	Fin	Fim	Fin	Ende	Fine	Конец	Selesai
+8409e329	Brillo	Brilho	Lumière	Hell	Luce	Яркость	Terang
+3908707e	Sonido	Som	Son	Ton	Suono	Звук	Suara
+7e7ef6fb	Guardar	Salvar	Enregistrer	Speichern	Salva	Сохранить	Simpan
+201e5e39	MODO ESCUELA	MODO ESCOLA	MODE ÉCOLE	SCHULMODUS	MODALITÀ SCUOLA	ШКОЛА	MODE SEKOLAH
+b948e6d1	Brillo	Brilho	Lumière	Hell	Luce	Яркость	Terang
+dd82775e	GLUCAGÓN	GLUCAGON	GLUCAGON	GLUKAGON	GLUCAGONE	ГЛЮКАГОН	GLUKAGON
+b336dd98	¡Llame primero a emergencias!	Ligue primeiro para a emergência!	Appelez d'abord les urgences !	Zuerst den Notruf wählen!	Chiamate prima i soccorsi!	Сначала вызовите скорую!	Hubungi layanan darurat dulu!
+8bf9026f	- Medicamento para hipo grave	- Remédio para hipo grave	- Médicament de l'hypo sévère	- Medikament bei schwerer Hypo	- Farmaco per ipo grave	- Средство при тяжёлой гипо	- Obat untuk hipo berat
+75d07c3e	- Si está inconsciente / no traga	- Se inconsciente / não engole	- Si inconscient / ne peut avaler	- Bei Bewusstlosigkeit / kein Schlucken	- Se incosciente / non deglutisce	- Без сознания / не может глотать	- Jika tak sadar / tak bisa menelan
+71d808d6	- Aplíquelo sin demora	- Aplique sem demora	- Administrer sans attendre	- Ohne Verzögerung geben	- Somministrare subito	- Вводите без промедления	- Berikan tanpa menunda
+45d83f0f	- Siga el plan familia/escuela	- Siga o plano família/escola	- Suivre le plan famille/école	- Familien-/Schulplan befolgen	- Seguire il piano famiglia/scuola	- По плану семьи/школы	- Ikuti rencana keluarga/sekolah
+faa5a399	¿Cómo se prepara?	Como preparar?	Comment préparer ?	Wie vorbereiten?	Come prepararlo?	Как подготовить?	Cara menyiapkan?
+66335366	- Tenga el kit listo en la escuela	- Deixe o kit pronto na escola	- Kit prêt à l'école	- Set in der Schule bereithalten	- Kit pronto a scuola	- Набор наготове в школе	- Siapkan kit di sekolah
+4284f10b	- Siga la guía con dibujos	- Siga o guia ilustrado	- Suivre le guide illustré	- Bildanleitung befolgen	- Seguire la guida illustrata	- Следуйте инструкции с рисунками	- Ikuti panduan bergambar
+19cf6669	- Vea el video de la página 4	- Veja o vídeo da página 4	- Voir la vidéo en page 4	- Video auf Seite 4 ansehen	- Guarda il video a pagina 4	- Смотрите видео на стр. 4	- Tonton video di halaman 4
+439dc239	- La dosis depende de edad/peso	- A dose depende de idade/peso	- Dose selon l'âge/le poids	- Dosis nach Alter/Gewicht	- Dose secondo età/peso	- Доза зависит от возраста/веса	- Dosis sesuai usia/berat
+df9a68c9	Después de aplicarlo	Depois de aplicar	Après l'injection	Nach der Gabe	Dopo la somministrazione	После введения	Setelah diberikan
+b11e44c8	- De lado, vía aérea libre	- De lado, vias aéreas livres	- Sur le côté, voies dégagées	- Seitenlage, Atemwege frei	- Su un fianco, vie aeree libere	- На бок, дыхание свободно	- Posisi miring, jalan napas terbuka
+d661ea5a	- Si despierta y traga: jugo	- Acordado e engolindo: suco	- Réveillé et avale : jus	- Wach und schluckt: Saft	- Sveglio e deglutisce: succo	- Очнулся и глотает: сок	- Sadar dan bisa menelan: jus
+b277f6ea	- Sin despertar en 10 min: emergencias	- Não acordou em 10 min: emergência	- Pas réveillé en 10 min : urgences	- Nach 10 Min. nicht wach: Notruf	- Non sveglio in 10 min: soccorsi	- Не очнулся за 10 мин: скорая	- Tak sadar dalam 10 mnt: darurat
+c5fdab8f	- Anote la hora, llame a la familia	- Anote a hora, ligue para a família	- Noter l'heure, appeler la famille	- Uhrzeit notieren, Familie anrufen	- Annotare l'ora, chiamare la famiglia	- Запишите время, звоните семье	- Catat waktu, hubungi keluarga
+14c04283	Video: cómo aplicarlo	Vídeo: como aplicar	Vidéo : comment l'injecter	Video: so wird es gegeben	Video: come somministrarlo	Видео: как вводить	Video: cara memberikan
+08064884	Reproducir video	Reproduzir vídeo	Lire la vidéo	Video abspielen	Riproduci video	Смотреть видео	Putar video
+5de3af16	El video no está instalado.	O vídeo não está instalado.	La vidéo n'est pas installée.	Das Video ist nicht installiert.	Il video non è installato.	Видео не установлено.	Video belum terpasang.
+132308de	Use la guía de la caja.	Use o guia da caixa.	Utilisez le guide de la boîte.	Anleitung in der Packung nutzen.	Usa la guida nella confezione.	Смотрите инструкцию в коробке.	Pakai panduan dalam kotak.
+294a27a9	Siguiente	Próximo	Suivant	Weiter	Avanti	Далее	Lanjut
+0fe98a61	Cerrar	Fechar	Fermer	Schließen	Chiudi	Закрыть	Tutup
+7f9a3712	VISTA PREVIA	PRÉVIA	APERÇU	VORSCHAU	ANTEPRIMA	ПРОСМОТР	PRATINJAU
+7b2d3712	GUÍA	GUIA	GUIDE	HELFER	GUIDA	ПОДСКАЗКА	PANDUAN
+c891df32	¿Está inconsciente, tiene una convulsión	Está inconsciente, tendo uma convulsão	Inconscient, en crise convulsive	Bewusstlos, Krampfanfall	È incosciente, ha una convulsione	Без сознания, судороги	Tak sadar, kejang,
+8f9c3476	o no puede tragar?	ou não consegue engolir?	ou incapable d'avaler ?	oder kann nicht schlucken?	o non riesce a deglutire?	или не может глотать?	atau tak bisa menelan?
+4d024e96	Mida la glucosa en el dedo.	Meça a glicemia no dedo.	Faites une glycémie au doigt.	Blutzucker am Finger messen.	Misura la glicemia dal dito.	Измерьте сахар из пальца.	Cek gula darah di jari.
+27f40417	¿Se parece al valor del sensor?	Está perto do valor do sensor?	Proche de la valeur du capteur ?	Nahe am Sensorwert?	Vicino al valore del sensore?	Близко к значению сенсора?	Dekat dengan nilai sensor?
+0d513685	No puedo medir	Não consigo medir	Impossible	Kann nicht messen	Non posso	Не могу	Tak bisa ukur
+b1408316	¿Cuál es el resultado del dedo?	Qual é o resultado do dedo?	Quel est le résultat au doigt ?	Wie ist der Fingerwert?	Qual è il risultato dal dito?	Какой результат из пальца?	Berapa hasil cek jari?
+b47418b5	menos de %s	abaixo de %s	sous %s	unter %s	sotto %s	ниже %s	di bawah %s
+cd7b8fc0	Normal	Normal	Normal	Normal	Normale	Норма	Normal
+5bd986ba	más de %s	acima de %s	au-dessus de %s	über %s	sopra %s	выше %s	di atas %s
+362274a6	Si duda, llame a la familia.	Na dúvida, ligue para a família.	En cas de doute, appelez la famille.	Im Zweifel die Familie anrufen.	Nel dubbio, chiama la famiglia.	Если сомневаетесь, звоните семье.	Jika ragu, hubungi keluarga.
+6318022a	INCONSCIENTE / NO TRAGA:	INCONSCIENTE / NÃO ENGOLE:	INCONSCIENT / N'AVALE PAS :	BEWUSSTLOS / KEIN SCHLUCKEN:	INCOSCIENTE / NON DEGLUTISCE:	БЕЗ СОЗНАНИЯ / НЕ ГЛОТАЕТ:	TAK SADAR / TAK BISA MENELAN:
+6f7f8867	- Llame a emergencias y a la familia	- Ligue para a emergência e a família	- Appelez les urgences et la famille	- Notruf und Familie anrufen	- Chiamate i soccorsi e la famiglia	- Вызовите скорую и семью	- Hubungi darurat dan keluarga
+164037d9	- No dé comida ni bebida	- Não dê comida nem bebida	- Ne rien donner à manger ni à boire	- Kein Essen, kein Trinken	- Niente cibo né bevande	- Не давайте еду и питьё	- Jangan beri makan atau minum
+8a97ad37	¿Cómo aplicar glucagón?	Como aplicar glucagon?	Comment injecter le glucagon ?	Wie gibt man Glukagon?	Come dare il glucagone?	Как вводить глюкагон?	Cara memberi glukagon?
+639a6250	- No se aleje del alumno	- Não saia de perto do aluno	- Restez près de l'élève	- Beim Kind bleiben	- Restate con lo studente	- Не отходите от ученика	- Tetap di dekat siswa
+1b9726c0	GLUCOSA BAJA:	GLICOSE BAIXA:	GLYCÉMIE BASSE :	ZUCKER NIEDRIG:	GLICEMIA BASSA:	НИЗКИЙ САХАР:	GULA RENDAH:
+d03d2c50	- Dé jugo o terrones de azúcar	- Dê suco ou cubos de açúcar	- Donnez du jus ou du sucre	- Saft oder Würfelzucker geben	- Dare succo o zollette	- Дайте сок или сахар	- Beri jus atau gula batu
+abb69b2b	- Espere 15 min, vuelva a medir	- Espere 15 min, meça de novo	- Attendez 15 min, recontrôlez	- 15 Min. warten, neu messen	- Aspettare 15 min, rimisurare	- Ждите 15 мин, измерьте снова	- Tunggu 15 mnt, cek lagi
+bfe304fd	- Repita si sigue bajo	- Repita se continuar baixo	- Répétez si toujours bas	- Wiederholen, falls noch niedrig	- Ripetere se ancora basso	- Повторите, если всё ещё низкий	- Ulangi jika masih rendah
+81f52e4c	- Si no puede tragar: emergencias	- Se não engolir: emergência	- S'il n'avale plus : urgences	- Kann nicht schlucken: Notruf	- Se non deglutisce: soccorsi	- Не может глотать: скорая	- Tak bisa menelan: darurat
+93aad056	MUY ALTO:	MUITO ALTO:	TRÈS HAUT :	SEHR HOCH:	MOLTO ALTO:	ОЧЕНЬ ВЫСОКИЙ:	SANGAT TINGGI:
+19916b71	- Agua (sin forzar)	- Água (sem forçar)	- De l'eau (sans forcer)	- Wasser (nicht zwingen)	- Acqua (senza forzare)	- Вода (не заставляйте)	- Air (jangan dipaksa)
+a460be83	- Sin ejercicio	- Sem exercício	- Pas d'exercice	- Kein Sport	- Niente esercizio	- Без нагрузки	- Jangan olahraga
+1fd94d40	- No decida una dosis; siga	- Não decida a dose; siga	- Ne décidez pas de dose ;	- Keine Dosis festlegen;	- Non decidere la dose;	- Не решайте дозу сами;	- Jangan tentukan dosis;
+23950392	  el plan familia/escuela	  o plano família/escola	  suivez le plan famille/école	  Familien-/Schulplan folgen	  seguire il piano famiglia/scuola	  следуйте плану семьи/школы	  ikuti rencana keluarga/sekolah
+bb2b6a04	- Vómito, dolor de panza, jadeo: emergencias	- Vômito, dor de barriga, ofegante: emergência	- Vomit, mal au ventre, souffle rapide : urgences	- Erbrechen, Bauchweh, schnelle Atmung: Notruf	- Vomito, mal di pancia, fiato corto: soccorsi	- Рвота, боль в животе, одышка: скорая	- Muntah, sakit perut, napas cepat: darurat
+72579194	Observe al alumno	Observe o aluno	Surveillez l'élève	Kind beobachten	Osservate lo studente	Наблюдайте за учеником	Pantau siswa
+f8963c4b	- Quédese cerca si está débil	- Fique perto se estiver fraco	- Restez près s'il est faible	- Bei Schwäche dabeibleiben	- Restate vicino se è debole	- Будьте рядом, если слабость	- Tetap dekat jika lemas
+c6c441c5	- Si duda, llame a la familia	- Na dúvida, ligue para a família	- En cas de doute, appelez la famille	- Im Zweifel Familie anrufen	- Nel dubbio, chiamate la famiglia	- Если сомневаетесь, звоните семье	- Jika ragu, hubungi keluarga
+10309abd	Inicio	Início	Accueil	Start	Home	Домой	Beranda
+8ffd0fda	MODO GUÍA	MODO GUIA	MODE GUIDE	HELFERMODUS	MODALITÀ GUIDA	РЕЖИМ ПОДСКАЗОК	MODE PANDUAN
+7ec705f9	Muestra un botón Alerta en la alarma.	Mostra o botão Alerta no alarme.	Affiche un bouton Alerte à l'alarme.	Zeigt beim Alarm eine Achtung-Taste.	Mostra il pulsante Allerta all'allarme.	При тревоге кнопка «Внимание».	Tampilkan tombol Waspada saat alarm.
+3ac4cf2b	Hipoglucemia (<%s):	Hipoglicemia (<%s):	Hypoglycémie (<%s) :	Hypoglykämie (<%s):	Ipoglicemia (<%s):	Гипогликемия (<%s):	Hipoglikemia (<%s):
+0d84b7c2	Dele jugo o terrones de azúcar,	Dê suco ou cubos de açúcar,	Donnez du jus ou du sucre,	Saft oder Würfelzucker geben,	Dai succo o zollette,	Дайте сок или сахар,	Beri jus atau gula batu,
+b11d6403	espere 15 min, vuelva a medir.	espere 15 min, meça de novo.	attendez 15 min, recontrôlez.	15 Min. warten, neu messen.	aspetta 15 min, rimisura.	ждите 15 мин, измерьте снова.	tunggu 15 mnt, cek lagi.
+be767046	Hipo grave (<%s):	Hipo grave (<%s):	Hypo sévère (<%s) :	Schwere Hypo (<%s):	Ipo grave (<%s):	Тяжёлая гипо (<%s):	Hipo berat (<%s):
+2049a8bd	No dé nada por la boca.	Não dê nada pela boca.	Rien par la bouche.	Nichts in den Mund geben.	Niente per bocca.	Ничего не давайте в рот.	Jangan beri apa pun lewat mulut.
+addb8a5c	Glucagón, llame a emergencias + familia.	Glucagon, ligue emergência + família.	Glucagon, appelez urgences + famille.	Glukagon geben, Notruf + Familie.	Glucagone, chiamate soccorsi + famiglia.	Глюкагон, вызовите скорую + семью.	Glukagon, hubungi darurat + keluarga.
+2dee4d7f	Hiperglucemia (>%s):	Hiperglicemia (>%s):	Hyperglycémie (>%s) :	Hyperglykämie (>%s):	Iperglicemia (>%s):	Гипергликемия (>%s):	Hiperglikemia (>%s):
+da31e942	Agua, sin ejercicio.	Água, sem exercício.	Eau, pas d'exercice.	Wasser, kein Sport.	Acqua, niente sport.	Вода, без нагрузки.	Air, tanpa olahraga.
+5e2bf7bb	MÁS AJUSTES	MAIS CONFIGURAÇÕES	PLUS DE RÉGLAGES	MEHR EINSTELLUNGEN	ALTRE IMPOSTAZIONI	ДРУГИЕ НАСТРОЙКИ	PENGATURAN LAIN
+7b65a30a	Idioma/Unidad	Idioma/Unidade	Langue/Unité	Sprache/Einheit	Lingua/Unità	Язык/Единицы	Bahasa/Satuan
+fe668e58	Restablecer	Redefinir	Réinitialiser	Zurücksetzen	Reimposta	Сброс	Atur ulang
+f4424a56	Girar	Girar	Rotation	Drehen	Ruota	Поворот	Putar
+0d8122b5	Actualizar	Atualizar	Actualiser	Aktualisieren	Aggiorna	Обновить	Muat ulang
+17e5c68c	Alarmas	Alarmes	Alarmes	Alarme	Allarmi	Тревоги	Alarm
+05b83ab9	Rangos	Alvos	Cibles	Ziele	Soglie	Цели	Target
+aaf6d256	QR / Web	QR / Web	QR / Web	QR / Web	QR / Web	QR / Web	QR / Web
+09ef4471	info, guía	info, guia	info, guide	Info, Anleitung	info, guida	инфо, справка	info, panduan
+752592bf	Editar páginas	Editar páginas	Modifier les pages	Seiten bearbeiten	Modifica pagine	Изменить страницы	Atur halaman
+fd4210f0	 páginas	 páginas	 pages	 Seiten	 pagine	 стр.	 halaman
+165c5e0f	Restablecer / Apagar	Redefinir / Desligar	Réinit. / Éteindre	Reset / Aus	Reimposta / Spegni	Сброс / Выкл.	Atur ulang / Mati
+3d8eaca3	 min	 min	 min	 Min.	 min	 мин	 mnt
+dbd615ca	Silenciar sonido	Silenciar som	Atténuer le son	Ton dämpfen	Silenzia suono	Приглушать звук	Redam suara
+72ef7050	Alarma visual	Alarme visual	Alarme visuelle	Visueller Alarm	Allarme visivo	Световая тревога	Alarm visual
+2bd00398	Modo noche	Modo noturno	Mode nuit	Nachtmodus	Modalità notte	Ночной режим	Mode malam
+915302b9	Modo escuela	Modo escola	Mode école	Schulmodus	Modalità scuola	Школьный режим	Mode sekolah
+a9d2d37a	Modo guía	Modo guia	Mode guide	Helfermodus	Modalità guida	Режим подсказок	Mode panduan
+ba9e2c23	No molestar	Não perturbe	Ne pas déranger	Nicht stören	Non disturbare	Не беспокоить	Jangan ganggu
+6b59075e	Chasquido	Estalo para acordar	Réveil claquement	Schnips-Wecken	Schiocco: riattiva	Щелчок: включить	Jentik untuk bangun
+0045970b	Sensibilidad	Sensibilidade	Sensibilité	Empfindlichkeit	Sensibilità	Чувствительность	Sensitivitas
+61ba8805	Prueba de chasquido	Teste de estalo	Test de claquement	Schnips-Test	Test schiocco	Тест щелчка	Tes jentik
+7d3ea30d	AJUSTES	CONFIGURAÇÕES	RÉGLAGES	EINSTELLUNGEN	IMPOSTAZIONI	НАСТРОЙКИ	PENGATURAN
+6ce514cc	ALARMAS	ALARMES	ALARMES	ALARME	ALLARMI	ТРЕВОГИ	ALARM
+d630bbce	NO MOLESTAR	NÃO PERTURBE	NE PAS DÉRANGER	NICHT STÖREN	NON DISTURBARE	НЕ БЕСПОКОИТЬ	JANGAN GANGGU
+a8c2338c	Conexión	Conexão	Connexion	Verbindung	Connessione	Подключение	Koneksi
+7c8765c7	Equipo	Aparelho	Appareil	Gerät	Dispositivo	Устройство	Perangkat
+05e8be1e	Nombre: 	Nome: 	Nom : 	Name: 	Nome: 	Имя: 	Nama:
+c5da5af6	Versión: 	Versão: 	Version : 	Version: 	Versione: 	Версия: 	Versi:
+a492731b	Reinicios automáticos: 	Reinícios automáticos: 	Redémarrages auto : 	Automatische Neustarts: 	Riavvii automatici: 	Автоперезапуски: 	Mulai ulang otomatis:
+ee48d4b2	Sin batería	Sem bateria	Pas de batterie	Kein Akku	Nessuna batteria	Нет батареи	Tanpa baterai
+bcdd6346	  cargando 	  carregando 	  en charge 	  lädt 	  in carica 	  зарядка 	  mengisi
+04bb01f2	Ajustes desde el teléfono (web)	Ajustes pelo celular (web)	Réglages via téléphone (web)	Einstellung per Handy (Web)	Impostazioni da telefono (web)	Настройка с телефона (веб)	Atur dari ponsel (web)
+46af88b4	Clave: 	Senha: 	Mot de passe : 	Passwort: 	Password: 	Пароль: 	Sandi:
+6c1e9b20	El navegador se recuerda 30 días. Puede cambiar la clave en la página web; Restablecer equipo vuelve a la clave original (de fábrica), que aparece en la pantalla Info.	O navegador é lembrado por 30 dias. Você pode mudar a senha na página web; Redefinir aparelho volta à senha original (de fábrica), mostrada na tela Info.	Le navigateur est mémorisé 30 jours. Vous pouvez changer le mot de passe sur la page web ; Réinitialiser rétablit le mot de passe d'origine (usine), affiché sur l'écran Info.	Der Browser bleibt 30 Tage angemeldet. Das Passwort lässt sich auf der Webseite ändern; Gerät zurücksetzen stellt das ursprüngliche (Werks-)Passwort wieder her, das auf dem Info-Bildschirm steht.	Il browser viene ricordato per 30 giorni. Puoi cambiare la password dalla pagina web; Reimposta dispositivo ripristina la password originale (di fabbrica), mostrata nella schermata Info.	Браузер запоминается на 30 дней. Пароль можно сменить на веб-странице; сброс устройства возвращает исходный (заводской) пароль, он указан на экране «Инфо».	Peramban diingat selama 30 hari. Sandi bisa diubah di halaman web; Atur ulang perangkat mengembalikan sandi awal (pabrik), yang tertera di layar Info.
+a34e1a68	Contacto	Contato	Contact	Kontakt	Contatti	Контакты	Kontak
