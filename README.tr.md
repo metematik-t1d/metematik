@@ -73,7 +73,7 @@ Bilgisayarda Chrome veya Edge ile **[yükleme sayfasını](https://metematik-t1d
    - Partition Scheme: **Custom** (klasördeki `partitions.csv` kullanılır)
    - PSRAM: **OPI PSRAM**
    - Upload Speed: **921600**
-5. Kartın **USB** yazan girişini bağlayın, portu seçin, *Yükle*'ye basın. Bitince bir kez **RESET**'e basın.
+5. Kartın **USB** yazan girişini bağlayın, portu seçin, *Yükle*'ye basın. Cihaz kendiliğinden yeniden başlar; başlamazsa USB kablosunu çıkarıp tekrar takın.
 
 Sonraki güncellemeler cihazın web sayfasından (*Yazılım güncelleme*) WiFi ile yüklenebilir.
 

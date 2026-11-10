@@ -75,7 +75,7 @@ Open the **[web installer](https://metematik-t1d.github.io/metematik/install/)**
    - Partition Scheme: **Custom** (uses `partitions.csv` from the folder)
    - PSRAM: **OPI PSRAM**
    - Upload Speed: **921600**
-5. Connect the board's **USB** port, choose the port and press *Upload*. Press **RESET** once when finished.
+5. Connect the board's **USB** port, choose the port and press *Upload*. The device restarts by itself; if it does not, unplug and replug the USB cable.
 
 Later updates can be installed over WiFi from the device's web page (*Firmware update*).
 
