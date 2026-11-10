@@ -68,7 +68,7 @@ static const uint32_t GLK_EN_LEN = 0;
 #include "metematik_assets.h"   // yazi tipleri + logo (ayni klasorde olmali)
 
 
-#define FIRMWARE_VERSION "4.0.5"
+#define FIRMWARE_VERSION "4.0.6"
 
 // ---- forward declarations (Arduino sirasi icin) ----
 bool fetchData();
@@ -11013,6 +11013,7 @@ void drawThemePage() {
 }
 
 // 2./3. sayfa temasi secildi: sayfayi ac, Sayfalar listesine don
+int thPickHomePage = -1;              // 4.0.6: 2./3. sayfada basili tutuldu - secimden sonra o sayfaya don
 void themePickDone(bool apply) {
   if (apply) {
     if (thPickSlot == 2) { pgTh2Theme = thSel; pgOn[P_TH2] = true; }
@@ -11023,10 +11024,17 @@ void themePickDone(bool apply) {
   thSel = thKeepSel; bgSel = thKeepBg; themeScroll = 0;
   if (thPickFrom >= 0) currentScreen = thPickFrom;
   thPickFrom = -1;
+  if (thPickHomePage >= 0) {          // 4.0.6: ana ekrandaki 2./3. tema sayfasina geri
+    int pg = thPickHomePage;
+    thPickHomePage = -1;
+    showPage(pg);
+    return;
+  }
   formOpen(F_PAGES);
 }
 
 void openThemePick(int slot) {
+  thPickHomePage = -1;                // 4.0.6: varsayilan Sayfalar listesine donus (ana ekrandan acilinca cagiran ayarlar)
   thKeepSel = thSel; thKeepBg = bgSel;
   thPickFrom = currentScreen;
   formId = 0; formDepth = 0; formDlg = 0;
@@ -14348,7 +14356,11 @@ void loopBody() {
       if (held >= 3000) {
         themeHoldShown = false;
         holdT0 = 0; gDown = false; holdSwallow = true; lastTouchNav = millis();
-        openApp(0);
+        if (curPage == P_TH2 || curPage == P_TH3) {           // 4.0.6: 2./3. sayfada: o sayfanin temasi
+          int pg = curPage;
+          openThemePick(pg == P_TH2 ? 2 : 3);
+          thPickHomePage = pg;
+        } else openApp(0);
       }
     } else if (!touchNow) {
       if (holdT0 && millis() - holdT0 > 800) { gDown = false; if (isHomeScreen()) drawCurrentScreen(); }   // yarida birakildi

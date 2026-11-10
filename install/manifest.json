@@ -1,6 +1,6 @@
 {
   "name": "MeteMatik Crown",
-  "version": "4.0.5",
+  "version": "4.0.6",
   "new_install_prompt_erase": true,
   "builds": [
     {
