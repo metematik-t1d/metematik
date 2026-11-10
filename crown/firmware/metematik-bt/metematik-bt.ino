@@ -68,7 +68,7 @@ static const uint32_t GLK_EN_LEN = 0;
 #include "metematik_assets.h"   // yazi tipleri + logo (ayni klasorde olmali)
 
 
-#define FIRMWARE_VERSION "4.0.3"
+#define FIRMWARE_VERSION "4.0.4"
 
 // ---- forward declarations (Arduino sirasi icin) ----
 bool fetchData();
@@ -2549,8 +2549,9 @@ void loadSettings() {
   setInsTs = prefs.getUInt("setins", 0);
   personName = prefs.getString("pname", "");          // 4.0
   {                                                    // 4.0.1: aile modu ac/kapa + kisi sayisi
+    bool hasPc = prefs.isKey("pcount");                // 4.0.4: yeni / silinmis cihaz tek kisiyle baslar
     int pc = prefs.getInt("pcount", 2);
-    famEnabled = prefs.getBool("famon", pc > 1);
+    famEnabled = prefs.getBool("famon", hasPc && pc > 1);
     famCount = constrain(pc, 2, PERSON_MAX);
     personCount = famEnabled ? famCount : 1;
   }
