@@ -13,7 +13,10 @@ MeteMatik is **not sold** and there is no ready-made device. You buy the display
 
 📘 **[Setup guide](docs/setup-guide.md)** — parts, printing, assembly, install, first setup
 📗 **[User guide](docs/user-guide.md)** — screens, alarms, modes, family mode
-🎬 Videos: YouTube **@metematik.t1d**
+🎬 **Videos** (YouTube @metematik.t1d):
+
+| <a href="https://youtu.be/EszCZkOoSs0"><img src="docs/img/video_1_tanitim_en.jpg" width="200"><br>Introduction</a> | <a href="https://youtu.be/V_lj3B4wAyk"><img src="docs/img/video_2_montaj_en.jpg" width="200"><br>Assembly</a> | <a href="https://youtu.be/D3Lhhu3Djro"><img src="docs/img/video_3_yukleme_en.jpg" width="200"><br>Install</a> | <a href="https://youtu.be/52YqtqrRWC8"><img src="docs/img/video_4_kurulum_en.jpg" width="200"><br>Setup & tour</a> |
+|:-:|:-:|:-:|:-:|
 
 <p align="center">
 <img src="docs/img/scene_mutfak_en.jpg" width="200"> <img src="docs/img/scene_okul_en.jpg" width="200"> <img src="docs/img/scene_komodin_en.jpg" width="200"> <img src="docs/img/scene_cocuk_odasi_en.jpg" width="200">

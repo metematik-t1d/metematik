@@ -13,7 +13,10 @@ MeteMatik **satılmaz**, hazır cihaz yoktur. Ekran kartını kendiniz alırsın
 
 📘 **[Kurulum rehberi](docs/kurulum-rehberi.md)**: parçalar, baskı, montaj, yükleme, ilk kurulum
 📗 **[Kullanım rehberi](docs/kullanim-rehberi.md)**: ekranlar, alarmlar, modlar, aile modu
-🎬 Videolar: YouTube **@metematik.t1d**
+🎬 **Videolar** (YouTube @metematik.t1d):
+
+| <a href="https://youtu.be/jnPzpM1wNaE"><img src="docs/img/video_1_tanitim_tr.jpg" width="200"><br>Tanıtım</a> | <a href="https://youtu.be/jcGmKUr2nUk"><img src="docs/img/video_2_montaj_tr.jpg" width="200"><br>Montaj</a> | <a href="https://youtu.be/cEktKcaQwwk"><img src="docs/img/video_3_yukleme_tr.jpg" width="200"><br>Yazılım yükleme</a> | <a href="https://youtu.be/sWX9ir8FWBQ"><img src="docs/img/video_4_kurulum_tr.jpg" width="200"><br>Kurulum ve kullanım</a> |
+|:-:|:-:|:-:|:-:|
 
 <p align="center">
 <img src="docs/img/scene_mutfak_tr.jpg" width="200"> <img src="docs/img/scene_okul_tr.jpg" width="200"> <img src="docs/img/scene_komodin_tr.jpg" width="200"> <img src="docs/img/scene_cocuk_odasi_tr.jpg" width="200">

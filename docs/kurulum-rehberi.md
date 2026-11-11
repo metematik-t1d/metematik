@@ -12,7 +12,7 @@
 4. Yazılımı bilgisayardan, tarayıcıyla kendiniz yüklersiniz. Program kurmanız gerekmez.
 5. Telefonla Wi-Fi ve CGM hesabınızı girersiniz.
 
-Videolu anlatım: YouTube **@metematik.t1d**
+Videolu anlatım: [Tanıtım](https://youtu.be/jnPzpM1wNaE) · [Montaj](https://youtu.be/jcGmKUr2nUk) · [Yazılım yükleme](https://youtu.be/cEktKcaQwwk) · [Kurulum ve kullanım](https://youtu.be/sWX9ir8FWBQ)
 
 > ⚠️ MeteMatik tıbbi cihaz değildir. Tedavi kararları için resmi CGM uygulamanızı esas alın ve asıl CGM alarmlarınızı kapatmayın.
 
@@ -67,6 +67,8 @@ Gerekiyorsa destek ekleyebilirsiniz.
 
 ## 4. Kartı kutuya takın
 
+🎬 Video: https://youtu.be/jcGmKUr2nUk
+
 | | |
 |---|---|
 | <img src="img/assembly_1_board.jpg" width="380"> | **1.** Kartı paketinden çıkarın, ekran yüzü aşağı bakacak şekilde ön katmana yerleştirin. |
@@ -77,6 +79,8 @@ Gerekiyorsa destek ekleyebilirsiniz.
 RESET tuşu kutunun içinde kalır. BOOT tuşuna bir ataçla ulaşılabilir.
 
 ## 5. Yazılımı yükleyin
+
+🎬 Video: https://youtu.be/cEktKcaQwwk
 
 Bilgisayarda **Chrome** ya da **Edge** ile kurulum sayfasını açın:
 **https://metematik-t1d.github.io/metematik/install/**
@@ -90,6 +94,8 @@ Bilgisayarda **Chrome** ya da **Edge** ile kurulum sayfasını açın:
 | <img src="img/install_5_done.jpg" width="380"> | **5.** Yükleme birkaç dakika sürer. **Installation complete** yazınca cihaz kendiliğinden yeniden başlar. Başlamazsa USB kablosunu çıkarıp takın. |
 
 ## 6. İlk kurulum (telefonla)
+
+🎬 Video: https://youtu.be/sWX9ir8FWBQ
 
 Cihazı USB adaptörle prize takın.
 

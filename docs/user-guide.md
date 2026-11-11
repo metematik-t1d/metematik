@@ -6,6 +6,8 @@
 
 The photos below show the Turkish interface; the device also runs in English and 7 other languages.
 
+🎬 Video: https://youtu.be/52YqtqrRWC8
+
 ## Home screen
 
 <img src="img/home.jpg" width="420">

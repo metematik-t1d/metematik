@@ -4,6 +4,8 @@
 
 > ⚠️ MeteMatik tıbbi cihaz değildir, sadece bilgi verir. İnsülin ya da tedavi kararı için kullanmayın. Resmi CGM uygulamanızı esas alın ve asıl CGM alarmlarınızı kapatmayın.
 
+🎬 Video: https://youtu.be/sWX9ir8FWBQ
+
 ## Ana ekran
 
 <img src="img/home.jpg" width="420">

@@ -12,7 +12,7 @@
 4. Install the software yourself from a computer, in your browser. Nothing to download.
 5. Enter your Wi-Fi and CGM account with your phone.
 
-Video walkthroughs: YouTube **@metematik.t1d**
+Video walkthroughs: [Introduction](https://youtu.be/EszCZkOoSs0) · [Assembly](https://youtu.be/V_lj3B4wAyk) · [Install](https://youtu.be/D3Lhhu3Djro) · [Setup & tour](https://youtu.be/52YqtqrRWC8)
 
 > ⚠️ MeteMatik is not a medical device. Rely on your official CGM app for treatment decisions and keep your CGM alarms on.
 
@@ -67,6 +67,8 @@ Add supports if needed.
 
 ## 4. Assemble
 
+🎬 Video: https://youtu.be/V_lj3B4wAyk
+
 | | |
 |---|---|
 | <img src="img/assembly_1_board.jpg" width="380"> | **1.** Unpack the board and place it screen-down in the front layer. |
@@ -77,6 +79,8 @@ Add supports if needed.
 The RESET button stays covered. BOOT can be reached with a paper clip.
 
 ## 5. Install the software
+
+🎬 Video: https://youtu.be/D3Lhhu3Djro
 
 Open the install page on a computer in **Chrome** or **Edge**:
 **https://metematik-t1d.github.io/metematik/install/**
@@ -90,6 +94,8 @@ Open the install page on a computer in **Chrome** or **Edge**:
 | <img src="img/install_5_done.jpg" width="380"> | **5.** Installing takes a few minutes. When it says **Installation complete**, the device restarts by itself. If it does not, unplug and replug the USB cable. |
 
 ## 6. First setup (with your phone)
+
+🎬 Video: https://youtu.be/52YqtqrRWC8
 
 Plug the device into a USB charger.
 
