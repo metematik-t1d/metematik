@@ -5,6 +5,20 @@ It shows the latest glucose value, trend arrow and graph from Nightscout, Dexcom
 
 [Türkçe için tıklayın → README.tr.md](README.tr.md)
 
+<p align="center"><img src="docs/img/hero_en.jpg" width="420"></p>
+
+### Build your own — it's free
+
+MeteMatik is **not sold** and there is no ready-made device. You buy the display board, have the case 3D-printed **in any color by any print service**, and **install the software yourself** from your browser. No soldering.
+
+📘 **[Setup guide](docs/setup-guide.md)** — parts, printing, assembly, install, first setup
+📗 **[User guide](docs/user-guide.md)** — screens, alarms, modes, family mode
+🎬 Videos: YouTube **@metematik.t1d**
+
+<p align="center">
+<img src="docs/img/scene_mutfak_en.jpg" width="200"> <img src="docs/img/scene_okul_en.jpg" width="200"> <img src="docs/img/scene_komodin_en.jpg" width="200"> <img src="docs/img/scene_cocuk_odasi_en.jpg" width="200">
+</p>
+
 > Made for my son Mete. — Burak
 
 ---

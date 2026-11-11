@@ -5,6 +5,20 @@ Nightscout, Dexcom Share, LibreLinkUp veya Medtrum EasyFollow'dan gelen son şek
 
 [English → README.md](README.md)
 
+<p align="center"><img src="docs/img/hero_tr.jpg" width="420"></p>
+
+### Kendiniz yapın — ücretsiz
+
+MeteMatik **satılmaz**, hazır cihaz yoktur. Ekran kartını kendiniz alırsınız, kutuyu **istediğiniz renkte, istediğiniz baskıcıya** bastırırsınız ve **yazılımı tarayıcıdan kendiniz yüklersiniz**. Lehim gerekmez.
+
+📘 **[Kurulum rehberi](docs/kurulum-rehberi.md)**: parçalar, baskı, montaj, yükleme, ilk kurulum
+📗 **[Kullanım rehberi](docs/kullanim-rehberi.md)**: ekranlar, alarmlar, modlar, aile modu
+🎬 Videolar: YouTube **@metematik.t1d**
+
+<p align="center">
+<img src="docs/img/scene_mutfak_tr.jpg" width="200"> <img src="docs/img/scene_okul_tr.jpg" width="200"> <img src="docs/img/scene_komodin_tr.jpg" width="200"> <img src="docs/img/scene_cocuk_odasi_tr.jpg" width="200">
+</p>
+
 > Oğlum Mete için yaptım. — Burak
 
 ---
