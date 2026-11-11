@@ -56,6 +56,8 @@ Step-by-step: [docs/sources.md](docs/sources.md)
 | USB-C cable + 5 V USB charger | The device stays plugged in |
 | 3D-printed case (optional) | Files in [crown/case](crown/case) — 4 × M3×16 screws (DIN 7985) |
 
+**Where to buy the display:** Elecrow's official store — [CrowPanel Advance 2.8" HMI ESP32-S3](https://www.elecrow.com/crowpanel-advance-2-8-hmi-esp32-ai-display-320x240-artificial-ips-intelligent-touchscreen.html) (ships worldwide), or a local electronics shop that stocks Elecrow. In Turkey: [Robocombo](https://robocombo.com/crowpanel-advance-2-8-esp32-s3-hmi-dokunmatik-ekr-4817). Buy the regular **Advance 2.8"** (the Meshtastic version also works but costs more because of its extra radio module). MeteMatik is not affiliated with these shops.
+
 A battery version (with a battery gauge, switch and soldering) is planned as a separate "advanced" guide.
 
 ## Installing the software

@@ -54,6 +54,8 @@ Adım adım: [docs/kaynaklar.md](docs/kaynaklar.md)
 | USB-C kablo + 5 V USB adaptör | Cihaz prize takılı çalışır |
 | 3D baskı kutu (isteğe bağlı) | Dosyalar [crown/case](crown/case) — 4 adet M3×16 vida (DIN 7985) |
 
+**Ekranı nereden alabilirim:** Türkiye'de [Robocombo](https://robocombo.com/crowpanel-advance-2-8-esp32-s3-hmi-dokunmatik-ekr-4817). Stokta yoksa üreticinin kendi sitesinden: [Elecrow – CrowPanel Advance 2.8" HMI ESP32-S3](https://www.elecrow.com/crowpanel-advance-2-8-hmi-esp32-ai-display-320x240-artificial-ips-intelligent-touchscreen.html) (yurt dışından gönderir; gümrük ve kargo ücreti çıkabilir). Normal **Advance 2.8"** modelini alın (Meshtastic sürümü de çalışır ama ek telsiz modülü yüzünden daha pahalıdır). MeteMatik bu satıcılarla bağlantılı değildir.
+
 Pilli sürüm (pil ölçer, anahtar, lehim gerektirir) ayrı bir "ileri seviye" rehberi olarak eklenecek.
 
 ## Yazılımı yükleme
