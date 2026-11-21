@@ -26,6 +26,10 @@ MeteMatik **satılmaz**, hazır cihaz yoktur. Ekran kartını kendiniz alırsın
 
 ---
 
+## Neler yeni
+
+**4.1.0:** saat dilimi ayarı, yemek zamanlayıcısı Nightscout bolusuyla kendiliğinden başlayabiliyor, her sayfada geri sayım hapı, yeni bitiş ekranı, mmol/L eşik girişi, WiFi çubuğu düzeltmesi. Ayrıntılar: [CHANGELOG.md](CHANGELOG.md).
+
 ## ⚠️ Önemli — lütfen okuyun
 
 - **MeteMatik tıbbi cihaz değildir.** Yalnızca bilgi amaçlı, ikincil bir ekrandır.
@@ -46,10 +50,11 @@ MeteMatik **satılmaz**, hazır cihaz yoktur. Ekran kartını kendiniz alırsın
 - Öğretmen / bakıcı için **Rehber modu:** tehlikeli değerde *Dikkat* butonu çıkar, yapılacakları adım adım gösterir; glukagon videosu cihazın içinde
 - Gece modu, okul modu, rahatsız etme (şeker hedefteyken ekran kapanır, alarmda veya parmak şıklatınca açılır)
 - Çok sayıda ana ekran teması, çocuk temaları, fotoğraf çerçevesi
-- Karbonhidrat notu hesaplayıcı, yemek zamanlayıcısı
+- Karbonhidrat notu hesaplayıcı, yemek zamanlayıcısı (Nightscout'ta seçtiğiniz eşiğin üstündeki bolusla kendiliğinden başlayabilir)
 - Ayarlar hem cihazdan **hem de** telefondan tarayıcıyla (aynı WiFi)
 - **9 dil:** Türkçe, English, Español, Português, Français, Deutsch, Italiano, Русский, Bahasa Indonesia
 - Renk dostu mod, mg/dL veya mmol/L
+- Saat dilimi ayarı (yaz saati kendiliğinden)
 
 ## Veri kaynakları
 
@@ -102,6 +107,7 @@ Sonraki güncellemeler cihazın web sayfasından (*Yazılım güncelleme*) WiFi 
 2. **WiFi kurulumu** ekranında iki QR vardır. 1. QR'ı telefonla okutup cihazın kurulum ağına bağlanın; sayfa açılmazsa 2. QR'ı okutun.
 3. Ev WiFi'nizi seçin ve **bir** veri kaynağını doldurun. Kaydedin.
 4. Cihaz yeniden başlar ve şekeri gösterir. Diğer her şey cihazdan (*Ayarlar*) veya telefondan değiştirilebilir: *Ayarlar → QR / Web*'deki QR'ı okutun.
+5. **Saat dilimini** kontrol edin (*Ayarlar → Ekran / Dil → Saat dilimi*). Seçtiğiniz dile göre önceden ayarlanır.
 
 ## Aile modu
 

@@ -1,127 +1,129 @@
 // OTOMATIK URETILDI - elle duzenlemeyin. Kaynak: lang/*.json, uretici: lang/gen_lang.py
 #pragma once
-#define LANG_TABLE_N 956
+#define LANG_TABLE_N 971
 static const uint32_t LANG_KEYS[LANG_TABLE_N] = {
   0x0045970bu, 0x00922179u, 0x00936427u, 0x00b2c9d0u, 0x016ff7c1u, 0x019f6690u, 0x01ade693u, 0x01cac91eu,
   0x02080596u, 0x0297caa0u, 0x02d564d9u, 0x03151a7cu, 0x0323be60u, 0x03a95e6cu, 0x0402fcebu, 0x041f0358u,
-  0x0494341cu, 0x0495c519u, 0x04bb01f2u, 0x0509429du, 0x0531b3d5u, 0x05430e32u, 0x05b83ab9u, 0x05d16c5au,
-  0x05dead34u, 0x05e8be1eu, 0x05f5764du, 0x06369b8bu, 0x067b7900u, 0x06c29a70u, 0x073e5928u, 0x078b529au,
-  0x079203b9u, 0x07fe7c11u, 0x08064884u, 0x0871e0ddu, 0x09112e9cu, 0x092370bfu, 0x096208f3u, 0x09ef4471u,
-  0x0a184273u, 0x0a46248du, 0x0a80fe8eu, 0x0ad65b85u, 0x0b008214u, 0x0bb32454u, 0x0c1e3c9fu, 0x0c2ee853u,
-  0x0c6537b1u, 0x0c6aa24bu, 0x0caf5447u, 0x0cf3c4ceu, 0x0d513685u, 0x0d8122b5u, 0x0d84b7c2u, 0x0dd26ea4u,
-  0x0e16691du, 0x0e273561u, 0x0e5d51ffu, 0x0e7c7fc2u, 0x0e8eb76bu, 0x0e90c11fu, 0x0ebbf9d2u, 0x0f813ab5u,
-  0x0fc7db28u, 0x0fcc797fu, 0x0fe98a61u, 0x10309abdu, 0x10b88950u, 0x1117e691u, 0x11342522u, 0x1141534du,
-  0x122cdb3cu, 0x12faacecu, 0x13012af7u, 0x131a514eu, 0x132308deu, 0x1381c399u, 0x1383617bu, 0x139294bfu,
-  0x13cfd296u, 0x143a12d7u, 0x14905717u, 0x14a026b4u, 0x14c04283u, 0x15131669u, 0x1519596au, 0x155be7c8u,
-  0x1596f930u, 0x15b15faau, 0x15fc9c05u, 0x164037d9u, 0x165c5e0fu, 0x168c83c5u, 0x168e1f15u, 0x16e48a1au,
-  0x177e4405u, 0x17cf5fc8u, 0x17e5c68cu, 0x184bfdb1u, 0x18a63cccu, 0x19470d89u, 0x198e9c89u, 0x19916b71u,
-  0x19afafa4u, 0x19b9ce81u, 0x19c5024eu, 0x19cf6669u, 0x1a007c42u, 0x1a48d33au, 0x1a89d35bu, 0x1acebc3bu,
-  0x1ae1b389u, 0x1ae29501u, 0x1af4b5a9u, 0x1b0a5998u, 0x1b9726c0u, 0x1bb8493eu, 0x1bcac44au, 0x1bf8d298u,
-  0x1bfb34d9u, 0x1c8687c4u, 0x1cb19447u, 0x1d7e78b1u, 0x1d95926au, 0x1e1475d4u, 0x1e2db7ffu, 0x1e4203b1u,
-  0x1ece03c4u, 0x1f011e8fu, 0x1f0c162du, 0x1f4825d5u, 0x1f5e5306u, 0x1f699ac5u, 0x1fc63537u, 0x1fd94d40u,
-  0x1fefa56eu, 0x1ff41402u, 0x201e5e39u, 0x2049a8bdu, 0x2060f2dcu, 0x2077befeu, 0x2080df9eu, 0x20853d08u,
-  0x2151b684u, 0x21d0a239u, 0x21e56976u, 0x228b68b4u, 0x22cedb53u, 0x2309d518u, 0x234bcd8au, 0x23950392u,
-  0x23b01312u, 0x240ecf94u, 0x24221e8du, 0x247cfc20u, 0x24d86b3fu, 0x2554f5adu, 0x25705caeu, 0x25738dc4u,
-  0x257908abu, 0x26a4760eu, 0x26baec62u, 0x278422d7u, 0x279a6224u, 0x27f40417u, 0x2853d64du, 0x286e4184u,
-  0x28b8e6e4u, 0x28bfd40bu, 0x28d08036u, 0x294a27a9u, 0x294a40f2u, 0x298eb1b4u, 0x29c5d4eeu, 0x2a910c78u,
-  0x2adef385u, 0x2aeddbb5u, 0x2af0de5du, 0x2bd00398u, 0x2be5baaau, 0x2bfc654au, 0x2c096519u, 0x2c0a4da5u,
-  0x2c54dfe9u, 0x2d92acd4u, 0x2da82f84u, 0x2dcfad5fu, 0x2dee4d7fu, 0x2e4c8ffau, 0x2e8f2f3eu, 0x2f5ceafeu,
-  0x2f6b53bcu, 0x2f753698u, 0x2ffe3a60u, 0x3194336du, 0x31b1fda9u, 0x32704977u, 0x32c48563u, 0x33684984u,
-  0x33833e89u, 0x33ae7e7eu, 0x344b7348u, 0x3482fab7u, 0x34bcaf6eu, 0x34e9140eu, 0x352c8eb5u, 0x3531a5b0u,
-  0x3537f0d5u, 0x353ad82cu, 0x354d4104u, 0x35684155u, 0x35972338u, 0x359b0f0cu, 0x35b76539u, 0x35dc50a8u,
-  0x3608adcfu, 0x362274a6u, 0x36378a01u, 0x36da1a50u, 0x36ef838bu, 0x372a49b7u, 0x372dd906u, 0x37353ac2u,
-  0x3784af97u, 0x37acdb48u, 0x3803d3c0u, 0x380859abu, 0x38334e4bu, 0x3852855eu, 0x3908707eu, 0x39700e4fu,
-  0x39c7a66fu, 0x39ed02eau, 0x39ee84c7u, 0x3a48ede7u, 0x3a4bf01bu, 0x3a7ad48du, 0x3ab59ea0u, 0x3ac4cf2bu,
-  0x3c064592u, 0x3cc1ab9fu, 0x3cfec6a3u, 0x3d8eaca3u, 0x3ea8fe52u, 0x3f15fe7au, 0x3f1e3ea1u, 0x3f6c6cb7u,
-  0x3f6f5116u, 0x3f951de4u, 0x3f9dea97u, 0x403dcb9cu, 0x404a0567u, 0x4082431fu, 0x40ad5ddcu, 0x40f52897u,
-  0x4101cbd5u, 0x416c19dbu, 0x42533f39u, 0x42628134u, 0x4284f10bu, 0x429bf989u, 0x42be5682u, 0x432a3512u,
-  0x4354f6dbu, 0x439dc239u, 0x43b2e759u, 0x43f7ec2eu, 0x4403b022u, 0x44d5e8ceu, 0x45285520u, 0x4582c07eu,
-  0x4598a469u, 0x45ad025au, 0x45d3c6adu, 0x45d83f0fu, 0x4623ef6au, 0x466f2b19u, 0x46af88b4u, 0x46ba94bfu,
-  0x471ca3a5u, 0x47482778u, 0x475b9d24u, 0x47677a3eu, 0x47816aceu, 0x47dbb628u, 0x4828f0ccu, 0x48b6ee5fu,
-  0x48c26763u, 0x490bb08du, 0x49382b37u, 0x49bdae45u, 0x49d1daa2u, 0x4a546291u, 0x4ab973bcu, 0x4b776232u,
-  0x4b7b49f6u, 0x4b8d8a1cu, 0x4ba281ebu, 0x4c087231u, 0x4c854088u, 0x4cd84f41u, 0x4d024e96u, 0x4d0b6620u,
-  0x4d3d7f2eu, 0x4d71a8b5u, 0x4dbb66a5u, 0x4dbd0784u, 0x4dbe6242u, 0x4e030690u, 0x4e05f292u, 0x4e20f846u,
-  0x4e6c77beu, 0x4e9ed1fbu, 0x4ef47f3cu, 0x4f57ec73u, 0x5001c09cu, 0x50113d04u, 0x50553fc3u, 0x50b0ce20u,
-  0x50b470f9u, 0x50b6c9e8u, 0x50e820e4u, 0x51767b90u, 0x518fc397u, 0x51baec4eu, 0x527a4723u, 0x52e24e07u,
-  0x530b34d3u, 0x532ed959u, 0x53b84457u, 0x53e4ede1u, 0x54355f6du, 0x5467b17cu, 0x549abdc6u, 0x54a53c2bu,
-  0x54a8b33au, 0x54dd8c7fu, 0x54f44407u, 0x551a030eu, 0x555fdc04u, 0x55f5222bu, 0x5617eed0u, 0x5627ad15u,
-  0x5668db59u, 0x56be160du, 0x578e7a3eu, 0x57932a59u, 0x57eff133u, 0x58138fe9u, 0x582b7b17u, 0x59430b7eu,
-  0x5a8a96ddu, 0x5aebfb4au, 0x5b53b045u, 0x5b748e2au, 0x5b818d0fu, 0x5bacd9a1u, 0x5bd986bau, 0x5c35f9f5u,
+  0x0494341cu, 0x0495c519u, 0x04bb01f2u, 0x0509429du, 0x0531b3d5u, 0x053cb991u, 0x05430e32u, 0x05b83ab9u,
+  0x05d16c5au, 0x05dead34u, 0x05e8be1eu, 0x05f5764du, 0x06369b8bu, 0x067b7900u, 0x06c29a70u, 0x073e5928u,
+  0x078b529au, 0x079203b9u, 0x07fe7c11u, 0x08064884u, 0x0871e0ddu, 0x09112e9cu, 0x092370bfu, 0x096208f3u,
+  0x09ef4471u, 0x0a184273u, 0x0a46248du, 0x0a80fe8eu, 0x0ad65b85u, 0x0b008214u, 0x0bb32454u, 0x0c1e3c9fu,
+  0x0c2ee853u, 0x0c6537b1u, 0x0c6aa24bu, 0x0caf5447u, 0x0cf3c4ceu, 0x0d513685u, 0x0d8122b5u, 0x0d84b7c2u,
+  0x0dd26ea4u, 0x0e16691du, 0x0e273561u, 0x0e5d51ffu, 0x0e731be0u, 0x0e7c7fc2u, 0x0e8eb76bu, 0x0e90c11fu,
+  0x0ebbf9d2u, 0x0f813ab5u, 0x0fc7db28u, 0x0fcc797fu, 0x0fe98a61u, 0x10309abdu, 0x10b88950u, 0x1106040eu,
+  0x1117e691u, 0x11342522u, 0x1141534du, 0x122cdb3cu, 0x12faacecu, 0x13012af7u, 0x131a514eu, 0x132308deu,
+  0x1381c399u, 0x1383617bu, 0x139294bfu, 0x13cfd296u, 0x143a12d7u, 0x14905717u, 0x14a026b4u, 0x14c04283u,
+  0x15131669u, 0x1519596au, 0x155be7c8u, 0x1596f930u, 0x15b15faau, 0x15fc9c05u, 0x164037d9u, 0x165c5e0fu,
+  0x168c83c5u, 0x168e1f15u, 0x16e48a1au, 0x177e4405u, 0x17cf5fc8u, 0x17e5c68cu, 0x184bfdb1u, 0x18a63cccu,
+  0x19470d89u, 0x198e9c89u, 0x19916b71u, 0x19afafa4u, 0x19b9ce81u, 0x19c5024eu, 0x19cf6669u, 0x1a007c42u,
+  0x1a48d33au, 0x1a89d35bu, 0x1acebc3bu, 0x1ae1b389u, 0x1ae29501u, 0x1af4b5a9u, 0x1b0a5998u, 0x1b9726c0u,
+  0x1bb8493eu, 0x1bcac44au, 0x1bf8d298u, 0x1bfb34d9u, 0x1c8687c4u, 0x1cb19447u, 0x1d7e78b1u, 0x1d95926au,
+  0x1e1475d4u, 0x1e2db7ffu, 0x1e4203b1u, 0x1ece03c4u, 0x1f011e8fu, 0x1f0c162du, 0x1f4825d5u, 0x1f5e5306u,
+  0x1f699ac5u, 0x1fc63537u, 0x1fd94d40u, 0x1fefa56eu, 0x1ff41402u, 0x201e5e39u, 0x2049a8bdu, 0x2060f2dcu,
+  0x2077befeu, 0x2080df9eu, 0x20853d08u, 0x2151b684u, 0x21d0a239u, 0x21e56976u, 0x228b68b4u, 0x22cedb53u,
+  0x2309d518u, 0x234bcd8au, 0x23950392u, 0x23b01312u, 0x240ecf94u, 0x24221e8du, 0x247cfc20u, 0x24d86b3fu,
+  0x2554f5adu, 0x25705caeu, 0x25738dc4u, 0x257908abu, 0x26a4760eu, 0x26baec62u, 0x278422d7u, 0x279a6224u,
+  0x27f40417u, 0x2853d64du, 0x286e4184u, 0x28b8e6e4u, 0x28bfd40bu, 0x28d08036u, 0x294a27a9u, 0x294a40f2u,
+  0x298eb1b4u, 0x29c5d4eeu, 0x2a910c78u, 0x2adef385u, 0x2aeddbb5u, 0x2af0de5du, 0x2b7adc71u, 0x2bd00398u,
+  0x2be5baaau, 0x2bfc654au, 0x2c096519u, 0x2c0a4da5u, 0x2c54dfe9u, 0x2d92acd4u, 0x2da82f84u, 0x2dcfad5fu,
+  0x2dee4d7fu, 0x2e4c8ffau, 0x2e8f2f3eu, 0x2f5ceafeu, 0x2f6b53bcu, 0x2f753698u, 0x2ffe3a60u, 0x3194336du,
+  0x31b1fda9u, 0x32313e88u, 0x32704977u, 0x32c48563u, 0x33684984u, 0x33833e89u, 0x33ae7e7eu, 0x344b7348u,
+  0x3482fab7u, 0x34bcaf6eu, 0x34e9140eu, 0x352c8eb5u, 0x3531a5b0u, 0x3537f0d5u, 0x353ad82cu, 0x354d4104u,
+  0x35684155u, 0x35972338u, 0x359b0f0cu, 0x35b76539u, 0x35dc50a8u, 0x3608adcfu, 0x36106b87u, 0x362274a6u,
+  0x36378a01u, 0x36da1a50u, 0x36ef838bu, 0x372a49b7u, 0x372dd906u, 0x37353ac2u, 0x3784af97u, 0x37acdb48u,
+  0x3803d3c0u, 0x380859abu, 0x38334e4bu, 0x3852855eu, 0x3908707eu, 0x39700e4fu, 0x39c7a66fu, 0x39ed02eau,
+  0x39ee84c7u, 0x3a48ede7u, 0x3a4bf01bu, 0x3a7ad48du, 0x3ab59ea0u, 0x3ac4cf2bu, 0x3c064592u, 0x3cc1ab9fu,
+  0x3cfec6a3u, 0x3d8eaca3u, 0x3ea8fe52u, 0x3f15fe7au, 0x3f1e3ea1u, 0x3f6c6cb7u, 0x3f6f5116u, 0x3f951de4u,
+  0x3f9dea97u, 0x403dcb9cu, 0x404a0567u, 0x4082431fu, 0x40ad5ddcu, 0x40f52897u, 0x4101cbd5u, 0x416c19dbu,
+  0x42533f39u, 0x42628134u, 0x4284f10bu, 0x429bf989u, 0x42be5682u, 0x432a3512u, 0x4354f6dbu, 0x439dc239u,
+  0x43b2e759u, 0x43f7ec2eu, 0x4403b022u, 0x44d5e8ceu, 0x45285520u, 0x4582c07eu, 0x4598a469u, 0x45ad025au,
+  0x45d3c6adu, 0x45d83f0fu, 0x4623ef6au, 0x466f2b19u, 0x46af88b4u, 0x46ba94bfu, 0x471ca3a5u, 0x47482778u,
+  0x475b9d24u, 0x47677a3eu, 0x47816aceu, 0x47dbb628u, 0x4828f0ccu, 0x48b6ee5fu, 0x48c26763u, 0x490bb08du,
+  0x49382b37u, 0x49bdae45u, 0x49d1daa2u, 0x4a546291u, 0x4ab973bcu, 0x4b776232u, 0x4b7b49f6u, 0x4b8d8a1cu,
+  0x4ba281ebu, 0x4c087231u, 0x4c40d771u, 0x4c854088u, 0x4cd84f41u, 0x4d024e96u, 0x4d0b6620u, 0x4d3d7f2eu,
+  0x4d71a8b5u, 0x4dbb66a5u, 0x4dbd0784u, 0x4dbe6242u, 0x4e030690u, 0x4e05f292u, 0x4e20f846u, 0x4e6c77beu,
+  0x4e9ed1fbu, 0x4ef47f3cu, 0x4f57ec73u, 0x5001c09cu, 0x50113d04u, 0x50553fc3u, 0x50b0ce20u, 0x50b470f9u,
+  0x50b6c9e8u, 0x50e820e4u, 0x51767b90u, 0x518fc397u, 0x51baec4eu, 0x527a4723u, 0x52e24e07u, 0x530b34d3u,
+  0x532ed959u, 0x53b84457u, 0x53e4ede1u, 0x54355f6du, 0x5467b17cu, 0x549abdc6u, 0x54a53c2bu, 0x54a8b33au,
+  0x54dd8c7fu, 0x54f44407u, 0x551a030eu, 0x555fdc04u, 0x55f5222bu, 0x5617eed0u, 0x5627ad15u, 0x5668db59u,
+  0x56be160du, 0x578e7a3eu, 0x57932a59u, 0x57eff133u, 0x58138fe9u, 0x582b7b17u, 0x59430b7eu, 0x5a8a96ddu,
+  0x5aebfb4au, 0x5b08c7d1u, 0x5b53b045u, 0x5b748e2au, 0x5b818d0fu, 0x5bacd9a1u, 0x5bd986bau, 0x5c35f9f5u,
   0x5c363498u, 0x5c68e05au, 0x5c6994d8u, 0x5cd99201u, 0x5dc555c6u, 0x5de3af16u, 0x5e099e66u, 0x5e192a64u,
-  0x5e2bf7bbu, 0x5ec9d25du, 0x5f67cd6bu, 0x6001a119u, 0x602d4800u, 0x60893147u, 0x608f4754u, 0x60a5947fu,
-  0x61725ac1u, 0x61ba8805u, 0x61db2077u, 0x625e3b27u, 0x629daa7du, 0x62a17f7bu, 0x6318022au, 0x6398eb3au,
-  0x639a6250u, 0x63d9eef6u, 0x63f7e593u, 0x64c78d97u, 0x64e0ec34u, 0x6582cca2u, 0x66335366u, 0x66c3d749u,
-  0x6701ea36u, 0x6807bafau, 0x68307073u, 0x68bde224u, 0x692c3f8bu, 0x693b6c0du, 0x694710a5u, 0x69575c59u,
-  0x6978fb70u, 0x6b59075eu, 0x6b7a5fa9u, 0x6b7d450au, 0x6ba94dbfu, 0x6bb442a2u, 0x6bb91142u, 0x6c1e9b20u,
-  0x6cb734bbu, 0x6ce29d12u, 0x6ce514ccu, 0x6cf77956u, 0x6d224992u, 0x6d3c1b22u, 0x6d3ca1c8u, 0x6d449681u,
-  0x6d4dbf3cu, 0x6d9f3c58u, 0x6db86bf0u, 0x6e35f83au, 0x6e3eef5bu, 0x6e5b2db2u, 0x6ea4f231u, 0x6ebe882du,
-  0x6ef56445u, 0x6f2176c2u, 0x6f7f8867u, 0x6fbe6c83u, 0x70d81158u, 0x7119c737u, 0x719ed898u, 0x71af8e54u,
-  0x71d808d6u, 0x71fc5d07u, 0x724e478cu, 0x72579194u, 0x726ff8aeu, 0x72cb13fbu, 0x72ef7050u, 0x738a22eau,
-  0x739f9fffu, 0x73a039e8u, 0x73ebfd55u, 0x741258aau, 0x742512dbu, 0x752592bfu, 0x755fdd06u, 0x756b1bf4u,
-  0x757aaaceu, 0x75d07c3eu, 0x761b5996u, 0x7631776bu, 0x763abfe0u, 0x763e50f6u, 0x765dfc7bu, 0x76b3ee4eu,
-  0x76c1725bu, 0x76f570a8u, 0x7707ca1au, 0x7763a316u, 0x77a5696eu, 0x77cb1fe5u, 0x77cb3a52u, 0x7808e0e5u,
-  0x784f6467u, 0x78a24139u, 0x78ef2febu, 0x7916e1eeu, 0x7953b285u, 0x7983e56fu, 0x79dadd1eu, 0x7aa7078fu,
-  0x7ab08c87u, 0x7ae3d9beu, 0x7ae6b03cu, 0x7b1d17dfu, 0x7b2d3712u, 0x7b65a30au, 0x7b6cc14au, 0x7bb6868au,
-  0x7be5b4d1u, 0x7c2ef34au, 0x7c3e7b67u, 0x7c849446u, 0x7c8765c7u, 0x7c91a3d3u, 0x7cf9e41eu, 0x7d3ea30du,
-  0x7e73209fu, 0x7e7ef6fbu, 0x7ec705f9u, 0x7f6dd2f4u, 0x7f962138u, 0x7f9a3712u, 0x8085f244u, 0x80d003dcu,
-  0x81093ebdu, 0x81382823u, 0x81891934u, 0x81ce6ffeu, 0x81de7b2bu, 0x81de9789u, 0x81f52e4cu, 0x82885d57u,
-  0x82a65a3eu, 0x82b7fdccu, 0x830c0a6du, 0x8324b240u, 0x834b575bu, 0x83a46195u, 0x83cad710u, 0x83ce1520u,
-  0x83f563feu, 0x83fdf3b8u, 0x8409e329u, 0x8463f036u, 0x84ae2ddau, 0x850bfc04u, 0x851ee762u, 0x8541dc61u,
-  0x8571be23u, 0x866405dau, 0x86aa1dd7u, 0x870c32cbu, 0x870ddb5du, 0x8725b746u, 0x8739e8c4u, 0x8788f366u,
-  0x87954eb3u, 0x879c608eu, 0x882b1140u, 0x88c2a8f8u, 0x88d9b9cbu, 0x8949fadbu, 0x89a22894u, 0x89b18742u,
-  0x89b46fd2u, 0x89cd352eu, 0x8a33b5a0u, 0x8a97ad37u, 0x8ae6e8b7u, 0x8b2c6c42u, 0x8b7c6ebcu, 0x8b7c8752u,
-  0x8bf9026fu, 0x8c65170cu, 0x8cfaceb7u, 0x8d1629dbu, 0x8d208d35u, 0x8d343e23u, 0x8d72e1bcu, 0x8dffd44au,
-  0x8e1543cbu, 0x8e862e40u, 0x8eec23d0u, 0x8ef0fa8du, 0x8f3dfe38u, 0x8f9c3476u, 0x8fc94b99u, 0x8ffd0fdau,
-  0x9000ced9u, 0x9072a7c3u, 0x907efd44u, 0x915302b9u, 0x91707445u, 0x91c06f66u, 0x91c398b0u, 0x921b15b2u,
-  0x9286923du, 0x92b4e846u, 0x92d635e6u, 0x9346f7b4u, 0x93aad056u, 0x93d588d9u, 0x94232a11u, 0x945d4391u,
-  0x94a48a3au, 0x94cffd4au, 0x94d1fb35u, 0x959ca29fu, 0x95ef7054u, 0x9613db53u, 0x967d9c8bu, 0x96f3ee84u,
-  0x96f88e4fu, 0x96fcfc90u, 0x971d495fu, 0x977cbe81u, 0x979829acu, 0x97cc2d15u, 0x97e74964u, 0x980740eau,
-  0x9813718du, 0x982a74c0u, 0x983bd5abu, 0x98a9b10du, 0x98dc31cbu, 0x99113421u, 0x993cb84fu, 0x99426679u,
-  0x9952077eu, 0x99a1e9aau, 0x99a237f3u, 0x99ff176du, 0x9a20f649u, 0x9a21d9e2u, 0x9a7cf766u, 0x9a80afbbu,
-  0x9afb44ddu, 0x9b2dbeebu, 0x9b59a5e6u, 0x9b840e58u, 0x9c08179du, 0x9ceba351u, 0x9d16fe32u, 0x9d527cbau,
-  0x9d857fa1u, 0x9dd580cfu, 0x9e5188a7u, 0x9eb358eeu, 0xa01471ceu, 0xa063620du, 0xa0685115u, 0xa0b28768u,
-  0xa1114210u, 0xa1e3b33au, 0xa1e6ec1cu, 0xa2812100u, 0xa2ecae66u, 0xa32ebf0du, 0xa34e1a68u, 0xa3711752u,
-  0xa3b13f05u, 0xa460be83u, 0xa492731bu, 0xa4b07225u, 0xa4d9ea78u, 0xa64968b6u, 0xa6b9225eu, 0xa85364dfu,
-  0xa8677b4au, 0xa8c2338cu, 0xa8f1d22au, 0xa90b3519u, 0xa981ca44u, 0xa9a9c9f5u, 0xa9cf08a1u, 0xa9d2d37au,
-  0xa9ddbc3bu, 0xaa1eb6d4u, 0xaa5bb79bu, 0xaa6410b8u, 0xaa670776u, 0xaac19ab2u, 0xaaf6d256u, 0xabb69b2bu,
-  0xabcee728u, 0xabfce33au, 0xac511c0cu, 0xace57808u, 0xad521566u, 0xad61ed22u, 0xad855d02u, 0xadb998a2u,
-  0xadcfc9bau, 0xaddb8a5cu, 0xae1c7119u, 0xae1f6e1cu, 0xaeb8157fu, 0xaed8dd84u, 0xaf08ec96u, 0xaf51ad83u,
-  0xaf6cdf0eu, 0xaf994fd9u, 0xafb16d51u, 0xb00f2becu, 0xb082285du, 0xb09094beu, 0xb0dca3f0u, 0xb0dde471u,
-  0xb0f723bbu, 0xb10222f5u, 0xb11d6403u, 0xb11e44c8u, 0xb12a2897u, 0xb1408316u, 0xb195b882u, 0xb19ff6c3u,
-  0xb1ab1294u, 0xb1ae2aeau, 0xb1ba73f3u, 0xb2052cc5u, 0xb21da1d7u, 0xb277f6eau, 0xb28f9299u, 0xb2bc7028u,
-  0xb2c37102u, 0xb315c8d3u, 0xb336dd98u, 0xb38a3f56u, 0xb4141f6bu, 0xb4279e4fu, 0xb45684edu, 0xb47418b5u,
-  0xb4b38045u, 0xb4f39ab2u, 0xb501c8b5u, 0xb5365d1cu, 0xb540c078u, 0xb5636d41u, 0xb5811a9fu, 0xb624a6c1u,
-  0xb67b9ebbu, 0xb705e4bcu, 0xb78a1016u, 0xb7ca01fau, 0xb81e81c6u, 0xb8429017u, 0xb8a5fa61u, 0xb948e6d1u,
-  0xb96dc0a2u, 0xb98416d1u, 0xb98d3f8bu, 0xb9bce295u, 0xba358297u, 0xba5928deu, 0xba6d0bafu, 0xba967530u,
-  0xba9e2c23u, 0xbad75250u, 0xbae21804u, 0xbb0e750bu, 0xbb2b6a04u, 0xbb4d4f06u, 0xbb90fed4u, 0xbbc2fb1au,
-  0xbc75df8cu, 0xbcdd6346u, 0xbd68f49bu, 0xbe767046u, 0xbf0023f2u, 0xbf030b81u, 0xbf0ffc28u, 0xbf48828cu,
-  0xbfdcf293u, 0xbfe304fdu, 0xc046aa1du, 0xc07fe080u, 0xc0a845d1u, 0xc0cc4fd2u, 0xc12461ccu, 0xc12f1538u,
-  0xc239fb40u, 0xc291e875u, 0xc2cfd128u, 0xc2eb37dcu, 0xc2fa8d2du, 0xc31dc47bu, 0xc31ff0ebu, 0xc3649fd8u,
-  0xc3a075fdu, 0xc41ffdabu, 0xc4395baeu, 0xc4b41bdfu, 0xc58f687fu, 0xc5d5cd3cu, 0xc5da5af6u, 0xc5e9faf3u,
-  0xc5fdab8fu, 0xc61a4b58u, 0xc62f8a9eu, 0xc6906952u, 0xc6c441c5u, 0xc6f6bc27u, 0xc773472au, 0xc877c348u,
-  0xc891df32u, 0xc8acc5dbu, 0xc97576c1u, 0xc998ff3fu, 0xc9bf6e6eu, 0xc9da0351u, 0xcbb6f02au, 0xcbf23343u,
-  0xcc60c4fau, 0xcc6fe600u, 0xcca6bb99u, 0xcd7b8fc0u, 0xcd8b3736u, 0xcf866eafu, 0xcfd678f7u, 0xd03136aeu,
-  0xd03d2c50u, 0xd0441d63u, 0xd0549211u, 0xd074e1adu, 0xd1baa84au, 0xd1ff8d96u, 0xd2019c2fu, 0xd2a7b15eu,
-  0xd2e4fa52u, 0xd30e1bb6u, 0xd3b80c67u, 0xd3eade79u, 0xd4a3f019u, 0xd4cf8602u, 0xd4dd313du, 0xd577eaf7u,
-  0xd5b135dau, 0xd5cd5f99u, 0xd5e522d1u, 0xd5fb763fu, 0xd62d3447u, 0xd630bbceu, 0xd6328249u, 0xd661ea5au,
-  0xd6a806c8u, 0xd6aaeedcu, 0xd705b8d8u, 0xd7079f67u, 0xd738412fu, 0xd876c436u, 0xd8b03145u, 0xd8b99bdcu,
-  0xd976d0a7u, 0xd99f1b58u, 0xd9c93fcau, 0xda31e942u, 0xda410bdfu, 0xdaa41b3eu, 0xdbd615cau, 0xdbf0fcfcu,
-  0xdbf52e7cu, 0xdbf60dabu, 0xdc3866a5u, 0xdc79f5b4u, 0xdc84f4bfu, 0xdcc36811u, 0xdd1bfc8fu, 0xdd82775eu,
-  0xdd9b0888u, 0xddb1f6acu, 0xde4a0ef1u, 0xdeaeeb07u, 0xdf10e158u, 0xdf136776u, 0xdf8eeb1cu, 0xdf9a68c9u,
-  0xe00215afu, 0xe02c5d1eu, 0xe0561a7fu, 0xe133c0b3u, 0xe257104au, 0xe2b1583fu, 0xe2c5b9f5u, 0xe49122fau,
-  0xe4ace632u, 0xe4b3f742u, 0xe4c636c6u, 0xe4cbc694u, 0xe4f3e577u, 0xe5d537c3u, 0xe64cb91au, 0xe65bd8b8u,
-  0xe6d2e882u, 0xe7415d9du, 0xe7556c48u, 0xe83b7991u, 0xe8743b2eu, 0xe9e37c56u, 0xe9f982a8u, 0xea217986u,
-  0xeaf4b319u, 0xeb21876cu, 0xeb5141cau, 0xebaedfafu, 0xebcfc38fu, 0xecb060d2u, 0xed1f17f8u, 0xed2b199eu,
-  0xed680f01u, 0xed847f4au, 0xede29feeu, 0xede9310eu, 0xedf17748u, 0xee1f5383u, 0xee48d4b2u, 0xee8db3f0u,
-  0xeea10397u, 0xeeb61655u, 0xeed41e48u, 0xeef4be5du, 0xef40696du, 0xef51bc49u, 0xef7321e2u, 0xef9bec2bu,
-  0xefb43d78u, 0xf00fd01du, 0xf0a5dcd7u, 0xf0da2139u, 0xf0e8b878u, 0xf12c8f09u, 0xf1a85f90u, 0xf21f18a3u,
-  0xf282944fu, 0xf28e2b94u, 0xf2d5d94bu, 0xf32845dcu, 0xf3cebdd8u, 0xf4424a56u, 0xf442e4aau, 0xf44ffd98u,
-  0xf4b73d48u, 0xf4dd0d6cu, 0xf4e0e509u, 0xf5052453u, 0xf506bfaeu, 0xf530f96eu, 0xf574625fu, 0xf583ef61u,
-  0xf61c608eu, 0xf61e2b69u, 0xf649dc87u, 0xf662cc3fu, 0xf66eee5du, 0xf704b296u, 0xf7073aaeu, 0xf74d40cbu,
-  0xf75c36b8u, 0xf7d008d1u, 0xf7db6fa8u, 0xf7e44137u, 0xf84b5463u, 0xf8963c4bu, 0xf89dcf9bu, 0xf94866efu,
-  0xfa1385e6u, 0xfa8b2da4u, 0xfaa5a399u, 0xfb5b3007u, 0xfb970591u, 0xfbb2e5d8u, 0xfbd72885u, 0xfc0c73d7u,
-  0xfc0d8423u, 0xfcbe49bcu, 0xfcd8ac0cu, 0xfd4210f0u, 0xfdbdb485u, 0xfdfe6b04u, 0xfe668e58u, 0xfe8e92c6u,
-  0xff0cef4au, 0xff5606d4u, 0xff58e9ccu, 0xff6cf690u,
+  0x5e2bf7bbu, 0x5ec9d25du, 0x5f67cd6bu, 0x5f6caeceu, 0x6001a119u, 0x602d4800u, 0x60893147u, 0x608f4754u,
+  0x60a5947fu, 0x61725ac1u, 0x61ba8805u, 0x61db2077u, 0x625e3b27u, 0x629daa7du, 0x62a17f7bu, 0x6318022au,
+  0x6398eb3au, 0x639a6250u, 0x63d9eef6u, 0x63f7e593u, 0x64c78d97u, 0x64e0ec34u, 0x6582cca2u, 0x66335366u,
+  0x66c3d749u, 0x6701ea36u, 0x6807bafau, 0x68307073u, 0x68bde224u, 0x692c3f8bu, 0x693b6c0du, 0x694710a5u,
+  0x69575c59u, 0x6978fb70u, 0x6b59075eu, 0x6b7a5fa9u, 0x6b7d450au, 0x6ba94dbfu, 0x6bb442a2u, 0x6bb91142u,
+  0x6c1e9b20u, 0x6cb734bbu, 0x6ce29d12u, 0x6ce514ccu, 0x6cf77956u, 0x6d224992u, 0x6d3c1b22u, 0x6d3ca1c8u,
+  0x6d449681u, 0x6d4dbf3cu, 0x6d9f3c58u, 0x6db86bf0u, 0x6e35f83au, 0x6e3eef5bu, 0x6e5b2db2u, 0x6ea4f231u,
+  0x6ebe882du, 0x6ef56445u, 0x6f2176c2u, 0x6f7f8867u, 0x6fbe6c83u, 0x70d81158u, 0x7119c737u, 0x719ed898u,
+  0x71af8e54u, 0x71d808d6u, 0x71fc5d07u, 0x724e478cu, 0x72579194u, 0x726ff8aeu, 0x72cb13fbu, 0x72ef7050u,
+  0x738a22eau, 0x739f9fffu, 0x73a039e8u, 0x73ebfd55u, 0x741258aau, 0x742512dbu, 0x752592bfu, 0x755fdd06u,
+  0x756b1bf4u, 0x757aaaceu, 0x75d07c3eu, 0x761b5996u, 0x7631776bu, 0x763abfe0u, 0x763e50f6u, 0x765dfc7bu,
+  0x76b3ee4eu, 0x76c1725bu, 0x76f570a8u, 0x7707ca1au, 0x7763a316u, 0x77a5696eu, 0x77cb1fe5u, 0x77cb3a52u,
+  0x7808e0e5u, 0x784f6467u, 0x78a24139u, 0x78ef2febu, 0x7916e1eeu, 0x7953b285u, 0x7983e56fu, 0x79dadd1eu,
+  0x7aa7078fu, 0x7ab08c87u, 0x7ae3d9beu, 0x7ae6b03cu, 0x7b1d17dfu, 0x7b2d3712u, 0x7b65a30au, 0x7b6cc14au,
+  0x7bb6868au, 0x7be5b4d1u, 0x7c2ef34au, 0x7c3e7b67u, 0x7c849446u, 0x7c8765c7u, 0x7c91a3d3u, 0x7cf9e41eu,
+  0x7d3ea30du, 0x7e73209fu, 0x7e7ef6fbu, 0x7ec705f9u, 0x7f6dd2f4u, 0x7f962138u, 0x7f9a3712u, 0x8085f244u,
+  0x80d003dcu, 0x81093ebdu, 0x81382823u, 0x81891934u, 0x81ce6ffeu, 0x81de7b2bu, 0x81de9789u, 0x81f52e4cu,
+  0x82885d57u, 0x82a65a3eu, 0x82b7fdccu, 0x830c0a6du, 0x8324b240u, 0x834b575bu, 0x83a46195u, 0x83cad710u,
+  0x83ce1520u, 0x83f563feu, 0x83fdf3b8u, 0x8409e329u, 0x8463f036u, 0x84ae2ddau, 0x850bfc04u, 0x851ee762u,
+  0x8541dc61u, 0x8571be23u, 0x866405dau, 0x86aa1dd7u, 0x870c32cbu, 0x870ddb5du, 0x8725b746u, 0x8739e8c4u,
+  0x8788f366u, 0x87954eb3u, 0x879c608eu, 0x882b1140u, 0x88c2a8f8u, 0x88d9b9cbu, 0x8949fadbu, 0x89a22894u,
+  0x89b18742u, 0x89b46fd2u, 0x89cd352eu, 0x8a19be83u, 0x8a33b5a0u, 0x8a97ad37u, 0x8ae6e8b7u, 0x8b2c6c42u,
+  0x8b7c6ebcu, 0x8b7c8752u, 0x8bf9026fu, 0x8c65170cu, 0x8cfaceb7u, 0x8d1629dbu, 0x8d208d35u, 0x8d343e23u,
+  0x8d72e1bcu, 0x8dffd44au, 0x8e1543cbu, 0x8e862e40u, 0x8ef0fa8du, 0x8f3dfe38u, 0x8f9c3476u, 0x8fc94b99u,
+  0x8ffd0fdau, 0x9000ced9u, 0x9072a7c3u, 0x907efd44u, 0x915302b9u, 0x91707445u, 0x91c06f66u, 0x91c398b0u,
+  0x92038c07u, 0x921b15b2u, 0x925581dbu, 0x9286923du, 0x92b4e846u, 0x92d635e6u, 0x9346f7b4u, 0x93aad056u,
+  0x93d588d9u, 0x94232a11u, 0x945d4391u, 0x94a48a3au, 0x94cffd4au, 0x94d1fb35u, 0x959ca29fu, 0x95ef7054u,
+  0x9613db53u, 0x967d9c8bu, 0x96f88e4fu, 0x96fcfc90u, 0x971d495fu, 0x977cbe81u, 0x979829acu, 0x97cc2d15u,
+  0x97e74964u, 0x980740eau, 0x9813718du, 0x982a74c0u, 0x983bd5abu, 0x98a9b10du, 0x98dc31cbu, 0x99113421u,
+  0x993cb84fu, 0x99426679u, 0x9952077eu, 0x99a1e9aau, 0x99a237f3u, 0x99ff176du, 0x9a20f649u, 0x9a21d9e2u,
+  0x9a7cf766u, 0x9a80afbbu, 0x9afb44ddu, 0x9b2dbeebu, 0x9b59a5e6u, 0x9b840e58u, 0x9c08179du, 0x9ceba351u,
+  0x9d16fe32u, 0x9d527cbau, 0x9d857fa1u, 0x9dd580cfu, 0x9e5188a7u, 0x9eb358eeu, 0xa01471ceu, 0xa063620du,
+  0xa0685115u, 0xa0b28768u, 0xa1114210u, 0xa1e3b33au, 0xa1e6ec1cu, 0xa2812100u, 0xa2ecae66u, 0xa30cd560u,
+  0xa32ebf0du, 0xa34e1a68u, 0xa3711752u, 0xa3b13f05u, 0xa460be83u, 0xa477ef41u, 0xa492731bu, 0xa4b07225u,
+  0xa4d9ea78u, 0xa64968b6u, 0xa6b9225eu, 0xa85364dfu, 0xa8677b4au, 0xa8c2338cu, 0xa8f1d22au, 0xa90b3519u,
+  0xa981ca44u, 0xa9a9c9f5u, 0xa9cf08a1u, 0xa9d2d37au, 0xa9ddbc3bu, 0xaa1eb6d4u, 0xaa5bb79bu, 0xaa6410b8u,
+  0xaa670776u, 0xaac19ab2u, 0xaaf6d256u, 0xabb69b2bu, 0xabcee728u, 0xabfce33au, 0xac511c0cu, 0xace57808u,
+  0xad521566u, 0xad61ed22u, 0xad855d02u, 0xadb998a2u, 0xadcfc9bau, 0xaddb8a5cu, 0xae1c7119u, 0xae1f6e1cu,
+  0xaeb8157fu, 0xaed8dd84u, 0xaf08ec96u, 0xaf51ad83u, 0xaf6cdf0eu, 0xaf994fd9u, 0xafb16d51u, 0xb00f2becu,
+  0xb09094beu, 0xb0dca3f0u, 0xb0dde471u, 0xb0f723bbu, 0xb10222f5u, 0xb11d6403u, 0xb11e44c8u, 0xb12a2897u,
+  0xb1408316u, 0xb195b882u, 0xb19ff6c3u, 0xb1ab1294u, 0xb1ae2aeau, 0xb1ba73f3u, 0xb2052cc5u, 0xb21da1d7u,
+  0xb277f6eau, 0xb28f9299u, 0xb2bc7028u, 0xb2c37102u, 0xb2d43aa6u, 0xb315c8d3u, 0xb336dd98u, 0xb38a3f56u,
+  0xb4141f6bu, 0xb4279e4fu, 0xb45684edu, 0xb47418b5u, 0xb4b38045u, 0xb4f39ab2u, 0xb501c8b5u, 0xb5365d1cu,
+  0xb540c078u, 0xb5636d41u, 0xb5811a9fu, 0xb624a6c1u, 0xb67b9ebbu, 0xb705e4bcu, 0xb78a1016u, 0xb7ca01fau,
+  0xb81e81c6u, 0xb8429017u, 0xb8a5fa61u, 0xb8f042f2u, 0xb948e6d1u, 0xb96dc0a2u, 0xb98d3f8bu, 0xb9bce295u,
+  0xba358297u, 0xba5928deu, 0xba6d0bafu, 0xba967530u, 0xba9e2c23u, 0xbad75250u, 0xbae21804u, 0xbb0e750bu,
+  0xbb2b6a04u, 0xbb4d4f06u, 0xbb90fed4u, 0xbbc2fb1au, 0xbc75df8cu, 0xbcdd6346u, 0xbd68f49bu, 0xbe767046u,
+  0xbf0023f2u, 0xbf030b81u, 0xbf0ffc28u, 0xbf48828cu, 0xbfdcf293u, 0xbfe304fdu, 0xc046aa1du, 0xc07fe080u,
+  0xc0a845d1u, 0xc0cc4fd2u, 0xc12461ccu, 0xc12f1538u, 0xc239fb40u, 0xc291e875u, 0xc2cfd128u, 0xc2eb37dcu,
+  0xc2fa8d2du, 0xc31dc47bu, 0xc31ff0ebu, 0xc3649fd8u, 0xc3a075fdu, 0xc41ffdabu, 0xc4395baeu, 0xc4b41bdfu,
+  0xc58f687fu, 0xc5d5cd3cu, 0xc5da5af6u, 0xc5e9faf3u, 0xc5fdab8fu, 0xc61a4b58u, 0xc62f8a9eu, 0xc6906952u,
+  0xc6c441c5u, 0xc6f6bc27u, 0xc773472au, 0xc877c348u, 0xc891df32u, 0xc8acc5dbu, 0xc97576c1u, 0xc998ff3fu,
+  0xc9bf6e6eu, 0xc9da0351u, 0xcac56639u, 0xcbb6f02au, 0xcbf23343u, 0xcc60c4fau, 0xcc6fe600u, 0xcca6bb99u,
+  0xcd7b8fc0u, 0xcd8b3736u, 0xcf866eafu, 0xcfd678f7u, 0xd03136aeu, 0xd03d2c50u, 0xd0441d63u, 0xd0549211u,
+  0xd074e1adu, 0xd1baa84au, 0xd1ff8d96u, 0xd2019c2fu, 0xd2a7b15eu, 0xd2e4fa52u, 0xd30e1bb6u, 0xd3b80c67u,
+  0xd3eade79u, 0xd4a3f019u, 0xd4cf8602u, 0xd4dd313du, 0xd577eaf7u, 0xd5b135dau, 0xd5cd5f99u, 0xd5e522d1u,
+  0xd5fb763fu, 0xd62d3447u, 0xd630bbceu, 0xd6328249u, 0xd661ea5au, 0xd6a806c8u, 0xd6aaeedcu, 0xd705b8d8u,
+  0xd7079f67u, 0xd738412fu, 0xd876c436u, 0xd8b03145u, 0xd8b99bdcu, 0xd976d0a7u, 0xd99f1b58u, 0xd9c93fcau,
+  0xda31e942u, 0xda410bdfu, 0xdaa41b3eu, 0xdad447b0u, 0xdbd615cau, 0xdbf0fcfcu, 0xdbf52e7cu, 0xdbf60dabu,
+  0xdc3866a5u, 0xdc79f5b4u, 0xdc84f4bfu, 0xdcc36811u, 0xdd1bfc8fu, 0xdd82775eu, 0xdd9b0888u, 0xddb1f6acu,
+  0xde4a0ef1u, 0xdeaeeb07u, 0xdf10e158u, 0xdf136776u, 0xdf8eeb1cu, 0xdf9a68c9u, 0xe00215afu, 0xe02c5d1eu,
+  0xe0561a7fu, 0xe133c0b3u, 0xe257104au, 0xe2b1583fu, 0xe2c5b9f5u, 0xe2dbe009u, 0xe49122fau, 0xe4ace632u,
+  0xe4b3f742u, 0xe4c636c6u, 0xe4cbc694u, 0xe4f3e577u, 0xe5d537c3u, 0xe64cb91au, 0xe65bd8b8u, 0xe6d2e882u,
+  0xe7415d9du, 0xe7556c48u, 0xe83b7991u, 0xe8743b2eu, 0xe9e37c56u, 0xe9f982a8u, 0xea217986u, 0xeaf4b319u,
+  0xeb21876cu, 0xeb5141cau, 0xebaedfafu, 0xebcfc38fu, 0xecb060d2u, 0xed1f17f8u, 0xed2b199eu, 0xed680f01u,
+  0xed847f4au, 0xede29feeu, 0xede9310eu, 0xedf17748u, 0xee1f5383u, 0xee48d4b2u, 0xee8db3f0u, 0xeea10397u,
+  0xeeb61655u, 0xeed41e48u, 0xeef4be5du, 0xef40696du, 0xef51bc49u, 0xef7321e2u, 0xef9bec2bu, 0xefb43d78u,
+  0xf00fd01du, 0xf0a5dcd7u, 0xf0da2139u, 0xf0e8b878u, 0xf12c8f09u, 0xf1a85f90u, 0xf21f18a3u, 0xf282944fu,
+  0xf28e2b94u, 0xf2d5d94bu, 0xf32845dcu, 0xf3cebdd8u, 0xf4424a56u, 0xf442e4aau, 0xf44ffd98u, 0xf4b73d48u,
+  0xf4dd0d6cu, 0xf4e0e509u, 0xf5052453u, 0xf506bfaeu, 0xf530f96eu, 0xf574625fu, 0xf583ef61u, 0xf61c608eu,
+  0xf61e2b69u, 0xf649dc87u, 0xf662cc3fu, 0xf66eee5du, 0xf704b296u, 0xf7073aaeu, 0xf74d40cbu, 0xf75c36b8u,
+  0xf7d008d1u, 0xf7db6fa8u, 0xf7e44137u, 0xf84b5463u, 0xf8963c4bu, 0xf89dcf9bu, 0xf94866efu, 0xfa1385e6u,
+  0xfa8b2da4u, 0xfaa5a399u, 0xfb5b3007u, 0xfb970591u, 0xfbb2e5d8u, 0xfbd72885u, 0xfc0c73d7u, 0xfc0d8423u,
+  0xfcbe49bcu, 0xfcd8ac0cu, 0xfd4210f0u, 0xfdbdb485u, 0xfdfe6b04u, 0xfe668e58u, 0xfe8e92c6u, 0xff0cef4au,
+  0xff5606d4u, 0xff58e9ccu, 0xff6cf690u,
 };
 // sutunlar: en, es, pt, fr, de, it, ru, id  (nullptr = ceviri yok -> Ingilizce)
 static const char* const LANG_TXT[LANG_TABLE_N][8] = {
@@ -146,6 +148,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Ajustes desde el teléfono (web)", "Ajustes pelo celular (web)", "Réglages via téléphone (web)", "Einstellung per Handy (Web)", "Impostazioni da telefono (web)", "Настройка с телефона (веб)", "Atur dari ponsel (web)"},  // 04bb01f2
   {nullptr, "Claro - temas compatibles; otras páginas usan el oscuro con anillos", "Claro - temas compatíveis; outras páginas usam o escuro com anéis", "Clair - thèmes compatibles ; autres pages en sombre à anneaux", "Hell - passende Designs; andere Seiten dunkel mit Ringen", "Chiaro - temi adatti; le altre pagine usano lo scuro ad anelli", "Светлый - подходящие темы; остальные тёмные с кольцами", "Terang - tema yang cocok; halaman lain gelap bercincin"},  // 0509429d
   {nullptr, "3. Vuelva a encenderlo", "3. Ligue o hotspot de novo", "3. Réactivez le partage", "3. Hotspot wieder einschalten", "3. Riaccendi l'hotspot", "3. Снова включите точку доступа", "3. Nyalakan lagi hotspot"},  // 0531b3d5
+  {nullptr, "Bolo de %s U - %d min", "Bólus de %s U - %d min", "Bolus de %s U - %d min", "%s IE Bolus - %d Min.", "Bolo da %s U - %d min", "Болюс %s ЕД - %d мин", "Bolus %s U - %d mnt"},  // 053cb991
   {"Continue setup (no scan)", "Continuar configuración (sin buscar)", "Continuar configuração (sem busca)", "Continuer (sans recherche)", "Einrichtung fortsetzen (ohne Suche)", "Continua (senza scansione)", "Продолжить (без поиска)", "Lanjutkan (tanpa pindai)"},  // 05430e32
   {nullptr, "Rangos", "Alvos", "Cibles", "Ziele", "Soglie", "Цели", "Target"},  // 05b83ab9
   {nullptr, "El correo o la clave de LibreLinkUp pueden ser incorrectos. Ingréselos de nuevo en Config. o en la página web.", "O e-mail ou a senha do LibreLinkUp podem estar errados. Digite de novo em Config. ou na página web.", "E-mail ou mot de passe LibreLinkUp peut-être faux. Ressaisissez-les dans Config. ou sur la page web.", "E-Mail oder Passwort für LibreLinkUp evtl. falsch. Im Setup oder auf der Webseite neu eingeben.", "E-mail o password di LibreLinkUp forse errati. Reinseriscili in Config. o dalla pagina web.", "Возможно, неверные e-mail или пароль LibreLinkUp. Введите заново в «Настройке» или на веб-странице.", "E-mail atau sandi LibreLinkUp mungkin salah. Isi lagi di Atur atau di halaman web."},  // 05d16c5a
@@ -184,6 +187,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Iniciando micrófono...", "Iniciando microfone...", "Démarrage du micro...", "Mikrofon startet...", "Avvio microfono...", "Запуск микрофона...", "Menyalakan mikrofon..."},  // 0e16691d
   {nullptr, "Se borrarán el WiFi y los accesos", "O WiFi e os logins da fonte", "Le WiFi et les identifiants", "WLAN und Quell-Logins", "WiFi e accessi della fonte", "WiFi и входы источника", "WiFi dan login sumber"},  // 0e273561
   {nullptr, "TIPOS DE ALARMA", "TIPOS DE ALARME", "TYPES D'ALARME", "ALARMARTEN", "TIPI DI ALLARME", "ТИПЫ ТРЕВОГ", "JENIS ALARM"},  // 0e5d51ff
+  {"Unit: ", "Unidad: ", "Unidade: ", "Unité : ", "Einheit: ", "Unità: ", "Единицы: ", "Satuan: "},  // 0e731be0
   {nullptr, "Menta", "Menta", "Menthe", "Minze", "Menta", "Мята", "Mint"},  // 0e7c7fc2
   {nullptr, "Respuesta inesperada de la fuente. Se reintentará en breve.", "Resposta inesperada da fonte. Nova tentativa em breve.", "Réponse inattendue de la source. Nouvel essai sous peu.", "Unerwartete Antwort der Quelle. Gleich neuer Versuch.", "Risposta inattesa dalla fonte. Nuovo tentativo a breve.", "Неожиданный ответ источника. Скоро повторим.", "Respons tak terduga dari sumber. Akan dicoba lagi sebentar."},  // 0e8eb76b
   {"\"></div>\n<div><label>hours (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>horas (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>horas (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>heures (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>Stunden (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>ore (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>часы (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"", "\"></div>\n<div><label>jam (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\""},  // 0e90c11f
@@ -194,6 +198,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Cerrar", "Fechar", "Fermer", "Schließen", "Chiudi", "Закрыть", "Tutup"},  // 0fe98a61
   {nullptr, "Inicio", "Início", "Accueil", "Start", "Home", "Домой", "Beranda"},  // 10309abd
   {nullptr, "Termómetro", "Termômetro", "Thermomètre", "Thermometer", "Termometro", "Термометр", "Termometer"},  // 10b88950
+  {nullptr, "¡Buen provecho!", "Bom apetite!", "Bon appétit !", "Guten Appetit!", "Buon appetito!", "Приятного аппетита!", "Selamat makan!"},  // 1106040e
   {nullptr, "- Solo con fines informativos", "- Apenas para informação", "- À titre informatif seulement", "- Nur zur Information", "- Solo a scopo informativo", "- Только для информации", "- Hanya untuk informasi"},  // 1117e691
   {nullptr, "Deslice a la izquierda en el inicio: se abren las apps.", "Deslize para a esquerda no início: abrem os apps.", "Glissez à gauche sur l'accueil : les apps s'ouvrent.", "Auf dem Startbildschirm nach links wischen: Apps öffnen sich.", "Scorri a sinistra nella home: si aprono le app.", "Смахните влево на главном экране: откроются приложения.", "Geser ke kiri di beranda: aplikasi terbuka."},  // 11342522
   {nullptr, "CHASQUIDO", "ESTALO PARA ACORDAR", "RÉVEIL PAR CLAQUEMENT", "SCHNIPSEN ZUM WECKEN", "SCHIOCCO PER RIATTIVARE", "ПРОБУЖДЕНИЕ ЩЕЛЧКОМ", "JENTIK UNTUK BANGUN"},  // 1141534d
@@ -304,6 +309,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Ajustar", "Ajustar", "Régler", "Einrichten", "Imposta", "Настроить", "Atur"},  // 2adef385
   {nullptr, "%d h", "%d h", "%d h", "%d h", "%d h", "%d ч", "%d j"},  // 2aeddbb5
   {nullptr, "ALARMA SIN DATOS", "ALARME SEM DADOS", "ALARME SANS DONNÉES", "ALARM OHNE DATEN", "ALLARME SENZA DATI", "НЕТ ДАННЫХ", "ALARM TANPA DATA"},  // 2af0de5d
+  {nullptr, "Umbral de bolo", "Limite de bólus", "Seuil de bolus", "Bolus-Schwelle", "Soglia bolo", "Порог болюса", "Ambang bolus"},  // 2b7adc71
   {nullptr, "Modo noche", "Modo noturno", "Mode nuit", "Nachtmodus", "Modalità notte", "Ночной режим", "Mode malam"},  // 2bd00398
   {nullptr, "Revisado por una enfermera de diabetes.", "Revisto por uma enfermeira de diabetes.", "Vérifié par une infirmière en diabétologie.", "Von einer Diabetesberaterin geprüft.", "Verificato da un'infermiera di diabetologia.", "Проверено медсестрой по диабету.", "Ditinjau oleh perawat diabetes."},  // 2be5baaa
   {nullptr, "pospuesta", "adiado", "reportée", "pausiert", "posticipato", "отложена", "ditunda"},  // 2bfc654a
@@ -322,6 +328,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Algunas usan API de terceros.", "Algumas usam APIs de terceiros.", "Certaines utilisent des API tierces.", "Teils über Drittanbieter-APIs.", "Alcune usano API di terzi.", "Некоторые используют сторонние API.", "Sebagian memakai API pihak ketiga."},  // 2ffe3a60
   {"Current password is wrong.", "La clave actual es incorrecta.", "A senha atual está errada.", "Le mot de passe actuel est incorrect.", "Das aktuelle Passwort ist falsch.", "La password attuale è errata.", "Текущий пароль неверен.", "Sandi saat ini salah."},  // 3194336d
   {nullptr, "Pantalla atenuada - cargue", "Tela escurecida - carregue", "Écran assombri - chargez", "Bildschirm gedimmt - laden", "Schermo attenuato - ricarica", "Экран затемнён - зарядите", "Layar diredupkan - isi daya"},  // 31b1fda9
+  {nullptr, "TEMPORIZADOR", "TEMPORIZADOR", "MINUTEUR", "TIMER", "TIMER", "ТАЙМЕР", "PENGATURAN TIMER"},  // 32313e88
   {nullptr, "Total: ", "Total: ", "Total : ", "Summe: ", "Totale: ", "Итого: ", "Total: "},  // 32704977
   {nullptr, "<<  Deslice: páginas / apps  >>", "<<  Deslize: páginas / apps  >>", "<<  Glissez : pages / apps  >>", "<<  Wischen: Seiten / Apps  >>", "<<  Scorri: pagine / app  >>", "<<  Смахните: страницы / прил.  >>", "<<  Geser: halaman / aplikasi  >>"},  // 32c48563
   {nullptr, "Reiniciado, conectando...", "Reiniciado, conectando...", "Redémarré, connexion...", "Neu gestartet, verbinde...", "Riavviato, connessione...", "Перезапуск, подключение...", "Dimulai ulang, menyambung..."},  // 33684984
@@ -342,6 +349,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Error de acceso - toque", "Erro de login - toque", "Erreur de connexion - touchez", "Login-Fehler - tippen", "Errore accesso - tocca", "Ошибка входа - нажмите", "Gagal masuk - ketuk"},  // 35b76539
   {nullptr, "Escanee el QR de configuración o conéctese a esta red desde la lista WiFi del teléfono: ", "Escaneie o QR de configuração ou conecte-se a esta rede pela lista de WiFi do celular: ", "Scannez le QR de configuration ou rejoignez ce réseau depuis la liste WiFi du téléphone : ", "Setup-QR scannen oder in der WLAN-Liste des Handys dieses Netz wählen: ", "Scansiona il QR di configurazione o collegati a questa rete dalla lista WiFi del telefono: ", "Отсканируйте QR настройки или подключитесь к этой сети из списка WiFi телефона: ", "Pindai QR pengaturan atau sambungkan ke jaringan ini dari daftar WiFi ponsel: "},  // 35dc50a8
   {nullptr, "- El riesgo es del usuario", "- O risco é do usuário", "- À vos propres risques", "- Auf eigenes Risiko", "- Rischio a carico dell'utente", "- Риск на пользователе", "- Risiko pada pengguna"},  // 3608adcf
+  {">Off</option></select>\n<button class=\"btn\" type=\"submit\">Save alarms</button>\n</form>\n</div>", ">Apagado</option></select>\n<button class=\"btn\" type=\"submit\">Guardar alarmas</button>\n</form>\n</div>", ">Desligado</option></select>\n<button class=\"btn\" type=\"submit\">Salvar alarmes</button>\n</form>\n</div>", ">Désactivé</option></select>\n<button class=\"btn\" type=\"submit\">Enregistrer les alarmes</button>\n</form>\n</div>", ">Aus</option></select>\n<button class=\"btn\" type=\"submit\">Alarme speichern</button>\n</form>\n</div>", ">Spento</option></select>\n<button class=\"btn\" type=\"submit\">Salva allarmi</button>\n</form>\n</div>", ">Выкл</option></select>\n<button class=\"btn\" type=\"submit\">Сохранить тревоги</button>\n</form>\n</div>", ">Mati</option></select>\n<button class=\"btn\" type=\"submit\">Simpan alarm</button>\n</form>\n</div>"},  // 36106b87
   {nullptr, "Si duda, llame a la familia.", "Na dúvida, ligue para a família.", "En cas de doute, appelez la famille.", "Im Zweifel die Familie anrufen.", "Nel dubbio, chiama la famiglia.", "Если сомневаетесь, звоните семье.", "Jika ragu, hubungi keluarga."},  // 362274a6
   {"\">\n<label>Fast fall alarm (double down arrow)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Alarma de caída rápida (flecha doble abajo)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Alarme de queda rápida (seta dupla para baixo)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Alarme chute rapide (double flèche bas)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Alarm schneller Abfall (Doppelpfeil runter)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Allarme discesa rapida (doppia freccia giù)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Тревога быстрого падения (двойная стрелка вниз)</label><select name=\"afdn\"><option value=\"1\"", "\">\n<label>Alarm turun cepat (panah ganda ke bawah)</label><select name=\"afdn\"><option value=\"1\""},  // 36378a01
   {nullptr, "Alto: ámbar", "Alto: âmbar", "Haut : ambre", "Hoch: Bernstein", "Alto: ambra", "Высокий: янтарный", "Tinggi: amber"},  // 36da1a50
@@ -425,6 +433,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Si está activo, cuando la glucosa entra en un rango peligroso aparece el botón Alerta en la pantalla principal. Muestra paso a paso a quien lo toca (profesor, cuidador, amigo) qué hacer.", "Quando ativo, se a glicose entrar numa faixa perigosa aparece o botão Alerta na tela principal. Ele mostra passo a passo a quem tocar (professor, cuidador, amigo) o que fazer.", "Activé, un bouton Alerte apparaît sur l'écran principal si la glycémie entre dans une zone dangereuse. Il montre pas à pas à la personne qui le touche (enseignant, aidant, ami) quoi faire.", "Wenn aktiv, erscheint auf dem Hauptbildschirm eine Achtung-Taste, sobald der Zucker in einen gefährlichen Bereich kommt. Sie zeigt der Person, die tippt (Lehrkraft, Betreuer, Freund), Schritt für Schritt, was zu tun ist.", "Se attiva, quando la glicemia entra in un intervallo pericoloso compare il pulsante Allerta nella schermata principale. Mostra passo passo a chi lo tocca (insegnante, assistente, amico) cosa fare.", "Если включено, при опасном уровне сахара на главном экране появляется кнопка «Внимание». Она пошагово показывает нажавшему (учителю, няне, другу), что делать.", "Jika aktif, tombol Waspada muncul di layar utama saat glukosa masuk rentang berbahaya. Tombol ini menunjukkan langkah demi langkah kepada yang mengetuk (guru, pengasuh, teman) apa yang harus dilakukan."},  // 4b8d8a1c
   {nullptr, "NO", "DESL", "NON", "AUS", "OFF", "ВЫКЛ", "MATI"},  // 4ba281eb
   {nullptr, "Elija nivel (suena prueba)", "Escolha o nível (toca teste)", "Niveau (joue un test)", "Stufe wählen (Testton)", "Scegli livello (suona test)", "Выберите уровень (тест)", "Pilih level (bunyi tes)"},  // 4c087231
+  {nullptr, "más de %s U", "mais de %s U", "plus de %s U", "über %s IE", "oltre %s U", "более %s ЕД", "di atas %s U"},  // 4c40d771
   {nullptr, "Silencio", "Mudo", "Muet", "Stumm", "Muto", "Без звука", "Senyap"},  // 4c854088
   {nullptr, "No se pudieron leer datos", "Não foi possível ler os dados", "Lecture des données impossible", "Daten nicht lesbar", "Impossibile leggere i dati", "Не удалось прочитать данные", "Data tidak dapat dibaca"},  // 4cd84f41
   {nullptr, "Mida la glucosa en el dedo.", "Meça a glicemia no dedo.", "Faites une glycémie au doigt.", "Blutzucker am Finger messen.", "Misura la glicemia dal dito.", "Измерьте сахар из пальца.", "Cek gula darah di jari."},  // 4d024e96
@@ -479,6 +488,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Fill in <b>only one source</b> below. You can change it later at http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Complete <b>solo una fuente</b> abajo. Luego puede cambiarla en http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Preencha <b>só uma fonte</b> abaixo. Depois dá para mudar em http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Remplissez <b>une seule source</b> ci-dessous. Modifiable ensuite sur http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Unten <b>nur eine Quelle</b> ausfüllen. Später unter http://IP/ änderbar.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Compila <b>una sola fonte</b> qui sotto. Puoi cambiarla poi su http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Заполните ниже <b>только один источник</b>. Позже его можно изменить по адресу http://IP/.</p></div>", "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Isi <b>satu sumber saja</b> di bawah. Nanti bisa diubah di http://IP/.</p></div>"},  // 59430b7e
   {" KB). On the device: Apps > Glucagon", " KB). En el equipo: Apps > Glucagón", " KB). No aparelho: Apps > Glucagon", " KB). Sur l'appareil : Apps > Glucagon", " KB). Am Gerät: Apps > Glukagon", " KB). Sul dispositivo: App > Glucagone", " KB). На устройстве: Приложения > Глюкагон", " KB). Di perangkat: Aplikasi > Glukagon"},  // 5a8a96dd
   {nullptr, "Cargue el equipo", "Carregue o aparelho", "Chargez l'appareil", "Bitte laden", "Ricarica", "Зарядите", "Isi daya"},  // 5aebfb4a
+  {nullptr, "UMBRAL DE BOLO", "LIMITE DE BÓLUS", "SEUIL DE BOLUS", "BOLUS-SCHWELLE", "SOGLIA BOLO", "ПОРОГ БОЛЮСА", "AMBANG BOLUS"},  // 5b08c7d1
   {nullptr, "La IP aparece en la página Info.", "O IP aparece na página Info.", "L'IP figure sur la page Info.", "Die IP steht auf der Info-Seite.", "L'IP è nella pagina Info.", "IP указан на странице «Инфо».", "IP tertera di halaman Info."},  // 5b53b045
   {nullptr, "Marco de fotos", "Moldura de fotos", "Cadre photo", "Bilderrahmen", "Cornice foto", "Фоторамка", "Bingkai Foto"},  // 5b748e2a
   {nullptr, "Noviembre", "Novembro", "Novembre", "November", "Novembre", "Ноябрь", "November"},  // 5b818d0f
@@ -496,6 +506,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "MÁS AJUSTES", "MAIS CONFIGURAÇÕES", "PLUS DE RÉGLAGES", "MEHR EINSTELLUNGEN", "ALTRE IMPOSTAZIONI", "ДРУГИЕ НАСТРОЙКИ", "PENGATURAN LAIN"},  // 5e2bf7bb
   {nullptr, "Caída rápida", "Queda rápida", "Chute rapide", "Schneller Abfall", "Discesa rapida", "Быстрое падение", "Turun cepat"},  // 5ec9d25d
   {nullptr, "El equipo guarda su propio registro mientras funciona.", "O aparelho guarda seu próprio registro enquanto liga.", "L'appareil garde son propre historique en marche.", "Das Gerät speichert eigene Werte im Betrieb.", "Il dispositivo registra i dati mentre è acceso.", "Устройство само копит данные, пока работает.", "Perangkat menyimpan catatan sendiri selama menyala."},  // 5f67cd6b
+  {nullptr, "U", "U", "U", "IE", "U", "ЕД", "U"},  // 5f6caece
   {nullptr, "Sin internet", "Sem internet", "Pas d'internet", "Kein Internet", "Nessun internet", "Нет интернета", "Tidak ada internet"},  // 6001a119
   {"var U=[[0,'per 100 g'],[1,'per piece'],[3,'per portion'],[4,'per bowl'],[5,'per slice'],[6,'per tea glass'],[7,'per glass'],[8,'per pack']];", "var U=[[0,'por 100 g'],[1,'por pieza'],[3,'por porción'],[4,'por tazón'],[5,'por rebanada'],[6,'por vaso chico'],[7,'por vaso'],[8,'por paquete']];", "var U=[[0,'por 100 g'],[1,'por unidade'],[3,'por porção'],[4,'por tigela'],[5,'por fatia'],[6,'por copo pequeno'],[7,'por copo'],[8,'por pacote']];", "var U=[[0,'pour 100 g'],[1,'par pièce'],[3,'par portion'],[4,'par bol'],[5,'par tranche'],[6,'par petit verre'],[7,'par verre'],[8,'par paquet']];", "var U=[[0,'pro 100 g'],[1,'pro Stück'],[3,'pro Portion'],[4,'pro Schüssel'],[5,'pro Scheibe'],[6,'pro kleines Glas'],[7,'pro Glas'],[8,'pro Packung']];", "var U=[[0,'per 100 g'],[1,'per pezzo'],[3,'per porzione'],[4,'per ciotola'],[5,'per fetta'],[6,'per bicchierino'],[7,'per bicchiere'],[8,'per confezione']];", "var U=[[0,'на 100 г'],[1,'на 1 шт.'],[3,'на порцию'],[4,'на миску'],[5,'на ломтик'],[6,'на стаканчик'],[7,'на стакан'],[8,'на упаковку']];", "var U=[[0,'per 100 g'],[1,'per buah'],[3,'per porsi'],[4,'per mangkuk'],[5,'per iris'],[6,'per gelas kecil'],[7,'per gelas'],[8,'per bungkus']];"},  // 602d4800
   {nullptr, "Chasquidos:", "Estalos:", "Claquements :", "Schnipser:", "Schiocchi:", "Щелчки:", "Jentikan:"},  // 60893147
@@ -663,6 +674,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"<p class='note'>The password is shown on the device's Info screen.</p></div></body></html>", "<p class='note'>La clave aparece en la pantalla Info del equipo.</p></div></body></html>", "<p class='note'>A senha aparece na tela Info do aparelho.</p></div></body></html>", "<p class='note'>Le mot de passe figure sur l'écran Info de l'appareil.</p></div></body></html>", "<p class='note'>Das Passwort steht auf dem Info-Bildschirm des Geräts.</p></div></body></html>", "<p class='note'>La password è nella schermata Info del dispositivo.</p></div></body></html>", "<p class='note'>Пароль указан на экране «Инфо» устройства.</p></div></body></html>", "<p class='note'>Sandi tertera di layar Info perangkat.</p></div></body></html>"},  // 89b18742
   {nullptr, "Atrás", "Voltar", "Retour", "Zurück", "Indietro", "Назад", "Kembali"},  // 89b46fd2
   {nullptr, "no conectado", "não conectado", "non connecté", "nicht verbunden", "non connesso", "не подключено", "tidak terhubung"},  // 89cd352e
+  {nullptr, "Temporizador iniciado", "Temporizador iniciado", "Minuteur démarré", "Timer gestartet", "Timer avviato", "Таймер запущен", "Timer dimulai"},  // 8a19be83
   {nullptr, "Restablecer o apagar", "Redefinir ou desligar", "Réinitialiser ou éteindre", "Zurücksetzen oder ausschalten", "Reimposta o spegni", "Сброс или выключение", "Atur ulang atau matikan"},  // 8a33b5a0
   {nullptr, "¿Cómo aplicar glucagón?", "Como aplicar glucagon?", "Comment injecter le glucagon ?", "Wie gibt man Glukagon?", "Come dare il glucagone?", "Как вводить глюкагон?", "Cara memberi glukagon?"},  // 8a97ad37
   {"<button class='btn' id='b'>Convert and upload</button>", "<button class='btn' id='b'>Convertir y subir</button>", "<button class='btn' id='b'>Converter e enviar</button>", "<button class='btn' id='b'>Convertir et envoyer</button>", "<button class='btn' id='b'>Umwandeln und hochladen</button>", "<button class='btn' id='b'>Converti e carica</button>", "<button class='btn' id='b'>Преобразовать и загрузить</button>", "<button class='btn' id='b'>Konversi dan unggah</button>"},  // 8ae6e8b7
@@ -679,7 +691,6 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"x.open('POST','/update');x.send(fd);st.textContent='Uploading...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Subiendo...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Enviando...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Envoi...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Wird hochgeladen...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Caricamento...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Загрузка...';});};", "x.open('POST','/update');x.send(fd);st.textContent='Mengunggah...';});};"},  // 8dffd44a
   {nullptr, "Navegación", "Navegação", "Navigation", "Navigation", "Navigazione", "Навигация", "Navigasi"},  // 8e1543cb
   {nullptr, "La clave del WiFi puede ser incorrecta. Toque Config. y escríbala de nuevo.", "A senha do WiFi pode estar errada. Toque em Config. e digite de novo.", "Le mot de passe WiFi est peut-être faux. Touchez Config. et ressaisissez-le.", "Das WLAN-Passwort ist evtl. falsch. Setup antippen und neu eingeben.", "La password WiFi potrebbe essere errata. Tocca Config. e reinseriscila.", "Возможно, неверный пароль WiFi. Нажмите «Настройка» и введите заново.", "Sandi WiFi mungkin salah. Ketuk Atur dan isi lagi."},  // 8e862e40
-  {">Off</option></select>\n<button class=\"btn\" type=\"submit\">Save alarms</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Device</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brightness</label><select name=\"bright\">", ">Apagado</option></select>\n<button class=\"btn\" type=\"submit\">Guardar alarmas</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Equipo</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brillo</label><select name=\"bright\">", ">Desligado</option></select>\n<button class=\"btn\" type=\"submit\">Salvar alarmes</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Aparelho</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brilho</label><select name=\"bright\">", ">Désactivé</option></select>\n<button class=\"btn\" type=\"submit\">Enregistrer les alarmes</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Appareil</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Luminosité</label><select name=\"bright\">", ">Aus</option></select>\n<button class=\"btn\" type=\"submit\">Alarme speichern</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Gerät</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Helligkeit</label><select name=\"bright\">", ">Spento</option></select>\n<button class=\"btn\" type=\"submit\">Salva allarmi</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Dispositivo</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Luminosità</label><select name=\"bright\">", ">Выкл</option></select>\n<button class=\"btn\" type=\"submit\">Сохранить тревоги</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Устройство</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Яркость</label><select name=\"bright\">", ">Mati</option></select>\n<button class=\"btn\" type=\"submit\">Simpan alarm</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Perangkat</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Kecerahan</label><select name=\"bright\">"},  // 8eec23d0
   {nullptr, "La lista está vacía", "A lista está vazia", "La liste est vide", "Die Liste ist leer", "La lista è vuota", "Список пуст", "Daftar kosong"},  // 8ef0fa8d
   {nullptr, "30 m", "30 m", "30 m", "30 m", "30 m", "30 м", "30 m"},  // 8f3dfe38
   {nullptr, "o no puede tragar?", "ou não consegue engolir?", "ou incapable d'avaler ?", "oder kann nicht schlucken?", "o non riesce a deglutire?", "или не может глотать?", "atau tak bisa menelan?"},  // 8f9c3476
@@ -692,7 +703,9 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Ma", "Ter", "Ma", "Di", "Ma", "Вт", "Sel"},  // 91707445
   {nullptr, "NO lo use para decisiones de insulina o tratamiento.", "NÃO use para decisões de insulina ou tratamento.", "NE PAS utiliser pour l'insuline ni le traitement.", "NICHT für Insulin- oder Behandlungsentscheidungen verwenden.", "NON usare per decisioni su insulina o terapia.", "НЕ используйте для решений об инсулине и лечении.", "JANGAN dipakai untuk keputusan insulin atau pengobatan."},  // 91c06f66
   {"if(f.size>4000000)return 'File too large: choose the update file (.bin).';return '';}", "if(f.size>4000000)return 'Archivo demasiado grande: elija el archivo de actualización (.bin).';return '';}", "if(f.size>4000000)return 'Arquivo grande demais: escolha o arquivo de atualização (.bin).';return '';}", "if(f.size>4000000)return 'Fichier trop gros : choisissez le fichier de mise à jour (.bin).';return '';}", "if(f.size>4000000)return 'Datei zu groß: die Update-Datei (.bin) wählen.';return '';}", "if(f.size>4000000)return 'File troppo grande: scegli il file di aggiornamento (.bin).';return '';}", "if(f.size>4000000)return 'Файл слишком большой: выберите файл обновления (.bin).';return '';}", "if(f.size>4000000)return 'File terlalu besar: pilih file pembaruan (.bin).';return '';}"},  // 91c398b0
+  {nullptr, "Bolo de", "Bólus de", "Bolus de", "Bolus von", "Bolo di", "Чей болюс", "Bolus milik"},  // 92038c07
   {"<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Follower (LibreLinkUp) account</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Cuenta seguidora (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Conta seguidora (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Compte abonné (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Follower-Konto (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Account follower (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Аккаунт наблюдателя (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Akun pengikut (LibreLinkUp)</small></div>"},  // 921b15b2
+  {nullptr, "Toque un valor y escríbalo sin la coma (39 para 3,9). El altavoz de la derecha activa o desactiva el sonido de esa alarma.", "Toque num valor e escreva-o sem a vírgula (39 para 3,9). O altifalante à direita liga/desliga o som desse alarme.", "Touchez une valeur et tapez-la sans la virgule (39 pour 3,9). Le haut-parleur à droite active ou coupe le son de cette alarme.", "Wert antippen und ohne Komma eingeben (39 für 3,9). Der Lautsprecher rechts schaltet den Ton dieses Alarms ein/aus.", "Tocca un valore e scrivilo senza la virgola (39 per 3,9). L'altoparlante a destra attiva/disattiva il suono di quell'allarme.", "Нажмите на значение и введите его без запятой (39 для 3,9). Динамик справа включает/выключает звук этой тревоги.", "Ketuk nilai dan ketik tanpa koma (39 untuk 3,9). Speaker di kanan menyalakan/mematikan suara alarm itu."},  // 925581db
   {"Login required", "Se requiere acceso", "Login necessário", "Connexion requise", "Anmeldung nötig", "Accesso richiesto", "Нужен вход", "Perlu masuk"},  // 9286923d
   {"The new password must be 6-32 characters.", "La clave nueva debe tener 6-32 caracteres.", "A nova senha deve ter 6-32 caracteres.", "Le nouveau mot de passe doit faire 6 à 32 caractères.", "Das neue Passwort muss 6-32 Zeichen haben.", "La nuova password deve avere 6-32 caratteri.", "Новый пароль: от 6 до 32 символов.", "Sandi baru harus 6-32 karakter."},  // 92b4e846
   {nullptr, "WiFi / acceso", "WiFi / login", "WiFi / connexion", "WLAN / Login", "WiFi / accesso", "WiFi / вход", "WiFi / masuk"},  // 92d635e6
@@ -708,7 +721,6 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Calendario", "Calendário", "Calendrier", "Kalender", "Calendario", "Календарь", "Kalender"},  // 95ef7054
   {nullptr, "Restante = vida útil - pasado", "Restante = vida útil - decorrido", "Reste = durée de vie - écoulé", "Rest = Laufzeit - vergangen", "Rimanente = durata - trascorso", "Осталось = срок - прошло", "Sisa = masa pakai - berlalu"},  // 9613db53
   {nullptr, "5  Temporizador", "5  Temporizador", "5  Minuteur", "5  Timer", "5  Timer", "5  Таймер", "5  Pengatur waktu"},  // 967d9c8b
-  {nullptr, "BUEN", "BOM", "BON", "GUTEN", "BUON", "ПРИЯТНОГО", "SELAMAT"},  // 96f3ee84
   {nullptr, " g carb / ", " g carb / ", " g gluc. / ", " g KH / ", " g carb / ", " г угл. / ", " g karbo / "},  // 96f88e4f
   {nullptr, "Aprox. últimas %d horas", "Aprox. últimas %d horas", "Env. dernières %d heures", "Ca. letzte %d Stunden", "Circa ultime %d ore", "Примерно %d ч", "Sekitar %d jam terakhir"},  // 96fcfc90
   {nullptr, "Úselo bajo su propia responsabilidad.", "Use por sua conta e risco.", "Utilisation à vos risques.", "Nutzung auf eigene Verantwortung.", "Uso sotto la tua responsabilità.", "Используйте под свою ответственность.", "Gunakan atas tanggung jawab sendiri."},  // 971d495f
@@ -754,11 +766,13 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Solo funciona con Nightscout y Dexcom.", "Só funciona com Nightscout e Dexcom.", "Uniquement avec Nightscout et Dexcom.", "Nur mit Nightscout und Dexcom.", "Solo con Nightscout e Dexcom.", "Только с Nightscout и Dexcom.", "Hanya untuk Nightscout dan Dexcom."},  // a1e6ec1c
   {nullptr, "   Tema de la página 3", "   Tema da página 3", "   Thème de la page 3", "   Design für Seite 3", "   Tema della pagina 3", "   Тема страницы 3", "   Tema halaman 3"},  // a2812100
   {nullptr, "Últimas 3 horas", "Últimas 3 horas", "3 dernières heures", "Letzte 3 Stunden", "Ultime 3 ore", "Последние 3 часа", "3 jam terakhir"},  // a2ecae66
+  {nullptr, "Zona horaria", "Fuso horário", "Fuseau horaire", "Zeitzone", "Fuso orario", "Часовой пояс", "Zona waktu"},  // a30cd560
   {"EasyFollow e-mail", "Correo EasyFollow", "E-mail EasyFollow", "E-mail EasyFollow", "EasyFollow-E-Mail", "E-mail EasyFollow", "E-mail EasyFollow", "E-mail EasyFollow"},  // a32ebf0d
   {nullptr, "Contacto", "Contato", "Contact", "Kontakt", "Contatti", "Контакты", "Kontak"},  // a34e1a68
   {nullptr, "No es un dispositivo médico", "Não é um dispositivo médico", "Pas un dispositif médical", "Kein Medizinprodukt", "Non è un dispositivo medico", "Не медицинское изделие", "Bukan alat medis"},  // a3711752
   {nullptr, "Cada elemento que active es una página propia; deslice para moverse. La página 1 es su tema principal: ", "Cada item ativado vira uma página própria; deslize para navegar. A página 1 é seu tema principal: ", "Chaque élément activé devient une page ; glissez pour passer de l'une à l'autre. La page 1 est votre thème principal : ", "Jedes eingeschaltete Element wird eine eigene Seite; wischen zum Wechseln. Seite 1 ist Ihr Hauptdesign: ", "Ogni voce attivata diventa una pagina; scorri per spostarti. La pagina 1 è il tuo tema principale: ", "Каждый включённый пункт - отдельная страница; переходите смахиванием. Страница 1 - ваша основная тема: ", "Setiap item yang dinyalakan menjadi halaman sendiri; geser untuk berpindah. Halaman 1 adalah tema utama Anda: "},  // a3b13f05
   {nullptr, "- Sin ejercicio", "- Sem exercício", "- Pas d'exercice", "- Kein Sport", "- Niente esercizio", "- Без нагрузки", "- Jangan olahraga"},  // a460be83
+  {nullptr, "La fuente de esta persona no es Nightscout; no se ven sus bolos.", "A fonte desta pessoa não é o Nightscout; os bólus não aparecem.", "La source de cette personne n'est pas Nightscout ; ses bolus ne sont pas visibles.", "Die Quelle dieser Person ist nicht Nightscout; Boli sind nicht sichtbar.", "La fonte di questa persona non è Nightscout; i boli non sono visibili.", "Источник этого человека не Nightscout; болюсы не видны.", "Sumber orang ini bukan Nightscout; bolus tidak terlihat."},  // a477ef41
   {nullptr, "Reinicios automáticos: ", "Reinícios automáticos: ", "Redémarrages auto : ", "Automatische Neustarts: ", "Riavvii automatici: ", "Автоперезапуски: ", "Mulai ulang otomatis: "},  // a492731b
   {nullptr, "Pantalla/Idioma", "Tela/Idioma", "Affichage/Langue", "Anzeige/Sprache", "Schermo/Lingua", "Экран/Язык", "Layar/Bahasa"},  // a4b07225
   {nullptr, "Más", "Mais", "Plus", "Mehr", "Altro", "Ещё", "Lain"},  // a4d9ea78
@@ -801,7 +815,6 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Licencias", "Licenças", "Licences", "Lizenzen", "Licenze", "Лицензии", "Lisensi"},  // af994fd9
   {nullptr, "Se apagará pronto - cargue", "Vai desligar logo - carregue", "Extinction imminente - chargez", "Schaltet bald ab - laden", "Si spegnerà presto - ricarica", "Скоро выключится - зарядите", "Segera mati - isi daya"},  // afb16d51
   {nullptr, "DETALLE (NS)", "DETALHE (NS)", "DÉTAIL (NS)", "DETAIL (NS)", "DETTAGLIO (NS)", "ПОДРОБНО (NS)", "DETAIL (NS)"},  // b00f2bec
-  {nullptr, "Se acabó el tiempo", "O tempo acabou", "Temps écoulé", "Zeit abgelaufen", "Tempo scaduto", "Время вышло", "Waktu habis"},  // b082285d
   {nullptr, "Rangos: crít./bajo/alto", "Alvos: crít./baixo/alto", "Cibles : crit./bas/haut", "Ziele: krit./niedrig/hoch", "Soglie: crit./basso/alto", "Цели: крит./низк./выс.", "Target: krit./rendah/tinggi"},  // b09094be
   {">On</option><option value=\"0\"", ">Encendido</option><option value=\"0\"", ">Ligado</option><option value=\"0\"", ">Activé</option><option value=\"0\"", ">An</option><option value=\"0\"", ">Acceso</option><option value=\"0\"", ">Вкл</option><option value=\"0\"", ">Nyala</option><option value=\"0\""},  // b0dca3f0
   {"</select>\n<label>Alarm sound</label><select name=\"sound\">", "</select>\n<label>Sonido de alarma</label><select name=\"sound\">", "</select>\n<label>Som do alarme</label><select name=\"sound\">", "</select>\n<label>Son d'alarme</label><select name=\"sound\">", "</select>\n<label>Alarmton</label><select name=\"sound\">", "</select>\n<label>Suono allarme</label><select name=\"sound\">", "</select>\n<label>Звук тревоги</label><select name=\"sound\">", "</select>\n<label>Suara alarm</label><select name=\"sound\">"},  // b0dde471
@@ -822,6 +835,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Flechas rápidas", "Setas rápidas", "Flèches rapides", "Schnelle Pfeile", "Frecce rapide", "Быстрые стрелки", "Panah cepat"},  // b28f9299
   {nullptr, "Delta: el cambio en los últimos 5 minutos.", "Delta: a variação nos últimos 5 minutos.", "Delta : la variation sur les 5 dernières minutes.", "Delta: die Änderung in den letzten 5 Minuten.", "Delta: la variazione negli ultimi 5 minuti.", "Дельта: изменение за последние 5 минут.", "Delta: perubahan dalam 5 menit terakhir."},  // b2bc7028
   {nullptr, "SENSOR", "SENSOR", "CAPTEUR", "SENSOR", "SENSORE", "СЕНСОР", "SENSOR"},  // b2c37102
+  {"<div class=\"card\">\n<h1>Device</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brightness</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Equipo</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brillo</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Aparelho</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Brilho</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Appareil</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Luminosité</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Gerät</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Helligkeit</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Dispositivo</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Luminosità</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Устройство</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Яркость</label><select name=\"bright\">", "<div class=\"card\">\n<h1>Perangkat</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Kecerahan</label><select name=\"bright\">"},  // b2d43aa6
   {nullptr, "Cambiado", "Trocado", "Changé", "Gewechselt", "Cambiato", "Заменён", "Diganti"},  // b315c8d3
   {nullptr, "¡Llame primero a emergencias!", "Ligue primeiro para a emergência!", "Appelez d'abord les urgences !", "Zuerst den Notruf wählen!", "Chiamate prima i soccorsi!", "Сначала вызовите скорую!", "Hubungi layanan darurat dulu!"},  // b336dd98
   {nullptr, "Tarjeta", "Cartão", "Carte", "Karte", "Scheda", "Карточка", "Kartu"},  // b38a3f56
@@ -844,9 +858,9 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Config. cerrada", "Config. fechada", "Config. fermée", "Einrichtung beendet", "Config. chiusa", "Настройка закрыта", "Pengaturan ditutup"},  // b81e81c6
   {nullptr, "30 min", "30 min", "30 min", "30 Min.", "30 min", "30 мин", "30 mnt"},  // b8429017
   {nullptr, "Probar sonido", "Testar som", "Tester le son", "Ton testen", "Prova suono", "Проверить звук", "Tes suara"},  // b8a5fa61
+  {nullptr, "Iniciar con bolo", "Iniciar com bólus", "Démarrer avec bolus", "Start bei Bolus", "Avvio con bolo", "Старт по болюсу", "Mulai saat bolus"},  // b8f042f2
   {nullptr, "Brillo", "Brilho", "Lumière", "Hell", "Luce", "Яркость", "Terang"},  // b948e6d1
   {nullptr, "Glucosa", "Glicose", "Glycémie", "Zucker", "Glicemia", "Сахар", "Glukosa"},  // b96dc0a2
-  {nullptr, "PROVECHO", "APETITE", "APPÉTIT", "APPETIT", "APPETITO", "АППЕТИТА", "MAKAN"},  // b98416d1
   {"<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>EasyFollow account</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Cuenta EasyFollow</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Conta EasyFollow</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Compte EasyFollow</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>EasyFollow-Konto</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Account EasyFollow</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Аккаунт EasyFollow</small></div>", "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>Akun EasyFollow</small></div>"},  // b98d3f8b
   {"No video", "Sin video", "Sem vídeo", "Pas de vidéo", "Kein Video", "Nessun video", "Видео нет", "Tidak ada video"},  // b9bce295
   {nullptr, "Normal: verde azulado", "Normal: verde-azulado", "Normal : vert bleuté", "Normal: Blaugrün", "Normale: verde-azzurro", "Норма: сине-зелёный", "Normal: hijau kebiruan"},  // ba358297
@@ -863,7 +877,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Rangos: límites y sonidos de bajo crítico / bajo / alto / muy alto", "Alvos: limites e sons de baixo crítico / baixo / alto / muito alto", "Cibles : seuils et sons bas critique / bas / haut / très haut", "Ziele: Grenzen und Töne für kritisch niedrig / niedrig / hoch / sehr hoch", "Soglie: limiti e suoni basso critico / basso / alto / molto alto", "Цели: пороги и звуки крит. низкого / низкого / высокого / очень высокого", "Target: ambang dan suara rendah kritis / rendah / tinggi / sangat tinggi"},  // bbc2fb1a
   {nullptr, "Delta", "Delta", "Delta", "Delta", "Delta", "Дельта", "Delta"},  // bc75df8c
   {nullptr, "  cargando ", "  carregando ", "  en charge ", "  lädt ", "  in carica ", "  зарядка ", "  mengisi "},  // bcdd6346
-  {nullptr, "No sustituye las indicaciones de su médico.", "Não substitui as orientações do seu médico.", "Ne remplace pas les instructions de votre médecin.", "Ersetzt nicht die Anweisungen Ihres Arztes.", "Non sostituisce le indicazioni del medico.", "Не заменяет указаний вашего врача.", "Tidak menggantikan petunjuk dokter Anda."},  // bd68f49b
+  {nullptr, "No sustituye las indicaciones de su médico.", "Não substitui as orientações do seu médico.", "Ne remplace pas l'avis de votre médecin.", "Ersetzt nicht die Anweisungen Ihres Arztes.", "Non sostituisce le indicazioni del medico.", "Не заменяет указаний вашего врача.", "Tidak menggantikan petunjuk dokter Anda."},  // bd68f49b
   {nullptr, "Hipo grave (<%s):", "Hipo grave (<%s):", "Hypo sévère (<%s) :", "Schwere Hypo (<%s):", "Ipo grave (<%s):", "Тяжёлая гипо (<%s):", "Hipo berat (<%s):"},  // be767046
   {nullptr, "si vuelve claramente a lo normal", "se voltar claramente ao normal", "si elle revient nettement", "wenn er klar zurückgeht", "se rientra chiaramente", "если явно идёт к норме", "jika jelas menuju normal"},  // bf0023f2
   {"Saved: ", "Guardado: ", "Salvo: ", "Enregistré : ", "Gespeichert: ", "Salvato: ", "Сохранено: ", "Tersimpan: "},  // bf030b81
@@ -907,6 +921,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"Error: could not read the list", "Error: no se pudo leer la lista", "Erro: não foi possível ler a lista", "Erreur : liste illisible", "Fehler: Liste nicht lesbar", "Errore: impossibile leggere la lista", "Ошибка: список не прочитан", "Galat: daftar tidak terbaca"},  // c998ff3f
   {nullptr, "¿Guardar los cambios?", "Salvar as alterações?", "Enregistrer les modifications ?", "Änderungen speichern?", "Salvare le modifiche?", "Сохранить изменения?", "Simpan perubahan?"},  // c9bf6e6e
   {"\" autocomplete=\"off\">\n<label>Server</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Servidor</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Servidor</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Serveur</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Server</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Server</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Сервер</label><select name=\"dexsrv\"><option value=\"ous\"", "\" autocomplete=\"off\">\n<label>Server</label><select name=\"dexsrv\"><option value=\"ous\""},  // c9da0351
+  {nullptr, "Cuando llega a Nightscout un bolo mayor que este valor, el temporizador se inicia solo. Los bolos más pequeños no lo inician (por ejemplo, un bolo para bajar la glucosa). El tiempo es glucosa / 10 minutos, contado desde el momento del bolo. No se inicia si la glucosa está baja o si el temporizador ya está en marcha.", "Quando chega ao Nightscout um bólus acima deste valor, o temporizador começa sozinho. Bólus menores não o iniciam (por exemplo, um bólus para baixar a glicose). O tempo é glicose / 10 minutos, contado a partir do momento do bólus. Não começa se a glicose estiver baixa ou se o temporizador já estiver em andamento.", "Quand un bolus supérieur à cette valeur arrive dans Nightscout, le minuteur démarre tout seul. Les bolus plus petits ne le démarrent pas (par exemple un bolus pour faire baisser la glycémie). La durée est glycémie / 10 minutes, comptée depuis le moment du bolus. Il ne démarre pas si la glycémie est basse ou si le minuteur tourne déjà.", "Wenn ein Bolus über diesem Wert in Nightscout ankommt, startet der Timer von selbst. Kleinere Boli starten ihn nicht (z. B. ein Bolus zum Senken des Zuckers). Die Zeit ist Zucker / 10 Minuten, gezählt ab dem Zeitpunkt des Bolus. Er startet nicht, wenn der Zucker niedrig ist oder der Timer schon läuft.", "Quando su Nightscout arriva un bolo superiore a questo valore, il timer parte da solo. I boli più piccoli non lo avviano (per esempio un bolo per abbassare la glicemia). Il tempo è glicemia / 10 minuti, contato dal momento del bolo. Non parte se la glicemia è bassa o se il timer è già in corso.", "Когда в Nightscout приходит болюс больше этого значения, таймер запускается сам. Меньшие болюсы его не запускают (например, болюс для снижения сахара). Время = сахар / 10 минут, считается с момента болюса. Не запускается, если сахар низкий или таймер уже идёт.", "Saat bolus di atas nilai ini masuk ke Nightscout, timer mulai sendiri. Bolus yang lebih kecil tidak memulainya (misalnya bolus untuk menurunkan glukosa). Waktunya glukosa / 10 menit, dihitung dari saat bolus. Tidak mulai jika glukosa rendah atau timer sudah berjalan."},  // cac56639
   {nullptr, "BAJO CRÍTICO", "BAIXO CRÍTICO", "BAS CRITIQUE", "KRITISCH NIEDRIG", "BASSO CRITICO", "КРИТ. НИЗКИЙ", "RENDAH KRITIS"},  // cbb6f02a
   {nullptr, "minutos sin datos", "minutos sem dados", "minutes sans données", "Minuten ohne Daten", "minuti senza dati", "минут без данных", "menit tanpa data"},  // cbf23343
   {nullptr, "Desplace la lista con el dedo y toque para abrir. Cambie un ajuste y pulse Guardar arriba a la derecha; si pulsa Atrás sin guardar, se le pregunta. Toque (i) para ver para qué sirve cada función.", "Role a lista com o dedo e toque para abrir. Mude uma opção e toque em Salvar no canto superior direito; se tocar em Voltar sem salvar, ele pergunta. Toque em (i) para ver para que serve cada função.", "Faites défiler la liste du doigt, touchez pour ouvrir. Modifiez un réglage puis touchez Enregistrer en haut à droite ; Retour sans enregistrer demande confirmation. Touchez (i) pour savoir à quoi sert une fonction.", "Liste mit dem Finger scrollen, zum Öffnen tippen. Einstellung ändern, dann oben rechts Speichern drücken; bei Zurück ohne Speichern wird nachgefragt. Auf (i) tippen, um zu sehen, wofür eine Funktion ist.", "Scorri la lista col dito e tocca per aprire. Cambia un'impostazione e premi Salva in alto a destra; se premi Indietro senza salvare, viene chiesto. Tocca (i) per vedere a cosa serve una funzione.", "Прокручивайте список пальцем, нажмите, чтобы открыть. Измените настройку и нажмите «Сохранить» вверху справа; при «Назад» без сохранения будет вопрос. Нажмите (i), чтобы узнать, для чего функция.", "Gulir daftar dengan jari, ketuk untuk membuka. Ubah pengaturan, lalu tekan Simpan di kanan atas; menekan Kembali tanpa menyimpan akan ditanya dulu. Ketuk (i) untuk melihat fungsi fitur."},  // cc60c4fa
@@ -955,6 +970,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "Agua, sin ejercicio.", "Água, sem exercício.", "Eau, pas d'exercice.", "Wasser, kein Sport.", "Acqua, niente sport.", "Вода, без нагрузки.", "Air, tanpa olahraga."},  // da31e942
   {nullptr, "Rango:", "Faixa:", "Plage :", "Bereich:", "Intervallo:", "Диапазон:", "Rentang:"},  // da410bdf
   {nullptr, "Lo cambié ahora", "Troquei agora", "Changé maintenant", "Jetzt gewechselt", "Cambiato ora", "Заменил сейчас", "Baru diganti"},  // daa41b3e
+  {"Time zone", "Zona horaria", "Fuso horário", "Fuseau horaire", "Zeitzone", "Fuso orario", "Часовой пояс", "Zona waktu"},  // dad447b0
   {nullptr, "Silenciar sonido", "Silenciar som", "Atténuer le son", "Ton dämpfen", "Silenzia suono", "Приглушать звук", "Redam suara"},  // dbd615ca
   {nullptr, "Clave:", "Senha:", "Mdp :", "Passw.:", "Pass:", "Пароль:", "Sandi:"},  // dbf0fcfc
   {"<!DOCTYPE html><html><head><title>MeteMatik login</title>", "<!DOCTYPE html><html><head><title>MeteMatik acceso</title>", "<!DOCTYPE html><html><head><title>MeteMatik login</title>", "<!DOCTYPE html><html><head><title>MeteMatik connexion</title>", "<!DOCTYPE html><html><head><title>MeteMatik Anmeldung</title>", "<!DOCTYPE html><html><head><title>MeteMatik accesso</title>", "<!DOCTYPE html><html><head><title>MeteMatik вход</title>", "<!DOCTYPE html><html><head><title>MeteMatik masuk</title>"},  // dbf52e7c
@@ -980,6 +996,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {nullptr, "QR: ajuste web por teléfono", "QR: ajuste web pelo celular", "QR : réglage web par téléphone", "QR: Web-Setup per Handy", "QR: impostazioni web da telefono", "QR: настройка с телефона", "QR: atur lewat web ponsel"},  // e257104a
   {nullptr, "OTA: suba el archivo .bin.", "OTA: envie o arquivo .bin.", "OTA : envoyez le fichier .bin.", "OTA: .bin-Datei hochladen.", "OTA: carica il file .bin.", "OTA: загрузите файл .bin.", "OTA: unggah file .bin."},  // e2b1583f
   {"On the device, the Carbs app calculates the carbs when you pick a food and type the amount; the 5 most used foods stay at the top. Check the values on the product label or a trusted source.</p>", "En el equipo, la app Carbos calcula los carbohidratos al elegir un alimento y escribir la cantidad; los 5 más usados quedan arriba. Compruebe los valores en la etiqueta o en una fuente confiable.</p>", "No aparelho, o app Carbos calcula os carboidratos ao escolher um alimento e digitar a quantidade; os 5 mais usados ficam no topo. Confira os valores no rótulo ou numa fonte confiável.</p>", "Sur l'appareil, l'app Glucides calcule les glucides quand vous choisissez un aliment et saisissez la quantité ; les 5 plus utilisés restent en haut. Vérifiez les valeurs sur l'étiquette ou une source fiable.</p>", "Am Gerät berechnet die KH-App die Kohlenhydrate, wenn Sie ein Lebensmittel wählen und die Menge eingeben; die 5 meistgenutzten stehen oben. Werte auf dem Etikett oder einer verlässlichen Quelle prüfen.</p>", "Sul dispositivo, l'app Carbo calcola i carboidrati quando scegli un cibo e scrivi la quantità; i 5 più usati restano in cima. Controlla i valori sull'etichetta o su una fonte affidabile.</p>", "На устройстве приложение «Углеводы» считает углеводы, когда вы выбираете продукт и вводите количество; 5 самых частых - вверху списка. Сверяйте значения с этикеткой или надёжным источником.</p>", "Di perangkat, aplikasi Karbo menghitung karbohidrat saat Anda memilih makanan dan mengisi jumlahnya; 5 yang paling sering dipakai ada di atas. Periksa nilai di label produk atau sumber tepercaya.</p>"},  // e2c5b9f5
+  {nullptr, "ZONA HORARIA", "FUSO HORÁRIO", "FUSEAU HORAIRE", "ZEITZONE", "FUSO ORARIO", "ЧАСОВОЙ ПОЯС", "ZONA WAKTU"},  // e2dbe009
   {nullptr, " d ", " d ", " j ", " T ", " g ", " д ", " hr "},  // e49122fa
   {"Use only English letters, digits and symbols (no spaces or accented letters).", "Use solo letras inglesas, números y signos (sin espacios ni acentos).", "Use só letras sem acento, números e sinais (sem espaços).", "Uniquement lettres sans accent, chiffres et signes (pas d'espace).", "Nur Buchstaben ohne Umlaute, Ziffern und Zeichen (keine Leerzeichen).", "Solo lettere senza accenti, cifre e simboli (niente spazi).", "Только латинские буквы, цифры и знаки (без пробелов).", "Hanya huruf Latin, angka, dan simbol (tanpa spasi)."},  // e4ace632
   {"Uploading", "Subiendo", "Enviando", "Envoi", "Hochladen", "Caricamento", "Загрузка", "Mengunggah"},  // e4b3f742

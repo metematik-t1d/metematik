@@ -68,7 +68,7 @@ static const uint32_t GLK_EN_LEN = 0;
 #include "metematik_assets.h"   // yazi tipleri + logo (ayni klasorde olmali)
 
 
-#define FIRMWARE_VERSION "4.0.6"
+#define FIRMWARE_VERSION "4.1.0"
 
 // ---- forward declarations (Arduino sirasi icin) ----
 bool fetchData();
@@ -244,7 +244,7 @@ int videoReturnScreen = -1;  // -1: uygulamalar
 bool videoFromTeacher = false;
 
 // Form veri yapilari (Arduino otomatik prototipleri icin en ustte)
-enum FormIds { F_ALARMS = 30, F_TARGETS, F_DISPLAY, F_LANG, F_NIGHT, F_SCHOOL, F_SLEEP, F_RESET, F_MODES, F_SENSOR, F_PAGES, F_PREVIEW };
+enum FormIds { F_ALARMS = 30, F_TARGETS, F_DISPLAY, F_LANG, F_NIGHT, F_SCHOOL, F_SLEEP, F_RESET, F_MODES, F_SENSOR, F_PAGES, F_PREVIEW, F_TIMER };
 enum FRowType { FR_HEAD = 1, FR_SEG, FR_TOG, FR_NUMSND, FR_TIME, FR_ACT, FR_NOTE, FR_COLORS, FR_DT, FR_LIFE };
 
 #define FROW_MAX 26
@@ -763,6 +763,15 @@ void playBootChime();
 void playMealChime();
 void playTimerDoneMelody();
 void serviceTimer();
+// 4.1.0: bolusla otomatik zamanlayici + ust hap + konfeti bitis ekrani
+void autoTimerCheck();
+void serviceAutoTimer();
+bool autoTimerAnyNs();
+void drawTimerPill(int cx, int y);
+void drawTimerPillHome();
+bool timerPillHit(int x, int y);
+void drawGearIcon(int cx, int cy, uint16_t c, uint16_t bg);
+void drawTimerDoneScreen();
 void drawCurrentScreen();
 void showPortalScreen();
 void startConfigPortal();
@@ -791,6 +800,15 @@ int currentBg();
 void composeBuf(uint16_t* p, int w, int rows, int yoff, int fullH, int b);
 bool bgFrameOn();
 void drawWifiGlyph(lgfx::LovyanGFX* g, int x, int y);
+time_t utcFromCivil(int y, int mo, int d, int hh, int mi, int ss);
+time_t localSec(time_t utc);
+void applyTz();
+void openTzPicker();
+void drawTzPicker();
+void tzPickerTap(int x, int y);
+void openGlucosePicker(const char* title, int* v, int mn, int mx);
+int wifiRssiNow();
+int wifiBarsNow();
 void drawBatteryGlyph(lgfx::LovyanGFX* g, int x, int y);
 String clockStr();
 void drawMuteGlyph(lgfx::LovyanGFX* g, int x, int y, uint16_t c);
@@ -1278,6 +1296,52 @@ bool timerRunning = false;
 unsigned long timerEndMs = 0;
 int timerTotalSec = 0;
 bool timerFinishedPending = false;
+// 4.1.0: Nightscout bolusuyla otomatik baslatma (varsayilan kapali)
+bool autoTimerOn = false;
+int autoTimerMinU = 4;               // bu degerin USTUNDEKI bolus baslatir (Unite)
+int autoTimerPerson = 0;             // aile modunda hangi kisinin bolusu
+uint32_t autoTimerLastTs = 0;        // son islenen bolus (ayni bolus iki kez baslatmaz)
+bool autoTimerSavePending = false;
+bool autoTimerToastPending = false;
+float autoTimerToastU = 0;
+int timerPillX = 0, timerPillY = 0, timerPillW = 0, timerPillH = 0;
+// 4.1.0: saat dilimi (eskiden her yerde sabit UTC+3). Kural POSIX TZ bicimi (yaz saati dahil).
+struct TzEntry { const char* off; const char* cities; const char* rule; };
+static const TzEntry TZ_LIST[] = {
+  {"UTC-8", "Los Angeles, Vancouver", "PST8PDT,M3.2.0,M11.1.0"},
+  {"UTC-7", "Denver, Calgary", "MST7MDT,M3.2.0,M11.1.0"},
+  {"UTC-6", "Chicago, Winnipeg", "CST6CDT,M3.2.0,M11.1.0"},
+  {"UTC-6", "Mexico City", "CST6"},
+  {"UTC-5", "New York, Toronto", "EST5EDT,M3.2.0,M11.1.0"},
+  {"UTC-5", "Bogota, Lima", "<-05>5"},
+  {"UTC-4", "Caracas, La Paz", "<-04>4"},
+  {"UTC-4", "Santiago", "<-04>4<-03>,M9.1.6/24,M4.1.6/24"},
+  {"UTC-3", "Sao Paulo, Buenos Aires", "<-03>3"},
+  {"UTC+0", "London, Lisbon, Dublin", "GMT0BST,M3.5.0/1,M10.5.0"},
+  {"UTC+0", "Reykjavik, Accra", "GMT0"},
+  {"UTC+1", "Madrid, Paris, Berlin", "CET-1CEST,M3.5.0,M10.5.0/3"},
+  {"UTC+1", "Lagos, Algiers", "WAT-1"},
+  {"UTC+2", "Athens, Kyiv, Bucharest", "EET-2EEST,M3.5.0/3,M10.5.0/4"},
+  {"UTC+2", "Cairo", "EET-2EEST,M4.5.5/0,M10.5.4/24"},
+  {"UTC+2", "Johannesburg", "SAST-2"},
+  {"UTC+3", "Istanbul, Moscow, Minsk", "<+03>-3"},
+  {"UTC+4", "Dubai, Baku, Samara", "<+04>-4"},
+  {"UTC+5", "Almaty, Tashkent, Karachi", "<+05>-5"},
+  {"UTC+5:30", "Delhi, Mumbai", "IST-5:30"},
+  {"UTC+6", "Dhaka, Omsk", "<+06>-6"},
+  {"UTC+7", "Jakarta, Bangkok", "<+07>-7"},
+  {"UTC+8", "Bali, Makassar, Beijing", "<+08>-8"},
+  {"UTC+9", "Jayapura, Tokyo, Seoul", "<+09>-9"},
+  {"UTC+10", "Sydney, Melbourne", "AEST-10AEDT,M10.1.0,M4.1.0/3"},
+  {"UTC+10", "Brisbane, Vladivostok", "<+10>-10"},
+  {"UTC+12", "Auckland", "NZST-12NZDT,M9.5.0,M4.1.0/3"},
+  {"UTC", "UTC", "UTC0"},
+};
+#define TZ_N ((int)(sizeof(TZ_LIST) / sizeof(TZ_LIST[0])))
+#define TZ_DEFAULT 16                // Istanbul (eski davranis)
+int tzIdx = TZ_DEFAULT;
+int tzPage = 0;
+bool tpGlu = false;                  // sayi girisi: seker esigi (mmol ise ondalikli yazilir)
 
 #define BTN_Y1  128
 #define BTN_Y2  178
@@ -1500,7 +1564,7 @@ bool isNightHours() {
   if (!nightModeOn) return false;
   struct timeval tv; gettimeofday(&tv, nullptr);
   if (tv.tv_sec < 1600000000) return false;
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   int m = tm->tm_hour * 60 + tm->tm_min;
   int startM = nightStartHour * 60 + nightStartMin;
@@ -1517,7 +1581,7 @@ bool isSchoolHours() {
   if (isNightHours()) return false; // gece oncelikli
   struct timeval tv; gettimeofday(&tv, nullptr);
   if (tv.tv_sec < 1600000000) return false;
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   int m = tm->tm_hour * 60 + tm->tm_min;
   if (tm->tm_wday == 0 || tm->tm_wday == 6) return false;   // 3.4.3: hafta sonu okul yok
@@ -1918,7 +1982,7 @@ void playAgeWarnBeep() {
 uint32_t localDayStamp() {
   struct timeval tv; gettimeofday(&tv, nullptr);
   if (tv.tv_sec < 1600000000) return 0;
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   return (uint32_t)(tm->tm_year + 1900) * 10000UL + (tm->tm_mon + 1) * 100UL + tm->tm_mday;
 }
@@ -1933,7 +1997,7 @@ String todayDateStr() {
 
 uint32_t dayStampFromMs(uint64_t ms) {
   if (ms < 1000000000000ULL) return 0;
-  time_t sec = (time_t)(ms / 1000ULL) + 3 * 3600;
+  time_t sec = localSec((time_t)(ms / 1000ULL));
   struct tm *tm = gmtime(&sec);
   return (uint32_t)(tm->tm_year + 1900) * 10000UL + (tm->tm_mon + 1) * 100UL + tm->tm_mday;
 }
@@ -2564,7 +2628,17 @@ void loadSettings() {
   }
   famMode = prefs.getInt("fammode", 0);
   if (famMode < 0 || famMode > 1) famMode = 0;
+  autoTimerOn = prefs.getBool("aton", false);                       // 4.1.0
+  autoTimerMinU = constrain(prefs.getInt("atminu", 4), 1, 30);
+  autoTimerPerson = constrain(prefs.getInt("atpers", 0), 0, PERSON_MAX - 1);
+  autoTimerLastTs = prefs.getUInt("atlast", 0);
+  {                                                    // 4.1.0: saat dilimi (kural metni saklanir)
+    String tr = prefs.getString("tzrule", "");
+    tzIdx = TZ_DEFAULT;
+    for (int i = 0; i < TZ_N; i++) if (tr == TZ_LIST[i].rule) { tzIdx = i; break; }
+  }
   prefs.end();
+  applyTz();                                          // 4.1.0
   uiPageMode = themeUiMode(homeTheme);
   // Kaydedilmis gecerli bir kaynak varsa (kullanici Ayarlar/Web'den acikca
   // sectiyse) buna dokunma - eskiden burada sartsiz detectDataSource()
@@ -2741,6 +2815,10 @@ void saveSettings() {
   prefs.putInt("pcount", famCount);      // 4.0.1
   prefs.putBool("famon", famEnabled);
   prefs.putInt("fammode", famMode);
+  prefs.putBool("aton", autoTimerOn);          // 4.1.0
+  prefs.putInt("atminu", autoTimerMinU);
+  prefs.putInt("atpers", autoTimerPerson);
+  if (tzIdx >= 0 && tzIdx < TZ_N) prefs.putString("tzrule", TZ_LIST[tzIdx].rule);   // 4.1.0
   prefs.putInt("wcount", wifiCount);
   for (int i = 0; i < wifiCount; i++) {
     prefs.putString(("ws" + String(i)).c_str(), wifiSsid[i]);
@@ -3246,7 +3324,7 @@ uint32_t parseDateTimeLocal(const String& s) {
 
 String dateTimeLocalValue(uint32_t ts) {
   if (ts < 1600000000UL) return "";
-  time_t t = (time_t)ts + 3 * 3600;
+  time_t t = localSec((time_t)ts);
   struct tm* tm = gmtime(&t);
   char b[20]; sprintf(b, "%04d-%02d-%02dT%02d:%02d", tm->tm_year + 1900, tm->tm_mon + 1, tm->tm_mday, tm->tm_hour, tm->tm_min);
   return String(b);
@@ -3579,8 +3657,19 @@ if(m){alert(m);return false;}return true;}
   html += WT(R"HTML(>Kapali</option></select>
 <button class="btn" type="submit">Alarm kaydet</button>
 </form>
-</div>
-<div class="card">
+</div>)HTML");
+  html += String("<p class='note'>") + WT("Birim: ") + unitLabel() + "</p>";   // 4.1.0
+  if (unitIdx == 1) {
+    // 4.1.0: mmol/L: esik kutulari mmol gosterir; kayitta mg/dL'ye cevrilir. Kontrol mg/dL ile yapilir.
+    html += "<script>(function(){var f=document.querySelector('input[name=acrit]').form;"
+            "var h=document.createElement('input');h.type='hidden';h.name='thunit';h.value='mmol';f.appendChild(h);"
+            "['acrit','alow','ahigh','avhigh'].forEach(function(n){var e=f[n];e.step='0.1';"
+            "e.min=(+e.min/18).toFixed(1);e.max=(+e.max/18).toFixed(1);e.value=(+e.value/18).toFixed(1);});"
+            "var o=window.chkTh;window.chkTh=function(g){var m=function(x){return Math.round(+x*18)};"
+            "return o({acrit:{value:m(g.acrit.value)},alow:{value:m(g.alow.value)},ahigh:{value:m(g.ahigh.value)},avhigh:{value:m(g.avhigh.value)}});};"
+            "})();</script>";
+  }
+  html += WT(R"HTML(<div class="card">
 <h1>Cihaz</h1>
 <form method="POST" action="/save">
 <label>Parlaklik</label><select name="bright">)HTML");
@@ -3593,6 +3682,9 @@ if(m){alert(m);return false;}return true;}
   html += String("<option value=\"1\"") + (soundLevel==1?" selected":"") + WT(">Dusuk</option>");
   html += String("<option value=\"2\"") + (soundLevel==2?" selected":"") + WT(">Orta</option>");
   html += String("<option value=\"3\"") + (soundLevel==3?" selected":"") + WT(">Yuksek</option>");
+  html += String("</select><label>") + WT("Saat dilimi") + "</label><select name=\"tzidx\">";   // 4.1.0
+  for (int i = 0; i < TZ_N; i++)
+    html += String("<option value=\"") + i + "\"" + (tzIdx == i ? " selected" : "") + ">" + TZ_LIST[i].off + " " + TZ_LIST[i].cities + "</option>";
   html += WT(R"HTML(</select>
 <button class="btn" type="submit">Cihaz kaydet</button>
 </form>
@@ -3692,6 +3784,18 @@ void cleanField(String& s) {
   s.replace("'", ""); s.replace("\"", ""); s.replace("<", ""); s.replace(">", "");
 }
 
+// 4.1.0: esik alani -> mg/dL (sayfa mmol/L gosteriyorsa cevrilir; ayni kaldiysa eski deger korunur)
+int thArg(const char* n, int cur) {
+  String a = server.arg(n);
+  if (server.arg("thunit") == "mmol") {
+    a.replace(',', '.');
+    char b[12]; dtostrf(cur / 18.0f, 0, 1, b);
+    if (a == String(b)) return cur;
+    return (int)lroundf(a.toFloat() * 18.0f);
+  }
+  return a.toInt();
+}
+
 void handleSave() {
   if (!checkWebAuth()) return;
   if (!sameOriginOk()) return;
@@ -3726,10 +3830,10 @@ void handleSave() {
   String o_le = libreEmail, o_lp = librePass, o_lr = libreRegion, o_me = medEmail, o_mp = medPass;
   // 3.4.0: esikler birbirine gore denetlenir; uyumsuzsa hicbir sey kaydedilmez
   if (server.hasArg("acrit") || server.hasArg("alow") || server.hasArg("ahigh") || server.hasArg("avhigh")) {
-    int c = server.hasArg("acrit") ? server.arg("acrit").toInt() : alarmCritLow;
-    int l = server.hasArg("alow") ? server.arg("alow").toInt() : alarmLow;
-    int h = server.hasArg("ahigh") ? server.arg("ahigh").toInt() : alarmHigh;
-    int v = server.hasArg("avhigh") ? server.arg("avhigh").toInt() : alarmVeryHigh;
+    int c = server.hasArg("acrit") ? thArg("acrit", alarmCritLow) : alarmCritLow;
+    int l = server.hasArg("alow") ? thArg("alow", alarmLow) : alarmLow;
+    int h = server.hasArg("ahigh") ? thArg("ahigh", alarmHigh) : alarmHigh;
+    int v = server.hasArg("avhigh") ? thArg("avhigh", alarmVeryHigh) : alarmVeryHigh;
     String err = thresholdError(c, l, h, v);
     if (err.length()) {
       String pg = String(WT("<!DOCTYPE html><html><head><title>Esikler</title>")) + FPSTR(WEB_MINI_CSS) +
@@ -3758,10 +3862,10 @@ void handleSave() {
     libreRegion.toUpperCase();
   }
   cleanField(nightscoutUrl); cleanField(dexUser); cleanField(libreEmail); cleanField(medEmail);
-  if (server.hasArg("acrit")) alarmCritLow = constrain(server.arg("acrit").toInt(), 40, 80);
-  if (server.hasArg("alow")) alarmLow = constrain(server.arg("alow").toInt(), 40, 200);
-  if (server.hasArg("ahigh")) alarmHigh = constrain(server.arg("ahigh").toInt(), 100, 400);
-  if (server.hasArg("avhigh")) alarmVeryHigh = constrain(server.arg("avhigh").toInt(), 150, 400);
+  if (server.hasArg("acrit")) alarmCritLow = constrain(thArg("acrit", alarmCritLow), 40, 80);
+  if (server.hasArg("alow")) alarmLow = constrain(thArg("alow", alarmLow), 40, 200);
+  if (server.hasArg("ahigh")) alarmHigh = constrain(thArg("ahigh", alarmHigh), 100, 400);
+  if (server.hasArg("avhigh")) alarmVeryHigh = constrain(thArg("avhigh", alarmVeryHigh), 150, 400);
   if (server.hasArg("stale")) staleAlarmMin = constrain(server.arg("stale").toInt(), 5, 60);
   if (server.hasArg("strackon")) sensorTrackOn = (server.arg("strackon") == "1");
   if (server.hasArg("ctrackon")) cannulaTrackOn = (server.arg("ctrackon") == "1");
@@ -3789,6 +3893,7 @@ void handleSave() {
     applyBrightness();
   }
   if (server.hasArg("sound")) soundLevel = constrain(server.arg("sound").toInt(), 0, 3);
+  if (server.hasArg("tzidx")) { tzIdx = constrain(server.arg("tzidx").toInt(), 0, TZ_N - 1); applyTz(); }   // 4.1.0
   if (server.hasArg("nighton")) nightModeOn = (server.arg("nighton") == "1");
   if (server.hasArg("nighth")) parseHM(server.arg("nighth"), nightStartHour, nightStartMin, nightStartHour);
   if (server.hasArg("nighte")) parseHM(server.arg("nighte"), nightEndHour, nightEndMin, nightEndHour);
@@ -4776,14 +4881,13 @@ static uint32_t parseIsoToUnix(const char* iso) {
   int Y=0,M=0,D=0,h=0,m=0,s=0;
   if (sscanf(iso, "%d-%d-%dT%d:%d:%d", &Y, &M, &D, &h, &m, &s) < 5) return 0;
   if (Y < 2020 || M < 1 || M > 12 || D < 1 || D > 31) return 0;
-  struct tm t = {};
-  t.tm_year = Y - 1900;
-  t.tm_mon = M - 1;
-  t.tm_mday = D;
-  t.tm_hour = h;
-  t.tm_min = m;
-  t.tm_sec = s;
-  time_t ut = mktime(&t); // cihaz TZ — yaklasik
+  time_t ut = utcFromCivil(Y, M, D, h, m, s);   // 4.1.0: "Z" = UTC; +hh:mm / -hh:mm eki varsa duzeltilir
+  const char* p = iso + 19;
+  while (*p == '.' || (*p >= '0' && *p <= '9')) p++;
+  if (*p == '+' || *p == '-') {
+    int oh = 0, om = 0;
+    if (sscanf(p + 1, "%d:%d", &oh, &om) >= 1) { long off = oh * 3600L + om * 60L; ut += (*p == '+') ? -off : off; }
+  }
   if (ut < 0) return 0;
   return (uint32_t)ut;
 }
@@ -4884,6 +4988,7 @@ void fetchNsIobCobBolus(bool force = false) {
   if (newBolus > 0) {
     bolusCount = newBolus;
     for (int i = 0; i < newBolus; i++) boluses[i] = tmpBol[i];
+    autoTimerCheck();   // 4.1.0
   }
 }
 
@@ -5713,7 +5818,7 @@ void drawUiBigDigits() {
 void drawUiCalendar() {
   cv->fillScreen(UI_BG);
   struct timeval tv; gettimeofday(&tv, nullptr);
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   int y = tm->tm_year + 1900;
   int m = tm->tm_mon + 1;
@@ -5824,7 +5929,7 @@ void drawUiCalendar() {
 void drawUiPortrait() {
   cv->fillScreen(UI_BG);
   struct timeval tv; gettimeofday(&tv, nullptr);
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   char line[24];
   sprintf(line, "%02d:%02d", tm->tm_hour, tm->tm_min);
@@ -6136,7 +6241,7 @@ void drawScreen0() {
       cv->setTextDatum(ML_DATUM);
       drawFreeTitle(L("Ertele", "Snooze"), erteleTextX, 200, &FreeSansTR7pt);
     }
-    char sl[10];
+    char sl[16];
     snprintf(sl, sizeof(sl), L("%d dk", "%d min"), snoozeShownMins());
     cv->setTextDatum(MC_DATUM);
     dsN(cv, sl, 262, 220, 1);
@@ -6159,7 +6264,7 @@ void drawUiSade() {
   // vardi (nokta + yazi + ayirici cizgi) - kullanici talebiyle kaldirildi.
 
   struct timeval tv; gettimeofday(&tv, nullptr);
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm *tm = gmtime(&local);
   char timeStr[16], dateStr[32];
   if (tv.tv_sec > 1600000000) {
@@ -6326,7 +6431,7 @@ void drawNsDetailScreen() {
   for (int i = 0; i < bolusCount && row < 5; i++) {
     int y = 140 + row * 12;
     if (boluses[i].ts > 0) {
-      time_t t = (time_t)boluses[i].ts + 3 * 3600;
+      time_t t = localSec((time_t)boluses[i].ts);
       struct tm tm = *gmtime(&t);
       sprintf(buf, "%02d:%02d", tm.tm_hour, tm.tm_min);
     } else sprintf(buf, "--:--");
@@ -6478,7 +6583,7 @@ void drawScreen2() {
       uint32_t winStart = nowSec - (uint32_t)useHours * 3600UL;
       uint32_t span = (uint32_t)useHours * 3600UL;
       if (span < 1) span = 1;
-      time_t localNow = (time_t)nowSec + 3 * 3600;
+      time_t localNow = localSec((time_t)nowSec);
       struct tm tmL = *gmtime(&localNow);
       int secSinceMid = tmL.tm_hour * 3600 + tmL.tm_min * 60 + tmL.tm_sec;
       uint32_t localMidUtc = nowSec - (uint32_t)secSinceMid;
@@ -6675,7 +6780,7 @@ void drawStatsScreen() {
 
   char aralik[56];
   if (tMin > 0 && tMax > 0) {
-    time_t a = (time_t)tMin + 3 * 3600, b = (time_t)tMax + 3 * 3600;
+    time_t a = localSec((time_t)tMin), b = localSec((time_t)tMax);
     struct tm ta = *gmtime(&a);
     struct tm tb = *gmtime(&b);
     sprintf(aralik, "%02d.%02d %02d:%02d - %02d:%02d",
@@ -7032,7 +7137,7 @@ void drawAlarmSetupScreen() {
       if (i == 0 && schoolModeOn) bg = 0x5010;
       if (i == 1 && nightModeOn) bg = 0x2010;
       if (i == 2) bg = 0x780F;
-      if (i == 3) bg = 0x333333;
+      if (i == 3) bg = 0x3186;   // 4.1.0: koyu gri (eskiden 24 bit yazilmisti)
       cv->fillRoundRect(x, y, 120, 48, 8, bg);
       cv->drawRoundRect(x, y, 120, 48, 8, 0x4A69);
       int cx = x + 60, iconY = y + 14;
@@ -8954,12 +9059,67 @@ void openTimePicker(const char* title, int* h, int* m) {
 
 void openNumberPicker(const char* title, int* v, int mn, int mx, const char* unit) {
   tpMode = 1;
+  tpGlu = false;
   tpTitle = title; tpNum = v; tpMinV = mn; tpMaxV = mx; tpUnit = unit;
   tpLen = 0; memset(tpDig, 0, sizeof(tpDig)); tpErrUntil = 0;
   timePickerActive = true;
 }
 
+// 4.1.0: seker esigi girisi. mg/dL'de tam sayi; mmol/L'de virgulsuz yazilir (3,9 -> 39), deger mg/dL saklanir.
+void openGlucosePicker(const char* title, int* v, int mn, int mx) {
+  openNumberPicker(title, v, mn, mx, "mg/dL");
+  tpGlu = (unitIdx == 1);
+  if (tpGlu) tpUnit = "mmol/L";
+}
+
 static const char* TP_KEYS[12] = {"1", "2", "3", "<", "4", "5", "6", "0", "7", "8", "9", "OK"};
+
+// 4.1.0: saat dilimi secimi - 2 sutun x 4 satir, sag ustte sayfa degistirme
+void openTzPicker() {
+  tpMode = 5;
+  tpTitle = L("SAAT DİLİMİ", "TIME ZONE");
+  tzPage = tzIdx / 8;
+  timePickerActive = true;
+}
+void drawTzPicker() {
+  int pages = (TZ_N + 7) / 8;
+  char pb[12]; snprintf(pb, sizeof(pb), "%d/%d", tzPage + 1, pages);
+  cv->fillRoundRect(244, 4, 72, 30, 8, UNSEL_BG);
+  cv->setTextColor(TFT_WHITE, UNSEL_BG);
+  cv->setTextDatum(MC_DATUM);
+  drawFreeTitle(pb, 270, 19, &FreeSansTR7pt);
+  cv->fillTriangle(298, 12, 298, 26, 308, 19, TFT_WHITE);
+  for (int j = 0; j < 8; j++) {
+    int k = tzPage * 8 + j;
+    if (k >= TZ_N) break;
+    int c = j % 2, r = j / 2;
+    int x = 6 + c * 156, y = 46 + r * 48;
+    bool sel = (k == tzIdx);
+    uint16_t bg = sel ? SEL_BG : UNSEL_BG;
+    cv->fillRoundRect(x, y, 152, 44, 8, bg);
+    cv->drawRoundRect(x, y, 152, 44, 8, sel ? TFT_WHITE : 0x4A69);
+    cv->setTextColor(sel ? SEL_FG : UNSEL_FG, bg);
+    cv->setTextDatum(TL_DATUM);
+    drawFreeTitle(TZ_LIST[k].off, x + 8, y + 5, &FreeSansTR7pt);
+    drawFreeTitle(TZ_LIST[k].cities, x + 8, y + 25, &FreeSansTR6pt);
+  }
+  cv->setTextDatum(TL_DATUM);
+}
+void tzPickerTap(int x, int y) {
+  if (y < LIST_Y) {
+    if (x < 70) timePickerActive = false;                       // geri
+    else if (x >= 236) tzPage = (tzPage + 1) % ((TZ_N + 7) / 8);   // sonraki sayfa
+    return;
+  }
+  if (y < 46) return;
+  int c = (x - 6) / 156, r = (y - 46) / 48;
+  if (c < 0 || c > 1 || r < 0 || r > 3) return;
+  int k = tzPage * 8 + r * 2 + c;
+  if (k >= TZ_N) return;
+  tzIdx = k;
+  applyTz();
+  timePickerActive = false;
+}
 
 // 3.6.0: dil secimi - 3x3 izgara, dil adlari kendi dillerinde
 void openLangPicker() {
@@ -8996,6 +9156,7 @@ void drawTimePicker() {
   cv->fillScreen(UI_BG);
   drawListHeader(tpTitle.c_str(), false);
   if (tpMode == 4) { drawLangPicker(); return; }
+  if (tpMode == 5) { drawTzPicker(); return; }   // 4.1.0
   char disp[12];
   uint16_t col = TFT_WHITE;
   if (tpMode == 3) {
@@ -9019,7 +9180,11 @@ void drawTimePicker() {
     cv->setTextDatum(TC_DATUM);
     drawFreeTitle(L("Gün, ay, saat, dakika: 8 rakam", "Day, month, hour, minute: 8 digits"), 160, 80, &FreeSansTR7pt);
   } else if (tpMode == 1) {
-    if (tpLen == 0) { sprintf(disp, "%d", *tpNum); col = UI_SUBTEXT; }
+    if (tpLen == 0) { if (tpGlu) snprintf(disp, sizeof(disp), "%s", formatGlucose(*tpNum).c_str()); else sprintf(disp, "%d", *tpNum); col = UI_SUBTEXT; }
+    else if (tpGlu) {                         // 4.1.0: son rakamdan once nokta (39 -> 3.9)
+      if (tpLen == 1) snprintf(disp, sizeof(disp), "0.%c", tpDig[0]);
+      else { int n = 0; for (int i = 0; i < tpLen; i++) { if (i == tpLen - 1) disp[n++] = '.'; disp[n++] = tpDig[i]; } disp[n] = 0; }
+    }
     else { strncpy(disp, tpDig, sizeof(disp)); disp[tpLen] = 0; }
     cv->setTextColor(col, UI_BG);
     cv->setTextDatum(MC_DATUM);
@@ -9027,7 +9192,8 @@ void drawTimePicker() {
     dsN(cv, disp, 160, 64, 4);
     cv->setTextSize(1);
     char rng[40];
-    sprintf(rng, "%s %d - %d %s", L("Aralık:", "Range:"), tpMinV, tpMaxV, tpUnit.c_str());
+    if (tpGlu) snprintf(rng, sizeof(rng), "%s %s - %s %s", L("Aralık:", "Range:"), formatGlucose(tpMinV).c_str(), formatGlucose(tpMaxV).c_str(), tpUnit.c_str());
+    else sprintf(rng, "%s %d - %d %s", L("Aralık:", "Range:"), tpMinV, tpMaxV, tpUnit.c_str());
     bool err = (long)(millis() - tpErrUntil) < 0;
     cv->setTextColor(err ? sevColor(0) : UI_SUBTEXT, UI_BG);
     cv->setTextDatum(TC_DATUM);
@@ -9062,6 +9228,7 @@ void drawTimePicker() {
 
 void timePickerTap(int x, int y) {
   if (tpMode == 4) { langPickerTap(x, y); return; }
+  if (tpMode == 5) { tzPickerTap(x, y); return; }   // 4.1.0
   if (y < LIST_Y) { if (x < 70) timePickerActive = false; return; }   // iptal
   if (y < 104) return;
   int c = (x - 10) / 76, r = (y - 104) / 45;
@@ -9074,6 +9241,11 @@ void timePickerTap(int x, int y) {
     if (k == 11) {
       if (tpLen == 0) { timePickerActive = false; return; }
       int v = atoi(tpDig);
+      if (tpGlu) {                            // 4.1.0: mmol/L (x10) -> mg/dL
+        v = (int)lroundf(v * 1.8f);
+        if (v >= tpMinV - 1 && v < tpMinV) v = tpMinV;      // yuvarlama payi
+        if (v <= tpMaxV + 1 && v > tpMaxV) v = tpMaxV;
+      }
       if (v < tpMinV || v > tpMaxV) { tpErrUntil = millis() + 2000; tpLen = 0; memset(tpDig, 0, sizeof(tpDig)); return; }
       *tpNum = v;
       timePickerActive = false;
@@ -9506,13 +9678,45 @@ void composeBuf(uint16_t* p, int w, int rows, int yoff, int fullH, int b) {
 bool bgFrameOn() { return homeSprOk && !frameActive && !screenDirect(); }
 
 // ---------------------------------------------------------------- ust durum cubugu
+// 4.1.0: saat dilimi yardimcilari
+time_t utcFromCivil(int y, int mo, int d, int hh, int mi, int ss) {
+  y -= (mo <= 2);
+  long era = (y >= 0 ? y : y - 399) / 400;
+  unsigned yoe = (unsigned)(y - era * 400);
+  unsigned doy = (153 * (mo + (mo > 2 ? -3 : 9)) + 2) / 5 + d - 1;
+  unsigned doe = yoe * 365 + yoe / 4 - yoe / 100 + doy;
+  long days = era * 146097L + (long)doe - 719468L;
+  return (time_t)(days * 86400L + hh * 3600L + mi * 60L + ss);
+}
+// UTC -> secili saat diliminde 'duvar saati' (gmtime ile okunur)
+time_t localSec(time_t utc) {
+  struct tm lt;
+  localtime_r(&utc, &lt);
+  return utcFromCivil(lt.tm_year + 1900, lt.tm_mon + 1, lt.tm_mday, lt.tm_hour, lt.tm_min, lt.tm_sec);
+}
+void applyTz() {
+  if (tzIdx < 0 || tzIdx >= TZ_N) tzIdx = TZ_DEFAULT;
+  setenv("TZ", TZ_LIST[tzIdx].rule, 1);
+  tzset();
+}
+
+// 4.1.0: WiFi.RSSI() okuyamayinca 0 doner; 0 eskiden "tam cekim" (4 cubuk) sayiliyordu.
+// Artik son gecerli deger kullanilir.
+int wifiRssiNow() {
+  static int last = -70;
+  int r = WiFi.RSSI();
+  if (r < 0 && r > -120) last = r;
+  return last;
+}
+int wifiBarsNow() {
+  if (WiFi.status() != WL_CONNECTED) return 0;
+  int rssi = wifiRssiNow();
+  return (rssi > -55) ? 4 : (rssi > -65) ? 3 : (rssi > -75) ? 2 : 1;
+}
+
 void drawWifiGlyph(lgfx::LovyanGFX* g, int x, int y) {
   bool on = (WiFi.status() == WL_CONNECTED);
-  int bars = 0;
-  if (on) {
-    int rssi = WiFi.RSSI();
-    bars = (rssi > -55) ? 4 : (rssi > -65) ? 3 : (rssi > -75) ? 2 : 1;
-  }
+  int bars = on ? wifiBarsNow() : 0;
   for (int b = 0; b < 4; b++) {
     int h = 3 + b * 3;
     g->fillRect(x + b * 4, y + 12 - h, 3, h, (b < bars) ? TXT() : (lightBg ? (uint16_t)0xBDF7 : (uint16_t)0x4208));
@@ -9551,7 +9755,7 @@ void drawBatteryGlyph(lgfx::LovyanGFX* g, int x, int y) {
 String clockStr() {
   struct timeval tv; gettimeofday(&tv, nullptr);
   if (tv.tv_sec < 1600000000) return "--:--";
-  time_t local = tv.tv_sec + 3 * 3600;
+  time_t local = localSec(tv.tv_sec);
   struct tm* tm = gmtime(&local);
   char b[8]; sprintf(b, "%02d:%02d", tm->tm_hour, tm->tm_min);
   return String(b);
@@ -9863,7 +10067,7 @@ void drawUiClock() {
   cv->drawString("9", cx - R + 26, cy + 1);
   struct timeval tv; gettimeofday(&tv, nullptr);
   if (tv.tv_sec > 1600000000) {
-    time_t local = tv.tv_sec + 3 * 3600;
+    time_t local = localSec(tv.tv_sec);
     struct tm* tm = gmtime(&local);
     float hA = ((tm->tm_hour % 12) * 30 + tm->tm_min * 0.5f - 90) * DEG_TO_RAD;
     float mA = (tm->tm_min * 6 + tm->tm_sec * 0.1f - 90) * DEG_TO_RAD;
@@ -11139,7 +11343,7 @@ void fTime(uint8_t id, const String& t, int* h, int* m) {
 }
 String fmtLocalDT(uint32_t ts) {
   if (ts < 1600000000UL) return L("girilmedi", "not set");
-  time_t t = (time_t)ts + 3 * 3600;
+  time_t t = localSec((time_t)ts);
   struct tm* tm = gmtime(&t);
   char b[24]; sprintf(b, "%02d.%02d.%04d %02d:%02d", tm->tm_mday, tm->tm_mon + 1, tm->tm_year + 1900, tm->tm_hour, tm->tm_min);
   return String(b);
@@ -11183,7 +11387,9 @@ void formBuild(int id) {
     case F_TARGETS: {
       fTitle = L("HEDEFLER", "TARGETS");
       if (personCount > 1) fNote(String(L("Bu eşikler: ", "These limits: ")) + personLabel(dispCtx), TFT_CYAN);   // 4.0
-      fNote(L("Değere dokun ve yaz (mg/dL). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
+      if (unitIdx == 1) fNote(L("Değere dokun ve virgülsüz yaz (3,9 için 39). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
+                                "Tap a value and type it without the decimal point (39 for 3.9). The speaker on the right turns that alarm's sound on/off."));   // 4.1.0
+      else fNote(L("Değere dokun ve yaz (mg/dL). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
               "Tap a value to type it (mg/dL). The speaker on the right turns that alarm's sound on/off."));
       { String w = soundWarnText(); if (w.length()) fNote(w + L(" - bu durumda alarm sesi çalmaz.", " - alarm sound will not play."), sevColor(0)); }
       fNumSnd(10, L("Kritik düşük", "Critical low"), &alarmCritLow, &alarmCritLowSound, formatGlucose(alarmCritLow) + " " + un);
@@ -11207,6 +11413,7 @@ void formBuild(int id) {
       const char* uod[2] = {"mg/dL", "mmol/L"};
       fAct(25, L("Dil", "Language"), LANG_NAMES[langIdx]);
       fSeg(26, L("Birim", "Unit"), &unitIdx, 2, uod, v2d);
+      { FRow& r = fAdd(FR_ACT, 28, L("Saat dilimi", "Time zone")); r.value = String(TZ_LIST[tzIdx].off); r.ip = &tzIdx; }   // 4.1.0
       if (personCount > 1) {                          // 4.0: aile modu ana ekrani
         static const int fmv[2] = {0, 1};
         const char* fmo[2] = {L("Sırayla", "In turn"), L("Bölünmüş", "Split")};
@@ -11222,6 +11429,7 @@ void formBuild(int id) {
       const char* uo[2] = {"mg/dL", "mmol/L"};
       fAct(25, L("Dil", "Language"), LANG_NAMES[langIdx]);
       fSeg(26, L("Birim", "Unit"), &unitIdx, 2, uo, v2);
+      { FRow& r = fAdd(FR_ACT, 28, L("Saat dilimi", "Time zone")); r.value = String(TZ_LIST[tzIdx].off); r.ip = &tzIdx; }   // 4.1.0
       break;
     }
     case F_NIGHT:
@@ -11314,6 +11522,29 @@ void formBuild(int id) {
                    "Remaining = life - time since insertion. Tap a life to type days and hours (default: sensor 10 d 12 h, set 3 d 8 h). You can also set the date and time on the web page."));
       break;
     }
+    case F_TIMER: {                                   // 4.1.0
+      fTitle = L("ZAMANLAYICI AYARI", "TIMER SETTINGS");
+      fTog(100, L("Bolusla otomatik başlat", "Auto-start on bolus"), &autoTimerOn);
+      if (autoTimerOn) {
+        FRow& r = fAdd(FR_ACT, 101, L("Bolus eşiği", "Bolus threshold"));
+        r.value = fmtS(L("%s Ü üstü", "over %s U"), String(autoTimerMinU));
+        r.ip = &autoTimerMinU;
+        if (personCount > 1) {
+          static char pn[PERSON_MAX][24];
+          static const char* po[PERSON_MAX];
+          static int pv[PERSON_MAX];
+          int n = personCount < PERSON_MAX ? personCount : PERSON_MAX;
+          for (int k = 0; k < n; k++) { strncpy(pn[k], personLabel(k).c_str(), 23); pn[k][23] = 0; po[k] = pn[k]; pv[k] = k; }
+          if (autoTimerPerson >= n) autoTimerPerson = 0;
+          fSeg(102, L("Kimin bolusu", "Whose bolus"), &autoTimerPerson, n, po, pv);
+          if (ctxPeek(autoTimerPerson).dataSource != "nightscout")
+            fNote(L("Bu kişinin kaynağı Nightscout değil; bolusu görülemez.", "This person's source is not Nightscout; boluses cannot be seen."), sevColor(1));
+        }
+      }
+      fNote(L("Nightscout'a bu değerin üstünde bir bolus girilince zamanlayıcı kendiliğinden başlar. Daha küçük boluslar başlatmaz (örneğin şekeri düşürmek için girilen bolus). Süre şeker / 10 dakikadır ve bolusun yapıldığı andan sayılır. Şeker düşükse veya zamanlayıcı zaten çalışıyorsa başlamaz.",
+              "When a bolus above this value reaches Nightscout, the timer starts by itself. Smaller boluses do not start it (for example a bolus given to bring glucose down). The time is glucose / 10 minutes, counted from the moment of the bolus. It does not start if glucose is low or the timer is already running."));
+      break;
+    }
     case F_PAGES: {
       fTitle = L("SAYFALARI DÜZENLE", "EDIT PAGES");
       fHasSave = false;                                  // her dugme aninda kaydedilir
@@ -11378,6 +11609,7 @@ void formSnapshot() {
   if (formId == F_ALARMS) fSnapAddI(&alarmColorIdx);
   if (formId == F_DISPLAY || formId == F_LANG) fSnapAddI(&langIdx);   // 3.6.1: dil de Kaydet'e bagli (Geri -> eski dil)
   if (formId == F_SENSOR) { fSnapAddT(&sensInsTs); fSnapAddT(&setInsTs); fSnapAddI(&sensorLifeHours); fSnapAddI(&cannulaLifeHours); }
+  if (formId == F_TIMER) { fSnapAddI(&autoTimerMinU); fSnapAddI(&autoTimerPerson); }   // 4.1.0
 }
 bool formIsDirty() {
   for (int i = 0; i < fSnapN; i++) {
@@ -11390,6 +11622,7 @@ bool formIsDirty() {
 void formLive() {
   applyBrightness();
   applyRotation();
+  applyTz();          // 4.1.0
 }
 void formRevert() {
   for (int i = 0; i < fSnapN; i++) {
@@ -11648,11 +11881,11 @@ void formBack() {
 // numara araliklari (hedefler)
 void formOpenNumber(const FRow& r) {
   switch (r.id) {
-    case 10: openNumberPicker(L("KRİTİK DÜŞÜK", "CRITICAL LOW"), r.ip, 40, alarmLow - 5, "mg/dL"); break;
+    case 10: openGlucosePicker(L("KRİTİK DÜŞÜK", "CRITICAL LOW"), r.ip, 40, alarmLow - 5); break;
     case 11: { int mn = (alarmCritLow + 5 > 40) ? alarmCritLow + 5 : 40;
-               openNumberPicker(L("DÜŞÜK EŞİK", "LOW LIMIT"), r.ip, mn, alarmHigh - 10, "mg/dL"); break; }
-    case 12: openNumberPicker(L("YÜKSEK EŞİK", "HIGH LIMIT"), r.ip, alarmLow + 10, alarmVeryHigh - 10, "mg/dL"); break;
-    case 13: openNumberPicker(L("ÇOK YÜKSEK EŞİK", "VERY HIGH LIMIT"), r.ip, alarmHigh + 10, 400, "mg/dL"); break;
+               openGlucosePicker(L("DÜŞÜK EŞİK", "LOW LIMIT"), r.ip, mn, alarmHigh - 10); break; }
+    case 12: openGlucosePicker(L("YÜKSEK EŞİK", "HIGH LIMIT"), r.ip, alarmLow + 10, alarmVeryHigh - 10); break;
+    case 13: openGlucosePicker(L("ÇOK YÜKSEK EŞİK", "VERY HIGH LIMIT"), r.ip, alarmHigh + 10, 400); break;
     case 14: openNumberPicker(L("VERİ YOK ALARMI", "NO-DATA ALARM"), r.ip, 5, 60, L("dk", "min")); break;
   }
 }
@@ -11660,6 +11893,7 @@ void formOpenNumber(const FRow& r) {
 void formAction(int id) {
   switch (id) {
     case 25: openLangPicker(); drawCurrentScreen(); return;                   // 3.6.0: dil secimi
+    case 28: openTzPicker(); drawCurrentScreen(); return;                     // 4.1.0: saat dilimi
     case 74:                                                                     // 4.0.1: aile modu QR sayfasi
       famQrFrom = currentScreen;
       formId = 0; formDepth = 0; formDlg = 0;
@@ -11670,6 +11904,7 @@ void formAction(int id) {
     case 66: startTeacherPreview(1); return;
     case 67: startTeacherPreview(2); return;
     case 22: playTestBeep(); return;
+    case 101: openNumberPicker(L("BOLUS EŞİĞİ", "BOLUS THRESHOLD"), &autoTimerMinU, 1, 30, L("Ü", "U")); drawCurrentScreen(); return;   // 4.1.0
     case 53:
       if (formIsDirty()) saveSettings();
       formId = 0; formDepth = 0; snapSingles = 0; subScreen = 21;
@@ -11865,7 +12100,11 @@ uint32_t civilToUnixLocal(int y, int m, int d, int hh, int mi) {
   unsigned doy = (153 * (m + (m > 2 ? -3 : 9)) + 2) / 5 + d - 1;
   unsigned doe = yoe * 365 + yoe / 4 - yoe / 100 + doy;
   long days = era * 146097L + (long)doe - 719468L;
-  return (uint32_t)(days * 86400L + hh * 3600L + mi * 60L - 3L * 3600L);
+  time_t t = (time_t)(days * 86400L + hh * 3600L + mi * 60L);   // yerel saat, UTC gibi
+  // 4.1.0: secili saat dilimine gore UTC'ye cevir (yaz saati gecisinde iki tur)
+  time_t u = t - (localSec(t) - t);
+  u = t - (localSec(u) - u);
+  return (uint32_t)u;
 }
 
 void openDateTimePicker(const char* title, uint32_t* ts) {
@@ -11901,7 +12140,7 @@ bool dtpTap(int k) {   // true: kapandi
       tpErrUntil = millis() + 2000; tpLen = 0; memset(tpDig, 0, sizeof(tpDig)); return false;
     }
     time_t now = time(nullptr);
-    time_t loc = now + 3 * 3600;
+    time_t loc = localSec(now);
     struct tm* tm = gmtime(&loc);
     int yr = (now > 1600000000) ? tm->tm_year + 1900 : 2026;
     uint32_t ts = civilToUnixLocal(yr, mo, dd, hh, mi);
@@ -12461,7 +12700,7 @@ void doSnooze() {
   cv->fillScreen(UI_BG);
   cv->setTextColor(sevColor(2), UI_BG);
   cv->setTextDatum(MC_DATUM);
-  char sb[24];
+  char sb[48];
   snprintf(sb, sizeof(sb), L("Alarm %d dk", "Alarm %d min"), snoozeShownMins());
   dsN(cv, sb, 160, 100, 4);
   drawFreeTitle(L("ertelendi", "snoozed"), 160, 140, &FreeSansTR9pt);
@@ -12766,9 +13005,10 @@ void drawScreenBody() {
     default:
       if (currentScreen == 0 && teacherStep > 0) { drawScreen0(); return; }
       currentScreen = homeScreenIdx();
-      if (personCount > 1 && famMode == 1) { drawFamSplit(); return; }   // 4.0: bolunmus ekran
+      if (personCount > 1 && famMode == 1) { drawFamSplit(); drawTimerPillHome(); return; }   // 4.0: bolunmus ekran
       drawHome();
-      if (personCount > 1) drawPersonPill(cv->width() / 2, 1);          // 4.0: sirayla: kimin degeri
+      if (personCount > 1) drawPersonPill(cv->width() / 2 - (timerRunning ? 51 : 0), 1);   // 4.0: sirayla: kimin degeri
+      drawTimerPillHome();                                               // 4.1.0: geri sayim hapi
       return;
   }
 }
@@ -13408,7 +13648,7 @@ void drawSettingsScreen() {
   // WiFi gosterge (sol ust) — sayi yok, ustuste binmesin
   cv->setTextDatum(TL_DATUM);
   if (WiFi.status() == WL_CONNECTED) {
-    int rssi = WiFi.RSSI();
+    int rssi = wifiRssiNow();   // 4.1.0
     uint16_t wcol = (rssi > -60) ? sevColor(2) : (rssi > -75) ? sevColor(1) : sevColor(0);
     int bars = (rssi > -55) ? 4 : (rssi > -65) ? 3 : (rssi > -75) ? 2 : (rssi > -85) ? 1 : 0;
     for (int b = 0; b < 4; b++) {
@@ -13427,7 +13667,7 @@ void drawSettingsScreen() {
   {
     struct timeval tv; gettimeofday(&tv, nullptr);
     if (tv.tv_sec > 1600000000) {
-      time_t local = tv.tv_sec + 3 * 3600;
+      time_t local = localSec(tv.tv_sec);
       struct tm* tmv = gmtime(&local);
       char clk[8];
       sprintf(clk, "%02d:%02d", tmv->tm_hour, tmv->tm_min);
@@ -13518,6 +13758,7 @@ void drawTimerScreen() {
   cv->setTextColor(TFT_CYAN, UI_BG);
   cv->setTextDatum(TC_DATUM);
   drawFreeTitle(L("ZAMANLAYICI", "TIMER"), 160, 8, &FreeSansTR9pt);
+  if (autoTimerAnyNs()) drawGearIcon(298, 17, autoTimerOn ? (uint16_t)0xFE87 : (uint16_t)TFT_LIGHTGREY, UI_BG);   // 4.1.0
   cv->drawFastHLine(10, 34, 300, TFT_DARKGREY);
 
   char buf[16];
@@ -13643,6 +13884,213 @@ void playTimerDoneMelody() {
   playMealChime();
 }
 
+// =====================================================================
+//  4.1.0 - BOLUSLA OTOMATIK ZAMANLAYICI / UST HAP / KONFETI BITIS EKRANI
+// =====================================================================
+// Veri gorevinde (kisinin baglaminda) cagrilir: yeni bolus esigin ustundeyse zamanlayiciyi baslatir.
+// Sure = seker / 10 dk, bolusun yapildigi andan sayilir (Nightscout'a gec dusse de).
+void autoTimerCheck() {
+  if (!autoTimerOn || dataSource != "nightscout") return;
+  if (personCount > 1 && liveCtx != autoTimerPerson) return;
+  uint32_t now = (uint32_t)time(nullptr);
+  if (now < 1700000000UL) return;
+  int best = -1;
+  for (int i = 0; i < bolusCount && i < BOLUS_MAX; i++) {
+    const BolusRec& b = boluses[i];
+    if (b.ts == 0 || b.ts <= autoTimerLastTs) continue;
+    if (b.ts > now + 120) continue;                 // saat farki / gelecekte
+    if (now > b.ts + 15 * 60) continue;             // 15 dk'dan eski bolus baslatmaz
+    if (b.units <= (float)autoTimerMinU + 0.001f) continue;
+    if (best < 0 || b.ts > boluses[best].ts) best = i;
+  }
+  if (best < 0) return;
+  autoTimerLastTs = boluses[best].ts;               // bu bolus islendi
+  autoTimerSavePending = true;
+  if (timerRunning) return;                         // calisan zamanlayiciya dokunma
+  if (sgv < 40 || sgv < alarmLow) return;           // dusukte baslamaz (elle baslatmadaki gibi)
+  int mins = sgv / 10;
+  if (mins < 1) mins = 1;
+  long gone = (now > boluses[best].ts) ? (long)(now - boluses[best].ts) : 0;
+  long remain = (long)mins * 60 - gone;
+  if (remain < 60) return;
+  timerTotalSec = mins * 60;
+  timerEndMs = millis() + (unsigned long)remain * 1000UL;
+  timerRunning = true;
+  autoTimerToastU = boluses[best].units;
+  autoTimerToastPending = true;
+}
+
+// Ana dongude: kaydet + kisa ses + 2 sn bildirim
+void serviceAutoTimer() {
+  if (autoTimerSavePending) {
+    autoTimerSavePending = false;
+    prefs.begin("metematik", false);
+    prefs.putUInt("atlast", autoTimerLastTs);
+    prefs.end();
+  }
+  if (!autoTimerToastPending) return;
+  if (currentScreen == SCR_VIDEO || teacherStep > 0 || timerFinishedPending) return;   // acil akis bitince
+  autoTimerToastPending = false;
+  if (!timerRunning) return;
+  if (effectiveSoundLevel() > 0) {
+    const int seq[][2] = { {988, 120}, {1319, 240} };
+    playMelody(seq, 2);
+  }
+  if (screenAsleep || formId || textPageActive || timePickerActive) {
+    if (!screenAsleep && autoRefreshOk()) drawCurrentScreen();
+    return;
+  }
+  lgfx::LovyanGFX* sv = cv; cv = &tft;
+  int W = tft.width(), H = tft.height();
+  int bw = (W < 300) ? 224 : 270, bh = 84;
+  int bx = W / 2 - bw / 2, by = H / 2 - bh / 2;
+  cv->fillRoundRect(bx, by, bw, bh, 16, 0x1107);
+  cv->drawRoundRect(bx, by, bw, bh, 16, 0xFE87);
+  cv->drawRoundRect(bx + 1, by + 1, bw - 2, bh - 2, 15, 0xFE87);
+  cv->setTextDatum(MC_DATUM);
+  cv->setTextColor(0xFE87, 0x1107);
+  drawFreeTitle(L("Zamanlayıcı başladı", "Timer started"), W / 2, by + 28, &FreeSansTR9pt);
+  char ub[12];
+  dtostrf(autoTimerToastU, 0, 1, ub);
+  if (langIdx != 1) { for (char* p = ub; *p; p++) if (*p == '.') *p = ','; }
+  long left = (long)(timerEndMs - millis());
+  if (left < 0) left = 0;
+  int lm = (int)((left + 59999) / 60000);
+  char line[64];
+  snprintf(line, sizeof(line), L("%s Ü bolus - %d dk", "%s U bolus - %d min"), ub, lm);
+  cv->setTextColor(TFT_WHITE, 0x1107);
+  drawFreeTitle(line, W / 2, by + 58, &FreeSansTR7pt);
+  cv->setTextDatum(TL_DATUM);
+  cv = sv;
+  delay(2000);
+  if (showErrorScreen && isHomeScreen()) drawErrorScreenFull();   // hata ekrani acikken onu geri ciz
+  else drawCurrentScreen();
+}
+
+// Kisilerden biri Nightscout kullaniyor mu (disli dugmesi bunda gorunur)
+bool autoTimerAnyNs() {
+  if (personCount <= 1) return dataSource == "nightscout";
+  for (int k = 0; k < personCount && k < PERSON_MAX; k++)
+    if (ctxPeek(k).dataSource == "nightscout") return true;
+  return false;
+}
+
+// Ust hap: saat simgesi + kalan sure (mm:ss)
+void drawTimerPill(int cx, int y) {
+  if (!timerRunning) { timerPillW = 0; return; }
+  long left = (long)(timerEndMs - millis());
+  if (left < 0) left = 0;
+  int sec = (int)(left / 1000);
+  char b[12];
+  snprintf(b, sizeof(b), "%02d:%02d", sec / 60, sec % 60);
+  const uint16_t NAVY = 0x1107, YEL = 0xFE87;
+  int w = 96, h = 24, x = cx - w / 2;
+  cv->fillRoundRect(x, y, w, h, 12, NAVY);
+  cv->drawRoundRect(x, y, w, h, 12, YEL);
+  int ix = x + 16, iy = y + 12;
+  cv->drawCircle(ix, iy, 7, YEL);
+  cv->drawCircle(ix, iy, 6, YEL);
+  cv->drawFastVLine(ix, iy - 4, 5, YEL);
+  cv->drawFastHLine(ix, iy, 4, YEL);
+  cv->setTextColor(YEL, NAVY);
+  cv->setTextDatum(MC_DATUM);
+  drawFreeTitle(b, x + 56, y + 12, &FreeSansTR9pt);
+  cv->setTextDatum(TL_DATUM);
+  timerPillX = x; timerPillY = y; timerPillW = w; timerPillH = h;
+}
+
+// Ana sayfa / temalar: ustte ortada (kisi hapi varsa onun saginda, WiFi hapi varsa onun altinda)
+void drawTimerPillHome() {
+  timerPillW = 0;
+  if (!timerRunning || teacherStep > 0 || themePreview) return;
+  int W = cv->width();
+  int cx = W / 2, y = 2;
+  if (personCount > 1 && famMode == 0 && famPillW > 0) cx = famPillX + famPillW + 6 + 48;
+  else if (!(personCount > 1 && famMode == 1)) {
+    // temaya gore yer: ustte ortasi dolu olan temalarda kaydir
+    int th = activeTheme(), md = themeUiMode(th);
+    if (md == 0 && th != 0) y = 0;                 // Klasik: buyuk saatin ustu
+    else if (md == 7) y = 0;                       // Saat (analog): kadranin ustu
+    else if (md == 8) cx -= 6;                     // Dalga: sagdaki kart
+    else if (md == 9) y = 26;                      // Sade/minimal: kucuk saatin alti
+    else if (md == 2) {                            // Takvim: ay basliginin yerine
+      cx = 150;
+      cv->fillRect(cx - 82, 0, 164, 31, UI_BG);
+    }
+  }
+  if (homeWifiPillOn()) y = ((W < 300) ? 30 : 4) + 30;
+  if (cx + 48 > W - 2) cx = W - 50;
+  drawTimerPill(cx, y);
+}
+
+bool timerPillHit(int x, int y) {
+  return timerRunning && timerPillW > 0 && x >= timerPillX - 6 && x < timerPillX + timerPillW + 6 &&
+         y >= timerPillY - 6 && y < timerPillY + timerPillH + 8;
+}
+
+void drawGearIcon(int cx, int cy, uint16_t c, uint16_t bg) {
+  for (int k = 0; k < 8; k++) {
+    float a = k * 0.785398f;
+    float ca = cosf(a), sa = sinf(a);
+    for (int d = -1; d <= 1; d++) {
+      float px = -sa * d * 1.3f, py = ca * d * 1.3f;
+      cv->drawLine(cx + (int)lroundf(ca * 6 + px), cy + (int)lroundf(sa * 6 + py),
+                   cx + (int)lroundf(ca * 10 + px), cy + (int)lroundf(sa * 10 + py), c);
+    }
+  }
+  cv->fillCircle(cx, cy, 7, c);
+  cv->fillCircle(cx, cy, 3, bg);
+}
+
+// Bitis ekrani: lacivert zemin, konfeti, gulen tabak, "Afiyet olsun!"
+void drawTimerDoneScreen() {
+  const uint16_t NAVY = 0x1107, YEL = 0xFE87, PINK = 0xEA0C, TEAL = 0x3E75;
+  const uint16_t cols[3] = { YEL, PINK, TEAL };
+  cv->fillScreen(NAVY);
+  // x, y, renk, bicim (0 yatay serit, 1 dikey serit, 2 nokta)
+  static const int16_t cf[][4] = {
+    {28, 28, 0, 0}, {78, 14, 1, 2}, {206, 18, 2, 2}, {262, 34, 1, 0}, {298, 64, 0, 2},
+    {22, 86, 1, 1}, {292, 118, 2, 0}, {16, 146, 0, 2}, {302, 170, 0, 1}, {40, 206, 2, 2},
+    {92, 224, 1, 0}, {150, 230, 0, 2}, {228, 222, 2, 1}, {278, 206, 1, 2}, {66, 112, 0, 1},
+    {252, 96, 0, 0}, {114, 36, 2, 1}, {212, 60, 1, 0}, {10, 12, 2, 0}, {306, 12, 1, 1}
+  };
+  for (unsigned i = 0; i < sizeof(cf) / sizeof(cf[0]); i++) {
+    uint16_t c = cols[cf[i][2]];
+    int x = cf[i][0], y = cf[i][1];
+    if (cf[i][3] == 0) cv->fillRoundRect(x - 5, y - 2, 10, 5, 1, c);
+    else if (cf[i][3] == 1) cv->fillRoundRect(x - 2, y - 5, 5, 10, 1, c);
+    else cv->fillCircle(x, y, 3, c);
+  }
+  // gulen tabak
+  cv->fillCircle(160, 74, 44, TFT_WHITE);
+  cv->drawCircle(160, 74, 36, 0xDEFB);
+  cv->drawCircle(160, 74, 35, 0xDEFB);
+  cv->fillCircle(146, 66, 5, NAVY);
+  cv->fillCircle(174, 66, 5, NAVY);
+  cv->fillArc(160, 72, 17, 22, 25, 155, NAVY);
+  // yazilar (uzun cevirilerde kendiliginden kuculur)
+  const char* t1 = L("Afiyet olsun!", "Enjoy your meal!");
+  cv->setFreeFont(&FreeSansTR9pt);
+  cv->setTextSize(1);
+  int w1 = cv->textWidth(t1);
+  float sc = (w1 > 0) ? 300.0f / (float)w1 : 2.0f;
+  if (sc > 2.0f) sc = 2.0f;
+  if (sc < 1.0f) sc = 1.0f;
+  cv->setTextSize(sc);
+  cv->setTextDatum(MC_DATUM);
+  cv->setTextColor(YEL, NAVY);
+  drawFreeTitle(t1, 160, 154, &FreeSansTR9pt);
+  cv->setTextSize(1);
+  const char* t2 = L("Yemeğe başlayabilirsiniz", "You may start eating");
+  const GFXfont* f2 = &FreeSansTR9pt;
+  cv->setFreeFont(f2);
+  if (cv->textWidth(t2) > 300) f2 = &FreeSansTR7pt;
+  cv->setTextColor(TFT_WHITE, NAVY);
+  drawFreeTitle(t2, 160, 194, f2);
+  cv->setTextDatum(TL_DATUM);
+  cv->setTextFont(1);
+}
+
 void serviceTimer() {
   if (!timerRunning) return;
   if ((long)(millis() - timerEndMs) < 0) return;
@@ -13651,28 +14099,15 @@ void serviceTimer() {
   timerFinishedPending = true;
 
   // Hangi sayfa aciksa: tam ekran uyari (sonra eski sayfaya don)
+  if (screenAsleep) sleepWake(true);     // 4.1.0: rahatsiz etme modunda ekran kapaliysa ac
   forceLandscape();
-  for (int i = 0; i < 3; i++) {
-    cv->fillScreen(sevColor(1));
+  for (int i = 0; i < 3; i++) {          // 4.1.0: konfeti renkleriyle kisa yanip sonme
+    cv->fillScreen(0xFE87);
     delay(120);
-    cv->fillScreen(0x0320);
+    cv->fillScreen(0x1107);
     delay(100);
   }
-  cv->fillScreen(0x0320); // koyu yesil zemin
-  drawForkIcon(160, 24, TFT_WHITE);
-  drawSparkleIcon(40, 24, sevColor(1));
-  drawSparkleIcon(280, 24, sevColor(1));
-  cv->setTextColor(TFT_WHITE, 0x0320);
-  cv->setTextDatum(MC_DATUM);
-  cv->setTextSize(2);
-  drawFreeTitle(L("AFİYET", "ENJOY"), 160, 70, &FreeSansTR9pt);
-  drawFreeTitle(L("OLSUN", "YOUR MEAL"), 160, 120, &FreeSansTR9pt);
-  cv->setTextSize(1);
-  cv->fillRoundRect(90, 158, 140, 26, 13, sevColor(1));
-  cv->setTextColor(0x0320, sevColor(1));
-  drawFreeTitle(L("Süre bitti", "Time is up"), 160, 171, &FreeSansTR7pt);
-  cv->setTextColor(TFT_WHITE, 0x0320);
-  drawFreeTitle(L("Yemeğe başlayabilirsiniz", "You may start eating"), 160, 205, &FreeSansTR7pt);
+  drawTimerDoneScreen();
 
   // Zamanlayici bitis alarmi biraz daha uzun calsin diye melodi 2 kez calinip
   // bekleme suresi uzatildi (kullanici istegiyle).
@@ -14125,7 +14560,12 @@ void firstBootLangPick() {
   if (pick < 0) { langIdx = keep; return; }          // secilmedi: sonraki acilista yine sorulur
   langIdx = pick;
   drawLangPicker();                                  // secimi goster
-  prefs.begin("metematik", false); prefs.putInt("lang", langIdx); prefs.end();
+  prefs.begin("metematik", false); prefs.putInt("lang", langIdx);
+  if (!prefs.isKey("tzrule")) {                      // 4.1.0: ilk kurulumda dile gore saat dilimi (sonra degistirilebilir)
+    static const int LANG_TZ[9] = {16, 9, 11, 9, 11, 11, 11, 16, 21};   // tr en es pt fr de it ru id
+    if (langIdx >= 0 && langIdx < 9) { tzIdx = LANG_TZ[langIdx]; prefs.putString("tzrule", TZ_LIST[tzIdx].rule); applyTz(); }
+  }
+  prefs.end();
   delay(400);
   while (touchReadRaw(rx, ry) && millis() - t0 < 200000UL) delay(20);
 }
@@ -14225,7 +14665,8 @@ void setup() {
     bootStage(L("Saat ayarlanıyor...", "Setting the clock..."), 62);
     startOtaServer();
   }
-  configTime(0, 0, "pool.ntp.org", "time.google.com");
+  applyTz();
+  configTzTime(TZ_LIST[tzIdx].rule, "pool.ntp.org", "time.google.com");   // 4.1.0: secili saat dilimi
   if (wifiOk) { unsigned long t0 = millis(); while (time(nullptr) < 1600000000 && millis() - t0 < 4000) delay(100); }
 
   bool dataOk = false;
@@ -14234,7 +14675,8 @@ void setup() {
     if (quickBoot) delay(10);
     dataOk = fetchAllPersons();   // 4.0
   }
-  bootFinish();
+  if (wifiOk && dataOk) bootFinish();     // 4.1.0: WiFi / veri yoksa cubuk "Hazir" diye dolmaz
+  else bootStop();
   currentScreen = homeScreenIdx();
 
   if (!wifiOk) {
@@ -14388,7 +14830,11 @@ void loopBody() {
     int x = gsx, y = gsy;
     lastUserTouchMs = millis();
 
-    if (famPillHit(x, y) && !(formId && formDlg) && !timePickerActive) { famManualNext(); lastTouchNav = millis(); }   // 4.0
+    if (timerPillHit(x, y) && isHomeScreen() && !formId && !textPageActive && !timePickerActive && !showErrorScreen && !showGuide && teacherStep == 0) {   // 4.1.0
+      if (pgOn[P_TIMER]) showPage(P_TIMER); else openApp(4);
+      lastTouchNav = millis();
+    }
+    else if (famPillHit(x, y) && !(formId && formDlg) && !timePickerActive) { famManualNext(); lastTouchNav = millis(); }   // 4.0
     else if (famSplitTap(x, y)) { lastTouchNav = millis(); }                                                        // 4.0
     else if (showErrorScreen) {
       // Buton alani: y>=140, Yenile | Kurulum | Geri
@@ -14522,7 +14968,7 @@ void loopBody() {
           alarmLowSound = !alarmLowSound;
         } else if (y >= 38 && y < 118 && x >= 60 && x <= 260) {
           int mn = (alarmCritLow + 5 > 40) ? alarmCritLow + 5 : 40;
-          openNumberPicker(L("DÜŞÜK EŞİK", "LOW LIMIT"), &alarmLow, mn, alarmHigh - 10, "mg/dL");
+          openGlucosePicker(L("DÜŞÜK EŞİK", "LOW LIMIT"), &alarmLow, mn, alarmHigh - 10);
         } else if (y >= 128 && y <= 170) {
           // Alt sinir: hem mutlak taban (40) hem de Kritik Dusuk esiginin
           // en az 5 birim uzerinde (web formundaki ayni kural burada da gecerli).
@@ -14537,7 +14983,7 @@ void loopBody() {
         if (x >= 270 && y < 32) {
           alarmHighSound = !alarmHighSound;
         } else if (y >= 38 && y < 118 && x >= 60 && x <= 260) {
-          openNumberPicker(L("YÜKSEK EŞİK", "HIGH LIMIT"), &alarmHigh, alarmLow + 10, alarmVeryHigh - 5, "mg/dL");
+          openGlucosePicker(L("YÜKSEK EŞİK", "HIGH LIMIT"), &alarmHigh, alarmLow + 10, alarmVeryHigh - 5);
         } else if (y >= 128 && y <= 170) {
           if (x < 160) { alarmHigh -= 5; if (alarmHigh < alarmLow + 10) alarmHigh = alarmLow + 10; }
           else { alarmHigh += 5; if (alarmHigh >= alarmVeryHigh) alarmHigh = alarmVeryHigh - 5; }
@@ -14546,7 +14992,7 @@ void loopBody() {
         if (x >= 270 && y < 32) {
           alarmVeryHighSound = !alarmVeryHighSound;
         } else if (y >= 38 && y < 118 && x >= 60 && x <= 260) {
-          openNumberPicker(L("ÇOK YÜKSEK EŞİK", "VERY HIGH LIMIT"), &alarmVeryHigh, alarmHigh + 10, 400, "mg/dL");
+          openGlucosePicker(L("ÇOK YÜKSEK EŞİK", "VERY HIGH LIMIT"), &alarmVeryHigh, alarmHigh + 10, 400);
         } else if (y >= 128 && y <= 170) {
           if (x < 160) { alarmVeryHigh -= 5; if (alarmVeryHigh < alarmHigh + 10) alarmVeryHigh = alarmHigh + 10; }
           else { alarmVeryHigh += 5; if (alarmVeryHigh > 400) alarmVeryHigh = 400; }
@@ -14555,7 +15001,7 @@ void loopBody() {
         if (x >= 270 && y < 32) {
           alarmCritLowSound = !alarmCritLowSound;
         } else if (y >= 38 && y < 118 && x >= 60 && x <= 260) {
-          openNumberPicker(L("KRİTİK DÜŞÜK EŞİK", "CRITICAL LOW"), &alarmCritLow, 40, alarmLow - 5, "mg/dL");
+          openGlucosePicker(L("KRİTİK DÜŞÜK EŞİK", "CRITICAL LOW"), &alarmCritLow, 40, alarmLow - 5);
         } else if (y >= 128 && y <= 170) {
           if (x < 160) { alarmCritLow -= 5; if (alarmCritLow < 40) alarmCritLow = 40; }
           else {
@@ -14742,7 +15188,7 @@ void loopBody() {
       cv->fillScreen(UI_BG);
       cv->setTextColor(sevColor(2), UI_BG);
       cv->setTextDatum(MC_DATUM);
-      char sb[24];
+      char sb[48];
       snprintf(sb, sizeof(sb), L("Alarm %d dk", "Alarm %d min"), snoozeShownMins());
       dsN(cv, sb, 160, 100, 4);
       drawFreeTitle(L("ertelendi", "snoozed"), 160, 140, &FreeSansTR9pt);
@@ -14752,7 +15198,10 @@ void loopBody() {
     }
     else if (isTimerScreen()) {
       bool handled = false;
-      if (timerRunning) {
+      if (x >= 262 && y < 42 && autoTimerAnyNs()) {          // 4.1.0: ayar (disli)
+        formOpen(F_TIMER);
+        handled = true;
+      } else if (timerRunning) {
         // IPTAL (asagida)
         if (y >= 160 && y <= 220 && x >= 60 && x <= 260) {
           timerRunning = false;
@@ -15166,6 +15615,7 @@ void loopBody() {
 
   serviceAlarmSoundFam();   // 4.0.1: alarmdaki kisinin sesi (ekranda baska kisi olsa da)
   serviceTimer();
+  serviceAutoTimer();       // 4.1.0
 
   // Gece modu: saat dilimi degisince parlaklik uygula
   static bool wasNight = false;
@@ -15185,6 +15635,15 @@ void loopBody() {
     lastTimerRedraw = millis();
     if (autoRefreshOk()) drawCurrentScreen();
   }
+  // 4.1.0: ana sayfa / temalarda sadece ust hap yenilenir (tam ekran yok)
+  static unsigned long lastPillRedraw = 0;
+  if (timerRunning && timerPillW > 0 && isHomeScreen() && autoRefreshOk() && !showErrorScreen && subScreen == 0
+      && teacherStep == 0 && millis() - lastPillRedraw > 1000) {
+    lastPillRedraw = millis();
+    lgfx::LovyanGFX* sv = cv; cv = &tft;
+    drawTimerPill(timerPillX + timerPillW / 2, timerPillY);
+    cv = sv;
+  }
   // Anim A hafif yenileme
   // Anime kaldirildi
 
@@ -15194,6 +15653,17 @@ void loopBody() {
     if (pl != lastPill) {
       lastPill = pl;
       if (isHomeScreen() && autoRefreshOk() && !showErrorScreen) drawCurrentScreen();
+    }
+  }
+  {                                                       // 4.1.0: WiFi cubuklari guncel kalsin
+    static unsigned long lastBarChk = 0;
+    static int lastBars = -1;
+    if (millis() - lastBarChk > 30000UL) {
+      lastBarChk = millis();
+      int b = wifiBarsNow();
+      if (lastBars >= 0 && b != lastBars && isHomeScreen() && autoRefreshOk() && !showErrorScreen && subScreen == 0 && teacherStep == 0)
+        drawCurrentScreen();
+      lastBars = b;
     }
   }
   {

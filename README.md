@@ -26,6 +26,10 @@ MeteMatik is **not sold** and there is no ready-made device. You buy the display
 
 ---
 
+## What's new
+
+**4.1.0:** time zone setting, the meal timer can start by itself on a Nightscout bolus, a countdown pill on every page, a new finish screen, mmol/L limits, WiFi bar fix. See [CHANGELOG.md](CHANGELOG.md).
+
 ## ⚠️ Important — please read
 
 - **MeteMatik is not a medical device.** It is a secondary display for information only.
@@ -48,10 +52,11 @@ Short warnings in other languages: [see below](#warnings-in-other-languages).
 - **Guide mode** for teachers / carers: an *Alert* button appears on dangerous values and walks the helper through what to do; built-in glucagon video
 - Night mode, school mode, do-not-disturb (screen off while in range, wakes on alarm or finger snap)
 - Many home-screen themes, including kids' themes and a photo frame
-- Carb notes calculator, meal timer
+- Carb notes calculator, meal timer (can start by itself on a Nightscout bolus above a threshold you choose)
 - Settings on the device **and** from a phone browser (same WiFi)
 - **9 languages:** Türkçe, English, Español, Português, Français, Deutsch, Italiano, Русский, Bahasa Indonesia
 - Color-friendly palette for color-blind users, mg/dL or mmol/L
+- Time zone setting with automatic daylight saving time
 
 ## Data sources
 
@@ -104,6 +109,7 @@ Later updates can be installed over WiFi from the device's web page (*Firmware u
 2. The **WiFi setup** screen shows two QR codes. Scan QR 1 with your phone to join the device's setup network, then (if no page opens) scan QR 2.
 3. Choose your home WiFi and fill in **one** data source. Save.
 4. The device restarts and shows your glucose. Everything else can be changed on the device (*Settings*) or from a phone browser: scan the QR in *Settings → QR / Web*.
+5. Check the **time zone** (*Settings → Display / Language → Time zone*). It is preset from your language.
 
 ## Family mode
 
