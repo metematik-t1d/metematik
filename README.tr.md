@@ -28,7 +28,7 @@ MeteMatik **satılmaz**, hazır cihaz yoktur. Ekran kartını kendiniz alırsın
 
 ## Neler yeni
 
-**4.1.0:** saat dilimi ayarı, yemek zamanlayıcısı Nightscout bolusuyla kendiliğinden başlayabiliyor, her sayfada geri sayım hapı, yeni bitiş ekranı, mmol/L eşik girişi, WiFi çubuğu düzeltmesi. Ayrıntılar: [CHANGELOG.md](CHANGELOG.md).
+**4.1.0 – 4.1.1:** saat dilimi ayarı, yemek zamanlayıcısı Nightscout bolusuyla kendiliğinden başlayabiliyor, her sayfada geri sayım hapı, yeni bitiş ekranı, mmol/L eşik girişi (virgül tuşuyla), WiFi çubuğu düzeltmesi. Ayrıntılar: [CHANGELOG.md](CHANGELOG.md).
 
 ## ⚠️ Önemli — lütfen okuyun
 

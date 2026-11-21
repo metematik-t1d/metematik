@@ -8,6 +8,9 @@ Yazılımı güncellemek için / To update the software: [browser installer](htt
 
 ## Türkçe
 
+### 4.1.1 — 21.11.2026
+- mmol/L eşik girişine virgül tuşu eklendi (3,9 doğrudan yazılır).
+
 ### 4.1.0 — 21.11.2026
 
 **Zamanlayıcı bolusla kendiliğinden başlayabilir (yalnız Nightscout)**
@@ -34,7 +37,7 @@ Yazılımı güncellemek için / To update the software: [browser installer](htt
 
 **Düzeltmeler**
 - **WiFi çubukları:** Cihaz sinyal gücünü bir an okuyamayınca çubuklar yanlışlıkla "tam çekim" gösterebiliyordu. Artık son doğru değer gösteriliyor ve çubuklar 30 saniyede bir güncelleniyor.
-- **mmol/L kullananlar:** Alarm eşikleri artık cihazda ve web sayfasında mmol/L olarak giriliyor (cihazda virgülsüz yazılır: 3,9 için 39). Web sayfasında birim yazıyor.
+- **mmol/L kullananlar:** Alarm eşikleri artık cihazda ve web sayfasında mmol/L olarak giriliyor (cihazın tuş takımına mmol/L için virgül tuşu eklendi). Web sayfasında birim yazıyor.
 - **Rahatsız etme modu:** Ekran kapalıyken zamanlayıcı biterse ekran açılır ve bitiş ekranı görünür.
 - **Açılış:** WiFi'ye bağlanamayınca ya da veri alınamayınca açılıştaki yeşil çubuk artık "Hazır" diye sonuna kadar dolmuyor.
 - Rusça "ertelendi" yazısının sonunun bozuk görünmesi, Fransızca bir yazının taşması ve Modlar ekranındaki bir düğmenin yanlış rengi düzeltildi.
@@ -45,6 +48,9 @@ Yazılımı güncellemek için / To update the software: [browser installer](htt
 ---
 
 ## English
+
+### 4.1.1 — 2026-11-21
+- Added a decimal key for entering mmol/L limits (type 3.9 directly).
 
 ### 4.1.0 — 2026-11-21
 
@@ -72,7 +78,7 @@ Yazılımı güncellemek için / To update the software: [browser installer](htt
 
 **Fixes**
 - **WiFi bars:** when the device briefly could not read the signal strength, the bars could wrongly show full signal. Now the last valid value is shown and the bars update every 30 seconds.
-- **mmol/L users:** alarm limits are now entered in mmol/L on the device and on the web page (on the device type without the decimal point: 39 for 3.9). The web page shows the unit.
+- **mmol/L users:** alarm limits are now entered in mmol/L on the device and on the web page (the device keypad gets a decimal key for mmol/L). The web page shows the unit.
 - **Do not disturb:** if the timer ends while the screen is off, the screen turns on and shows the finish screen.
 - **Start-up:** when WiFi or data is not available, the green start-up bar no longer fills up to "Ready".
 - Fixed the end of the Russian "snoozed" text looking broken, an overflowing French text and the wrong color of a button on the Modes screen.

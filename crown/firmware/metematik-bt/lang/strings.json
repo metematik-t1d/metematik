@@ -3,7 +3,7 @@
   "kind": "L",
   "tr": "Oğlum Mete için yaptım. Burak",
   "lines": [
-   1233
+   1235
   ],
   "calls": [],
   "en_src": "Made for my son Mete. Burak"
@@ -12,7 +12,7 @@
   "kind": "L",
   "tr": "Kırmızı",
   "lines": [
-   1352
+   1354
   ],
   "calls": [],
   "en_src": "Red"
@@ -21,7 +21,7 @@
   "kind": "L",
   "tr": "Turuncu",
   "lines": [
-   1352
+   1354
   ],
   "calls": [],
   "en_src": "Orange"
@@ -30,7 +30,7 @@
   "kind": "L",
   "tr": "Sarı",
   "lines": [
-   1352
+   1354
   ],
   "calls": [],
   "en_src": "Yellow"
@@ -39,7 +39,7 @@
   "kind": "L",
   "tr": "Beyaz",
   "lines": [
-   1353
+   1355
   ],
   "calls": [],
   "en_src": "White"
@@ -48,7 +48,7 @@
   "kind": "L",
   "tr": "Yeşil",
   "lines": [
-   1353
+   1355
   ],
   "calls": [],
   "en_src": "Green"
@@ -57,7 +57,7 @@
   "kind": "L",
   "tr": "Mavi",
   "lines": [
-   1353
+   1355
   ],
   "calls": [],
   "en_src": "Blue"
@@ -66,8 +66,8 @@
   "kind": "L",
   "tr": "Büyük",
   "lines": [
-   1371,
-   9530
+   1373,
+   9606
   ],
   "calls": [],
   "en_src": "Big"
@@ -76,8 +76,8 @@
   "kind": "L",
   "tr": "Takvim",
   "lines": [
-   1372,
-   9531
+   1374,
+   9607
   ],
   "calls": [],
   "en_src": "Calendar"
@@ -86,8 +86,8 @@
   "kind": "L",
   "tr": "Dikey",
   "lines": [
-   1373,
-   9535
+   1375,
+   9611
   ],
   "calls": [],
   "en_src": "Portrait"
@@ -96,7 +96,7 @@
   "kind": "L",
   "tr": "Foto Çerçeve",
   "lines": [
-   1374
+   1376
   ],
   "calls": [],
   "en_src": "Photo Frame"
@@ -105,8 +105,8 @@
   "kind": "L",
   "tr": "Klasik",
   "lines": [
-   1375,
-   9529
+   1377,
+   9605
   ],
   "calls": [],
   "en_src": "Classic"
@@ -115,7 +115,7 @@
   "kind": "L",
   "tr": "Gece modu sessiz: alarm çalmaz",
   "lines": [
-   1617
+   1619
   ],
   "calls": [],
   "en_src": "Night mode silent: no alarm sound"
@@ -124,7 +124,7 @@
   "kind": "L",
   "tr": "Okul modu sessiz: alarm çalmaz",
   "lines": [
-   1618
+   1620
   ],
   "calls": [],
   "en_src": "School mode silent: no alarm sound"
@@ -133,7 +133,7 @@
   "kind": "L",
   "tr": "Sessiz: alarmlar çalmaz",
   "lines": [
-   1619
+   1621
   ],
   "calls": [],
   "en_src": "Silent: alarms won't sound"
@@ -142,7 +142,7 @@
   "kind": "L",
   "tr": "Kritik düşük sesi kapalı",
   "lines": [
-   1621
+   1623
   ],
   "calls": [],
   "en_src": "Critical low sound off"
@@ -151,7 +151,7 @@
   "kind": "L",
   "tr": "Bazı alarm sesleri kapalı",
   "lines": [
-   1623
+   1625
   ],
   "calls": [],
   "en_src": "Some alarm sounds off"
@@ -160,7 +160,7 @@
   "kind": "L",
   "tr": "Dusuk",
   "lines": [
-   1698
+   1700
   ],
   "calls": [],
   "en_src": "Low"
@@ -169,12 +169,12 @@
   "kind": "L",
   "tr": "Orta",
   "lines": [
-   1699,
-   1814,
-   1818,
-   7335,
-   11363,
-   11364
+   1701,
+   1816,
+   1820,
+   7337,
+   11439,
+   11440
   ],
   "calls": [],
   "en_src": "Med"
@@ -183,7 +183,7 @@
   "kind": "L",
   "tr": "Yuksek",
   "lines": [
-   1700
+   1702
   ],
   "calls": [],
   "en_src": "High"
@@ -192,7 +192,7 @@
   "kind": "L",
   "tr": "Ocak",
   "lines": [
-   1748
+   1750
   ],
   "calls": [],
   "en_src": "January"
@@ -201,7 +201,7 @@
   "kind": "L",
   "tr": "Şubat",
   "lines": [
-   1748
+   1750
   ],
   "calls": [],
   "en_src": "February"
@@ -210,7 +210,7 @@
   "kind": "L",
   "tr": "Mart",
   "lines": [
-   1749
+   1751
   ],
   "calls": [],
   "en_src": "March"
@@ -219,7 +219,7 @@
   "kind": "L",
   "tr": "Nisan",
   "lines": [
-   1749
+   1751
   ],
   "calls": [],
   "en_src": "April"
@@ -228,7 +228,7 @@
   "kind": "L",
   "tr": "Mayıs",
   "lines": [
-   1750
+   1752
   ],
   "calls": [],
   "en_src": "May"
@@ -237,7 +237,7 @@
   "kind": "L",
   "tr": "Haziran",
   "lines": [
-   1750
+   1752
   ],
   "calls": [],
   "en_src": "June"
@@ -246,7 +246,7 @@
   "kind": "L",
   "tr": "Temmuz",
   "lines": [
-   1751
+   1753
   ],
   "calls": [],
   "en_src": "July"
@@ -255,7 +255,7 @@
   "kind": "L",
   "tr": "Ağustos",
   "lines": [
-   1751
+   1753
   ],
   "calls": [],
   "en_src": "August"
@@ -264,7 +264,7 @@
   "kind": "L",
   "tr": "Eylül",
   "lines": [
-   1752
+   1754
   ],
   "calls": [],
   "en_src": "September"
@@ -273,7 +273,7 @@
   "kind": "L",
   "tr": "Ekim",
   "lines": [
-   1752
+   1754
   ],
   "calls": [],
   "en_src": "October"
@@ -282,7 +282,7 @@
   "kind": "L",
   "tr": "Kasım",
   "lines": [
-   1753
+   1755
   ],
   "calls": [],
   "en_src": "November"
@@ -291,7 +291,7 @@
   "kind": "L",
   "tr": "Aralık",
   "lines": [
-   1753
+   1755
   ],
   "calls": [],
   "en_src": "December"
@@ -300,7 +300,7 @@
   "kind": "L",
   "tr": "Oca",
   "lines": [
-   1758
+   1760
   ],
   "calls": [],
   "en_src": "Jan"
@@ -309,7 +309,7 @@
   "kind": "L",
   "tr": "Şub",
   "lines": [
-   1758
+   1760
   ],
   "calls": [],
   "en_src": "Feb"
@@ -318,7 +318,7 @@
   "kind": "L",
   "tr": "Mar",
   "lines": [
-   1758
+   1760
   ],
   "calls": [],
   "en_src": "Mar"
@@ -327,7 +327,7 @@
   "kind": "L",
   "tr": "Nis",
   "lines": [
-   1759
+   1761
   ],
   "calls": [],
   "en_src": "Apr"
@@ -336,7 +336,7 @@
   "kind": "L",
   "tr": "May",
   "lines": [
-   1759
+   1761
   ],
   "calls": [],
   "en_src": "May"
@@ -345,7 +345,7 @@
   "kind": "L",
   "tr": "Haz",
   "lines": [
-   1759
+   1761
   ],
   "calls": [],
   "en_src": "Jun"
@@ -354,7 +354,7 @@
   "kind": "L",
   "tr": "Tem",
   "lines": [
-   1760
+   1762
   ],
   "calls": [],
   "en_src": "Jul"
@@ -363,7 +363,7 @@
   "kind": "L",
   "tr": "Ağu",
   "lines": [
-   1760
+   1762
   ],
   "calls": [],
   "en_src": "Aug"
@@ -372,7 +372,7 @@
   "kind": "L",
   "tr": "Eyl",
   "lines": [
-   1760
+   1762
   ],
   "calls": [],
   "en_src": "Sep"
@@ -381,7 +381,7 @@
   "kind": "L",
   "tr": "Eki",
   "lines": [
-   1761
+   1763
   ],
   "calls": [],
   "en_src": "Oct"
@@ -390,7 +390,7 @@
   "kind": "L",
   "tr": "Kas",
   "lines": [
-   1761
+   1763
   ],
   "calls": [],
   "en_src": "Nov"
@@ -399,7 +399,7 @@
   "kind": "L",
   "tr": "Ara",
   "lines": [
-   1761
+   1763
   ],
   "calls": [],
   "en_src": "Dec"
@@ -408,8 +408,8 @@
   "kind": "L",
   "tr": "Sessiz",
   "lines": [
-   1816,
-   7335
+   1818,
+   7337
   ],
   "calls": [],
   "en_src": "Mute"
@@ -418,17 +418,17 @@
   "kind": "L",
   "tr": "Düşük",
   "lines": [
-   1817,
-   7168,
-   7335,
-   7365,
-   8074,
-   8532,
-   11355,
-   11363,
-   11364,
-   11396,
-   11479
+   1819,
+   7170,
+   7337,
+   7367,
+   8076,
+   8534,
+   11431,
+   11439,
+   11440,
+   11472,
+   11555
   ],
   "calls": [
    "fNumSnd"
@@ -439,17 +439,17 @@
   "kind": "L",
   "tr": "Yüksek",
   "lines": [
-   1819,
-   7168,
-   7335,
-   7365,
-   8076,
-   8533,
-   11355,
-   11363,
-   11364,
-   11397,
-   11480
+   1821,
+   7170,
+   7337,
+   7367,
+   8078,
+   8535,
+   11431,
+   11439,
+   11440,
+   11473,
+   11556
   ],
   "calls": [
    "fNumSnd"
@@ -460,7 +460,7 @@
   "kind": "L",
   "tr": "Son 24 saat",
   "lines": [
-   2203
+   2205
   ],
   "calls": [],
   "en_src": "Last 24 hours"
@@ -469,7 +469,7 @@
   "kind": "L",
   "tr": "Yaklaşık son %d saat",
   "lines": [
-   2205
+   2207
   ],
   "calls": [],
   "en_src": "Approx. last %d hours"
@@ -478,8 +478,8 @@
   "kind": "L",
   "tr": "~%d saat",
   "lines": [
-   2213,
-   6796
+   2215,
+   6798
   ],
   "calls": [],
   "en_src": "~%dh"
@@ -488,16 +488,16 @@
   "kind": "L",
   "tr": "Veri yok",
   "lines": [
-   2218,
-   2439,
-   4464,
-   6671,
-   7169,
-   10117,
-   10288,
-   10373,
-   11399,
-   13843
+   2220,
+   2441,
+   4466,
+   6673,
+   7171,
+   10193,
+   10364,
+   10449,
+   11475,
+   13919
   ],
   "calls": [
    "drawFreeTitle",
@@ -510,7 +510,7 @@
   "kind": "L",
   "tr": "%lu sn once",
   "lines": [
-   2221
+   2223
   ],
   "calls": [],
   "en_src": "%lus ago"
@@ -519,7 +519,7 @@
   "kind": "L",
   "tr": "%lu dk once",
   "lines": [
-   2223
+   2225
   ],
   "calls": [],
   "en_src": "%lum ago"
@@ -528,7 +528,7 @@
   "kind": "L",
   "tr": "%lu sa %lu dk once",
   "lines": [
-   2224
+   2226
   ],
   "calls": [],
   "en_src": "%luh %lum ago"
@@ -537,7 +537,7 @@
   "kind": "L",
   "tr": "Son ölçüm: -",
   "lines": [
-   2440
+   2442
   ],
   "calls": [
    "drawFreeTitle"
@@ -548,7 +548,7 @@
   "kind": "L",
   "tr": "Güncelleniyor...",
   "lines": [
-   3106
+   3108
   ],
   "calls": [
    "drawFreeTitle"
@@ -559,7 +559,7 @@
   "kind": "L",
   "tr": "Başarılı!",
   "lines": [
-   3126
+   3128
   ],
   "calls": [],
   "en_src": "Success!"
@@ -568,7 +568,7 @@
   "kind": "L",
   "tr": "Güncelleme hatası",
   "lines": [
-   3126
+   3128
   ],
   "calls": [],
   "en_src": "Update error"
@@ -577,7 +577,7 @@
   "kind": "L",
   "tr": "Kişi ",
   "lines": [
-   4347
+   4349
   ],
   "calls": [
    "String"
@@ -588,7 +588,7 @@
   "kind": "L",
   "tr": "Kaynak yok",
   "lines": [
-   4463
+   4465
   ],
   "calls": [],
   "en_src": "No source"
@@ -597,12 +597,12 @@
   "kind": "L",
   "tr": "Ertele",
   "lines": [
-   4492,
-   6233,
-   6242,
-   6994,
-   8520,
-   10646
+   4494,
+   6235,
+   6244,
+   6996,
+   8522,
+   10722
   ],
   "calls": [
    "drawFreeTitle",
@@ -616,9 +616,9 @@
   "kind": "L",
   "tr": "Dikkat",
   "lines": [
-   4500,
-   6255,
-   10637
+   4502,
+   6257,
+   10713
   ],
   "calls": [
    "drawFreeTitle",
@@ -630,9 +630,9 @@
   "kind": "L",
   "tr": "WiFi bağlı değil",
   "lines": [
-   5010,
-   6102,
-   8770
+   5012,
+   6104,
+   8772
   ],
   "calls": [
    "drawFreeTitle"
@@ -643,7 +643,7 @@
   "kind": "L",
   "tr": "Giriş başarısız",
   "lines": [
-   5011
+   5013
   ],
   "calls": [],
   "en_src": "Login failed"
@@ -652,8 +652,8 @@
   "kind": "L",
   "tr": "İnternet yok",
   "lines": [
-   5012,
-   5716
+   5014,
+   5718
   ],
   "calls": [
    "setFetchError"
@@ -664,7 +664,7 @@
   "kind": "L",
   "tr": "Sunucu yanıt vermiyor",
   "lines": [
-   5012
+   5014
   ],
   "calls": [],
   "en_src": "Server not responding"
@@ -673,7 +673,7 @@
   "kind": "L",
   "tr": "Veri gelmiyor",
   "lines": [
-   5013
+   5015
   ],
   "calls": [],
   "en_src": "No data"
@@ -682,7 +682,7 @@
   "kind": "L",
   "tr": "Kaynak ayarı eksik",
   "lines": [
-   5014
+   5016
   ],
   "calls": [],
   "en_src": "Source not configured"
@@ -691,7 +691,7 @@
   "kind": "L",
   "tr": "Veri okunamadı",
   "lines": [
-   5015
+   5017
   ],
   "calls": [],
   "en_src": "Could not read data"
@@ -700,7 +700,7 @@
   "kind": "L",
   "tr": "Bir sorun oluştu",
   "lines": [
-   5016
+   5018
   ],
   "calls": [],
   "en_src": "Something went wrong"
@@ -709,7 +709,7 @@
   "kind": "L",
   "tr": "Ayni WiFi agini kontrol edin. BOOT 2sn.",
   "lines": [
-   5022
+   5024
   ],
   "calls": [],
   "en_src": "Check WiFi. Hold BOOT 2s."
@@ -718,7 +718,7 @@
   "kind": "L",
   "tr": "Kullanici veya sifre yanlis olabilir.",
   "lines": [
-   5023
+   5025
   ],
   "calls": [],
   "en_src": "User or password may be wrong."
@@ -727,7 +727,7 @@
   "kind": "L",
   "tr": "Internet veya kaynak adresini kontrol edin.",
   "lines": [
-   5024
+   5026
   ],
   "calls": [],
   "en_src": "Check internet or source URL."
@@ -736,7 +736,7 @@
   "kind": "L",
   "tr": "CGM henuz olcum gondermemis olabilir.",
   "lines": [
-   5025
+   5027
   ],
   "calls": [],
   "en_src": "CGM may not have sent data yet."
@@ -745,7 +745,7 @@
   "kind": "L",
   "tr": "QR / Web veya BOOT ile kaynak girin.",
   "lines": [
-   5026
+   5028
   ],
   "calls": [],
   "en_src": "Enter source via QR/Web or BOOT."
@@ -754,7 +754,7 @@
   "kind": "L",
   "tr": "Kaynak yaniti beklenmedik. Tekrar denenecek.",
   "lines": [
-   5027
+   5029
   ],
   "calls": [],
   "en_src": "Unexpected response. Will retry."
@@ -763,7 +763,7 @@
   "kind": "L",
   "tr": "Biraz sonra yeniden denenecek.",
   "lines": [
-   5028
+   5030
   ],
   "calls": [],
   "en_src": "Will retry shortly."
@@ -772,7 +772,7 @@
   "kind": "L",
   "tr": "Ağ: ",
   "lines": [
-   5057
+   5059
   ],
   "calls": [
    "String"
@@ -783,9 +783,9 @@
   "kind": "L",
   "tr": "Kaynak: ",
   "lines": [
-   5058,
-   7599,
-   8771
+   5060,
+   7601,
+   8773
   ],
   "calls": [
    "String",
@@ -798,7 +798,7 @@
   "kind": "L",
   "tr": "Yenile",
   "lines": [
-   5094
+   5096
   ],
   "calls": [
    "drawFreeTitle"
@@ -809,7 +809,7 @@
   "kind": "L",
   "tr": "Kurulum",
   "lines": [
-   5096
+   5098
   ],
   "calls": [
    "drawFreeTitle"
@@ -820,7 +820,7 @@
   "kind": "L",
   "tr": "WiFi / giriş",
   "lines": [
-   5097
+   5099
   ],
   "calls": [
    "drawFreeTitle"
@@ -831,31 +831,31 @@
   "kind": "L",
   "tr": "Geri",
   "lines": [
-   5101,
-   5105,
-   6455,
-   7049,
-   7087,
-   7122,
-   7131,
-   7169,
-   7322,
-   7353,
-   7379,
-   7539,
-   7638,
-   7684,
-   7742,
-   7777,
-   7809,
-   8032,
-   8128,
-   8207,
-   8244,
-   8590,
-   10918,
-   10943,
-   11104
+   5103,
+   5107,
+   6457,
+   7051,
+   7089,
+   7124,
+   7133,
+   7171,
+   7324,
+   7355,
+   7381,
+   7541,
+   7640,
+   7686,
+   7744,
+   7779,
+   7811,
+   8034,
+   8130,
+   8209,
+   8246,
+   8592,
+   10994,
+   11019,
+   11180
   ],
   "calls": [
    "textWidth",
@@ -867,7 +867,7 @@
   "kind": "L",
   "tr": "Kurulumda kayıtlı ağlar silinmez - BOOT 2 sn = Kurulum",
   "lines": [
-   5109
+   5111
   ],
   "calls": [
    "drawFreeTitle"
@@ -878,7 +878,7 @@
   "kind": "L",
   "tr": "WiFi koptu - yeniden bağlanılıyor",
   "lines": [
-   5118
+   5120
   ],
   "calls": [
    "drawFreeTitle"
@@ -889,7 +889,7 @@
   "kind": "L",
   "tr": "Pt",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Mo"
@@ -898,7 +898,7 @@
   "kind": "L",
   "tr": "Sa",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Tu"
@@ -907,7 +907,7 @@
   "kind": "L",
   "tr": "Ça",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "We"
@@ -916,7 +916,7 @@
   "kind": "L",
   "tr": "Pe",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Th"
@@ -925,7 +925,7 @@
   "kind": "L",
   "tr": "Cu",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Fr"
@@ -934,7 +934,7 @@
   "kind": "L",
   "tr": "Ct",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Sa"
@@ -943,7 +943,7 @@
   "kind": "L",
   "tr": "Pz",
   "lines": [
-   5845
+   5847
   ],
   "calls": [],
   "en_src": "Su"
@@ -952,7 +952,7 @@
   "kind": "L",
   "tr": "Foto yükle",
   "lines": [
-   6098
+   6100
   ],
   "calls": [
    "drawFreeTitle"
@@ -963,7 +963,7 @@
   "kind": "L",
   "tr": "Okut - webden foto yükle",
   "lines": [
-   6122
+   6124
   ],
   "calls": [
    "drawFreeTitle"
@@ -974,7 +974,7 @@
   "kind": "L",
   "tr": "Dokunun: çözüm",
   "lines": [
-   6156
+   6158
   ],
   "calls": [
    "drawFreeTitle"
@@ -985,7 +985,7 @@
   "kind": "L",
   "tr": "Veri bekleniyor...",
   "lines": [
-   6160
+   6162
   ],
   "calls": [
    "drawFreeTitle"
@@ -996,9 +996,9 @@
   "kind": "L",
   "tr": "%d dk",
   "lines": [
-   6245,
-   10648,
-   13825
+   6247,
+   10724,
+   13901
   ],
   "calls": [],
   "en_src": "%d min"
@@ -1007,7 +1007,7 @@
   "kind": "L",
   "tr": "AINS %s U   AKRB %s g",
   "lines": [
-   6326
+   6328
   ],
   "calls": [],
   "en_src": "IOB %s U   COB %s g"
@@ -1016,7 +1016,7 @@
   "kind": "L",
   "tr": "şimdi",
   "lines": [
-   6351
+   6353
   ],
   "calls": [
    "drawFreeTitle"
@@ -1027,7 +1027,7 @@
   "kind": "L",
   "tr": "DETAY (NS)",
   "lines": [
-   6396
+   6398
   ],
   "calls": [
    "drawFreeTitle"
@@ -1038,7 +1038,7 @@
   "kind": "L",
   "tr": "AINS",
   "lines": [
-   6404
+   6406
   ],
   "calls": [
    "drawFreeTitle"
@@ -1049,7 +1049,7 @@
   "kind": "L",
   "tr": "AKRB",
   "lines": [
-   6414
+   6416
   ],
   "calls": [
    "drawFreeTitle"
@@ -1060,7 +1060,7 @@
   "kind": "L",
   "tr": "Son 5 bolus",
   "lines": [
-   6425
+   6427
   ],
   "calls": [
    "drawFreeTitle"
@@ -1071,7 +1071,7 @@
   "kind": "L",
   "tr": "Saat",
   "lines": [
-   6427
+   6429
   ],
   "calls": [
    "drawFreeTitle"
@@ -1082,7 +1082,7 @@
   "kind": "L",
   "tr": "Tip",
   "lines": [
-   6429
+   6431
   ],
   "calls": [
    "drawFreeTitle"
@@ -1093,7 +1093,7 @@
   "kind": "L",
   "tr": "Bolus kaydı yok / plugin kapalı",
   "lines": [
-   6448
+   6450
   ],
   "calls": [
    "drawFreeTitle"
@@ -1104,7 +1104,7 @@
   "kind": "L",
   "tr": "Detay",
   "lines": [
-   6506
+   6508
   ],
   "calls": [
    "drawFreeTitle"
@@ -1115,7 +1115,7 @@
   "kind": "L",
   "tr": "%d saat",
   "lines": [
-   6514
+   6516
   ],
   "calls": [],
   "en_src": "%dh"
@@ -1124,7 +1124,7 @@
   "kind": "L",
   "tr": "%d s",
   "lines": [
-   6531
+   6533
   ],
   "calls": [],
   "en_src": "%dh"
@@ -1133,7 +1133,7 @@
   "kind": "L",
   "tr": "%dg %dsa",
   "lines": [
-   6626
+   6628
   ],
   "calls": [
    "snprintf"
@@ -1144,7 +1144,7 @@
   "kind": "L",
   "tr": "Geçen",
   "lines": [
-   6650
+   6652
   ],
   "calls": [
    "drawFreeTitle"
@@ -1155,7 +1155,7 @@
   "kind": "L",
   "tr": "Kalan",
   "lines": [
-   6651
+   6653
   ],
   "calls": [
    "drawFreeTitle"
@@ -1166,7 +1166,7 @@
   "kind": "L",
   "tr": "Doldu",
   "lines": [
-   6664
+   6666
   ],
   "calls": [
    "drawFreeTitle"
@@ -1177,8 +1177,8 @@
   "kind": "L",
   "tr": "SENSÖR / SET",
   "lines": [
-   6678,
-   11498
+   6680,
+   11574
   ],
   "calls": [
    "drawFormHeaderBtn"
@@ -1189,7 +1189,7 @@
   "kind": "L",
   "tr": "Ayarla",
   "lines": [
-   6678
+   6680
   ],
   "calls": [],
   "en_src": "Setup"
@@ -1198,7 +1198,7 @@
   "kind": "L",
   "tr": "Sensör/Set takibi kapalı",
   "lines": [
-   6682
+   6684
   ],
   "calls": [
    "drawFreeTitle"
@@ -1209,7 +1209,7 @@
   "kind": "L",
   "tr": "Açmak için sağ üstte Ayarla",
   "lines": [
-   6683
+   6685
   ],
   "calls": [
    "drawFreeTitle"
@@ -1220,10 +1220,10 @@
   "kind": "L",
   "tr": "Sensör",
   "lines": [
-   6685,
-   6688,
-   6718,
-   10765
+   6687,
+   6690,
+   6720,
+   10841
   ],
   "calls": [
    "drawAgeCard"
@@ -1234,8 +1234,8 @@
   "kind": "L",
   "tr": "İnfüzyon seti / pompa",
   "lines": [
-   6686,
-   6690
+   6688,
+   6692
   ],
   "calls": [
    "drawAgeCard"
@@ -1246,7 +1246,7 @@
   "kind": "L",
   "tr": "Kalan süre = ömür - geçen süre",
   "lines": [
-   6695
+   6697
   ],
   "calls": [
    "drawFreeTitle"
@@ -1257,7 +1257,7 @@
   "kind": "L",
   "tr": "Set / Pompa",
   "lines": [
-   6718
+   6720
   ],
   "calls": [],
   "en_src": "Set / Pump"
@@ -1266,7 +1266,7 @@
   "kind": "L",
   "tr": "%ld DAKİKA KALDI",
   "lines": [
-   6735
+   6737
   ],
   "calls": [],
   "en_src": "%ld MINUTES LEFT"
@@ -1275,7 +1275,7 @@
   "kind": "L",
   "tr": "%ld SAAT KALDI",
   "lines": [
-   6736
+   6738
   ],
   "calls": [],
   "en_src": "%ld HOURS LEFT"
@@ -1284,7 +1284,7 @@
   "kind": "L",
   "tr": "%ld SAAT %ld DK KALDI",
   "lines": [
-   6737
+   6739
   ],
   "calls": [],
   "en_src": "%ldh %ldmin LEFT"
@@ -1293,7 +1293,7 @@
   "kind": "L",
   "tr": "süresi dolmak üzere",
   "lines": [
-   6742
+   6744
   ],
   "calls": [
    "drawFreeTitle"
@@ -1304,7 +1304,7 @@
   "kind": "L",
   "tr": "Detaylar için Sensör/Set ekranına bakın",
   "lines": [
-   6745
+   6747
   ],
   "calls": [
    "drawFreeTitle"
@@ -1315,7 +1315,7 @@
   "kind": "L",
   "tr": "İSTATİSTİK",
   "lines": [
-   6755
+   6757
   ],
   "calls": [
    "drawFreeTitle"
@@ -1326,7 +1326,7 @@
   "kind": "L",
   "tr": "Henüz yeterli veri yok",
   "lines": [
-   6768
+   6770
   ],
   "calls": [
    "drawFreeTitle"
@@ -1337,7 +1337,7 @@
   "kind": "L",
   "tr": "İstatistik için en az %d saat gerekir.",
   "lines": [
-   6770
+   6772
   ],
   "calls": [],
   "en_src": "Needs at least %d hours of data."
@@ -1346,7 +1346,7 @@
   "kind": "L",
   "tr": "Şu an: yaklaşık %d saat",
   "lines": [
-   6772
+   6774
   ],
   "calls": [],
   "en_src": "Now: about %d hours"
@@ -1355,7 +1355,7 @@
   "kind": "L",
   "tr": "Cihaz açık kaldıkça kendi kaydını biriktirir.",
   "lines": [
-   6775
+   6777
   ],
   "calls": [
    "drawFreeTitle"
@@ -1366,7 +1366,7 @@
   "kind": "L",
   "tr": "Son veri: ",
   "lines": [
-   6797
+   6799
   ],
   "calls": [
    "String"
@@ -1377,7 +1377,7 @@
   "kind": "L",
   "tr": "Min",
   "lines": [
-   6807
+   6809
   ],
   "calls": [
    "drawFreeTitle"
@@ -1388,7 +1388,7 @@
   "kind": "L",
   "tr": "Maks",
   "lines": [
-   6808
+   6810
   ],
   "calls": [
    "drawFreeTitle"
@@ -1399,7 +1399,7 @@
   "kind": "L",
   "tr": "Ort",
   "lines": [
-   6809
+   6811
   ],
   "calls": [
    "drawFreeTitle"
@@ -1410,7 +1410,7 @@
   "kind": "L",
   "tr": "Hedef aralıkta kalma",
   "lines": [
-   6825
+   6827
   ],
   "calls": [
    "drawFreeTitle"
@@ -1421,7 +1421,7 @@
   "kind": "L",
   "tr": "dokun: ileri",
   "lines": [
-   6860
+   6862
   ],
   "calls": [
    "drawFreeTitle"
@@ -1432,7 +1432,7 @@
   "kind": "L",
   "tr": "1. ÖNEMLİ UYARI",
   "lines": [
-   6870
+   6872
   ],
   "calls": [
    "drawFreeTitle"
@@ -1443,7 +1443,7 @@
   "kind": "L",
   "tr": "İnsülin veya tedavi kararı için",
   "lines": [
-   6874
+   6876
   ],
   "calls": [
    "drawFreeTitle"
@@ -1454,7 +1454,7 @@
   "kind": "L",
   "tr": "KULLANMAYIN.",
   "lines": [
-   6875
+   6877
   ],
   "calls": [
    "drawFreeTitle"
@@ -1465,7 +1465,7 @@
   "kind": "L",
   "tr": "- Tıbbi cihaz değildir",
   "lines": [
-   6877
+   6879
   ],
   "calls": [
    "drawFreeTitle"
@@ -1476,7 +1476,7 @@
   "kind": "L",
   "tr": "- Sadece bilgilendirme amaçlıdır",
   "lines": [
-   6878
+   6880
   ],
   "calls": [
    "drawFreeTitle"
@@ -1487,7 +1487,7 @@
   "kind": "L",
   "tr": "- Risk kullanıcıya aittir",
   "lines": [
-   6879
+   6881
   ],
   "calls": [
    "drawFreeTitle"
@@ -1498,7 +1498,7 @@
   "kind": "L",
   "tr": "Resmi CGM uygulamanızı esas alın.",
   "lines": [
-   6881
+   6883
   ],
   "calls": [
    "drawFreeTitle"
@@ -1509,7 +1509,7 @@
   "kind": "L",
   "tr": "2. SAYFALAR",
   "lines": [
-   6886
+   6888
   ],
   "calls": [
    "drawFreeTitle"
@@ -1520,7 +1520,7 @@
   "kind": "L",
   "tr": "1  Ana şeker + trend + delta",
   "lines": [
-   6890
+   6892
   ],
   "calls": [
    "drawFreeTitle"
@@ -1531,7 +1531,7 @@
   "kind": "L",
   "tr": "2  Arayüz (Basit/Büyük/Fotoğraf..)",
   "lines": [
-   6891
+   6893
   ],
   "calls": [
    "drawFreeTitle"
@@ -1542,7 +1542,7 @@
   "kind": "L",
   "tr": "3  Grafik 3/6/12/24 saat",
   "lines": [
-   6892
+   6894
   ],
   "calls": [
    "drawFreeTitle"
@@ -1553,7 +1553,7 @@
   "kind": "L",
   "tr": "4  İstatistik (gün boyu)",
   "lines": [
-   6893
+   6895
   ],
   "calls": [
    "drawFreeTitle"
@@ -1564,7 +1564,7 @@
   "kind": "L",
   "tr": "5  Zamanlayıcı",
   "lines": [
-   6894
+   6896
   ],
   "calls": [
    "drawFreeTitle"
@@ -1575,7 +1575,7 @@
   "kind": "L",
   "tr": "6  Ayarlar",
   "lines": [
-   6895
+   6897
   ],
   "calls": [
    "drawFreeTitle"
@@ -1586,7 +1586,7 @@
   "kind": "L",
   "tr": "Geçiş: ekrana dokun (sol/sağ)",
   "lines": [
-   6897
+   6899
   ],
   "calls": [
    "drawFreeTitle"
@@ -1597,7 +1597,7 @@
   "kind": "L",
   "tr": "3. AYARLAR",
   "lines": [
-   6902
+   6904
   ],
   "calls": [
    "drawFreeTitle"
@@ -1608,7 +1608,7 @@
   "kind": "L",
   "tr": "Üst: Parlaklık | Ses | Alarm",
   "lines": [
-   6906
+   6908
   ],
   "calls": [
    "drawFreeTitle"
@@ -1619,7 +1619,7 @@
   "kind": "L",
   "tr": "Alt: Hedefler | QR | Diğer",
   "lines": [
-   6907
+   6909
   ],
   "calls": [
    "drawFreeTitle"
@@ -1630,7 +1630,7 @@
   "kind": "L",
   "tr": "Hedefler: kritik/düşük/yüksek",
   "lines": [
-   6909
+   6911
   ],
   "calls": [
    "drawFreeTitle"
@@ -1641,7 +1641,7 @@
   "kind": "L",
   "tr": "Alarm: görsel, ertele, modlar",
   "lines": [
-   6910
+   6912
   ],
   "calls": [
    "drawFreeTitle"
@@ -1652,7 +1652,7 @@
   "kind": "L",
   "tr": "QR: telefondan web ayar",
   "lines": [
-   6911
+   6913
   ],
   "calls": [
    "drawFreeTitle"
@@ -1663,7 +1663,7 @@
   "kind": "L",
   "tr": "BOOT 2 sn: WiFi / kaynak",
   "lines": [
-   6912
+   6914
   ],
   "calls": [
    "drawFreeTitle"
@@ -1674,7 +1674,7 @@
   "kind": "L",
   "tr": "4. MODLAR + DİKKAT",
   "lines": [
-   6917
+   6919
   ],
   "calls": [
    "drawFreeTitle"
@@ -1685,7 +1685,7 @@
   "kind": "L",
   "tr": "Okul / Gece: saat + ses/ışık",
   "lines": [
-   6921
+   6923
   ],
   "calls": [
    "drawFreeTitle"
@@ -1696,7 +1696,7 @@
   "kind": "L",
   "tr": "Rehber: Dikkat butonu",
   "lines": [
-   6922
+   6924
   ],
   "calls": [
    "drawFreeTitle"
@@ -1707,7 +1707,7 @@
   "kind": "L",
   "tr": "  Hipo/hiper kartları eşiğe göre",
   "lines": [
-   6924
+   6926
   ],
   "calls": [
    "drawFreeTitle"
@@ -1718,7 +1718,7 @@
   "kind": "L",
   "tr": "  Bilinç yoksa Glukagon rehberi",
   "lines": [
-   6925
+   6927
   ],
   "calls": [
    "drawFreeTitle"
@@ -1729,7 +1729,7 @@
   "kind": "L",
   "tr": "Ertele: 15 / 30 / 60 dk",
   "lines": [
-   6927
+   6929
   ],
   "calls": [
    "drawFreeTitle"
@@ -1740,7 +1740,7 @@
   "kind": "L",
   "tr": "Kaynak: NS / Dexcom / Libre / Medtrum",
   "lines": [
-   6929
+   6931
   ],
   "calls": [
    "drawFreeTitle"
@@ -1751,7 +1751,7 @@
   "kind": "L",
   "tr": "5. WEB + OTA",
   "lines": [
-   6934
+   6936
   ],
   "calls": [
    "drawFreeTitle"
@@ -1762,7 +1762,7 @@
   "kind": "L",
   "tr": "Aynı WiFi'de tarayıcı açın:",
   "lines": [
-   6938
+   6940
   ],
   "calls": [
    "drawFreeTitle"
@@ -1773,8 +1773,8 @@
   "kind": "L",
   "tr": "CIHAZ-IP",
   "lines": [
-   6940,
-   6941
+   6942,
+   6943
   ],
   "calls": [],
   "en_src": "DEVICE-IP"
@@ -1783,7 +1783,7 @@
   "kind": "L",
   "tr": "QR ile de açabilirsiniz.",
   "lines": [
-   6943
+   6945
   ],
   "calls": [
    "drawFreeTitle"
@@ -1794,7 +1794,7 @@
   "kind": "L",
   "tr": "OTA: .bin dosyasını yükleyin.",
   "lines": [
-   6944
+   6946
   ],
   "calls": [
    "drawFreeTitle"
@@ -1805,7 +1805,7 @@
   "kind": "L",
   "tr": "Bilgi sayfasında IP yazar.",
   "lines": [
-   6945
+   6947
   ],
   "calls": [
    "drawFreeTitle"
@@ -1816,7 +1816,7 @@
   "kind": "L",
   "tr": "6. WiFi KURULUMU",
   "lines": [
-   6954
+   6956
   ],
   "calls": [
    "drawFreeTitle"
@@ -1827,7 +1827,7 @@
   "kind": "L",
   "tr": "QR'ı taratın veya \"metematik\"",
   "lines": [
-   6958
+   6960
   ],
   "calls": [
    "drawFreeTitle"
@@ -1838,7 +1838,7 @@
   "kind": "L",
   "tr": "ağına elle bağlanın.",
   "lines": [
-   6959
+   6961
   ],
   "calls": [
    "drawFreeTitle"
@@ -1849,7 +1849,7 @@
   "kind": "L",
   "tr": "Kendi hotspot'unuzu mu",
   "lines": [
-   6961
+   6963
   ],
   "calls": [
    "drawFreeTitle"
@@ -1860,7 +1860,7 @@
   "kind": "L",
   "tr": "kullanacaksınız?",
   "lines": [
-   6962
+   6964
   ],
   "calls": [
    "drawFreeTitle"
@@ -1871,7 +1871,7 @@
   "kind": "L",
   "tr": "1. Hotspot'u kapatın",
   "lines": [
-   6964
+   6966
   ],
   "calls": [
    "drawFreeTitle"
@@ -1882,7 +1882,7 @@
   "kind": "L",
   "tr": "2. metematik-.... ağına bağlanıp doldurun",
   "lines": [
-   6965
+   6967
   ],
   "calls": [
    "drawFreeTitle"
@@ -1893,7 +1893,7 @@
   "kind": "L",
   "tr": "3. Hotspot'u tekrar açın",
   "lines": [
-   6966
+   6968
   ],
   "calls": [
    "drawFreeTitle"
@@ -1904,9 +1904,9 @@
   "kind": "L",
   "tr": "HEDEFLER",
   "lines": [
-   6982,
-   7160,
-   11388
+   6984,
+   7162,
+   11464
   ],
   "calls": [
    "drawFreeTitle"
@@ -1917,7 +1917,7 @@
   "kind": "L",
   "tr": "ALARM",
   "lines": [
-   6983
+   6985
   ],
   "calls": [
    "drawFreeTitle"
@@ -1928,7 +1928,7 @@
   "kind": "L",
   "tr": "Ses seviyesi: Ayarlar > Ses",
   "lines": [
-   6992
+   6994
   ],
   "calls": [
    "drawFreeTitle"
@@ -1939,7 +1939,7 @@
   "kind": "L",
   "tr": "Görsel",
   "lines": [
-   6994
+   6996
   ],
   "calls": [],
   "en_src": "Visual"
@@ -1948,9 +1948,9 @@
   "kind": "L",
   "tr": "Modlar",
   "lines": [
-   6994,
-   8846,
-   10768
+   6996,
+   8848,
+   10844
   ],
   "calls": [
    "txtH1"
@@ -1961,7 +1961,7 @@
   "kind": "L",
   "tr": "Ses Bastırma",
   "lines": [
-   7028
+   7030
   ],
   "calls": [
    "drawFreeTitle"
@@ -1972,7 +1972,7 @@
   "kind": "L",
   "tr": "Çift Ok",
   "lines": [
-   7040
+   7042
   ],
   "calls": [
    "drawFreeTitle"
@@ -1983,7 +1983,7 @@
   "kind": "L",
   "tr": "ÇİFT OK ALARMLARI",
   "lines": [
-   7056
+   7058
   ],
   "calls": [
    "drawFreeTitle"
@@ -1994,7 +1994,7 @@
   "kind": "L",
   "tr": "Şeker çok hızlı değişirken (çift ok)",
   "lines": [
-   7060
+   7062
   ],
   "calls": [
    "drawFreeTitle"
@@ -2005,7 +2005,7 @@
   "kind": "L",
   "tr": "eşik dışına çıkmadan önce uyarır.",
   "lines": [
-   7061
+   7063
   ],
   "calls": [
    "drawFreeTitle"
@@ -2016,7 +2016,7 @@
   "kind": "L",
   "tr": "Nightscout ve Dexcom'da çalışır.",
   "lines": [
-   7063
+   7065
   ],
   "calls": [
    "drawFreeTitle"
@@ -2027,9 +2027,9 @@
   "kind": "L",
   "tr": "Hızlı düşüş",
   "lines": [
-   7074,
-   8516,
-   11375
+   7076,
+   8518,
+   11451
   ],
   "calls": [
    "listAdd",
@@ -2041,9 +2041,9 @@
   "kind": "L",
   "tr": "Hızlı yükseliş",
   "lines": [
-   7074,
-   8517,
-   11376
+   7076,
+   8519,
+   11452
   ],
   "calls": [
    "listAdd",
@@ -2055,8 +2055,8 @@
   "kind": "L",
   "tr": "AÇIK",
   "lines": [
-   7079,
-   7115
+   7081,
+   7117
   ],
   "calls": [],
   "en_src": "ON"
@@ -2065,8 +2065,8 @@
   "kind": "L",
   "tr": "KAPALI",
   "lines": [
-   7079,
-   7115
+   7081,
+   7117
   ],
   "calls": [],
   "en_src": "OFF"
@@ -2075,8 +2075,8 @@
   "kind": "L",
   "tr": "SES BASTIRMA",
   "lines": [
-   7093,
-   8902
+   7095,
+   8904
   ],
   "calls": [
    "drawFreeTitle",
@@ -2088,7 +2088,7 @@
   "kind": "L",
   "tr": "Şeker eşik dışında olsa da",
   "lines": [
-   7098
+   7100
   ],
   "calls": [
    "drawFreeTitle"
@@ -2099,7 +2099,7 @@
   "kind": "L",
   "tr": "normale belirgin gidiyorsa",
   "lines": [
-   7099
+   7101
   ],
   "calls": [
    "drawFreeTitle"
@@ -2110,7 +2110,7 @@
   "kind": "L",
   "tr": "(en az 5 mg/dl fark),",
   "lines": [
-   7100
+   7102
   ],
   "calls": [
    "drawFreeTitle"
@@ -2121,7 +2121,7 @@
   "kind": "L",
   "tr": "SES otomatik susar.",
   "lines": [
-   7101
+   7103
   ],
   "calls": [
    "drawFreeTitle"
@@ -2132,7 +2132,7 @@
   "kind": "L",
   "tr": "Görsel alarm (renk/yanıp",
   "lines": [
-   7103
+   7105
   ],
   "calls": [
    "drawFreeTitle"
@@ -2143,7 +2143,7 @@
   "kind": "L",
   "tr": "sönme) aynen devam eder.",
   "lines": [
-   7104
+   7106
   ],
   "calls": [
    "drawFreeTitle"
@@ -2154,7 +2154,7 @@
   "kind": "L",
   "tr": "Kritik Düşük'te ASLA",
   "lines": [
-   7106
+   7108
   ],
   "calls": [
    "drawFreeTitle"
@@ -2165,7 +2165,7 @@
   "kind": "L",
   "tr": "geçerli değil, her zaman çalar.",
   "lines": [
-   7107
+   7109
   ],
   "calls": [
    "drawFreeTitle"
@@ -2176,9 +2176,9 @@
   "kind": "L",
   "tr": "MODLAR",
   "lines": [
-   7128,
-   8698,
-   11486
+   7130,
+   8700,
+   11562
   ],
   "calls": [
    "drawFreeTitle",
@@ -2190,7 +2190,7 @@
   "kind": "L",
   "tr": "Okul Modu",
   "lines": [
-   7130
+   7132
   ],
   "calls": [],
   "en_src": "School Mode"
@@ -2199,7 +2199,7 @@
   "kind": "L",
   "tr": "Gece Modu",
   "lines": [
-   7130
+   7132
   ],
   "calls": [],
   "en_src": "Night Mode"
@@ -2208,7 +2208,7 @@
   "kind": "L",
   "tr": "Rehber Modu",
   "lines": [
-   7131
+   7133
   ],
   "calls": [],
   "en_src": "Guide Mode"
@@ -2217,7 +2217,7 @@
   "kind": "L",
   "tr": "K<%s  D<%s  Y>%s  CY>%s  St%ddk",
   "lines": [
-   7162
+   7164
   ],
   "calls": [],
   "en_src": "C<%s  L<%s  H>%s  VH>%s  St%dm"
@@ -2226,7 +2226,7 @@
   "kind": "L",
   "tr": "Kritik",
   "lines": [
-   7168
+   7170
   ],
   "calls": [],
   "en_src": "Critical"
@@ -2235,8 +2235,8 @@
   "kind": "L",
   "tr": "Çok yüksek",
   "lines": [
-   7169,
-   11398
+   7171,
+   11474
   ],
   "calls": [
    "fNumSnd"
@@ -2247,7 +2247,7 @@
   "kind": "L",
   "tr": "Düşük eşik",
   "lines": [
-   7195
+   7197
   ],
   "calls": [],
   "en_src": "Low threshold"
@@ -2256,7 +2256,7 @@
   "kind": "L",
   "tr": "Yüksek eşik",
   "lines": [
-   7196
+   7198
   ],
   "calls": [],
   "en_src": "High threshold"
@@ -2265,7 +2265,7 @@
   "kind": "L",
   "tr": "Çok yüksek eşik",
   "lines": [
-   7197
+   7199
   ],
   "calls": [],
   "en_src": "Very high threshold"
@@ -2274,7 +2274,7 @@
   "kind": "L",
   "tr": "Kritik düşük eşik",
   "lines": [
-   7197
+   7199
   ],
   "calls": [],
   "en_src": "Critical low threshold"
@@ -2283,7 +2283,7 @@
   "kind": "L",
   "tr": "bu degerin altinda - dokun: yaz",
   "lines": [
-   7230
+   7232
   ],
   "calls": [],
   "en_src": "below this value - tap to type"
@@ -2292,7 +2292,7 @@
   "kind": "L",
   "tr": "bu degerin ustunde - dokun: yaz",
   "lines": [
-   7231
+   7233
   ],
   "calls": [],
   "en_src": "above this value - tap to type"
@@ -2301,9 +2301,10 @@
   "kind": "L",
   "tr": "Tamam",
   "lines": [
-   7247,
-   7286,
-   9224
+   7249,
+   7288,
+   9121,
+   9304
   ],
   "calls": [
    "drawFreeTitle"
@@ -2314,7 +2315,7 @@
   "kind": "L",
   "tr": "Veri yok alarmı",
   "lines": [
-   7252
+   7254
   ],
   "calls": [
    "drawFreeTitle"
@@ -2325,7 +2326,7 @@
   "kind": "L",
   "tr": "dakika veri gelmezse uyar",
   "lines": [
-   7270
+   7272
   ],
   "calls": [
    "drawFreeTitle"
@@ -2336,7 +2337,7 @@
   "kind": "L",
   "tr": "ERTELEME",
   "lines": [
-   7294
+   7296
   ],
   "calls": [
    "drawFreeTitle"
@@ -2347,7 +2348,7 @@
   "kind": "L",
   "tr": "15 dk",
   "lines": [
-   7297
+   7299
   ],
   "calls": [],
   "en_src": "15 min"
@@ -2356,7 +2357,7 @@
   "kind": "L",
   "tr": "30 dk",
   "lines": [
-   7297
+   7299
   ],
   "calls": [],
   "en_src": "30 min"
@@ -2365,7 +2366,7 @@
   "kind": "L",
   "tr": "60 dk",
   "lines": [
-   7297
+   7299
   ],
   "calls": [],
   "en_src": "60 min"
@@ -2374,14 +2375,14 @@
   "kind": "L",
   "tr": "Kapalı",
   "lines": [
-   7311,
-   7473,
-   7728,
-   7831,
-   7903,
-   8159,
-   8498,
-   11383
+   7313,
+   7475,
+   7730,
+   7833,
+   7905,
+   8161,
+   8500,
+   11459
   ],
   "calls": [
    "drawFreeTitle",
@@ -2393,7 +2394,7 @@
   "kind": "L",
   "tr": "SESLİ ALARM",
   "lines": [
-   7331
+   7333
   ],
   "calls": [
    "drawFreeTitle"
@@ -2404,7 +2405,7 @@
   "kind": "L",
   "tr": "Seviye seç (test çalar)",
   "lines": [
-   7333
+   7335
   ],
   "calls": [
    "drawFreeTitle"
@@ -2415,7 +2416,7 @@
   "kind": "L",
   "tr": "PARLAKLIK",
   "lines": [
-   7361
+   7363
   ],
   "calls": [
    "drawFreeTitle"
@@ -2426,7 +2427,7 @@
   "kind": "L",
   "tr": "Seviye seç",
   "lines": [
-   7363
+   7365
   ],
   "calls": [
    "drawFreeTitle"
@@ -2437,9 +2438,9 @@
   "kind": "L",
   "tr": "Orta",
   "lines": [
-   7365,
-   8534,
-   11355
+   7367,
+   8536,
+   11431
   ],
   "calls": [],
   "en_src": "Medium"
@@ -2448,7 +2449,7 @@
   "kind": "L",
   "tr": "QR / WEB",
   "lines": [
-   7390
+   7392
   ],
   "calls": [
    "drawListHeader"
@@ -2459,8 +2460,8 @@
   "kind": "L",
   "tr": "WiFi",
   "lines": [
-   7398,
-   7452
+   7400,
+   7454
   ],
   "calls": [
    "drawFreeTitle"
@@ -2471,8 +2472,8 @@
   "kind": "L",
   "tr": "bağlı değil",
   "lines": [
-   7399,
-   7453
+   7401,
+   7455
   ],
   "calls": [
    "drawFreeTitle"
@@ -2483,8 +2484,8 @@
   "kind": "L",
   "tr": "Telefondan okut",
   "lines": [
-   7414,
-   7468
+   7416,
+   7470
   ],
   "calls": [
    "drawFreeTitle"
@@ -2495,7 +2496,7 @@
   "kind": "L",
   "tr": "Telefondan ayar",
   "lines": [
-   7419
+   7421
   ],
   "calls": [
    "drawFreeTitle"
@@ -2506,8 +2507,8 @@
   "kind": "L",
   "tr": "Web şifresi",
   "lines": [
-   7424,
-   7499
+   7426,
+   7501
   ],
   "calls": [
    "drawFreeTitle"
@@ -2518,7 +2519,7 @@
   "kind": "L",
   "tr": "Bilgi",
   "lines": [
-   7427
+   7429
   ],
   "calls": [],
   "en_src": "Info"
@@ -2527,7 +2528,7 @@
   "kind": "L",
   "tr": "Kılavuz",
   "lines": [
-   7427
+   7429
   ],
   "calls": [],
   "en_src": "Guide"
@@ -2536,8 +2537,8 @@
   "kind": "L",
   "tr": "AİLE MODU",
   "lines": [
-   7444,
-   11420
+   7446,
+   11496
   ],
   "calls": [
    "drawListHeader",
@@ -2549,13 +2550,13 @@
   "kind": "L",
   "tr": "Açık",
   "lines": [
-   7473,
-   7733,
-   7826,
-   7898,
-   8154,
-   8498,
-   11492
+   7475,
+   7735,
+   7828,
+   7900,
+   8156,
+   8500,
+   11568
   ],
   "calls": [
    "String",
@@ -2567,7 +2568,7 @@
   "kind": "L",
   "tr": " kişi",
   "lines": [
-   7473
+   7475
   ],
   "calls": [],
   "en_src": " people"
@@ -2576,7 +2577,7 @@
   "kind": "L",
   "tr": "En fazla 3 kişinin",
   "lines": [
-   7477
+   7479
   ],
   "calls": [],
   "en_src": "Follow up to 3"
@@ -2585,7 +2586,7 @@
   "kind": "L",
   "tr": "şekeri izlenebilir.",
   "lines": [
-   7478
+   7480
   ],
   "calls": [],
   "en_src": "people's glucose."
@@ -2594,7 +2595,7 @@
   "kind": "L",
   "tr": "Kaynak ve eşik",
   "lines": [
-   7479
+   7481
   ],
   "calls": [],
   "en_src": "Scan the QR to set"
@@ -2603,7 +2604,7 @@
   "kind": "L",
   "tr": "ayarları için",
   "lines": [
-   7480
+   7482
   ],
   "calls": [],
   "en_src": "sources and limits"
@@ -2612,7 +2613,7 @@
   "kind": "L",
   "tr": "QR'ı okutun.",
   "lines": [
-   7481
+   7483
   ],
   "calls": [],
   "en_src": "for each person."
@@ -2621,8 +2622,8 @@
   "kind": "L",
   "tr": "Sırayla",
   "lines": [
-   7485,
-   11419
+   7487,
+   11495
   ],
   "calls": [],
   "en_src": "In turn"
@@ -2631,8 +2632,8 @@
   "kind": "L",
   "tr": "Bölünmüş",
   "lines": [
-   7485,
-   11419
+   7487,
+   11495
   ],
   "calls": [],
   "en_src": "Split"
@@ -2641,7 +2642,7 @@
   "kind": "L",
   "tr": "Sıfırla veya cihazı kapat",
   "lines": [
-   7517
+   7519
   ],
   "calls": [
    "drawFreeTitle"
@@ -2652,7 +2653,7 @@
   "kind": "L",
   "tr": "Cihaz Sıfırla",
   "lines": [
-   7523
+   7525
   ],
   "calls": [
    "drawFreeTitle"
@@ -2663,7 +2664,7 @@
   "kind": "L",
   "tr": "WiFi + kaynak girişleri",
   "lines": [
-   7525
+   7527
   ],
   "calls": [
    "drawFreeTitle"
@@ -2674,7 +2675,7 @@
   "kind": "L",
   "tr": "Cihazı Kapat",
   "lines": [
-   7530
+   7532
   ],
   "calls": [
    "drawFreeTitle"
@@ -2685,7 +2686,7 @@
   "kind": "L",
   "tr": "Güvenli kapatma",
   "lines": [
-   7532
+   7534
   ],
   "calls": [
    "drawFreeTitle"
@@ -2696,7 +2697,7 @@
   "kind": "L",
   "tr": "Cihaz kapanacak.",
   "lines": [
-   7547
+   7549
   ],
   "calls": [
    "drawFreeTitle"
@@ -2707,7 +2708,7 @@
   "kind": "L",
   "tr": "Emin misiniz?",
   "lines": [
-   7549
+   7551
   ],
   "calls": [
    "drawFreeTitle"
@@ -2718,7 +2719,7 @@
   "kind": "L",
   "tr": "WiFi ve kaynak girişleri",
   "lines": [
-   7551
+   7553
   ],
   "calls": [
    "drawFreeTitle"
@@ -2729,7 +2730,7 @@
   "kind": "L",
   "tr": "(kullanıcı adı/şifre) silinecek.",
   "lines": [
-   7552
+   7554
   ],
   "calls": [
    "drawFreeTitle"
@@ -2740,7 +2741,7 @@
   "kind": "L",
   "tr": "Alarm/ekran ayarları kalır. Emin misiniz?",
   "lines": [
-   7554
+   7556
   ],
   "calls": [
    "drawFreeTitle"
@@ -2751,9 +2752,9 @@
   "kind": "L",
   "tr": "Evet",
   "lines": [
-   7561,
-   8056,
-   8063
+   7563,
+   8058,
+   8065
   ],
   "calls": [
    "drawFreeTitle",
@@ -2765,9 +2766,9 @@
   "kind": "L",
   "tr": "Hayır",
   "lines": [
-   7566,
-   8057,
-   8064
+   7568,
+   8059,
+   8066
   ],
   "calls": [
    "drawFreeTitle",
@@ -2779,8 +2780,8 @@
   "kind": "L",
   "tr": "BİLGİ",
   "lines": [
-   7580,
-   8765
+   7582,
+   8767
   ],
   "calls": [
    "drawFreeTitle",
@@ -2792,7 +2793,7 @@
   "kind": "L",
   "tr": "Bağlı değil",
   "lines": [
-   7592
+   7594
   ],
   "calls": [
    "drawFreeTitle"
@@ -2803,7 +2804,7 @@
   "kind": "L",
   "tr": "WiFi: ",
   "lines": [
-   7597
+   7599
   ],
   "calls": [
    "dsN"
@@ -2814,7 +2815,7 @@
   "kind": "L",
   "tr": "Pil: olcer yok",
   "lines": [
-   7603
+   7605
   ],
   "calls": [],
   "en_src": "Battery: no gauge"
@@ -2823,7 +2824,7 @@
   "kind": "L",
   "tr": "Pil: takili degil",
   "lines": [
-   7604
+   7606
   ],
   "calls": [],
   "en_src": "Battery: none"
@@ -2832,8 +2833,8 @@
   "kind": "L",
   "tr": "Pil: %%%d",
   "lines": [
-   7606,
-   8785
+   7608,
+   8787
   ],
   "calls": [
    "batteryPctText"
@@ -2844,7 +2845,7 @@
   "kind": "L",
   "tr": " sarj",
   "lines": [
-   7608
+   7610
   ],
   "calls": [],
   "en_src": " chg"
@@ -2853,8 +2854,8 @@
   "kind": "L",
   "tr": "Kaynaklar",
   "lines": [
-   7632,
-   8799
+   7634,
+   8801
   ],
   "calls": [
    "drawFreeTitle",
@@ -2866,7 +2867,7 @@
   "kind": "L",
   "tr": "KAYNAKLAR",
   "lines": [
-   7650
+   7652
   ],
   "calls": [
    "drawFreeTitle"
@@ -2877,7 +2878,7 @@
   "kind": "L",
   "tr": "Veri kaynakları",
   "lines": [
-   7658
+   7660
   ],
   "calls": [
    "drawFreeTitle"
@@ -2888,7 +2889,7 @@
   "kind": "L",
   "tr": "Bazıları üçüncü taraf API uçları kullanır",
   "lines": [
-   7662
+   7664
   ],
   "calls": [
    "drawFreeTitle"
@@ -2899,7 +2900,7 @@
   "kind": "L",
   "tr": "Kütüphaneler",
   "lines": [
-   7668
+   7670
   ],
   "calls": [
    "drawFreeTitle"
@@ -2910,7 +2911,7 @@
   "kind": "L",
   "tr": "Yazı tipi: Noto Sans (dönüştürülmüş)",
   "lines": [
-   7673
+   7675
   ],
   "calls": [
    "drawFreeTitle"
@@ -2921,7 +2922,7 @@
   "kind": "L",
   "tr": "Tibbi cihaz degildir. Markalar sahiplerine aittir.",
   "lines": [
-   7677
+   7679
   ],
   "calls": [
    "dsN"
@@ -2932,7 +2933,7 @@
   "kind": "L",
   "tr": "DİL / BİRİM",
   "lines": [
-   7692
+   7694
   ],
   "calls": [
    "drawFreeTitle"
@@ -2943,7 +2944,7 @@
   "kind": "L",
   "tr": "Renk Dostu Modu",
   "lines": [
-   7723
+   7725
   ],
   "calls": [
    "drawFreeTitle"
@@ -2954,7 +2955,7 @@
   "kind": "L",
   "tr": "ARAYÜZ",
   "lines": [
-   7750
+   7752
   ],
   "calls": [
    "drawFreeTitle"
@@ -2965,7 +2966,7 @@
   "kind": "L",
   "tr": "Uygula",
   "lines": [
-   7772
+   7774
   ],
   "calls": [
    "drawFreeTitle"
@@ -2976,7 +2977,7 @@
   "kind": "L",
   "tr": "ROTASYON",
   "lines": [
-   7785
+   7787
   ],
   "calls": [
    "drawFreeTitle"
@@ -2987,7 +2988,7 @@
   "kind": "L",
   "tr": "USB yönüne göre yatay",
   "lines": [
-   7787
+   7789
   ],
   "calls": [
    "drawFreeTitle"
@@ -2998,7 +2999,7 @@
   "kind": "L",
   "tr": "Sağ yan",
   "lines": [
-   7798
+   7800
   ],
   "calls": [
    "drawFreeTitle"
@@ -3009,7 +3010,7 @@
   "kind": "L",
   "tr": "Sol yan",
   "lines": [
-   7802
+   7804
   ],
   "calls": [
    "drawFreeTitle"
@@ -3020,9 +3021,9 @@
   "kind": "L",
   "tr": "GECE MODU",
   "lines": [
-   7817,
-   8932,
-   11438
+   7819,
+   8934,
+   11514
   ],
   "calls": [
    "drawFreeTitle",
@@ -3034,8 +3035,8 @@
   "kind": "L",
   "tr": "Baslangic",
   "lines": [
-   7840,
-   7911
+   7842,
+   7913
   ],
   "calls": [
    "sprintf"
@@ -3046,8 +3047,8 @@
   "kind": "L",
   "tr": "Bitis",
   "lines": [
-   7853,
-   7924
+   7855,
+   7926
   ],
   "calls": [
    "sprintf"
@@ -3058,8 +3059,8 @@
   "kind": "L",
   "tr": "Parlaklık",
   "lines": [
-   7868,
-   13689
+   7870,
+   13765
   ],
   "calls": [
    "drawFreeTitle"
@@ -3070,10 +3071,10 @@
   "kind": "L",
   "tr": "Ses",
   "lines": [
-   7875,
-   7944,
-   11445,
-   13696
+   7877,
+   7946,
+   11521,
+   13772
   ],
   "calls": [
    "drawFreeTitle",
@@ -3085,11 +3086,11 @@
   "kind": "L",
   "tr": "Kaydet",
   "lines": [
-   7881,
-   7949,
-   10932,
-   11194,
-   11769
+   7883,
+   7951,
+   11008,
+   11270,
+   11845
   ],
   "calls": [
    "drawFreeTitle"
@@ -3100,9 +3101,9 @@
   "kind": "L",
   "tr": "OKUL MODU",
   "lines": [
-   7889,
-   8978,
-   11438
+   7891,
+   8980,
+   11514
   ],
   "calls": [
    "drawFreeTitle",
@@ -3114,7 +3115,7 @@
   "kind": "L",
   "tr": "Parlak",
   "lines": [
-   7938
+   7940
   ],
   "calls": [
    "drawFreeTitle"
@@ -3125,8 +3126,8 @@
   "kind": "L",
   "tr": "GLUKAGON",
   "lines": [
-   7981,
-   12517
+   7983,
+   12593
   ],
   "calls": [
    "drawFreeTitle",
@@ -3138,7 +3139,7 @@
   "kind": "L",
   "tr": "Önce 112'yi aratın!",
   "lines": [
-   7988
+   7990
   ],
   "calls": [
    "tfLine"
@@ -3149,7 +3150,7 @@
   "kind": "L",
   "tr": "- Ciddi düşük şeker ilacıdır",
   "lines": [
-   7990
+   7992
   ],
   "calls": [
    "tfLine"
@@ -3160,7 +3161,7 @@
   "kind": "L",
   "tr": "- Bilinç kapalıysa / yutamıyorsa",
   "lines": [
-   7991
+   7993
   ],
   "calls": [
    "tfLine"
@@ -3171,7 +3172,7 @@
   "kind": "L",
   "tr": "- Zaman kaybetmeden uygulayın",
   "lines": [
-   7992
+   7994
   ],
   "calls": [
    "tfLine"
@@ -3182,7 +3183,7 @@
   "kind": "L",
   "tr": "- Aile / okul planına göre",
   "lines": [
-   7993
+   7995
   ],
   "calls": [
    "tfLine"
@@ -3193,7 +3194,7 @@
   "kind": "L",
   "tr": "Nasıl hazırlanır?",
   "lines": [
-   7996
+   7998
   ],
   "calls": [
    "tfLine"
@@ -3204,7 +3205,7 @@
   "kind": "L",
   "tr": "- Kit okulda hazır tutulsun",
   "lines": [
-   7998
+   8000
   ],
   "calls": [
    "tfLine"
@@ -3215,7 +3216,7 @@
   "kind": "L",
   "tr": "- Kutudaki resimli talimata bakın",
   "lines": [
-   7999
+   8001
   ],
   "calls": [
    "tfLine"
@@ -3226,7 +3227,7 @@
   "kind": "L",
   "tr": "- 4. sayfadaki videoyu izleyin",
   "lines": [
-   8000
+   8002
   ],
   "calls": [
    "tfLine"
@@ -3237,7 +3238,7 @@
   "kind": "L",
   "tr": "- Doz yaş / kiloya göre değişir",
   "lines": [
-   8001
+   8003
   ],
   "calls": [
    "tfLine"
@@ -3248,7 +3249,7 @@
   "kind": "L",
   "tr": "Uygulama sonrası",
   "lines": [
-   8004
+   8006
   ],
   "calls": [
    "tfLine"
@@ -3259,8 +3260,8 @@
   "kind": "L",
   "tr": "- Yan yatırın, solunum yolu açık",
   "lines": [
-   8006,
-   8088
+   8008,
+   8090
   ],
   "calls": [
    "tfLine"
@@ -3271,7 +3272,7 @@
   "kind": "L",
   "tr": "- Uyanıp yutabilince meyve suyu",
   "lines": [
-   8007
+   8009
   ],
   "calls": [
    "tfLine"
@@ -3282,7 +3283,7 @@
   "kind": "L",
   "tr": "- 10 dk'da uyanmazsa 112",
   "lines": [
-   8008
+   8010
   ],
   "calls": [
    "tfLine"
@@ -3293,7 +3294,7 @@
   "kind": "L",
   "tr": "- Saati not edin, aileyi arayın",
   "lines": [
-   8009
+   8011
   ],
   "calls": [
    "tfLine"
@@ -3304,7 +3305,7 @@
   "kind": "L",
   "tr": "Video: nasıl uygulanır?",
   "lines": [
-   8013
+   8015
   ],
   "calls": [
    "tfLine"
@@ -3315,7 +3316,7 @@
   "kind": "L",
   "tr": "Videoyu oynat",
   "lines": [
-   8019
+   8021
   ],
   "calls": [
    "drawFreeTitle"
@@ -3326,7 +3327,7 @@
   "kind": "L",
   "tr": "Video bu cihazda yüklü değil.",
   "lines": [
-   8023
+   8025
   ],
   "calls": [
    "drawFreeTitle"
@@ -3337,7 +3338,7 @@
   "kind": "L",
   "tr": "Kutudaki talimatı kullanın.",
   "lines": [
-   8024
+   8026
   ],
   "calls": [
    "drawFreeTitle"
@@ -3348,7 +3349,7 @@
   "kind": "L",
   "tr": "İleri",
   "lines": [
-   8036
+   8038
   ],
   "calls": [],
   "en_src": "Next"
@@ -3357,7 +3358,7 @@
   "kind": "L",
   "tr": "Kapat",
   "lines": [
-   8036
+   8038
   ],
   "calls": [],
   "en_src": "Close"
@@ -3366,7 +3367,7 @@
   "kind": "L",
   "tr": "ÖNİZLEME",
   "lines": [
-   8043
+   8045
   ],
   "calls": [
    "drawFreeTitle"
@@ -3377,8 +3378,8 @@
   "kind": "L",
   "tr": "REHBER",
   "lines": [
-   8044,
-   8045
+   8046,
+   8047
   ],
   "calls": [
    "String",
@@ -3390,7 +3391,7 @@
   "kind": "L",
   "tr": "Bilinci kapalı mı, nöbet geçiriyor",
   "lines": [
-   8054
+   8056
   ],
   "calls": [
    "drawFreeTitle"
@@ -3401,7 +3402,7 @@
   "kind": "L",
   "tr": "ya da yutamıyor mu?",
   "lines": [
-   8055
+   8057
   ],
   "calls": [
    "drawFreeTitle"
@@ -3412,7 +3413,7 @@
   "kind": "L",
   "tr": "Parmaktan kan şekeri ölçün.",
   "lines": [
-   8061
+   8063
   ],
   "calls": [
    "drawFreeTitle"
@@ -3423,7 +3424,7 @@
   "kind": "L",
   "tr": "Sonuç sensöre yakın mı?",
   "lines": [
-   8062
+   8064
   ],
   "calls": [
    "drawFreeTitle"
@@ -3434,7 +3435,7 @@
   "kind": "L",
   "tr": "Ölçemiyorum",
   "lines": [
-   8065
+   8067
   ],
   "calls": [
    "tfBtn"
@@ -3445,7 +3446,7 @@
   "kind": "L",
   "tr": "Parmak ölçümü sonucu kaç?",
   "lines": [
-   8069
+   8071
   ],
   "calls": [
    "drawFreeTitle"
@@ -3456,7 +3457,7 @@
   "kind": "L",
   "tr": "%s altı",
   "lines": [
-   8074
+   8076
   ],
   "calls": [
    "fmtS"
@@ -3467,8 +3468,8 @@
   "kind": "L",
   "tr": "Normal",
   "lines": [
-   8075,
-   11408
+   8077,
+   11484
   ],
   "calls": [],
   "en_src": "Normal"
@@ -3477,7 +3478,7 @@
   "kind": "L",
   "tr": "%s üstü",
   "lines": [
-   8076
+   8078
   ],
   "calls": [
    "fmtS"
@@ -3488,7 +3489,7 @@
   "kind": "L",
   "tr": "Emin değilseniz aileyi arayın.",
   "lines": [
-   8079
+   8081
   ],
   "calls": [
    "drawFreeTitle"
@@ -3499,7 +3500,7 @@
   "kind": "L",
   "tr": "BİLİNÇ KAPALI / YUTAMIYOR:",
   "lines": [
-   8085
+   8087
   ],
   "calls": [
    "tfLine"
@@ -3510,7 +3511,7 @@
   "kind": "L",
   "tr": "- 112'yi arayın, aileye haber verin",
   "lines": [
-   8087
+   8089
   ],
   "calls": [
    "tfLine"
@@ -3521,7 +3522,7 @@
   "kind": "L",
   "tr": "- Yiyecek veya içecek vermeyin",
   "lines": [
-   8089
+   8091
   ],
   "calls": [
    "tfLine"
@@ -3532,7 +3533,7 @@
   "kind": "L",
   "tr": "Glukagon nasıl uygulanır?",
   "lines": [
-   8094
+   8096
   ],
   "calls": [
    "drawFreeTitle"
@@ -3543,8 +3544,8 @@
   "kind": "L",
   "tr": "- Yanından ayrılmayın",
   "lines": [
-   8096,
-   8106
+   8098,
+   8108
   ],
   "calls": [
    "tfLine"
@@ -3555,7 +3556,7 @@
   "kind": "L",
   "tr": "DÜŞÜK ŞEKER:",
   "lines": [
-   8100
+   8102
   ],
   "calls": [
    "tfLine"
@@ -3566,7 +3567,7 @@
   "kind": "L",
   "tr": "- Meyve suyu veya küp şeker verin",
   "lines": [
-   8102
+   8104
   ],
   "calls": [
    "tfLine"
@@ -3577,7 +3578,7 @@
   "kind": "L",
   "tr": "- 15 dk bekleyin, tekrar ölçün",
   "lines": [
-   8103
+   8105
   ],
   "calls": [
    "tfLine"
@@ -3588,7 +3589,7 @@
   "kind": "L",
   "tr": "- Yükselmezse tekrarlayın",
   "lines": [
-   8104
+   8106
   ],
   "calls": [
    "tfLine"
@@ -3599,7 +3600,7 @@
   "kind": "L",
   "tr": "- Yutamaz hale gelirse 112",
   "lines": [
-   8105
+   8107
   ],
   "calls": [
    "tfLine"
@@ -3610,7 +3611,7 @@
   "kind": "L",
   "tr": "ÇOK YÜKSEK:",
   "lines": [
-   8109
+   8111
   ],
   "calls": [
    "tfLine"
@@ -3621,7 +3622,7 @@
   "kind": "L",
   "tr": "- Su içirin (zorlamayın)",
   "lines": [
-   8111
+   8113
   ],
   "calls": [
    "tfLine"
@@ -3632,7 +3633,7 @@
   "kind": "L",
   "tr": "- Egzersiz yaptırmayın",
   "lines": [
-   8112
+   8114
   ],
   "calls": [
    "tfLine"
@@ -3643,7 +3644,7 @@
   "kind": "L",
   "tr": "- Doz kararı vermeyin, aileye /",
   "lines": [
-   8113
+   8115
   ],
   "calls": [
    "tfLine"
@@ -3654,7 +3655,7 @@
   "kind": "L",
   "tr": "  okul planına başvurun",
   "lines": [
-   8114
+   8116
   ],
   "calls": [
    "tfLine"
@@ -3665,7 +3666,7 @@
   "kind": "L",
   "tr": "- Kusma, karın ağrısı, hızlı nefes: 112",
   "lines": [
-   8115
+   8117
   ],
   "calls": [
    "tfLine"
@@ -3676,7 +3677,7 @@
   "kind": "L",
   "tr": "Durumu izleyin",
   "lines": [
-   8118
+   8120
   ],
   "calls": [
    "tfLine"
@@ -3687,7 +3688,7 @@
   "kind": "L",
   "tr": "- Halsizlik varsa yanında kalın",
   "lines": [
-   8120
+   8122
   ],
   "calls": [
    "tfLine"
@@ -3698,7 +3699,7 @@
   "kind": "L",
   "tr": "- Şüphede aileyi arayın",
   "lines": [
-   8121
+   8123
   ],
   "calls": [
    "tfLine"
@@ -3709,7 +3710,7 @@
   "kind": "L",
   "tr": "Anasayfa",
   "lines": [
-   8132
+   8134
   ],
   "calls": [
    "drawFreeTitle"
@@ -3720,8 +3721,8 @@
   "kind": "L",
   "tr": "REHBER MODU",
   "lines": [
-   8140,
-   8867
+   8142,
+   8869
   ],
   "calls": [
    "drawFreeTitle",
@@ -3733,7 +3734,7 @@
   "kind": "L",
   "tr": "Alarmda 'Dikkat' butonu gösterir.",
   "lines": [
-   8164
+   8166
   ],
   "calls": [
    "drawFreeTitle"
@@ -3744,7 +3745,7 @@
   "kind": "L",
   "tr": "Hipoglisemi (<%s):",
   "lines": [
-   8172
+   8174
   ],
   "calls": [
    "sprintf"
@@ -3755,7 +3756,7 @@
   "kind": "L",
   "tr": "Meyve suyu / kup seker ver,",
   "lines": [
-   8178
+   8180
   ],
   "calls": [
    "dsN"
@@ -3766,7 +3767,7 @@
   "kind": "L",
   "tr": "15 dk bekle, tekrar olc.",
   "lines": [
-   8179
+   8181
   ],
   "calls": [
    "dsN"
@@ -3777,7 +3778,7 @@
   "kind": "L",
   "tr": "Siddetli Hipo (<%s):",
   "lines": [
-   8185
+   8187
   ],
   "calls": [
    "sprintf"
@@ -3788,7 +3789,7 @@
   "kind": "L",
   "tr": "Agizdan hicbir sey vermeyin.",
   "lines": [
-   8190
+   8192
   ],
   "calls": [
    "dsN"
@@ -3799,7 +3800,7 @@
   "kind": "L",
   "tr": "Glukagon yapin, 112 + aile arayin.",
   "lines": [
-   8191
+   8193
   ],
   "calls": [
    "dsN"
@@ -3810,7 +3811,7 @@
   "kind": "L",
   "tr": "Hiperglisemi (>%s):",
   "lines": [
-   8197
+   8199
   ],
   "calls": [
    "sprintf"
@@ -3821,7 +3822,7 @@
   "kind": "L",
   "tr": "Su içir, egzersiz yaptırma.",
   "lines": [
-   8200
+   8202
   ],
   "calls": [
    "drawFreeTitle"
@@ -3832,7 +3833,7 @@
   "kind": "L",
   "tr": "DİĞER AYARLAR",
   "lines": [
-   8214
+   8216
   ],
   "calls": [
    "drawFreeTitle"
@@ -3843,7 +3844,7 @@
   "kind": "L",
   "tr": "Dil/Birim",
   "lines": [
-   8219
+   8221
   ],
   "calls": [],
   "en_src": "Lang/Unit"
@@ -3852,7 +3853,7 @@
   "kind": "L",
   "tr": "Reset",
   "lines": [
-   8219
+   8221
   ],
   "calls": [],
   "en_src": "Reset"
@@ -3861,7 +3862,7 @@
   "kind": "L",
   "tr": "Rotasyon",
   "lines": [
-   8219
+   8221
   ],
   "calls": [],
   "en_src": "Rotate"
@@ -3870,7 +3871,7 @@
   "kind": "L",
   "tr": "Yenile",
   "lines": [
-   8219
+   8221
   ],
   "calls": [],
   "en_src": "Refresh"
@@ -3879,7 +3880,7 @@
   "kind": "L",
   "tr": "Alarmlar",
   "lines": [
-   8503
+   8505
   ],
   "calls": [
    "listAdd"
@@ -3890,8 +3891,8 @@
   "kind": "L",
   "tr": "Hedefler",
   "lines": [
-   8504,
-   13712
+   8506,
+   13788
   ],
   "calls": [
    "listAdd",
@@ -3903,7 +3904,7 @@
   "kind": "L",
   "tr": "Ekran/Dil ayarları",
   "lines": [
-   8505
+   8507
   ],
   "calls": [
    "listAdd"
@@ -3914,8 +3915,8 @@
   "kind": "L",
   "tr": "QR / Web",
   "lines": [
-   8506,
-   13718
+   8508,
+   13794
   ],
   "calls": [
    "listAdd",
@@ -3927,7 +3928,7 @@
   "kind": "L",
   "tr": "bilgi, kılavuz",
   "lines": [
-   8506
+   8508
   ],
   "calls": [],
   "en_src": "info, guide"
@@ -3936,7 +3937,7 @@
   "kind": "L",
   "tr": "Sayfaları düzenle",
   "lines": [
-   8508
+   8510
   ],
   "calls": [
    "listAdd"
@@ -3947,7 +3948,7 @@
   "kind": "L",
   "tr": " sayfa",
   "lines": [
-   8508
+   8510
   ],
   "calls": [],
   "en_src": " pages"
@@ -3956,7 +3957,7 @@
   "kind": "L",
   "tr": "Sıfırla / Kapat",
   "lines": [
-   8509
+   8511
   ],
   "calls": [
    "listAdd"
@@ -3967,8 +3968,8 @@
   "kind": "L",
   "tr": " dk",
   "lines": [
-   8515,
-   11399
+   8517,
+   11475
   ],
   "calls": [],
   "en_src": " min"
@@ -3977,8 +3978,8 @@
   "kind": "L",
   "tr": "Ses bastırma",
   "lines": [
-   8518,
-   11377
+   8520,
+   11453
   ],
   "calls": [
    "listAdd",
@@ -3990,7 +3991,7 @@
   "kind": "L",
   "tr": "Görsel alarm",
   "lines": [
-   8519
+   8521
   ],
   "calls": [
    "listAdd"
@@ -4001,9 +4002,9 @@
   "kind": "L",
   "tr": "Gece modu",
   "lines": [
-   8525,
-   11440,
-   11488
+   8527,
+   11516,
+   11564
   ],
   "calls": [
    "listAdd",
@@ -4015,9 +4016,9 @@
   "kind": "L",
   "tr": "Okul modu",
   "lines": [
-   8526,
-   11440,
-   11489
+   8528,
+   11516,
+   11565
   ],
   "calls": [
    "listAdd",
@@ -4029,8 +4030,8 @@
   "kind": "L",
   "tr": "Rehber modu",
   "lines": [
-   8527,
-   11491
+   8529,
+   11567
   ],
   "calls": [
    "listAdd",
@@ -4042,10 +4043,10 @@
   "kind": "L",
   "tr": "Rahatsız etme modu",
   "lines": [
-   8528,
-   8539,
-   11452,
-   11490
+   8530,
+   8541,
+   11528,
+   11566
   ],
   "calls": [
    "listAdd",
@@ -4058,8 +4059,8 @@
   "kind": "L",
   "tr": "Şıklatma ile aç",
   "lines": [
-   8540,
-   11453
+   8542,
+   11529
   ],
   "calls": [
    "listAdd",
@@ -4071,7 +4072,7 @@
   "kind": "L",
   "tr": "Hassasiyet",
   "lines": [
-   8541
+   8543
   ],
   "calls": [
    "listAdd"
@@ -4082,8 +4083,8 @@
   "kind": "L",
   "tr": "Şıklatma testi",
   "lines": [
-   8542,
-   11455
+   8544,
+   11531
   ],
   "calls": [
    "listAdd",
@@ -4095,8 +4096,8 @@
   "kind": "L",
   "tr": "AYARLAR",
   "lines": [
-   8696,
-   13646
+   8698,
+   13722
   ],
   "calls": [
    "drawListHeader",
@@ -4108,8 +4109,8 @@
   "kind": "L",
   "tr": "ALARMLAR",
   "lines": [
-   8697,
-   11368
+   8699,
+   11444
   ],
   "calls": [
    "drawListHeader"
@@ -4120,9 +4121,9 @@
   "kind": "L",
   "tr": "RAHATSIZ ETME",
   "lines": [
-   8699,
-   8939,
-   11451
+   8701,
+   8941,
+   11527
   ],
   "calls": [
    "drawListHeader",
@@ -4134,7 +4135,7 @@
   "kind": "L",
   "tr": "Bağlantı",
   "lines": [
-   8766
+   8768
   ],
   "calls": [
    "txtH1"
@@ -4145,7 +4146,7 @@
   "kind": "L",
   "tr": "Cihaz",
   "lines": [
-   8772
+   8774
   ],
   "calls": [
    "txtH1"
@@ -4156,7 +4157,7 @@
   "kind": "L",
   "tr": "Ad: ",
   "lines": [
-   8773
+   8775
   ],
   "calls": [
    "txtBody"
@@ -4167,7 +4168,7 @@
   "kind": "L",
   "tr": "Sürüm: ",
   "lines": [
-   8775
+   8777
   ],
   "calls": [
    "txtBody"
@@ -4178,7 +4179,7 @@
   "kind": "L",
   "tr": "Otomatik yeniden başlatma: ",
   "lines": [
-   8781
+   8783
   ],
   "calls": [
    "txtBody"
@@ -4189,7 +4190,7 @@
   "kind": "L",
   "tr": "Pil takılı değil",
   "lines": [
-   8784
+   8786
   ],
   "calls": [
    "String"
@@ -4200,7 +4201,7 @@
   "kind": "L",
   "tr": "  şarj ",
   "lines": [
-   8787
+   8789
   ],
   "calls": [
    "String"
@@ -4211,7 +4212,7 @@
   "kind": "L",
   "tr": "Telefondan ayar (web)",
   "lines": [
-   8791
+   8793
   ],
   "calls": [
    "txtH1"
@@ -4222,7 +4223,7 @@
   "kind": "L",
   "tr": "Şifre: ",
   "lines": [
-   8793
+   8795
   ],
   "calls": [
    "txtBody"
@@ -4233,7 +4234,7 @@
   "kind": "L",
   "tr": "Tarayıcı 30 gün hatırlanır. Şifreyi web sayfasından değiştirebilirsin; Cihaz Sıfırla ilk (fabrika) şifreye döndürür; Bilgi ekranında yazar.",
   "lines": [
-   8794
+   8796
   ],
   "calls": [
    "txtNote"
@@ -4244,7 +4245,7 @@
   "kind": "L",
   "tr": "İletişim",
   "lines": [
-   8796
+   8798
   ],
   "calls": [
    "txtH1"
@@ -4255,7 +4256,7 @@
   "kind": "L",
   "tr": "Veri: Nightscout, Dexcom, LibreLinkUp, Medtrum",
   "lines": [
-   8800
+   8802
   ],
   "calls": [
    "txtBody"
@@ -4266,7 +4267,7 @@
   "kind": "L",
   "tr": "Bazıları üçüncü taraf API uçları kullanır.",
   "lines": [
-   8801
+   8803
   ],
   "calls": [
    "txtNote"
@@ -4277,7 +4278,7 @@
   "kind": "L",
   "tr": "Lisanslar",
   "lines": [
-   8802
+   8804
   ],
   "calls": [
    "txtH1"
@@ -4288,7 +4289,7 @@
   "kind": "L",
   "tr": "Yazı tipi: Noto Sans - SIL Open Font License 1.1, Copyright 2022 The Noto Project Authors",
   "lines": [
-   8803
+   8805
   ],
   "calls": [
    "txtNote"
@@ -4299,7 +4300,7 @@
   "kind": "L",
   "tr": "ESP32 Arduino çekirdeği - LGPL 2.1 / Apache 2.0, Espressif Systems",
   "lines": [
-   8809
+   8811
   ],
   "calls": [
    "txtNote"
@@ -4310,7 +4311,7 @@
   "kind": "L",
   "tr": "Lisans metinlerinin tamamı kullanım kılavuzundadır.",
   "lines": [
-   8812
+   8814
   ],
   "calls": [
    "txtNote"
@@ -4321,7 +4322,7 @@
   "kind": "L",
   "tr": "Önemli",
   "lines": [
-   8813
+   8815
   ],
   "calls": [
    "txtH1"
@@ -4332,7 +4333,7 @@
   "kind": "L",
   "tr": "Tıbbi cihaz değildir, bilgi amaçlıdır. Tedavi kararları için resmi CGM uygulamanızı esas alın.",
   "lines": [
-   8814
+   8816
   ],
   "calls": [],
   "en_src": "Not a medical device, informational only. Rely on your official CGM app for treatment decisions."
@@ -4341,9 +4342,9 @@
   "kind": "L",
   "tr": "Asıl CGM alarmlarınızı kapatmayın.",
   "lines": [
-   8816,
-   8829,
-   14526
+   8818,
+   8831,
+   14602
   ],
   "calls": [
    "txtItem",
@@ -4355,7 +4356,7 @@
   "kind": "L",
   "tr": "MeteMatik; Dexcom, Abbott, Medtrum ve Nightscout ile bağlantılı değildir. Markalar sahiplerine aittir.",
   "lines": [
-   8817
+   8819
   ],
   "calls": [
    "txtNote"
@@ -4366,7 +4367,7 @@
   "kind": "L",
   "tr": "Açık kaynaklı, ücretsiz bir projedir; hiçbir garanti verilmez.",
   "lines": [
-   8819
+   8821
   ],
   "calls": [
    "txtNote"
@@ -4377,7 +4378,7 @@
   "kind": "L",
   "tr": "Önizlemeler",
   "lines": [
-   8820
+   8822
   ],
   "calls": [
    "txtButton"
@@ -4388,7 +4389,7 @@
   "kind": "L",
   "tr": "KILAVUZ",
   "lines": [
-   8824
+   8826
   ],
   "calls": [
    "txtBegin"
@@ -4399,7 +4400,7 @@
   "kind": "L",
   "tr": "Önemli uyarı",
   "lines": [
-   8825
+   8827
   ],
   "calls": [
    "txtH1"
@@ -4410,7 +4411,7 @@
   "kind": "L",
   "tr": "İnsülin veya tedavi kararı için KULLANMAYIN.",
   "lines": [
-   8826
+   8828
   ],
   "calls": [],
   "en_src": "Do NOT use for insulin or treatment decisions."
@@ -4419,7 +4420,7 @@
   "kind": "L",
   "tr": "Tıbbi cihaz değildir, sadece bilgilendirme amaçlıdır.",
   "lines": [
-   8827
+   8829
   ],
   "calls": [
    "txtItem"
@@ -4430,7 +4431,7 @@
   "kind": "L",
   "tr": "Resmi CGM uygulamanızı esas alın. Risk kullanıcıya aittir.",
   "lines": [
-   8828
+   8830
   ],
   "calls": [
    "txtItem"
@@ -4441,7 +4442,7 @@
   "kind": "L",
   "tr": "Delta",
   "lines": [
-   8830
+   8832
   ],
   "calls": [
    "txtH1"
@@ -4452,7 +4453,7 @@
   "kind": "L",
   "tr": "Delta: son 5 dakikadaki değişim.",
   "lines": [
-   8831
+   8833
   ],
   "calls": [
    "txtItem"
@@ -4463,7 +4464,7 @@
   "kind": "L",
   "tr": "Yanında * varsa veride kesinti olmuştur; değişim 5 dakikaya çevrilerek tahmin edilmiştir.",
   "lines": [
-   8832
+   8834
   ],
   "calls": [
    "txtItem"
@@ -4474,7 +4475,7 @@
   "kind": "L",
   "tr": "-- : 15 dakikadan uzun kesinti, değişim bilinmiyor.",
   "lines": [
-   8834
+   8836
   ],
   "calls": [
    "txtItem"
@@ -4485,7 +4486,7 @@
   "kind": "L",
   "tr": "Gezinme",
   "lines": [
-   8835
+   8837
   ],
   "calls": [
    "txtH1"
@@ -4496,7 +4497,7 @@
   "kind": "L",
   "tr": "Ana ekran: seçtiğin tema. Tema uygulamasından değiştirilir.",
   "lines": [
-   8836
+   8838
   ],
   "calls": [
    "txtItem"
@@ -4507,7 +4508,7 @@
   "kind": "L",
   "tr": "Ana ekranda parmağını sola kaydır: uygulamalar açılır.",
   "lines": [
-   8837
+   8839
   ],
   "calls": [
    "txtItem"
@@ -4518,7 +4519,7 @@
   "kind": "L",
   "tr": "Sağa kaydır ya da BOOT tuşuna kısa bas: bir geri.",
   "lines": [
-   8838
+   8840
   ],
   "calls": [
    "txtItem"
@@ -4529,7 +4530,7 @@
   "kind": "L",
   "tr": "Uygulamalar: Tema, Grafik, İstatistik, Sensör, Zamanlayıcı, Karb-Not, Modlar, Ayarlar",
   "lines": [
-   8839
+   8841
   ],
   "calls": [
    "txtItem"
@@ -4540,8 +4541,8 @@
   "kind": "L",
   "tr": "Ayarlar",
   "lines": [
-   8840,
-   10769
+   8842,
+   10845
   ],
   "calls": [
    "txtH1"
@@ -4552,7 +4553,7 @@
   "kind": "L",
   "tr": "Liste parmakla yukarı-aşağı kaydırılır, dokununca açılır. Ayar sayfasında değiştir, sonra sağ üstteki Kaydet'e bas; kaydetmeden Geri'ye basarsan sorar. (i) işaretine dokunursan o özelliğin ne işe yaradığı yazar.",
   "lines": [
-   8841
+   8843
   ],
   "calls": [
    "txtBody"
@@ -4563,7 +4564,7 @@
   "kind": "L",
   "tr": "Alarmlar: hızlı düşüş/yükseliş, ses bastırma, görsel alarm, ertele",
   "lines": [
-   8843
+   8845
   ],
   "calls": [
    "txtItem"
@@ -4574,7 +4575,7 @@
   "kind": "L",
   "tr": "Hedefler: kritik düşük / düşük / yüksek / çok yüksek eşikleri ve sesleri",
   "lines": [
-   8844
+   8846
   ],
   "calls": [
    "txtItem"
@@ -4585,7 +4586,7 @@
   "kind": "L",
   "tr": "Modlar: Gece, Okul, Rehber, Rahatsız etme",
   "lines": [
-   8845
+   8847
   ],
   "calls": [
    "txtItem"
@@ -4596,7 +4597,7 @@
   "kind": "L",
   "tr": "Gece / Okul: seçtiğin saatlerde ses ve parlaklık otomatik değişir. Saate dokunarak istediğin saati yazabilirsin.",
   "lines": [
-   8847
+   8849
   ],
   "calls": [
    "txtItem"
@@ -4607,7 +4608,7 @@
   "kind": "L",
   "tr": "Rehber: alarmda Dikkat butonu çıkar; yanındaki kişiye ne yapacağını adım adım gösterir.",
   "lines": [
-   8849
+   8851
   ],
   "calls": [
    "txtItem"
@@ -4618,7 +4619,7 @@
   "kind": "L",
   "tr": "Telefondan ayar ve güncelleme",
   "lines": [
-   8851
+   8853
   ],
   "calls": [
    "txtH1"
@@ -4629,7 +4630,7 @@
   "kind": "L",
   "tr": "Aynı WiFi'deki telefonda Ayarlar > QR / Web ekranındaki QR'ı okut veya tarayıcıda şu adresi aç:",
   "lines": [
-   8852
+   8854
   ],
   "calls": [
    "txtBody"
@@ -4640,7 +4641,7 @@
   "kind": "L",
   "tr": "Yazılım güncellemesi: aynı adreste /update sayfasından .bin dosyası yüklenir.",
   "lines": [
-   8855
+   8857
   ],
   "calls": [
    "txtBody"
@@ -4651,9 +4652,9 @@
   "kind": "L",
   "tr": "WiFi kurulumu",
   "lines": [
-   8857,
-   11467,
-   14163
+   8859,
+   11543,
+   14239
   ],
   "calls": [
    "txtH1",
@@ -4665,7 +4666,7 @@
   "kind": "L",
   "tr": "Kurulum QR'ını okut veya telefonun WiFi listesinden şu ağa bağlan: ",
   "lines": [
-   8858
+   8860
   ],
   "calls": [
    "txtBody"
@@ -4676,7 +4677,7 @@
   "kind": "L",
   "tr": "Telefonun kendi hotspot'unu kullanacaksan:",
   "lines": [
-   8859
+   8861
   ],
   "calls": [
    "txtBody"
@@ -4687,7 +4688,7 @@
   "kind": "L",
   "tr": "1. Hotspot'u kapat",
   "lines": [
-   8860
+   8862
   ],
   "calls": [
    "txtItem"
@@ -4698,7 +4699,7 @@
   "kind": "L",
   "tr": "2. ",
   "lines": [
-   8861
+   8863
   ],
   "calls": [
    "txtItem"
@@ -4709,7 +4710,7 @@
   "kind": "L",
   "tr": " ağına bağlanıp bilgileri gir",
   "lines": [
-   8861
+   8863
   ],
   "calls": [],
   "en_src": " - join it and fill in the form"
@@ -4718,7 +4719,7 @@
   "kind": "L",
   "tr": "3. Hotspot'u tekrar aç",
   "lines": [
-   8862
+   8864
   ],
   "calls": [
    "txtItem"
@@ -4729,7 +4730,7 @@
   "kind": "L",
   "tr": "BOOT tuşuna 2 saniye basmak WiFi / kaynak kurulumunu tekrar açar.",
   "lines": [
-   8863
+   8865
   ],
   "calls": [
    "txtNote"
@@ -4740,7 +4741,7 @@
   "kind": "L",
   "tr": "Açıkken, şeker tehlikeli aralığa girdiğinde ana ekranda Dikkat butonu çıkar. Butona basan kişiye (öğretmen, bakıcı, arkadaş) ne yapması gerektiği adım adım gösterilir.",
   "lines": [
-   8868
+   8870
   ],
   "calls": [
    "txtBody"
@@ -4751,7 +4752,7 @@
   "kind": "L",
   "tr": "Açıp kapatmak için Modlar listesindeki anahtarı kullan.",
   "lines": [
-   8870
+   8872
   ],
   "calls": [
    "txtNote"
@@ -4762,7 +4763,7 @@
   "kind": "L",
   "tr": "Hipoglisemi (",
   "lines": [
-   8871
+   8873
   ],
   "calls": [
    "String"
@@ -4773,7 +4774,7 @@
   "kind": "L",
   "tr": "Meyve suyu veya küp şeker ver.",
   "lines": [
-   8872
+   8874
   ],
   "calls": [
    "txtItem"
@@ -4784,7 +4785,7 @@
   "kind": "L",
   "tr": "15 dakika bekle, tekrar ölç.",
   "lines": [
-   8873
+   8875
   ],
   "calls": [
    "txtItem"
@@ -4795,7 +4796,7 @@
   "kind": "L",
   "tr": "Şiddetli hipo (",
   "lines": [
-   8874
+   8876
   ],
   "calls": [
    "String"
@@ -4806,7 +4807,7 @@
   "kind": "L",
   "tr": "Bilinç yoksa ağızdan HİÇBİR ŞEY verme.",
   "lines": [
-   8875
+   8877
   ],
   "calls": [
    "txtItem"
@@ -4817,7 +4818,7 @@
   "kind": "L",
   "tr": "Glukagon yap, 112'yi ve aileyi ara.",
   "lines": [
-   8876
+   8878
   ],
   "calls": [
    "txtItem"
@@ -4828,7 +4829,7 @@
   "kind": "L",
   "tr": "Hiperglisemi (",
   "lines": [
-   8877
+   8879
   ],
   "calls": [
    "String"
@@ -4839,7 +4840,7 @@
   "kind": "L",
   "tr": "Su içir, egzersiz yaptırma.",
   "lines": [
-   8878
+   8880
   ],
   "calls": [
    "txtItem"
@@ -4850,7 +4851,7 @@
   "kind": "L",
   "tr": "Aileye haber ver.",
   "lines": [
-   8879
+   8881
   ],
   "calls": [
    "txtItem"
@@ -4861,7 +4862,7 @@
   "kind": "L",
   "tr": "Eşikler Hedefler ayarından gelir.",
   "lines": [
-   8880
+   8882
   ],
   "calls": [
    "txtNote"
@@ -4872,7 +4873,7 @@
   "kind": "L",
   "tr": "Bu adımlar bir diyabet hemşiresi tarafından gözden geçirildi; doktorunuzun talimatlarının yerini tutmaz.",
   "lines": [
-   8881
+   8883
   ],
   "calls": [
    "txtNote"
@@ -4883,7 +4884,7 @@
   "kind": "L",
   "tr": "HIZLI DÜŞÜŞ",
   "lines": [
-   8886
+   8888
   ],
   "calls": [
    "txtBegin"
@@ -4894,7 +4895,7 @@
   "kind": "L",
   "tr": "Şeker çok hızlı düşerken (CGM'de çift aşağı ok) uyarır; düşük eşiğine inmeden önce haber verir.",
   "lines": [
-   8887
+   8889
   ],
   "calls": [
    "txtBody"
@@ -4905,7 +4906,7 @@
   "kind": "L",
   "tr": "Kendine özgü kısa 3'lü bip çalar. Eşik alarmları her zaman önceliklidir.",
   "lines": [
-   8889
+   8891
   ],
   "calls": [
    "txtBody"
@@ -4916,7 +4917,7 @@
   "kind": "L",
   "tr": "Sadece Nightscout ve Dexcom'da çalışır; LibreLinkUp çift ok bilgisi vermez. Sadece 10 dakikadan yeni veride tetiklenir.",
   "lines": [
-   8891
+   8893
   ],
   "calls": [
    "txtNote"
@@ -4927,7 +4928,7 @@
   "kind": "L",
   "tr": "HIZLI YÜKSELİŞ",
   "lines": [
-   8895
+   8897
   ],
   "calls": [
    "txtBegin"
@@ -4938,7 +4939,7 @@
   "kind": "L",
   "tr": "Şeker çok hızlı yükselirken (CGM'de çift yukarı ok) uyarır; yüksek eşiğine çıkmadan önce haber verir.",
   "lines": [
-   8896
+   8898
   ],
   "calls": [
    "txtBody"
@@ -4949,7 +4950,7 @@
   "kind": "L",
   "tr": "Yemeklerden sonra sık çalabileceği için varsayılan olarak kapalıdır.",
   "lines": [
-   8898
+   8900
   ],
   "calls": [
    "txtBody"
@@ -4960,7 +4961,7 @@
   "kind": "L",
   "tr": "Sadece Nightscout ve Dexcom'da çalışır.",
   "lines": [
-   8899
+   8901
   ],
   "calls": [
    "txtNote"
@@ -4971,7 +4972,7 @@
   "kind": "L",
   "tr": "Şeker eşik dışında olsa da normale doğru belirgin şekilde dönüyorsa (yüksekte en az 5 mg/dL düşüş; düşükte yukarı ok ve en az 5 mg/dL artış) alarm SESİ otomatik susar.",
   "lines": [
-   8903
+   8905
   ],
   "calls": [
    "txtBody"
@@ -4982,7 +4983,7 @@
   "kind": "L",
   "tr": "Görsel alarm (renk / yanıp sönme) aynen devam eder.",
   "lines": [
-   8905
+   8907
   ],
   "calls": [
    "txtBody"
@@ -4993,7 +4994,7 @@
   "kind": "L",
   "tr": "Kritik düşükte ASLA geçerli değildir, o alarm her zaman çalar.",
   "lines": [
-   8906
+   8908
   ],
   "calls": [],
   "en_src": "Never applies to critical low - that alarm always sounds."
@@ -5002,9 +5003,9 @@
   "kind": "L",
   "tr": "GÖRSEL ALARM",
   "lines": [
-   8909,
-   9284,
-   11378
+   8911,
+   9360,
+   11454
   ],
   "calls": [
    "txtBegin",
@@ -5017,7 +5018,7 @@
   "kind": "L",
   "tr": "Alarm sırasında ekran seçtiğin renkte yanıp söner. Ses kapalıyken, gece veya okul modunda bile uyarı görülür.",
   "lines": [
-   8910
+   8912
   ],
   "calls": [
    "txtBody"
@@ -5028,7 +5029,7 @@
   "kind": "L",
   "tr": "Rengi ve açık/kapalı durumunu Görsel alarm sayfasından seçebilirsin.",
   "lines": [
-   8912
+   8914
   ],
   "calls": [
    "txtNote"
@@ -5039,8 +5040,8 @@
   "kind": "L",
   "tr": "ERTELE",
   "lines": [
-   8915,
-   11381
+   8917,
+   11457
   ],
   "calls": [
    "txtBegin",
@@ -5052,7 +5053,7 @@
   "kind": "L",
   "tr": "Alarm varken ana ekranda Ertele butonu çıkar. Basınca alarm (ses ve yanıp sönme) seçtiğin süre boyunca durur: 15, 30 veya 60 dakika.",
   "lines": [
-   8916
+   8918
   ],
   "calls": [
    "txtBody"
@@ -5063,7 +5064,7 @@
   "kind": "L",
   "tr": "Süre bitince şeker hâlâ eşik dışındaysa alarm yeniden başlar.",
   "lines": [
-   8918
+   8920
   ],
   "calls": [
    "txtBody"
@@ -5074,7 +5075,7 @@
   "kind": "L",
   "tr": "Cihaz sessizdeyse buton gösterilmez. Kapalı seçilirse buton hiç çıkmaz.",
   "lines": [
-   8919
+   8921
   ],
   "calls": [
    "txtNote"
@@ -5085,7 +5086,7 @@
   "kind": "L",
   "tr": "RENK DOSTU",
   "lines": [
-   8922
+   8924
   ],
   "calls": [
    "txtBegin"
@@ -5096,7 +5097,7 @@
   "kind": "L",
   "tr": "Renk körlüğü olanlar için: kırmızı / sarı / yeşil / turuncu yerine birbirinden kolay ayırt edilen tonlar kullanılır.",
   "lines": [
-   8923
+   8925
   ],
   "calls": [
    "txtBody"
@@ -5107,7 +5108,7 @@
   "kind": "L",
   "tr": "Kritik: vermilyon (koyu turuncu)",
   "lines": [
-   8925
+   8927
   ],
   "calls": [
    "txtItem"
@@ -5118,7 +5119,7 @@
   "kind": "L",
   "tr": "Düşük: gök mavisi",
   "lines": [
-   8926
+   8928
   ],
   "calls": [
    "txtItem"
@@ -5129,7 +5130,7 @@
   "kind": "L",
   "tr": "Normal: mavimsi yeşil",
   "lines": [
-   8927
+   8929
   ],
   "calls": [
    "txtItem"
@@ -5140,7 +5141,7 @@
   "kind": "L",
   "tr": "Yüksek: amber",
   "lines": [
-   8928
+   8930
   ],
   "calls": [
    "txtItem"
@@ -5151,7 +5152,7 @@
   "kind": "L",
   "tr": "Tüm sayfalara ve grafiğe uygulanır.",
   "lines": [
-   8929
+   8931
   ],
   "calls": [
    "txtNote"
@@ -5162,7 +5163,7 @@
   "kind": "L",
   "tr": "Belirlediğin saatler arasında ekran parlaklığı ve ses seviyesi otomatik olarak gece değerlerine iner. Saat bitince normale döner.",
   "lines": [
-   8933
+   8935
   ],
   "calls": [
    "txtBody"
@@ -5173,7 +5174,7 @@
   "kind": "L",
   "tr": "Gece sesi Sessiz seçilmediyse alarmlar çalmaya devam eder.",
   "lines": [
-   8935
+   8937
   ],
   "calls": [
    "txtBody"
@@ -5184,7 +5185,7 @@
   "kind": "L",
   "tr": "Saate dokunarak istediğin saati yazabilirsin. Gece ve okul saatleri çakışırsa gece modu geçerli olur.",
   "lines": [
-   8936
+   8938
   ],
   "calls": [
    "txtNote"
@@ -5195,7 +5196,7 @@
   "kind": "L",
   "tr": "Açıkken, şeker hedef aralıktaysa (düşük ile yüksek eşik arası) ekrana 15 saniye dokunulmayınca ekran kapanır.",
   "lines": [
-   8940
+   8942
   ],
   "calls": [
    "txtBody"
@@ -5206,7 +5207,7 @@
   "kind": "L",
   "tr": "Ekranı açmak için ekrana dokun ya da parmaklarını iki kez şıklat. Ana ekran 15 saniye görünür, sonra tekrar kapanır.",
   "lines": [
-   8942
+   8944
   ],
   "calls": [
    "txtBody"
@@ -5217,7 +5218,7 @@
   "kind": "L",
   "tr": "Şeker kritik düşük, düşük, yüksek veya çok yüksek olursa, hızlı düşüş/yükseliş varsa ya da veri gelmiyorsa ekran kendiliğinden açılır ve açık kalır.",
   "lines": [
-   8944
+   8946
   ],
   "calls": [],
   "en_src": "If glucose is critical low, low, high or very high, falls/rises fast, or no data arrives, the screen turns on by itself and stays on."
@@ -5226,7 +5227,7 @@
   "kind": "L",
   "tr": "Alarm sesleri rahatsız etme modunda da aynen çalar.",
   "lines": [
-   8946
+   8948
   ],
   "calls": [
    "txtNote"
@@ -5237,7 +5238,7 @@
   "kind": "L",
   "tr": "ŞIKLATMA İLE AÇ",
   "lines": [
-   8949
+   8951
   ],
   "calls": [
    "txtBegin"
@@ -5248,7 +5249,7 @@
   "kind": "L",
   "tr": "Ekran uykudayken mikrofon sadece kısa ve ani sesleri (parmak şıklatma) dinler. İki şıklatma arka arkaya gelirse ekran açılır.",
   "lines": [
-   8950
+   8952
   ],
   "calls": [
    "txtBody"
@@ -5259,7 +5260,7 @@
   "kind": "L",
   "tr": "Ses kaydedilmez ve hiçbir yere gönderilmez; sadece o anki ses şiddetine bakılır. Ekran açıkken mikrofon tamamen kapalıdır.",
   "lines": [
-   8952
+   8954
   ],
   "calls": [],
   "en_src": "Nothing is recorded or sent anywhere; only the momentary loudness is checked. The microphone is fully off while the screen is on."
@@ -5268,7 +5269,7 @@
   "kind": "L",
   "tr": "Algılamıyorsa Hassasiyet'i artır, kendiliğinden açılıyorsa azalt. Şıklatma testi ile deneyebilirsin.",
   "lines": [
-   8954
+   8956
   ],
   "calls": [
    "txtNote"
@@ -5279,7 +5280,7 @@
   "kind": "L",
   "tr": "MENÜ",
   "lines": [
-   8958
+   8960
   ],
   "calls": [
    "txtBegin"
@@ -5290,7 +5291,7 @@
   "kind": "L",
   "tr": "Menü boş.",
   "lines": [
-   8959
+   8961
   ],
   "calls": [
    "txtBody"
@@ -5301,7 +5302,7 @@
   "kind": "L",
   "tr": " kalem daha (liste dolu)",
   "lines": [
-   8963
+   8965
   ],
   "calls": [],
   "en_src": " more items (list full)"
@@ -5310,8 +5311,8 @@
   "kind": "L",
   "tr": "Toplam: ",
   "lines": [
-   8964,
-   12386
+   8966,
+   12462
   ],
   "calls": [
    "txtH1",
@@ -5323,8 +5324,8 @@
   "kind": "L",
   "tr": " g karb",
   "lines": [
-   8964,
-   12339
+   8966,
+   12415
   ],
   "calls": [],
   "en_src": " g carbs"
@@ -5333,8 +5334,8 @@
   "kind": "L",
   "tr": "KARB-NOT",
   "lines": [
-   8968,
-   12399
+   8970,
+   12475
   ],
   "calls": [
    "txtBegin",
@@ -5346,7 +5347,7 @@
   "kind": "L",
   "tr": "Yiyecek listesi telefondan hazırlanır. Aynı WiFi'deki telefonda şu adresi açın:",
   "lines": [
-   8969
+   8971
   ],
   "calls": [
    "txtBody"
@@ -5357,7 +5358,7 @@
   "kind": "L",
   "tr": "Yiyecek adını, birimini (100 g, adet, porsiyon, kase, dilim, bardak, paket) ve karbonhidratını yazıp Kaydet'e basın.",
   "lines": [
-   8972
+   8974
   ],
   "calls": [
    "txtItem"
@@ -5368,7 +5369,7 @@
   "kind": "L",
   "tr": "Cihazda yiyeceği seçip miktarı yazınca karbonhidrat hesaplanır. Sağ üstteki Ekle ile öğün toplamı tutulur; Menü toplamına dokununca içeriği görünür, Menüyü sıfırla ile temizlenir.",
   "lines": [
-   8973
+   8975
   ],
   "calls": [
    "txtItem"
@@ -5379,7 +5380,7 @@
   "kind": "L",
   "tr": "Değerleri ürün etiketinden kontrol edin. Bu bir hesap yardımcısıdır.",
   "lines": [
-   8975
+   8977
   ],
   "calls": [
    "txtNote"
@@ -5390,7 +5391,7 @@
   "kind": "L",
   "tr": "Okul saatlerinde ses ve parlaklık otomatik olarak seçtiğin okul değerlerine geçer; ders sırasında cihaz daha sessiz ve sönük olur.",
   "lines": [
-   8979
+   8981
   ],
   "calls": [
    "txtBody"
@@ -5401,18 +5402,44 @@
   "kind": "L",
   "tr": "Saate dokunarak istediğin saati yazabilirsin.",
   "lines": [
-   8981
+   8983
   ],
   "calls": [
    "txtNote"
   ],
   "en_src": "Tap a time to type it."
  },
+ "da410bdf": {
+  "kind": "L",
+  "tr": "Aralık:",
+  "lines": [
+   9101,
+   9275,
+   9276
+  ],
+  "calls": [
+   "sprintf"
+  ],
+  "en_src": "Range:"
+ },
+ "2554f5ad": {
+  "kind": "L",
+  "tr": "Sil",
+  "lines": [
+   9114,
+   9303,
+   12425
+  ],
+  "calls": [
+   "drawFreeTitle"
+  ],
+  "en_src": "Del"
+ },
  "e2dbe009": {
   "kind": "L",
   "tr": "SAAT DİLİMİ",
   "lines": [
-   9080
+   9163
   ],
   "calls": [],
   "en_src": "TIME ZONE"
@@ -5421,9 +5448,9 @@
   "kind": "L",
   "tr": "Dil",
   "lines": [
-   9127,
-   11414,
-   11430
+   9210,
+   11490,
+   11506
   ],
   "calls": [
    "String",
@@ -5435,7 +5462,7 @@
   "kind": "L",
   "tr": "Gün (2 hane) + saat (2 hane)",
   "lines": [
-   9171
+   9255
   ],
   "calls": [
    "drawFreeTitle"
@@ -5446,43 +5473,19 @@
   "kind": "L",
   "tr": "Gün, ay, saat, dakika: 8 rakam",
   "lines": [
-   9181
+   9265
   ],
   "calls": [
    "drawFreeTitle"
   ],
   "en_src": "Day, month, hour, minute: 8 digits"
  },
- "da410bdf": {
-  "kind": "L",
-  "tr": "Aralık:",
-  "lines": [
-   9195,
-   9196
-  ],
-  "calls": [
-   "sprintf"
-  ],
-  "en_src": "Range:"
- },
- "2554f5ad": {
-  "kind": "L",
-  "tr": "Sil",
-  "lines": [
-   9223,
-   12349
-  ],
-  "calls": [
-   "drawFreeTitle"
-  ],
-  "en_src": "Del"
- },
  "68307073": {
   "kind": "L",
   "tr": "Yanıp sönme",
   "lines": [
-   9290,
-   11379
+   9366,
+   11455
   ],
   "calls": [
    "drawFreeTitle",
@@ -5494,7 +5497,7 @@
   "kind": "L",
   "tr": "Renk seç",
   "lines": [
-   9297
+   9373
   ],
   "calls": [
    "drawFreeTitle"
@@ -5505,7 +5508,7 @@
   "kind": "L",
   "tr": "Ses:",
   "lines": [
-   9468
+   9544
   ],
   "calls": [
    "sprintf"
@@ -5516,7 +5519,7 @@
   "kind": "L",
   "tr": "Eşik:",
   "lines": [
-   9468
+   9544
   ],
   "calls": [],
   "en_src": "Threshold:"
@@ -5525,7 +5528,7 @@
   "kind": "L",
   "tr": "Şıklatma:",
   "lines": [
-   9474
+   9550
   ],
   "calls": [
    "sprintf"
@@ -5536,7 +5539,7 @@
   "kind": "L",
   "tr": "ÇİFT ŞIKLATMA ALGILANDI",
   "lines": [
-   9483
+   9559
   ],
   "calls": [
    "drawFreeTitle"
@@ -5547,7 +5550,7 @@
   "kind": "L",
   "tr": "Hassasiyet: ",
   "lines": [
-   9487
+   9563
   ],
   "calls": [
    "String"
@@ -5558,7 +5561,7 @@
   "kind": "L",
   "tr": "  -  dokun: sıfırla",
   "lines": [
-   9487
+   9563
   ],
   "calls": [],
   "en_src": "  -  tap: reset"
@@ -5567,7 +5570,7 @@
   "kind": "L",
   "tr": "Mikrofon başlatılıyor...",
   "lines": [
-   9488
+   9564
   ],
   "calls": [
    "String"
@@ -5578,7 +5581,7 @@
   "kind": "L",
   "tr": "ŞIKLATMA TESTİ",
   "lines": [
-   9495
+   9571
   ],
   "calls": [
    "drawListHeader"
@@ -5589,7 +5592,7 @@
   "kind": "L",
   "tr": "Parmaklarını iki kez şıklat",
   "lines": [
-   9498
+   9574
   ],
   "calls": [
    "drawFreeTitle"
@@ -5600,7 +5603,7 @@
   "kind": "L",
   "tr": "Foto",
   "lines": [
-   9532
+   9608
   ],
   "calls": [],
   "en_src": "Photo"
@@ -5609,7 +5612,7 @@
   "kind": "L",
   "tr": "Halka",
   "lines": [
-   9533
+   9609
   ],
   "calls": [],
   "en_src": "Ring"
@@ -5618,7 +5621,7 @@
   "kind": "L",
   "tr": "Kart",
   "lines": [
-   9534
+   9610
   ],
   "calls": [],
   "en_src": "Card"
@@ -5627,7 +5630,7 @@
   "kind": "L",
   "tr": "Saat",
   "lines": [
-   9536
+   9612
   ],
   "calls": [],
   "en_src": "Clock"
@@ -5636,7 +5639,7 @@
   "kind": "L",
   "tr": "Dalga",
   "lines": [
-   9537
+   9613
   ],
   "calls": [],
   "en_src": "Wave"
@@ -5645,7 +5648,7 @@
   "kind": "L",
   "tr": "Minimal",
   "lines": [
-   9538
+   9614
   ],
   "calls": [],
   "en_src": "Minimal"
@@ -5654,7 +5657,7 @@
   "kind": "L",
   "tr": "Termometre",
   "lines": [
-   9539
+   9615
   ],
   "calls": [],
   "en_src": "Thermometer"
@@ -5663,7 +5666,7 @@
   "kind": "L",
   "tr": "Panel",
   "lines": [
-   9540
+   9616
   ],
   "calls": [],
   "en_src": "Dashboard"
@@ -5672,7 +5675,7 @@
   "kind": "L",
   "tr": "Nabız",
   "lines": [
-   9541
+   9617
   ],
   "calls": [],
   "en_src": "Pulse"
@@ -5681,7 +5684,7 @@
   "kind": "L",
   "tr": "Yıldızlar",
   "lines": [
-   9542
+   9618
   ],
   "calls": [],
   "en_src": "Stars"
@@ -5690,7 +5693,7 @@
   "kind": "L",
   "tr": "Balon",
   "lines": [
-   9543
+   9619
   ],
   "calls": [],
   "en_src": "Balloon"
@@ -5699,7 +5702,7 @@
   "kind": "L",
   "tr": "Uzay",
   "lines": [
-   9544
+   9620
   ],
   "calls": [],
   "en_src": "Space"
@@ -5708,7 +5711,7 @@
   "kind": "L",
   "tr": "Akvaryum",
   "lines": [
-   9545
+   9621
   ],
   "calls": [],
   "en_src": "Aquarium"
@@ -5717,7 +5720,7 @@
   "kind": "L",
   "tr": "Gülen yüz",
   "lines": [
-   9546
+   9622
   ],
   "calls": [],
   "en_src": "Smiley"
@@ -5726,7 +5729,7 @@
   "kind": "L",
   "tr": "Ana",
   "lines": [
-   9547
+   9623
   ],
   "calls": [],
   "en_src": "Main"
@@ -5735,7 +5738,7 @@
   "kind": "L",
   "tr": "Gece mavisi",
   "lines": [
-   9552
+   9628
   ],
   "calls": [],
   "en_src": "Midnight"
@@ -5744,7 +5747,7 @@
   "kind": "L",
   "tr": "Antrasit",
   "lines": [
-   9553
+   9629
   ],
   "calls": [],
   "en_src": "Graphite"
@@ -5753,7 +5756,7 @@
   "kind": "L",
   "tr": "Orman",
   "lines": [
-   9554
+   9630
   ],
   "calls": [],
   "en_src": "Forest"
@@ -5762,7 +5765,7 @@
   "kind": "L",
   "tr": "Mürdüm",
   "lines": [
-   9555
+   9631
   ],
   "calls": [],
   "en_src": "Plum"
@@ -5771,7 +5774,7 @@
   "kind": "L",
   "tr": "Karbon",
   "lines": [
-   9556
+   9632
   ],
   "calls": [],
   "en_src": "Carbon"
@@ -5780,7 +5783,7 @@
   "kind": "L",
   "tr": "Nokta",
   "lines": [
-   9557
+   9633
   ],
   "calls": [],
   "en_src": "Dots"
@@ -5789,7 +5792,7 @@
   "kind": "L",
   "tr": "Degrade",
   "lines": [
-   9558
+   9634
   ],
   "calls": [],
   "en_src": "Gradient"
@@ -5798,7 +5801,7 @@
   "kind": "L",
   "tr": "Çizgi",
   "lines": [
-   9559
+   9635
   ],
   "calls": [],
   "en_src": "Lines"
@@ -5807,7 +5810,7 @@
   "kind": "L",
   "tr": "Krem",
   "lines": [
-   9560
+   9636
   ],
   "calls": [],
   "en_src": "Cream"
@@ -5816,7 +5819,7 @@
   "kind": "L",
   "tr": "Buz mavisi",
   "lines": [
-   9561
+   9637
   ],
   "calls": [],
   "en_src": "Ice blue"
@@ -5825,7 +5828,7 @@
   "kind": "L",
   "tr": "Pembe",
   "lines": [
-   9562
+   9638
   ],
   "calls": [],
   "en_src": "Pink"
@@ -5834,7 +5837,7 @@
   "kind": "L",
   "tr": "Nane",
   "lines": [
-   9563
+   9639
   ],
   "calls": [],
   "en_src": "Mint"
@@ -5843,7 +5846,7 @@
   "kind": "L",
   "tr": "Kareli",
   "lines": [
-   9564
+   9640
   ],
   "calls": [],
   "en_src": "Grid"
@@ -5852,7 +5855,7 @@
   "kind": "L",
   "tr": "Lavanta",
   "lines": [
-   9565
+   9641
   ],
   "calls": [],
   "en_src": "Lavender"
@@ -5861,7 +5864,7 @@
   "kind": "L",
   "tr": "Siyah",
   "lines": [
-   9566
+   9642
   ],
   "calls": [],
   "en_src": "Black"
@@ -5870,12 +5873,12 @@
   "kind": "L",
   "tr": "Veri bekleniyor",
   "lines": [
-   9890,
-   9965,
-   10027,
-   10166,
-   10250,
-   10405
+   9966,
+   10041,
+   10103,
+   10242,
+   10326,
+   10481
   ],
   "calls": [
    "drawString"
@@ -5886,9 +5889,9 @@
   "kind": "L",
   "tr": "Son 3 saat",
   "lines": [
-   9972,
-   10033,
-   10306
+   10048,
+   10109,
+   10382
   ],
   "calls": [
    "drawString"
@@ -5899,7 +5902,7 @@
   "kind": "L",
   "tr": " hedefte, harika!",
   "lines": [
-   10210
+   10286
   ],
   "calls": [],
   "en_src": " is on target, great!"
@@ -5908,7 +5911,7 @@
   "kind": "L",
   "tr": "Şeker",
   "lines": [
-   10306
+   10382
   ],
   "calls": [],
   "en_src": "Glucose"
@@ -5917,7 +5920,7 @@
   "kind": "L",
   "tr": "Değişim",
   "lines": [
-   10306
+   10382
   ],
   "calls": [],
   "en_src": "Change"
@@ -5926,7 +5929,7 @@
   "kind": "L",
   "tr": "Hedefte (24 sa)",
   "lines": [
-   10306
+   10382
   ],
   "calls": [],
   "en_src": "In range (24 h)"
@@ -5935,7 +5938,7 @@
   "kind": "L",
   "tr": "veri az",
   "lines": [
-   10330
+   10406
   ],
   "calls": [
    "drawString"
@@ -5946,7 +5949,7 @@
   "kind": "L",
   "tr": "en az ",
   "lines": [
-   10340
+   10416
   ],
   "calls": [
    "String"
@@ -5957,7 +5960,7 @@
   "kind": "L",
   "tr": "  en çok ",
   "lines": [
-   10340
+   10416
   ],
   "calls": [],
   "en_src": "  max "
@@ -5966,9 +5969,9 @@
   "kind": "L",
   "tr": "hedef",
   "lines": [
-   10422,
-   10457,
-   10487
+   10498,
+   10533,
+   10563
   ],
   "calls": [
    "drawString"
@@ -5979,7 +5982,7 @@
   "kind": "L",
   "tr": "Balon",
   "lines": [
-   10440
+   10516
   ],
   "calls": [
    "kidMessage"
@@ -5990,7 +5993,7 @@
   "kind": "L",
   "tr": "Roket",
   "lines": [
-   10475
+   10551
   ],
   "calls": [
    "kidMessage"
@@ -6001,7 +6004,7 @@
   "kind": "L",
   "tr": "Balık",
   "lines": [
-   10516
+   10592
   ],
   "calls": [
    "kidMessage"
@@ -6012,7 +6015,7 @@
   "kind": "L",
   "tr": "Harika!",
   "lines": [
-   10564
+   10640
   ],
   "calls": [],
   "en_src": "Great!"
@@ -6021,7 +6024,7 @@
   "kind": "L",
   "tr": "Çok iyi, hedeftesin",
   "lines": [
-   10564
+   10640
   ],
   "calls": [],
   "en_src": "Well done, on target"
@@ -6030,7 +6033,7 @@
   "kind": "L",
   "tr": "<<  Kaydır: sayfalar / uygulamalar  >>",
   "lines": [
-   10705
+   10781
   ],
   "calls": [
    "drawString"
@@ -6041,7 +6044,7 @@
   "kind": "L",
   "tr": "Veri eski: ",
   "lines": [
-   10722
+   10798
   ],
   "calls": [
    "String"
@@ -6052,7 +6055,7 @@
   "kind": "L",
   "tr": "Tema",
   "lines": [
-   10762
+   10838
   ],
   "calls": [],
   "en_src": "Theme"
@@ -6061,8 +6064,8 @@
   "kind": "L",
   "tr": "Grafik",
   "lines": [
-   10763,
-   11557
+   10839,
+   11633
   ],
   "calls": [
    "fTog"
@@ -6073,8 +6076,8 @@
   "kind": "L",
   "tr": "İstatistik",
   "lines": [
-   10764,
-   11558
+   10840,
+   11634
   ],
   "calls": [
    "fTog"
@@ -6085,9 +6088,9 @@
   "kind": "L",
   "tr": "Zamanlayıcı",
   "lines": [
-   10766,
-   11559,
-   13791
+   10842,
+   11635,
+   13867
   ],
   "calls": [
    "fTog",
@@ -6099,8 +6102,8 @@
   "kind": "L",
   "tr": "Karb-Not",
   "lines": [
-   10767,
-   11560
+   10843,
+   11636
   ],
   "calls": [
    "fTog"
@@ -6111,7 +6114,7 @@
   "kind": "L",
   "tr": "<<  Ana ekran için sola kaydır",
   "lines": [
-   10853
+   10929
   ],
   "calls": [
    "drawString"
@@ -6122,7 +6125,7 @@
   "kind": "L",
   "tr": "2. sayfanın teması",
   "lines": [
-   11108
+   11184
   ],
   "calls": [],
   "en_src": "Theme for page 2"
@@ -6131,7 +6134,7 @@
   "kind": "L",
   "tr": "3. sayfanın teması",
   "lines": [
-   11108
+   11184
   ],
   "calls": [],
   "en_src": "Theme for page 3"
@@ -6140,7 +6143,7 @@
   "kind": "L",
   "tr": "TEMALAR",
   "lines": [
-   11112
+   11188
   ],
   "calls": [
    "drawFreeTitle"
@@ -6151,7 +6154,7 @@
   "kind": "L",
   "tr": "Temalar",
   "lines": [
-   11146
+   11222
   ],
   "calls": [
    "thSection"
@@ -6162,7 +6165,7 @@
   "kind": "L",
   "tr": "Animasyon",
   "lines": [
-   11152
+   11228
   ],
   "calls": [
    "thSection"
@@ -6173,7 +6176,7 @@
   "kind": "L",
   "tr": "çocuk temaları dahil",
   "lines": [
-   11152
+   11228
   ],
   "calls": [],
   "en_src": "incl. kids themes"
@@ -6182,7 +6185,7 @@
   "kind": "L",
   "tr": "Arka plan",
   "lines": [
-   11160
+   11236
   ],
   "calls": [
    "thSection"
@@ -6193,7 +6196,7 @@
   "kind": "L",
   "tr": "Koyu - bu tema kendi resmini çizer; diğer sayfalarda geçerli",
   "lines": [
-   11162
+   11238
   ],
   "calls": [],
   "en_src": "Dark - this theme draws its own scene"
@@ -6202,7 +6205,7 @@
   "kind": "L",
   "tr": "Koyu (tüm sayfalar)",
   "lines": [
-   11163
+   11239
   ],
   "calls": [],
   "en_src": "Dark (all pages)"
@@ -6211,7 +6214,7 @@
   "kind": "L",
   "tr": "Açık - uygun temalarda; diğer sayfalar mavi halkalı koyuyla",
   "lines": [
-   11176
+   11252
   ],
   "calls": [],
   "en_src": "Light - suitable themes; other pages use the ringed dark"
@@ -6220,7 +6223,7 @@
   "kind": "L",
   "tr": "Açık: bu temada kullanılamaz",
   "lines": [
-   11177
+   11253
   ],
   "calls": [],
   "en_src": "Light: not for this theme"
@@ -6229,7 +6232,7 @@
   "kind": "L",
   "tr": "Önizle",
   "lines": [
-   11193
+   11269
   ],
   "calls": [
    "drawString"
@@ -6240,7 +6243,7 @@
   "kind": "L",
   "tr": "Seç",
   "lines": [
-   11194
+   11270
   ],
   "calls": [],
   "en_src": "Choose"
@@ -6249,7 +6252,7 @@
   "kind": "L",
   "tr": "Önizleme - dokun: geri",
   "lines": [
-   11209
+   11285
   ],
   "calls": [
    "drawString"
@@ -6260,7 +6263,7 @@
   "kind": "L",
   "tr": "girilmedi",
   "lines": [
-   11345
+   11421
   ],
   "calls": [],
   "en_src": "not set"
@@ -6269,7 +6272,7 @@
   "kind": "L",
   "tr": " gün ",
   "lines": [
-   11352
+   11428
   ],
   "calls": [],
   "en_src": " d "
@@ -6278,7 +6281,7 @@
   "kind": "L",
   "tr": " sa",
   "lines": [
-   11352
+   11428
   ],
   "calls": [],
   "en_src": " h"
@@ -6287,7 +6290,7 @@
   "kind": "L",
   "tr": "Sessiz",
   "lines": [
-   11364
+   11440
   ],
   "calls": [],
   "en_src": "Off"
@@ -6296,7 +6299,7 @@
   "kind": "L",
   "tr": "Alarm sesi",
   "lines": [
-   11369
+   11445
   ],
   "calls": [
    "fSeg"
@@ -6307,7 +6310,7 @@
   "kind": "L",
   "tr": "Sesi dene",
   "lines": [
-   11370
+   11446
   ],
   "calls": [
    "fAct"
@@ -6318,8 +6321,8 @@
   "kind": "L",
   "tr": " - bu durumda alarm sesi çalmaz.",
   "lines": [
-   11371,
-   11394
+   11447,
+   11470
   ],
   "calls": [],
   "en_src": " - alarm sound will not play."
@@ -6328,7 +6331,7 @@
   "kind": "L",
   "tr": "Şu an gece modu saatinde: ses Gece modu ayarından gelir.",
   "lines": [
-   11372
+   11448
   ],
   "calls": [
    "fNote"
@@ -6339,7 +6342,7 @@
   "kind": "L",
   "tr": "Şu an okul saatinde: ses Okul modu ayarından gelir.",
   "lines": [
-   11373
+   11449
   ],
   "calls": [
    "fNote"
@@ -6350,7 +6353,7 @@
   "kind": "L",
   "tr": "ALARM TÜRLERİ",
   "lines": [
-   11374
+   11450
   ],
   "calls": [
    "fHead"
@@ -6361,7 +6364,7 @@
   "kind": "L",
   "tr": "15 dk",
   "lines": [
-   11383
+   11459
   ],
   "calls": [],
   "en_src": "15 m"
@@ -6370,7 +6373,7 @@
   "kind": "L",
   "tr": "30 dk",
   "lines": [
-   11383
+   11459
   ],
   "calls": [],
   "en_src": "30 m"
@@ -6379,7 +6382,7 @@
   "kind": "L",
   "tr": "60 dk",
   "lines": [
-   11383
+   11459
   ],
   "calls": [],
   "en_src": "60 m"
@@ -6388,7 +6391,7 @@
   "kind": "L",
   "tr": "Ertele süresi",
   "lines": [
-   11384
+   11460
   ],
   "calls": [
    "fSeg"
@@ -6399,29 +6402,29 @@
   "kind": "L",
   "tr": "Bu eşikler: ",
   "lines": [
-   11389
+   11465
   ],
   "calls": [
    "fNote"
   ],
   "en_src": "These limits: "
  },
- "925581db": {
+ "5d09ab6f": {
   "kind": "L",
-  "tr": "Değere dokun ve virgülsüz yaz (3,9 için 39). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
+  "tr": "Değere dokun ve yaz (mmol/L). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
   "lines": [
-   11390
+   11466
   ],
   "calls": [
    "fNote"
   ],
-  "en_src": "Tap a value and type it without the decimal point (39 for 3.9). The speaker on the right turns that alarm's sound on/off."
+  "en_src": "Tap a value to type it (mmol/L). The speaker on the right turns that alarm's sound on/off."
  },
  "f649dc87": {
   "kind": "L",
   "tr": "Değere dokun ve yaz (mg/dL). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
   "lines": [
-   11392
+   11468
   ],
   "calls": [
    "fNote"
@@ -6432,7 +6435,7 @@
   "kind": "L",
   "tr": "Kritik düşük",
   "lines": [
-   11395
+   11471
   ],
   "calls": [
    "fNumSnd"
@@ -6443,7 +6446,7 @@
   "kind": "L",
   "tr": "EKRAN / DİL",
   "lines": [
-   11403
+   11479
   ],
   "calls": [],
   "en_src": "DISPLAY / LANGUAGE"
@@ -6452,8 +6455,8 @@
   "kind": "L",
   "tr": "Parlaklık",
   "lines": [
-   11404,
-   11444
+   11480,
+   11520
   ],
   "calls": [
    "fSeg"
@@ -6464,7 +6467,7 @@
   "kind": "L",
   "tr": "Şu an gece modu saatinde: parlaklık Gece modu ayarından gelir.",
   "lines": [
-   11405
+   11481
   ],
   "calls": [
    "fNote"
@@ -6475,7 +6478,7 @@
   "kind": "L",
   "tr": "Şu an okul saatinde: parlaklık Okul modu ayarından gelir.",
   "lines": [
-   11406
+   11482
   ],
   "calls": [
    "fNote"
@@ -6486,7 +6489,7 @@
   "kind": "L",
   "tr": "Ters",
   "lines": [
-   11408
+   11484
   ],
   "calls": [],
   "en_src": "Flipped"
@@ -6495,7 +6498,7 @@
   "kind": "L",
   "tr": "Ekran yönü",
   "lines": [
-   11409
+   11485
   ],
   "calls": [
    "fSeg"
@@ -6506,7 +6509,7 @@
   "kind": "L",
   "tr": "Renk dostu",
   "lines": [
-   11410
+   11486
   ],
   "calls": [
    "fTog"
@@ -6517,8 +6520,8 @@
   "kind": "L",
   "tr": "DİL VE BİRİM",
   "lines": [
-   11411,
-   11427
+   11487,
+   11503
   ],
   "calls": [
    "fHead"
@@ -6529,8 +6532,8 @@
   "kind": "L",
   "tr": "Birim",
   "lines": [
-   11415,
-   11431
+   11491,
+   11507
   ],
   "calls": [
    "fSeg"
@@ -6541,8 +6544,8 @@
   "kind": "L",
   "tr": "Saat dilimi",
   "lines": [
-   11416,
-   11432
+   11492,
+   11508
   ],
   "calls": [
    "fAdd"
@@ -6553,7 +6556,7 @@
   "kind": "L",
   "tr": "Ana ekran",
   "lines": [
-   11421
+   11497
   ],
   "calls": [
    "fSeg"
@@ -6564,7 +6567,7 @@
   "kind": "L",
   "tr": "Kişi eklemek, ad ve kaynak vermek için telefondan web sayfasını açın.",
   "lines": [
-   11422
+   11498
   ],
   "calls": [
    "fNote"
@@ -6575,7 +6578,7 @@
   "kind": "L",
   "tr": "Başlangıç",
   "lines": [
-   11442
+   11518
   ],
   "calls": [
    "fTime"
@@ -6586,7 +6589,7 @@
   "kind": "L",
   "tr": "Bitiş",
   "lines": [
-   11443
+   11519
   ],
   "calls": [
    "fTime"
@@ -6597,7 +6600,7 @@
   "kind": "L",
   "tr": "Gece ve okul saatleri çakışırsa gece modu geçerli olur.",
   "lines": [
-   11446
+   11522
   ],
   "calls": [
    "fNote"
@@ -6608,7 +6611,7 @@
   "kind": "L",
   "tr": "Şıklatma hassasiyeti",
   "lines": [
-   11454
+   11530
   ],
   "calls": [
    "fSeg"
@@ -6619,7 +6622,7 @@
   "kind": "L",
   "tr": "Şeker hedef dışındaysa, hızlı değişiyorsa veya veri gelmiyorsa ekran kapanmaz.",
   "lines": [
-   11456
+   11532
   ],
   "calls": [
    "fNote"
@@ -6630,7 +6633,7 @@
   "kind": "L",
   "tr": "SIFIRLA / KAPAT",
   "lines": [
-   11461
+   11537
   ],
   "calls": [],
   "en_src": "RESET / POWER"
@@ -6639,7 +6642,7 @@
   "kind": "L",
   "tr": "Veriyi şimdi yenile",
   "lines": [
-   11463
+   11539
   ],
   "calls": [
    "fAct"
@@ -6650,7 +6653,7 @@
   "kind": "L",
   "tr": "Cihazı sıfırla",
   "lines": [
-   11464
+   11540
   ],
   "calls": [
    "fAct"
@@ -6661,7 +6664,7 @@
   "kind": "L",
   "tr": "Cihazda kayıtlı her şey silinir: WiFi ağları, hesap girişleri, tüm ayarlar, fotoğraflar ve karb listesi. Web şifresi ilk (fabrika) şifreye döner, kurulum ekranı açılır.",
   "lines": [
-   11465
+   11541
   ],
   "calls": [
    "fNote"
@@ -6672,7 +6675,7 @@
   "kind": "L",
   "tr": "Kayıtlı ağlar ve ayarlar silinmez. Kurulum sayfası açılır; yeni ağı ekleyebilir veya şifreyi değiştirebilirsiniz.",
   "lines": [
-   11468
+   11544
   ],
   "calls": [
    "fNote"
@@ -6683,7 +6686,7 @@
   "kind": "L",
   "tr": "Cihazı kapat",
   "lines": [
-   11470
+   11546
   ],
   "calls": [
    "fAct"
@@ -6694,7 +6697,7 @@
   "kind": "L",
   "tr": "Tekrar açmak için RESET tuşuna basın veya USB'yi takıp çıkarın.",
   "lines": [
-   11471
+   11547
   ],
   "calls": [
    "fNote"
@@ -6705,7 +6708,7 @@
   "kind": "L",
   "tr": "ÖNİZLEMELER",
   "lines": [
-   11475
+   11551
   ],
   "calls": [],
   "en_src": "PREVIEWS"
@@ -6714,7 +6717,7 @@
   "kind": "L",
   "tr": "Glukagon Videosu Önizle",
   "lines": [
-   11477
+   11553
   ],
   "calls": [
    "fAct"
@@ -6725,7 +6728,7 @@
   "kind": "L",
   "tr": "Dikkat butonundaki glukagon videosu oynatılır.",
   "lines": [
-   11478
+   11554
   ],
   "calls": [
    "fNote"
@@ -6736,8 +6739,8 @@
   "kind": "L",
   "tr": "Dikkat Butonu Önizle",
   "lines": [
-   11479,
-   11480
+   11555,
+   11556
   ],
   "calls": [
    "fAct"
@@ -6748,7 +6751,7 @@
   "kind": "L",
   "tr": "Öğretmenin göreceği adımlar örnek bir şeker değeriyle gösterilir. Gerçek değer, alarmlar ve ayarlar etkilenmez.",
   "lines": [
-   11481
+   11557
   ],
   "calls": [
    "fNote"
@@ -6759,7 +6762,7 @@
   "kind": "L",
   "tr": "Aile modu",
   "lines": [
-   11492
+   11568
   ],
   "calls": [
    "fAct"
@@ -6770,7 +6773,7 @@
   "kind": "L",
   "tr": "Gece ve okul saatleri çakışırsa gece modu geçerli olur. Rahatsız etme modu diğer modlarla birlikte çalışır; şeker hedef dışına çıkınca ekran kendiliğinden açılır.",
   "lines": [
-   11493
+   11569
   ],
   "calls": [
    "fNote"
@@ -6781,7 +6784,7 @@
   "kind": "L",
   "tr": "Bu ayarlar: ",
   "lines": [
-   11500
+   11576
   ],
   "calls": [
    "fNote"
@@ -6792,7 +6795,7 @@
   "kind": "L",
   "tr": "SENSÖR",
   "lines": [
-   11501
+   11577
   ],
   "calls": [
    "fHead"
@@ -6803,7 +6806,7 @@
   "kind": "L",
   "tr": "Sensör takibi",
   "lines": [
-   11502
+   11578
   ],
   "calls": [
    "fTog"
@@ -6814,7 +6817,7 @@
   "kind": "L",
   "tr": "Takılma",
   "lines": [
-   11505
+   11581
   ],
   "calls": [
    "fDT"
@@ -6825,7 +6828,7 @@
   "kind": "L",
   "tr": "Şimdi taktım",
   "lines": [
-   11506
+   11582
   ],
   "calls": [
    "fAct"
@@ -6836,7 +6839,7 @@
   "kind": "L",
   "tr": "Sensör ömrü",
   "lines": [
-   11508
+   11584
   ],
   "calls": [
    "fLife"
@@ -6847,7 +6850,7 @@
   "kind": "L",
   "tr": "SET / POMPA",
   "lines": [
-   11510
+   11586
   ],
   "calls": [
    "fHead"
@@ -6858,7 +6861,7 @@
   "kind": "L",
   "tr": "Set takibi",
   "lines": [
-   11511
+   11587
   ],
   "calls": [
    "fTog"
@@ -6869,7 +6872,7 @@
   "kind": "L",
   "tr": "Değişim",
   "lines": [
-   11514
+   11590
   ],
   "calls": [
    "fDT"
@@ -6880,7 +6883,7 @@
   "kind": "L",
   "tr": "Şimdi değiştirdim",
   "lines": [
-   11515
+   11591
   ],
   "calls": [
    "fAct"
@@ -6891,7 +6894,7 @@
   "kind": "L",
   "tr": "Set / pompa ömrü",
   "lines": [
-   11517
+   11593
   ],
   "calls": [
    "fLife"
@@ -6902,7 +6905,7 @@
   "kind": "L",
   "tr": "Nightscout kullandığınız için geçen süre otomatik gelir; burada sadece ömrü (gün + saat) girersiniz. Kalan süre = ömür - geçen süre. Varsayılan: sensör 10 gün 12 saat, set 3 gün 8 saat.",
   "lines": [
-   11519
+   11595
   ],
   "calls": [
    "fNote"
@@ -6913,7 +6916,7 @@
   "kind": "L",
   "tr": "Kalan süre = ömür - takılmadan beri geçen süre. Ömre dokunup gün ve saat yazın (varsayılan: sensör 10 gün 12 saat, set 3 gün 8 saat). Tarih ve saati web sayfasından da girebilirsiniz.",
   "lines": [
-   11521
+   11597
   ],
   "calls": [
    "fNote"
@@ -6924,7 +6927,7 @@
   "kind": "L",
   "tr": "ZAMANLAYICI AYARI",
   "lines": [
-   11526
+   11602
   ],
   "calls": [],
   "en_src": "TIMER SETTINGS"
@@ -6933,7 +6936,7 @@
   "kind": "L",
   "tr": "Bolusla otomatik başlat",
   "lines": [
-   11527
+   11603
   ],
   "calls": [
    "fTog"
@@ -6944,7 +6947,7 @@
   "kind": "L",
   "tr": "Bolus eşiği",
   "lines": [
-   11529
+   11605
   ],
   "calls": [
    "fAdd"
@@ -6955,7 +6958,7 @@
   "kind": "L",
   "tr": "%s Ü üstü",
   "lines": [
-   11530
+   11606
   ],
   "calls": [
    "fmtS"
@@ -6966,7 +6969,7 @@
   "kind": "L",
   "tr": "Kimin bolusu",
   "lines": [
-   11539
+   11615
   ],
   "calls": [
    "fSeg"
@@ -6977,7 +6980,7 @@
   "kind": "L",
   "tr": "Bu kişinin kaynağı Nightscout değil; bolusu görülemez.",
   "lines": [
-   11541
+   11617
   ],
   "calls": [
    "fNote"
@@ -6988,7 +6991,7 @@
   "kind": "L",
   "tr": "Nightscout'a bu değerin üstünde bir bolus girilince zamanlayıcı kendiliğinden başlar. Daha küçük boluslar başlatmaz (örneğin şekeri düşürmek için girilen bolus). Süre şeker / 10 dakikadır ve bolusun yapıldığı andan sayılır. Şeker düşükse veya zamanlayıcı zaten çalışıyorsa başlamaz.",
   "lines": [
-   11544
+   11620
   ],
   "calls": [
    "fNote"
@@ -6999,7 +7002,7 @@
   "kind": "L",
   "tr": "SAYFALARI DÜZENLE",
   "lines": [
-   11549
+   11625
   ],
   "calls": [],
   "en_src": "EDIT PAGES"
@@ -7008,7 +7011,7 @@
   "kind": "L",
   "tr": "Açtığınız her özellik cihaza ayrı bir sayfa olarak eklenir; kaydırarak gezersiniz. 1. sayfa ana temanız: ",
   "lines": [
-   11551
+   11627
   ],
   "calls": [
    "fNote"
@@ -7019,7 +7022,7 @@
   "kind": "L",
   "tr": "2. tema",
   "lines": [
-   11552
+   11628
   ],
   "calls": [
    "fTog"
@@ -7030,7 +7033,7 @@
   "kind": "L",
   "tr": "   2. sayfanın teması",
   "lines": [
-   11553
+   11629
   ],
   "calls": [
    "fAct"
@@ -7041,7 +7044,7 @@
   "kind": "L",
   "tr": "3. tema",
   "lines": [
-   11554
+   11630
   ],
   "calls": [
    "fTog"
@@ -7052,7 +7055,7 @@
   "kind": "L",
   "tr": "   3. sayfanın teması",
   "lines": [
-   11555
+   11631
   ],
   "calls": [
    "fAct"
@@ -7063,7 +7066,7 @@
   "kind": "L",
   "tr": "Sensör / set",
   "lines": [
-   11556
+   11632
   ],
   "calls": [
    "fTog"
@@ -7074,7 +7077,7 @@
   "kind": "L",
   "tr": "Sıra: ana tema, 2. tema, 3. tema, sensör / set, grafik, istatistik, zamanlayıcı, Karb-Not ve en sonda uygulamalar. Kapalı olanlar sayfa olmaz ama uygulamalar sayfasında durur.",
   "lines": [
-   11561
+   11637
   ],
   "calls": [
    "fNote"
@@ -7085,7 +7088,7 @@
   "kind": "L",
   "tr": "Değişiklikler kaydedilsin mi?",
   "lines": [
-   11769
+   11845
   ],
   "calls": [],
   "en_src": "Save your changes?"
@@ -7094,7 +7097,7 @@
   "kind": "L",
   "tr": "Kaydetme",
   "lines": [
-   11769
+   11845
   ],
   "calls": [],
   "en_src": "Discard"
@@ -7103,7 +7106,7 @@
   "kind": "L",
   "tr": "Cihaz sıfırlansın mı?",
   "lines": [
-   11770
+   11846
   ],
   "calls": [],
   "en_src": "Reset the device?"
@@ -7112,9 +7115,9 @@
   "kind": "L",
   "tr": "Vazgeç",
   "lines": [
-   11770,
-   11771,
-   11772
+   11846,
+   11847,
+   11848
   ],
   "calls": [],
   "en_src": "Cancel"
@@ -7123,7 +7126,7 @@
   "kind": "L",
   "tr": "Sıfırla",
   "lines": [
-   11770
+   11846
   ],
   "calls": [],
   "en_src": "Reset"
@@ -7132,7 +7135,7 @@
   "kind": "L",
   "tr": "WiFi kurulumu açılsın mı?",
   "lines": [
-   11771
+   11847
   ],
   "calls": [],
   "en_src": "Open WiFi setup?"
@@ -7141,7 +7144,7 @@
   "kind": "L",
   "tr": "Aç",
   "lines": [
-   11771
+   11847
   ],
   "calls": [],
   "en_src": "Open"
@@ -7150,7 +7153,7 @@
   "kind": "L",
   "tr": "Cihaz kapatılsın mı?",
   "lines": [
-   11772
+   11848
   ],
   "calls": [],
   "en_src": "Power off the device?"
@@ -7159,7 +7162,7 @@
   "kind": "L",
   "tr": "Kapat",
   "lines": [
-   11772
+   11848
   ],
   "calls": [],
   "en_src": "Power off"
@@ -7168,8 +7171,8 @@
   "kind": "L",
   "tr": "Kaydedildi",
   "lines": [
-   11869,
-   14389
+   11945,
+   14465
   ],
   "calls": [
    "drawFreeTitle"
@@ -7180,7 +7183,7 @@
   "kind": "L",
   "tr": "KRİTİK DÜŞÜK",
   "lines": [
-   11884
+   11960
   ],
   "calls": [
    "openGlucosePicker"
@@ -7191,8 +7194,8 @@
   "kind": "L",
   "tr": "DÜŞÜK EŞİK",
   "lines": [
-   11886,
-   14971
+   11962,
+   15047
   ],
   "calls": [
    "openGlucosePicker"
@@ -7203,8 +7206,8 @@
   "kind": "L",
   "tr": "YÜKSEK EŞİK",
   "lines": [
-   11887,
-   14986
+   11963,
+   15062
   ],
   "calls": [
    "openGlucosePicker"
@@ -7215,8 +7218,8 @@
   "kind": "L",
   "tr": "ÇOK YÜKSEK EŞİK",
   "lines": [
-   11888,
-   14995
+   11964,
+   15071
   ],
   "calls": [
    "openGlucosePicker"
@@ -7227,8 +7230,8 @@
   "kind": "L",
   "tr": "VERİ YOK ALARMI",
   "lines": [
-   11889,
-   15017
+   11965,
+   15093
   ],
   "calls": [
    "openNumberPicker"
@@ -7239,8 +7242,8 @@
   "kind": "L",
   "tr": "dk",
   "lines": [
-   11889,
-   15017
+   11965,
+   15093
   ],
   "calls": [],
   "en_src": "min"
@@ -7249,7 +7252,7 @@
   "kind": "L",
   "tr": "BOLUS EŞİĞİ",
   "lines": [
-   11907
+   11983
   ],
   "calls": [
    "openNumberPicker"
@@ -7260,7 +7263,7 @@
   "kind": "L",
   "tr": "Ü",
   "lines": [
-   11907
+   11983
   ],
   "calls": [],
   "en_src": "U"
@@ -7269,7 +7272,7 @@
   "kind": "L",
   "tr": "Yenileniyor...",
   "lines": [
-   11917
+   11993
   ],
   "calls": [
    "drawFreeTitle"
@@ -7280,7 +7283,7 @@
   "kind": "L",
   "tr": "Kapatılıyor...",
   "lines": [
-   11940
+   12016
   ],
   "calls": [
    "drawFreeTitle"
@@ -7291,7 +7294,7 @@
   "kind": "L",
   "tr": "Siliniyor...",
   "lines": [
-   12008
+   12084
   ],
   "calls": [
    "drawFreeTitle"
@@ -7302,7 +7305,7 @@
   "kind": "L",
   "tr": "gün",
   "lines": [
-   12182
+   12258
   ],
   "calls": [
    "sprintf"
@@ -7313,7 +7316,7 @@
   "kind": "L",
   "tr": "sa",
   "lines": [
-   12182
+   12258
   ],
   "calls": [],
   "en_src": "h"
@@ -7322,7 +7325,7 @@
   "kind": "L",
   "tr": "adet",
   "lines": [
-   12206
+   12282
   ],
   "calls": [],
   "en_src": "piece"
@@ -7331,7 +7334,7 @@
   "kind": "L",
   "tr": "porsiyon",
   "lines": [
-   12207
+   12283
   ],
   "calls": [],
   "en_src": "portion"
@@ -7340,7 +7343,7 @@
   "kind": "L",
   "tr": "kase",
   "lines": [
-   12208
+   12284
   ],
   "calls": [],
   "en_src": "bowl"
@@ -7349,7 +7352,7 @@
   "kind": "L",
   "tr": "dilim",
   "lines": [
-   12209
+   12285
   ],
   "calls": [],
   "en_src": "slice"
@@ -7358,7 +7361,7 @@
   "kind": "L",
   "tr": "çay bardağı",
   "lines": [
-   12210
+   12286
   ],
   "calls": [],
   "en_src": "tea glass"
@@ -7367,7 +7370,7 @@
   "kind": "L",
   "tr": "su bardağı",
   "lines": [
-   12211
+   12287
   ],
   "calls": [],
   "en_src": "glass"
@@ -7376,7 +7379,7 @@
   "kind": "L",
   "tr": "paket",
   "lines": [
-   12212
+   12288
   ],
   "calls": [],
   "en_src": "pack"
@@ -7385,7 +7388,7 @@
   "kind": "L",
   "tr": "Ekmek",
   "lines": [
-   12229
+   12305
   ],
   "calls": [],
   "en_src": "Bread"
@@ -7394,7 +7397,7 @@
   "kind": "L",
   "tr": "Liste boş",
   "lines": [
-   12271
+   12347
   ],
   "calls": [
    "listAdd"
@@ -7405,7 +7408,7 @@
   "kind": "L",
   "tr": "web'den ekleyin",
   "lines": [
-   12271
+   12347
   ],
   "calls": [],
   "en_src": "add on the web"
@@ -7414,7 +7417,7 @@
   "kind": "L",
   "tr": "Web'den hazırlanır",
   "lines": [
-   12274
+   12350
   ],
   "calls": [
    "listAdd"
@@ -7425,7 +7428,7 @@
   "kind": "L",
   "tr": "nasıl?",
   "lines": [
-   12274
+   12350
   ],
   "calls": [],
   "en_src": "how?"
@@ -7434,7 +7437,7 @@
   "kind": "L",
   "tr": "Menü toplamı",
   "lines": [
-   12277
+   12353
   ],
   "calls": [
    "listAdd"
@@ -7445,7 +7448,7 @@
   "kind": "L",
   "tr": "Menüyü sıfırla",
   "lines": [
-   12278
+   12354
   ],
   "calls": [
    "listAdd"
@@ -7456,7 +7459,7 @@
   "kind": "L",
   "tr": "Ekle",
   "lines": [
-   12321
+   12397
   ],
   "calls": [],
   "en_src": "Add"
@@ -7465,7 +7468,7 @@
   "kind": "L",
   "tr": " g karb / ",
   "lines": [
-   12325
+   12401
   ],
   "calls": [],
   "en_src": " g carbs / "
@@ -7474,7 +7477,7 @@
   "kind": "L",
   "tr": "Menü toplamı: ",
   "lines": [
-   12354
+   12430
   ],
   "calls": [
    "String"
@@ -7485,7 +7488,7 @@
   "kind": "L",
   "tr": "Miktarı yazıp sağ üstten Ekle'ye basın",
   "lines": [
-   12355
+   12431
   ],
   "calls": [
    "String"
@@ -7496,7 +7499,7 @@
   "kind": "L",
   "tr": "Tekrar oynat",
   "lines": [
-   12523
+   12599
   ],
   "calls": [
    "drawFreeTitle"
@@ -7507,7 +7510,7 @@
   "kind": "L",
   "tr": "Bir diyabet hemşiresi tarafından gözden geçirildi.",
   "lines": [
-   12525
+   12601
   ],
   "calls": [
    "drawFreeTitle"
@@ -7518,7 +7521,7 @@
   "kind": "L",
   "tr": "Doktorunuzun talimatlarının yerini tutmaz.",
   "lines": [
-   12526
+   12602
   ],
   "calls": [
    "drawFreeTitle"
@@ -7529,7 +7532,7 @@
   "kind": "L",
   "tr": "Sağa kaydır veya Geri: çıkış",
   "lines": [
-   12528
+   12604
   ],
   "calls": [
    "drawFreeTitle"
@@ -7540,7 +7543,7 @@
   "kind": "L",
   "tr": "Cihazda video yok",
   "lines": [
-   12535
+   12611
   ],
   "calls": [
    "drawFreeTitle"
@@ -7551,7 +7554,7 @@
   "kind": "L",
   "tr": "Glukagon videosu bu cihaza yüklenmemiş.",
   "lines": [
-   12537
+   12613
   ],
   "calls": [
    "drawFreeTitle"
@@ -7562,7 +7565,7 @@
   "kind": "L",
   "tr": "Kurulum kılavuzuna bakın.",
   "lines": [
-   12538
+   12614
   ],
   "calls": [
    "drawFreeTitle"
@@ -7573,8 +7576,8 @@
   "kind": "L",
   "tr": "Alarm %d dk",
   "lines": [
-   12704,
-   15192
+   12780,
+   15268
   ],
   "calls": [],
   "en_src": "Alarm %d min"
@@ -7583,8 +7586,8 @@
   "kind": "L",
   "tr": "ertelendi",
   "lines": [
-   12706,
-   15194
+   12782,
+   15270
   ],
   "calls": [
    "drawFreeTitle"
@@ -7595,7 +7598,7 @@
   "kind": "L",
   "tr": "Kurulum açılıyor...",
   "lines": [
-   13045
+   13121
   ],
   "calls": [
    "drawFreeTitle"
@@ -7606,7 +7609,7 @@
   "kind": "L",
   "tr": "Cihaz yeniden başlıyor",
   "lines": [
-   13047
+   13123
   ],
   "calls": [
    "drawFreeTitle"
@@ -7617,7 +7620,7 @@
   "kind": "L",
   "tr": "Yeniden deneniyor...",
   "lines": [
-   13104
+   13180
   ],
   "calls": [
    "drawFreeTitle"
@@ -7628,7 +7631,7 @@
   "kind": "L",
   "tr": "Kayıtlı WiFi yok. Kurulum'a dokunup ağınızı seçin.",
   "lines": [
-   13152
+   13228
   ],
   "calls": [],
   "en_src": "No saved WiFi. Tap Setup and choose your network."
@@ -7637,7 +7640,7 @@
   "kind": "L",
   "tr": "WiFi şifresi yanlış olabilir. Kurulum'a dokunup şifreyi yeniden girin.",
   "lines": [
-   13154
+   13230
   ],
   "calls": [],
   "en_src": "The WiFi password may be wrong. Tap Setup and enter it again."
@@ -7646,7 +7649,7 @@
   "kind": "L",
   "tr": "Ağ bulunamadı. Modem açık ve yakında mı? Değilse Kurulum ile başka ağ seçin.",
   "lines": [
-   13156
+   13232
   ],
   "calls": [],
   "en_src": "Network not found. Is the router on and nearby? Or pick another in Setup."
@@ -7655,7 +7658,7 @@
   "kind": "L",
   "tr": "Bağlanılamadı. Şifre yanlış ya da modem kapalı / uzak olabilir. Kurulum'a dokunup şifreyi yeniden girin.",
   "lines": [
-   13158
+   13234
   ],
   "calls": [],
   "en_src": "Could not connect. Wrong password, or router off / far away. Tap Setup and enter it again."
@@ -7664,7 +7667,7 @@
   "kind": "L",
   "tr": "LibreLinkUp uygulamasını açıp yeni kullanım koşullarını onaylayın, sonra Yenile'ye dokunun.",
   "lines": [
-   13162
+   13238
   ],
   "calls": [],
   "en_src": "Open the LibreLinkUp app and accept the new terms, then tap Retry."
@@ -7673,7 +7676,7 @@
   "kind": "L",
   "tr": "Medtrum EasyFollow e-posta veya şifresi yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
   "lines": [
-   13164
+   13240
   ],
   "calls": [],
   "en_src": "Medtrum EasyFollow e-mail or password may be wrong. Re-enter it in Setup or on the web page."
@@ -7682,7 +7685,7 @@
   "kind": "L",
   "tr": "Dexcom kullanıcı adı / şifre yanlış olabilir ya da sunucu (us / ous) hatalı. Kurulum'dan yeniden girin.",
   "lines": [
-   13166
+   13242
   ],
   "calls": [],
   "en_src": "Dexcom username / password may be wrong, or the server (us / ous). Re-enter it in Setup."
@@ -7691,7 +7694,7 @@
   "kind": "L",
   "tr": "LibreLinkUp e-posta veya şifresi yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
   "lines": [
-   13168
+   13244
   ],
   "calls": [],
   "en_src": "LibreLinkUp e-mail or password may be wrong. Re-enter it in Setup or on the web page."
@@ -7700,7 +7703,7 @@
   "kind": "L",
   "tr": "Nightscout API secret / token yanlış olabilir. Kurulum'dan ya da web sayfasından yeniden girin.",
   "lines": [
-   13170
+   13246
   ],
   "calls": [],
   "en_src": "Nightscout API secret / token may be wrong. Re-enter it in Setup or on the web page."
@@ -7709,7 +7712,7 @@
   "kind": "L",
   "tr": "Cihaz WiFi'ye bağlı ama internete çıkamıyor. Modemin internet bağlantısını kontrol edin; bağlantı gelince veri kendiliğinden gelir.",
   "lines": [
-   13173
+   13249
   ],
   "calls": [],
   "en_src": "Connected to WiFi but there is no internet. Check the router's internet; data returns by itself."
@@ -7718,7 +7721,7 @@
   "kind": "L",
   "tr": "Nightscout'a ulaşılamadı. Adres doğru mu, site açık mı? Sitenin güvenlik sertifikası geçerli olmalı (https). Birazdan yeniden denenecek.",
   "lines": [
-   13176
+   13252
   ],
   "calls": [],
   "en_src": "Could not reach Nightscout. Is the address right and the site up? Its https certificate must be valid. Will retry shortly."
@@ -7727,7 +7730,7 @@
   "kind": "L",
   "tr": "Kaynağa ulaşılamadı. İnternet ya da kaynak adresini kontrol edin; birazdan yeniden denenecek.",
   "lines": [
-   13178
+   13254
   ],
   "calls": [],
   "en_src": "Could not reach the source. Check internet or the source address; will retry shortly."
@@ -7736,7 +7739,7 @@
   "kind": "L",
   "tr": "LibreLinkUp'ta takip edilen kişi yok. Libre uygulamasından bu hesaba davet gönderin.",
   "lines": [
-   13182
+   13258
   ],
   "calls": [],
   "en_src": "No one is shared in LibreLinkUp. Send an invite to this account from the Libre app."
@@ -7745,7 +7748,7 @@
   "kind": "L",
   "tr": "Bu EasyFollow hesabı kimseyi takip etmiyor. Medtrum uygulamasından bu hesaba davet gönderin.",
   "lines": [
-   13185
+   13261
   ],
   "calls": [],
   "en_src": "This EasyFollow account follows no one. Send an invite to it from the Medtrum app."
@@ -7754,7 +7757,7 @@
   "kind": "L",
   "tr": "Sensör ısınıyor; ısınma bitince değerler gelecek.",
   "lines": [
-   13188
+   13264
   ],
   "calls": [],
   "en_src": "The sensor is warming up; readings will follow."
@@ -7763,7 +7766,7 @@
   "kind": "L",
   "tr": "Aktif sensör yok ya da yeni ölçüm gelmedi. Medtrum uygulaması çalışıyor mu?",
   "lines": [
-   13189
+   13265
   ],
   "calls": [],
   "en_src": "No active sensor or no new reading. Is the Medtrum app running?"
@@ -7772,7 +7775,7 @@
   "kind": "L",
   "tr": "Son 24 saatte veri yok. Dexcom uygulamasında Paylaşım (Share) açık ve en az bir takipçi ekli mi?",
   "lines": [
-   13191
+   13267
   ],
   "calls": [],
   "en_src": "No data in 24 h. Is Share on in the Dexcom app, with at least one follower?"
@@ -7781,7 +7784,7 @@
   "kind": "L",
   "tr": "Sensörden yeni ölçüm gelmemiş. Libre uygulaması çalışıyor mu?",
   "lines": [
-   13193
+   13269
   ],
   "calls": [],
   "en_src": "No new reading from the sensor. Is the Libre app running?"
@@ -7790,7 +7793,7 @@
   "kind": "L",
   "tr": "Nightscout'a son 24 saatte veri gelmemiş. Telefon / uploader çalışıyor mu?",
   "lines": [
-   13195
+   13271
   ],
   "calls": [],
   "en_src": "No data reached Nightscout in 24 h. Is the phone / uploader running?"
@@ -7799,7 +7802,7 @@
   "kind": "L",
   "tr": "Kaynak bilgisi eksik. Kurulum'a dokunup Nightscout, Dexcom, Libre veya Medtrum bilgisini girin.",
   "lines": [
-   13197
+   13273
   ],
   "calls": [],
   "en_src": "Source is missing. Tap Setup and enter Nightscout, Dexcom or Libre details."
@@ -7808,7 +7811,7 @@
   "kind": "L",
   "tr": "Kaynaktan beklenmeyen yanıt geldi. Birazdan yeniden denenecek.",
   "lines": [
-   13199
+   13275
   ],
   "calls": [],
   "en_src": "Unexpected response from the source. Will retry shortly."
@@ -7817,7 +7820,7 @@
   "kind": "L",
   "tr": "Birazdan yeniden denenecek.",
   "lines": [
-   13201
+   13277
   ],
   "calls": [],
   "en_src": "Will retry shortly."
@@ -7826,7 +7829,7 @@
   "kind": "L",
   "tr": "WiFi yok - dokunun",
   "lines": [
-   13207
+   13283
   ],
   "calls": [],
   "en_src": "No WiFi - tap"
@@ -7835,7 +7838,7 @@
   "kind": "L",
   "tr": "İnternet yok - dokunun",
   "lines": [
-   13208
+   13284
   ],
   "calls": [],
   "en_src": "No internet - tap"
@@ -7844,7 +7847,7 @@
   "kind": "L",
   "tr": "Giriş hatası - dokunun",
   "lines": [
-   13209
+   13285
   ],
   "calls": [],
   "en_src": "Login error - tap"
@@ -7853,7 +7856,7 @@
   "kind": "L",
   "tr": "Sunucuya ulaşılamıyor",
   "lines": [
-   13211
+   13287
   ],
   "calls": [],
   "en_src": "Server unreachable"
@@ -7862,7 +7865,7 @@
   "kind": "L",
   "tr": "Temalar: basılı tutun",
   "lines": [
-   13232
+   13308
   ],
   "calls": [
    "drawFreeTitle"
@@ -7873,7 +7876,7 @@
   "kind": "L",
   "tr": "WiFi kurulumu: basılı tutun",
   "lines": [
-   13248
+   13324
   ],
   "calls": [
    "drawFreeTitle"
@@ -7884,7 +7887,7 @@
   "kind": "L",
   "tr": "Pil azaldı: %%%d",
   "lines": [
-   13267
+   13343
   ],
   "calls": [
    "batteryPctText"
@@ -7895,7 +7898,7 @@
   "kind": "L",
   "tr": "Pil bitti",
   "lines": [
-   13301
+   13377
   ],
   "calls": [
    "drawFreeTitle"
@@ -7906,7 +7909,7 @@
   "kind": "L",
   "tr": "Lütfen şarja takın",
   "lines": [
-   13303
+   13379
   ],
   "calls": [
    "drawFreeTitle"
@@ -7917,7 +7920,7 @@
   "kind": "L",
   "tr": "Şarja takılınca birkaç dakika içinde kendiliğinden açılır.",
   "lines": [
-   13305
+   13381
   ],
   "calls": [
    "drawFreeTitle"
@@ -7928,7 +7931,7 @@
   "kind": "L",
   "tr": "Ekran kısıldı - şarja takın",
   "lines": [
-   13329
+   13405
   ],
   "calls": [
    "lowBatPopup"
@@ -7939,7 +7942,7 @@
   "kind": "L",
   "tr": "Cihaz yakında kapanacak - şarja takın",
   "lines": [
-   13334
+   13410
   ],
   "calls": [],
   "en_src": "Shutting down soon - please charge"
@@ -7948,7 +7951,7 @@
   "kind": "L",
   "tr": "Şarja takın",
   "lines": [
-   13335
+   13411
   ],
   "calls": [],
   "en_src": "Please charge"
@@ -7957,7 +7960,7 @@
   "kind": "L",
   "tr": "Yeniden başlatıldı, bağlanıyor...",
   "lines": [
-   13613
+   13689
   ],
   "calls": [
    "drawFreeTitle"
@@ -7968,7 +7971,7 @@
   "kind": "L",
   "tr": "WiFi yok",
   "lines": [
-   13663
+   13739
   ],
   "calls": [
    "drawFreeTitle"
@@ -7979,7 +7982,7 @@
   "kind": "L",
   "tr": "Alarm",
   "lines": [
-   13702
+   13778
   ],
   "calls": [
    "drawFreeTitle"
@@ -7990,7 +7993,7 @@
   "kind": "L",
   "tr": "Diğer",
   "lines": [
-   13724
+   13800
   ],
   "calls": [
    "drawFreeTitle"
@@ -8001,7 +8004,7 @@
   "kind": "L",
   "tr": "Boş alana dokun: sayfa değiştir",
   "lines": [
-   13728
+   13804
   ],
   "calls": [
    "drawFreeTitle"
@@ -8012,7 +8015,7 @@
   "kind": "L",
   "tr": "ZAMANLAYICI",
   "lines": [
-   13760
+   13836
   ],
   "calls": [
    "drawFreeTitle"
@@ -8023,7 +8026,7 @@
   "kind": "L",
   "tr": "Anlık şeker",
   "lines": [
-   13770
+   13846
   ],
   "calls": [
    "drawFreeTitle"
@@ -8034,7 +8037,7 @@
   "kind": "L",
   "tr": "kalan",
   "lines": [
-   13805
+   13881
   ],
   "calls": [
    "drawFreeTitle"
@@ -8045,7 +8048,7 @@
   "kind": "L",
   "tr": "İPTAL",
   "lines": [
-   13812
+   13888
   ],
   "calls": [
    "drawFreeTitle"
@@ -8056,7 +8059,7 @@
   "kind": "L",
   "tr": "<%s: önce hipoyu tedavi et",
   "lines": [
-   13816
+   13892
   ],
   "calls": [],
   "en_src": "<%s: treat the low first"
@@ -8065,7 +8068,7 @@
   "kind": "L",
   "tr": "Şeker/glukoz tablet/meyve suyu,",
   "lines": [
-   13819
+   13895
   ],
   "calls": [
    "drawFreeTitle"
@@ -8076,7 +8079,7 @@
   "kind": "L",
   "tr": "10 dk bekle; bolusu yemekle yap.",
   "lines": [
-   13820
+   13896
   ],
   "calls": [
    "drawFreeTitle"
@@ -8087,7 +8090,7 @@
   "kind": "L",
   "tr": "Bu durumda zamanlayıcı başlamaz.",
   "lines": [
-   13821
+   13897
   ],
   "calls": [
    "drawFreeTitle"
@@ -8098,7 +8101,7 @@
   "kind": "L",
   "tr": "(şeker / 10)",
   "lines": [
-   13832
+   13908
   ],
   "calls": [
    "drawFreeTitle"
@@ -8109,7 +8112,7 @@
   "kind": "L",
   "tr": "BAŞLAT",
   "lines": [
-   13839
+   13915
   ],
   "calls": [
    "drawFreeTitle"
@@ -8120,7 +8123,7 @@
   "kind": "L",
   "tr": "Zamanlayıcı başladı",
   "lines": [
-   13952
+   14028
   ],
   "calls": [
    "drawFreeTitle"
@@ -8131,7 +8134,7 @@
   "kind": "L",
   "tr": "%s Ü bolus - %d dk",
   "lines": [
-   13960
+   14036
   ],
   "calls": [],
   "en_src": "%s U bolus - %d min"
@@ -8140,7 +8143,7 @@
   "kind": "L",
   "tr": "Afiyet olsun!",
   "lines": [
-   14072
+   14148
   ],
   "calls": [],
   "en_src": "Enjoy your meal!"
@@ -8149,7 +8152,7 @@
   "kind": "L",
   "tr": "Yemeğe başlayabilirsiniz",
   "lines": [
-   14084
+   14160
   ],
   "calls": [],
   "en_src": "You may start eating"
@@ -8158,7 +8161,7 @@
   "kind": "L",
   "tr": "1) Ağa bağlan",
   "lines": [
-   14170
+   14246
   ],
   "calls": [],
   "en_src": "1) Join network"
@@ -8167,7 +8170,7 @@
   "kind": "L",
   "tr": "2) Sayfayı aç",
   "lines": [
-   14170
+   14246
   ],
   "calls": [],
   "en_src": "2) Open page"
@@ -8176,7 +8179,7 @@
   "kind": "L",
   "tr": "Şifre:",
   "lines": [
-   14193
+   14269
   ],
   "calls": [],
   "en_src": "Pass:"
@@ -8185,7 +8188,7 @@
   "kind": "L",
   "tr": "Önce 1. QR ile ağa bağlanın. Kurulum sayfası",
   "lines": [
-   14210
+   14286
   ],
   "calls": [
    "drawFreeTitle"
@@ -8196,7 +8199,7 @@
   "kind": "L",
   "tr": "gecikirse 2. QR'ı okutun (bekleme yok).",
   "lines": [
-   14211
+   14287
   ],
   "calls": [
    "drawFreeTitle"
@@ -8207,7 +8210,7 @@
   "kind": "L",
   "tr": "Kaydedildi, bağlandı",
   "lines": [
-   14375
+   14451
   ],
   "calls": [
    "drawFreeTitle"
@@ -8218,7 +8221,7 @@
   "kind": "L",
   "tr": "WiFi'ye bağlanamadı",
   "lines": [
-   14379
+   14455
   ],
   "calls": [
    "drawFreeTitle"
@@ -8229,7 +8232,7 @@
   "kind": "L",
   "tr": "Şifre yanlış olabilir",
   "lines": [
-   14384
+   14460
   ],
   "calls": [],
   "en_src": "Password may be wrong"
@@ -8238,7 +8241,7 @@
   "kind": "L",
   "tr": "Ağ bulunamadı veya şifre yanlış",
   "lines": [
-   14385
+   14461
   ],
   "calls": [],
   "en_src": "Network not found or wrong password"
@@ -8247,7 +8250,7 @@
   "kind": "L",
   "tr": "Kurulum kapandı",
   "lines": [
-   14389
+   14465
   ],
   "calls": [],
   "en_src": "Setup closed"
@@ -8256,7 +8259,7 @@
   "kind": "L",
   "tr": "WiFi bağlanıyor...",
   "lines": [
-   14401
+   14477
   ],
   "calls": [
    "drawFreeTitle"
@@ -8267,7 +8270,7 @@
   "kind": "L",
   "tr": "Hazır",
   "lines": [
-   14482
+   14558
   ],
   "calls": [
    "bootStage"
@@ -8278,7 +8281,7 @@
   "kind": "L",
   "tr": "ÖNEMLİ UYARI",
   "lines": [
-   14520
+   14596
   ],
   "calls": [
    "drawFreeTitle"
@@ -8289,7 +8292,7 @@
   "kind": "L",
   "tr": "Tıbbi cihaz değildir",
   "lines": [
-   14522
+   14598
   ],
   "calls": [
    "drawFreeTitle"
@@ -8300,7 +8303,7 @@
   "kind": "L",
   "tr": "İnsülin ve tedavi kararları için",
   "lines": [
-   14524
+   14600
   ],
   "calls": [
    "drawFreeTitle"
@@ -8311,7 +8314,7 @@
   "kind": "L",
   "tr": "resmi CGM uygulamanızı esas alın.",
   "lines": [
-   14525
+   14601
   ],
   "calls": [
    "drawFreeTitle"
@@ -8322,7 +8325,7 @@
   "kind": "L",
   "tr": "Sorumluluk kullanıcıya aittir.",
   "lines": [
-   14528
+   14604
   ],
   "calls": [
    "drawFreeTitle"
@@ -8333,7 +8336,7 @@
   "kind": "L",
   "tr": "İnternete bağlanıyor...",
   "lines": [
-   14653
+   14729
   ],
   "calls": [
    "bootStage"
@@ -8344,7 +8347,7 @@
   "kind": "L",
   "tr": "Saat ayarlanıyor...",
   "lines": [
-   14665
+   14741
   ],
   "calls": [
    "bootStage"
@@ -8355,7 +8358,7 @@
   "kind": "L",
   "tr": "Veri alınıyor...",
   "lines": [
-   14674
+   14750
   ],
   "calls": [
    "bootStage"
@@ -8366,7 +8369,7 @@
   "kind": "L",
   "tr": "Bekleyin...",
   "lines": [
-   14851
+   14927
   ],
   "calls": [
    "drawFreeTitle"
@@ -8377,7 +8380,7 @@
   "kind": "L",
   "tr": "KRİTİK DÜŞÜK EŞİK",
   "lines": [
-   15004
+   15080
   ],
   "calls": [
    "openGlucosePicker"
@@ -8388,7 +8391,7 @@
   "kind": "L",
   "tr": "GECE BAŞLANGIÇ",
   "lines": [
-   15266
+   15342
   ],
   "calls": [
    "openTimePicker"
@@ -8399,7 +8402,7 @@
   "kind": "L",
   "tr": "GECE BİTİŞ",
   "lines": [
-   15270
+   15346
   ],
   "calls": [
    "openTimePicker"
@@ -8410,7 +8413,7 @@
   "kind": "L",
   "tr": "OKUL BAŞLANGIÇ",
   "lines": [
-   15289
+   15365
   ],
   "calls": [
    "openTimePicker"
@@ -8421,7 +8424,7 @@
   "kind": "L",
   "tr": "OKUL BİTİŞ",
   "lines": [
-   15293
+   15369
   ],
   "calls": [
    "openTimePicker"
@@ -8432,7 +8435,7 @@
   "kind": "W",
   "tr": "Kritik dusuk 40-80 arasinda olmali.",
   "lines": [
-   2965
+   2967
   ],
   "calls": []
  },
@@ -8440,7 +8443,7 @@
   "kind": "W",
   "tr": "Dusuk 40-200 arasinda olmali.",
   "lines": [
-   2966
+   2968
   ],
   "calls": []
  },
@@ -8448,7 +8451,7 @@
   "kind": "W",
   "tr": "Yuksek 100-400 arasinda olmali.",
   "lines": [
-   2967
+   2969
   ],
   "calls": []
  },
@@ -8456,7 +8459,7 @@
   "kind": "W",
   "tr": "Cok yuksek 150-400 arasinda olmali.",
   "lines": [
-   2968
+   2970
   ],
   "calls": []
  },
@@ -8464,7 +8467,7 @@
   "kind": "W",
   "tr": "Kritik dusuk, dusuk esikten en az 5 asagida olmali.",
   "lines": [
-   2969
+   2971
   ],
   "calls": []
  },
@@ -8472,7 +8475,7 @@
   "kind": "W",
   "tr": "Dusuk esik, yuksek esikten en az 10 asagida olmali.",
   "lines": [
-   2970
+   2972
   ],
   "calls": []
  },
@@ -8480,7 +8483,7 @@
   "kind": "W",
   "tr": "Yuksek esik, cok yuksek esikten en az 10 asagida olmali.",
   "lines": [
-   2971
+   2973
   ],
   "calls": []
  },
@@ -8488,7 +8491,7 @@
   "kind": "W",
   "tr": "<p class='err'>Cok fazla hatali deneme. 30 saniye bekleyin.</p>",
   "lines": [
-   2979
+   2981
   ],
   "calls": []
  },
@@ -8496,7 +8499,7 @@
   "kind": "W",
   "tr": "<p class='err'>Sifre hatali.</p>",
   "lines": [
-   2989
+   2991
   ],
   "calls": []
  },
@@ -8504,7 +8507,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><title>MeteMatik giris</title>",
   "lines": [
-   2992
+   2994
   ],
   "calls": [
    "String"
@@ -8514,7 +8517,7 @@
   "kind": "W",
   "tr": "<form method='POST' action='/login'><input name='p' type='password' placeholder='Sifre' autocomplete='current-password' autofocus><button class='btn' type='submit'>Giris</button></form>",
   "lines": [
-   2994
+   2996
   ],
   "calls": []
  },
@@ -8522,7 +8525,7 @@
   "kind": "W",
   "tr": "<p class='note'>Sifre cihazin Bilgi ekraninda yazar.</p></div></body></html>",
   "lines": [
-   2997
+   2999
   ],
   "calls": []
  },
@@ -8530,7 +8533,7 @@
   "kind": "W",
   "tr": "Baska siteden istek reddedildi",
   "lines": [
-   3022
+   3024
   ],
   "calls": [
    "send"
@@ -8540,7 +8543,7 @@
   "kind": "W",
   "tr": "Mevcut sifre hatali.",
   "lines": [
-   3031
+   3033
   ],
   "calls": []
  },
@@ -8548,7 +8551,7 @@
   "kind": "W",
   "tr": "Yeni sifreler ayni degil.",
   "lines": [
-   3032
+   3034
   ],
   "calls": []
  },
@@ -8556,7 +8559,7 @@
   "kind": "W",
   "tr": "Yeni sifre 6-32 karakter olmali.",
   "lines": [
-   3033
+   3035
   ],
   "calls": []
  },
@@ -8564,7 +8567,7 @@
   "kind": "W",
   "tr": "Sadece Ingilizce harf, rakam ve isaret kullanin (bosluk ve Turkce harf olmaz).",
   "lines": [
-   3037
+   3039
   ],
   "calls": []
  },
@@ -8572,7 +8575,7 @@
   "kind": "W",
   "tr": "<p class='ok'>Sifre degistirildi. Diger cihazlardaki oturumlar kapatildi.</p>",
   "lines": [
-   3049
+   3051
   ],
   "calls": []
  },
@@ -8580,7 +8583,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><title>Sifre</title>",
   "lines": [
-   3051
+   3053
   ],
   "calls": [
    "String"
@@ -8590,7 +8593,7 @@
   "kind": "W",
   "tr": "<p><a href='/'>&larr; Ayarlara don</a></p></div></body></html>",
   "lines": [
-   3053
+   3055
   ],
   "calls": []
  },
@@ -8598,7 +8601,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><title>Guncelleme</title>",
   "lines": [
-   3063
+   3065
   ],
   "calls": [
    "String"
@@ -8608,7 +8611,7 @@
   "kind": "W",
   "tr": "<h3>Yazılım güncelleme</h3><p class='note'>Şu anki sürüm: ",
   "lines": [
-   3065
+   3067
   ],
   "calls": []
  },
@@ -8616,7 +8619,7 @@
   "kind": "W",
   "tr": "1. Güncelleme dosyasını (<b>.bin</b>) bilgisayarınıza veya telefonunuza indirin.<br>",
   "lines": [
-   3067
+   3069
   ],
   "calls": []
  },
@@ -8624,7 +8627,7 @@
   "kind": "W",
   "tr": "2. <b>Dosyayı Seçin</b> ile o dosyayı seçin.<br>",
   "lines": [
-   3068
+   3070
   ],
   "calls": []
  },
@@ -8632,7 +8635,7 @@
   "kind": "W",
   "tr": "3. <b>Yükle</b>'ye basın ve bitmesini bekleyin.</div>",
   "lines": [
-   3069
+   3071
   ],
   "calls": []
  },
@@ -8640,7 +8643,7 @@
   "kind": "W",
   "tr": "<button class='btn' id='b'>Yükle</button>",
   "lines": [
-   3071
+   3073
   ],
   "calls": []
  },
@@ -8648,7 +8651,7 @@
   "kind": "W",
   "tr": "<p class='note'>Yükleme bitene kadar sayfayı kapatmayın. Cihaz sonra kendiliğinden yeniden başlar; ayarlar, fotoğraflar ve video silinmez.</p>",
   "lines": [
-   3073
+   3075
   ],
   "calls": []
  },
@@ -8656,9 +8659,9 @@
   "kind": "W",
   "tr": "<p><a href='/'>&larr; Ayarlar</a></p></div>",
   "lines": [
-   3074,
-   3160,
-   3233
+   3076,
+   3162,
+   3235
   ],
   "calls": []
  },
@@ -8666,7 +8669,7 @@
   "kind": "W",
   "tr": "if(n.endsWith('.ino'))return 'Bu kod dosyası (.ino). Cihaza .bin dosyası yüklenir.';",
   "lines": [
-   3078
+   3080
   ],
   "calls": []
  },
@@ -8674,7 +8677,7 @@
   "kind": "W",
   "tr": "if(!n.endsWith('.bin'))return 'Sadece .bin dosyası yüklenir.';",
   "lines": [
-   3079
+   3081
   ],
   "calls": []
  },
@@ -8682,7 +8685,7 @@
   "kind": "W",
   "tr": "if(n.indexOf('merged')>=0||n.indexOf('bootloader')>=0||n.indexOf('partitions')>=0)return 'Yanlış dosya: güncelleme dosyasını (.bin) seçin.';",
   "lines": [
-   3080
+   3082
   ],
   "calls": []
  },
@@ -8690,7 +8693,7 @@
   "kind": "W",
   "tr": "if(f.size>4000000)return 'Dosya çok büyük: güncelleme dosyasını (.bin) seçin.';return '';}",
   "lines": [
-   3081
+   3083
   ],
   "calls": []
  },
@@ -8698,7 +8701,7 @@
   "kind": "W",
   "tr": "fi.onchange=function(){var f=fi.files[0];if(!f)return;var e=bad(f);st.style.color=e?'#f66':'#8f8';st.textContent=e||('Seçildi: '+f.name+' ('+Math.round(f.size/1024)+' KB)');};",
   "lines": [
-   3082
+   3084
   ],
   "calls": []
  },
@@ -8706,7 +8709,7 @@
   "kind": "W",
   "tr": "var f=fi.files[0];if(!f){st.textContent='Önce .bin dosyasını seçin';return;}",
   "lines": [
-   3084
+   3086
   ],
   "calls": []
  },
@@ -8714,7 +8717,7 @@
   "kind": "W",
   "tr": "if(new Uint8Array(ab)[0]!=0xE9){st.style.color='#f66';st.textContent='Bu dosya geçerli bir ESP32 yazılımı değil.';return;}",
   "lines": [
-   3087
+   3089
   ],
   "calls": []
  },
@@ -8722,8 +8725,8 @@
   "kind": "W",
   "tr": "x.onerror=function(){st.textContent='Bağlantı koptu';};",
   "lines": [
-   3091,
-   3255
+   3093,
+   3257
   ],
   "calls": []
  },
@@ -8731,7 +8734,7 @@
   "kind": "W",
   "tr": "x.open('POST','/update');x.send(fd);st.textContent='Yükleniyor...';});};",
   "lines": [
-   3092
+   3094
   ],
   "calls": []
  },
@@ -8739,7 +8742,7 @@
   "kind": "W",
   "tr": "Basarili. Cihaz yeniden basliyor...",
   "lines": [
-   3129
+   3131
   ],
   "calls": [
    "String"
@@ -8749,8 +8752,8 @@
   "kind": "W",
   "tr": "Hata: ",
   "lines": [
-   3129,
-   3304
+   3131,
+   3306
   ],
   "calls": [
    "String"
@@ -8760,7 +8763,7 @@
   "kind": "W",
   "tr": "<h3>Karbonhidrat Notlarım</h3>",
   "lines": [
-   3154
+   3156
   ],
   "calls": []
  },
@@ -8768,7 +8771,7 @@
   "kind": "W",
   "tr": "<p class='note'>Her yiyecek için karbonhidrat miktarını seçtiğiniz birime göre girin: 100 gramında / 1 adetinde / 1 porsiyonunda / 1 kasesinde / 1 diliminde / 1 bardağında / 1 paketinde kaç gram karbonhidrat var. ",
   "lines": [
-   3155
+   3157
   ],
   "calls": []
  },
@@ -8776,7 +8779,7 @@
   "kind": "W",
   "tr": "Cihazda Karb-Not uygulamasından yiyeceği seçip miktarı yazınca karbonhidratı hesaplar; en sık seçilen 5 yiyecek listenin başında durur. Değerleri ürün etiketinden veya güvenilir kaynaktan kontrol edin.</p>",
   "lines": [
-   3156
+   3158
   ],
   "calls": []
  },
@@ -8784,7 +8787,7 @@
   "kind": "W",
   "tr": "<button class='btn btn2' onclick='addRow()'>+ Yiyecek ekle</button> ",
   "lines": [
-   3158
+   3160
   ],
   "calls": []
  },
@@ -8792,7 +8795,7 @@
   "kind": "W",
   "tr": "<button class='btn' onclick='save()'>Kaydet</button><p id='st'></p>",
   "lines": [
-   3159
+   3161
   ],
   "calls": []
  },
@@ -8800,7 +8803,7 @@
   "kind": "W",
   "tr": "var U=[[0,'100 gramında'],[1,'1 adetinde'],[3,'1 porsiyonunda'],[4,'1 kasesinde'],[5,'1 diliminde'],[6,'1 çay bardağında'],[7,'1 su bardağında'],[8,'1 paketinde']];",
   "lines": [
-   3162
+   3164
   ],
   "calls": []
  },
@@ -8808,7 +8811,7 @@
   "kind": "W",
   "tr": "function draw(){var h='<tr><td>Yiyecek</td><td>Birim</td><td>Karb (g)</td><td></td><td></td></tr>';",
   "lines": [
-   3164
+   3166
   ],
   "calls": []
  },
@@ -8816,7 +8819,7 @@
   "kind": "W",
   "tr": "+'<td><button class=\"btn srch\" onclick=\"ara('+i+')\">Ara</button></td>'",
   "lines": [
-   3168
+   3170
   ],
   "calls": []
  },
@@ -8824,7 +8827,7 @@
   "kind": "W",
   "tr": "+'<td><button class=\"btn del\" onclick=\"D.splice('+i+',1);draw()\">Sil</button></td></tr>';});",
   "lines": [
-   3169
+   3171
   ],
   "calls": []
  },
@@ -8832,7 +8835,7 @@
   "kind": "W",
   "tr": "function addRow(){if(D.length>=60){alert('En fazla 60 yiyecek');return;}D.push({n:'',t:0,c:0,u:0});draw();}",
   "lines": [
-   3171
+   3173
   ],
   "calls": []
  },
@@ -8840,7 +8843,7 @@
   "kind": "W",
   "tr": "function ara(i){var n=D[i].n||'';window.open('https://www.google.com/search?q='+encodeURIComponent(n+' 100 gram karbonhidrat'),'_blank');}",
   "lines": [
-   3172
+   3174
   ],
   "calls": []
  },
@@ -8848,7 +8851,7 @@
   "kind": "W",
   "tr": ".then(function(r){return r.text();}).then(function(t){st.textContent=t;}).catch(function(){st.textContent='Bağlantı hatası';});}",
   "lines": [
-   3175
+   3177
   ],
   "calls": []
  },
@@ -8856,7 +8859,7 @@
   "kind": "W",
   "tr": "Hata: liste okunamadı",
   "lines": [
-   3184
+   3186
   ],
   "calls": [
    "send"
@@ -8866,8 +8869,8 @@
   "kind": "W",
   "tr": "Kaydedildi: ",
   "lines": [
-   3206,
-   4223
+   3208,
+   4225
   ],
   "calls": [
    "String",
@@ -8878,7 +8881,7 @@
   "kind": "W",
   "tr": " yiyecek",
   "lines": [
-   3206
+   3208
   ],
   "calls": []
  },
@@ -8886,7 +8889,7 @@
   "kind": "W",
   "tr": "Hata: dosya yazılamadı",
   "lines": [
-   3206
+   3208
   ],
   "calls": [
    "String"
@@ -8896,7 +8899,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><title>Glukagon videosu</title>",
   "lines": [
-   3221
+   3223
   ],
   "calls": [
    "String"
@@ -8906,7 +8909,7 @@
   "kind": "W",
   "tr": "<h3>Glukagon videosu</h3>",
   "lines": [
-   3223
+   3225
   ],
   "calls": []
  },
@@ -8914,7 +8917,7 @@
   "kind": "W",
   "tr": "<p class='note'>Telefonunuzdaki videoyu seçin. Tarayıcı videoyu cihazın oynatabileceği küçük karelere (288x216, saniyede 6 kare, sessiz) dönüştürüp yükler. ",
   "lines": [
-   3224
+   3226
   ],
   "calls": []
  },
@@ -8922,7 +8925,7 @@
   "kind": "W",
   "tr": "Yaklaşık 60-70 saniyeye kadar sığar; daha uzunsa baştan bu kadarı alınır. Cihazda ses yoktur (sadece zil). Dönüştürme telefonda 1-2 dakika sürebilir, sayfayı kapatmayın.</p>",
   "lines": [
-   3225
+   3227
   ],
   "calls": []
  },
@@ -8930,7 +8933,7 @@
   "kind": "W",
   "tr": "<p>Durum: <b>",
   "lines": [
-   3226
+   3228
   ],
   "calls": []
  },
@@ -8938,7 +8941,7 @@
   "kind": "W",
   "tr": "Video var (",
   "lines": [
-   3226
+   3228
   ],
   "calls": [
    "String"
@@ -8948,7 +8951,7 @@
   "kind": "W",
   "tr": "Video yok",
   "lines": [
-   3226
+   3228
   ],
   "calls": [
    "String"
@@ -8958,7 +8961,7 @@
   "kind": "W",
   "tr": "</b> &nbsp; Boş alan: ",
   "lines": [
-   3226
+   3228
   ],
   "calls": []
  },
@@ -8966,7 +8969,7 @@
   "kind": "W",
   "tr": "<button class='btn' id='b'>Dönüştür ve yükle</button>",
   "lines": [
-   3228
+   3230
   ],
   "calls": []
  },
@@ -8974,7 +8977,7 @@
   "kind": "W",
   "tr": "<form method='POST' action='/video/del' onsubmit=\"return confirm('Video silinsin mi?')\"><button class='btn btn2'>Videoyu sil</button></form>",
   "lines": [
-   3232
+   3234
   ],
   "calls": [
    "String"
@@ -8984,7 +8987,7 @@
   "kind": "W",
   "tr": "var file=document.getElementById('f').files[0];if(!file){st.textContent='Önce video seçin';return;}",
   "lines": [
-   3240
+   3242
   ],
   "calls": []
  },
@@ -8992,7 +8995,7 @@
   "kind": "W",
   "tr": "try{await new Promise(function(r,j){v.onloadeddata=r;v.onerror=function(){j('Video açılamadı');};});}catch(e){st.textContent=e;this.disabled=false;return;}",
   "lines": [
-   3242
+   3244
   ],
   "calls": []
  },
@@ -9000,7 +9003,7 @@
   "kind": "W",
   "tr": "pr.value=t*100/dur;st.textContent='Dönüştürülüyor: '+n+' kare, '+Math.round(total/1024)+' KB';}",
   "lines": [
-   3250
+   3252
   ],
   "calls": []
  },
@@ -9008,7 +9011,7 @@
   "kind": "W",
   "tr": "var x=new XMLHttpRequest();x.upload.onprogress=function(e){if(e.lengthComputable){pr.value=e.loaded*100/e.total;st.textContent='Yükleniyor... '+Math.round(e.loaded/1024)+' / '+Math.round(e.total/1024)+' KB';}};",
   "lines": [
-   3253
+   3255
   ],
   "calls": []
  },
@@ -9016,7 +9019,7 @@
   "kind": "W",
   "tr": "x.onload=function(){st.textContent=x.responseText+(cut?' (video uzun: ilk '+Math.round(n/FPS)+' sn alındı)':'');};",
   "lines": [
-   3254
+   3256
   ],
   "calls": []
  },
@@ -9024,7 +9027,7 @@
   "kind": "W",
   "tr": "Giriş gerekli",
   "lines": [
-   3265
+   3267
   ],
   "calls": []
  },
@@ -9032,7 +9035,7 @@
   "kind": "W",
   "tr": "Video çok büyük",
   "lines": [
-   3272
+   3274
   ],
   "calls": []
  },
@@ -9040,7 +9043,7 @@
   "kind": "W",
   "tr": "Yer yok (boş ",
   "lines": [
-   3273
+   3275
   ],
   "calls": []
  },
@@ -9048,7 +9051,7 @@
   "kind": "W",
   "tr": " KB). Birkaç foto silin.",
   "lines": [
-   3273
+   3275
   ],
   "calls": []
  },
@@ -9056,7 +9059,7 @@
   "kind": "W",
   "tr": "Dosya açılamadı",
   "lines": [
-   3279
+   3281
   ],
   "calls": []
  },
@@ -9064,7 +9067,7 @@
   "kind": "W",
   "tr": "Yazma hatası (yer dolu olabilir)",
   "lines": [
-   3283
+   3285
   ],
   "calls": []
  },
@@ -9072,7 +9075,7 @@
   "kind": "W",
   "tr": "Kaydedilemedi",
   "lines": [
-   3291
+   3293
   ],
   "calls": []
  },
@@ -9080,7 +9083,7 @@
   "kind": "W",
   "tr": "Yükleme yarıda kesildi",
   "lines": [
-   3297
+   3299
   ],
   "calls": []
  },
@@ -9088,7 +9091,7 @@
   "kind": "W",
   "tr": "Yüklendi (",
   "lines": [
-   3304
+   3306
   ],
   "calls": [
    "String"
@@ -9098,7 +9101,7 @@
   "kind": "W",
   "tr": " KB). Cihazda: Uygulamalar > Glukagon",
   "lines": [
-   3304
+   3306
   ],
   "calls": []
  },
@@ -9106,7 +9109,7 @@
   "kind": "W",
   "tr": "Ayarları düzenlenen kişi",
   "lines": [
-   3377
+   3379
   ],
   "calls": [
    "String"
@@ -9116,7 +9119,7 @@
   "kind": "W",
   "tr": "Aşağıdaki kaynak, eşik ve sensör ayarları bu kişi için: ",
   "lines": [
-   3380
+   3382
   ],
   "calls": [
    "String"
@@ -9126,7 +9129,7 @@
   "kind": "W",
   "tr": "Aile modu",
   "lines": [
-   3385
+   3387
   ],
   "calls": [
    "String"
@@ -9136,7 +9139,7 @@
   "kind": "W",
   "tr": "Aynı cihazda en fazla 3 kişinin şekerini izleyin. Her kişinin kendi kaynağı ve eşikleri olur.",
   "lines": [
-   3386
+   3388
   ],
   "calls": [
    "String"
@@ -9146,7 +9149,7 @@
   "kind": "W",
   "tr": "Durum",
   "lines": [
-   3388
+   3390
   ],
   "calls": [
    "String"
@@ -9156,7 +9159,7 @@
   "kind": "W",
   "tr": "Kapalı (1 kişi)",
   "lines": [
-   3389
+   3391
   ],
   "calls": []
  },
@@ -9164,7 +9167,7 @@
   "kind": "W",
   "tr": "Açık",
   "lines": [
-   3390
+   3392
   ],
   "calls": []
  },
@@ -9172,7 +9175,7 @@
   "kind": "W",
   "tr": "Kişi sayısı",
   "lines": [
-   3392
+   3394
   ],
   "calls": [
    "String"
@@ -9182,7 +9185,7 @@
   "kind": "W",
   "tr": "Ana ekran",
   "lines": [
-   3394
+   3396
   ],
   "calls": [
    "String"
@@ -9192,7 +9195,7 @@
   "kind": "W",
   "tr": "Sırayla (15 sn)",
   "lines": [
-   3395
+   3397
   ],
   "calls": []
  },
@@ -9200,7 +9203,7 @@
   "kind": "W",
   "tr": "Bölünmüş (hepsi birlikte)",
   "lines": [
-   3396
+   3398
   ],
   "calls": []
  },
@@ -9208,7 +9211,7 @@
   "kind": "W",
   "tr": "kişinin adı",
   "lines": [
-   3399
+   3401
   ],
   "calls": [
    "String"
@@ -9218,7 +9221,7 @@
   "kind": "W",
   "tr": "Kaydettikten sonra sayfanın üstünden kişiyi seçip kaynağını ve eşiklerini girin.",
   "lines": [
-   3401
+   3403
   ],
   "calls": [
    "String"
@@ -9228,7 +9231,7 @@
   "kind": "W",
   "tr": "Kaydet",
   "lines": [
-   3403
+   3405
   ],
   "calls": [
    "String"
@@ -9238,7 +9241,7 @@
   "kind": "W",
   "tr": " &nbsp;|&nbsp; Kaynak: <b>",
   "lines": [
-   3457
+   3459
   ],
   "calls": []
  },
@@ -9246,7 +9249,7 @@
   "kind": "W",
   "tr": "\n<p><a class=\"btn\" href=\"/update\">Firmware Guncelle (OTA)</a>\n<a class=\"btn btn2\" href=\"/foto\">Foto yukle</a></p>\n<p><a class=\"btn btn2\" href=\"/karb\">Karb-Not listesi</a></p>\n</div>\n<div class=\"card\">\n<h1>Kaynak Ayarlari</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Once kullandiginiz kaynagi secin, sonra sadece o alanlari doldurun.</p>\n<form method=\"POST\" action=\"/save\">\n<label>Aktif kaynak</label>\n<select name=\"srcpick\" id=\"srcpick\" onchange=\"showSrc(this.value)\">\n<option value=\"nightscout\"",
   "lines": [
-   3459
+   3461
   ],
   "calls": []
  },
@@ -9254,7 +9257,7 @@
   "kind": "W",
   "tr": "\">\n<label>API Secret (opsiyonel; yildizlar = kayitli)</label><input name=\"apisecret\" type=\"password\" autocomplete=\"off\" value=\"",
   "lines": [
-   3490
+   3492
   ],
   "calls": []
  },
@@ -9262,7 +9265,7 @@
   "kind": "W",
   "tr": "\" id=\"box-dexcom\">\n<h2 style=\"color:#e67e22\">Dexcom</h2>\n<p style=\"color:#aaa;font-size:.85rem\">Dexcom G6 / G7 / ONE uygulamasina giris yaptiginiz <b>kendi hesabiniz</b> (Follow uygulamasinin hesabi degil). Uygulamada Paylasim (Share) acik ve en az bir takipci ekli olmali (takipcinin uygulamayi kullanmasi gerekmez).</p>\n<label>Kullanici adi, e-posta veya telefon</label>\n<p style=\"color:#aaa;font-size:.8rem;margin:2px 0 6px\">Dexcom hesabiniz telefon numarasiyla kayitliysa numarayi ulke koduyla, bosluksuz yazin: +905XXXXXXXXX</p><input name=\"dexuser\" value=\"",
   "lines": [
-   3498
+   3500
   ],
   "calls": []
  },
@@ -9270,7 +9273,7 @@
   "kind": "W",
   "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"dexpass\" type=\"password\" value=\"",
   "lines": [
-   3504
+   3506
   ],
   "calls": []
  },
@@ -9278,7 +9281,7 @@
   "kind": "W",
   "tr": "\" autocomplete=\"off\">\n<label>Sunucu</label><select name=\"dexsrv\"><option value=\"ous\"",
   "lines": [
-   3507
+   3509
   ],
   "calls": []
  },
@@ -9286,7 +9289,7 @@
   "kind": "W",
   "tr": ">ous (EU vb.)</option><option value=\"us\"",
   "lines": [
-   3510
+   3512
   ],
   "calls": []
  },
@@ -9294,7 +9297,7 @@
   "kind": "W",
   "tr": "\" id=\"box-libre\">\n<h2 style=\"color:#27ae60\">LibreLinkUp</h2>\n<p style=\"color:#aaa;font-size:.85rem\">LibreLinkUp <b>takipci hesabinin</b> e-posta ve sifresi (LibreLink / Libre uygulamasindan bu hesaba davet gonderilip LibreLinkUp uygulamasinda kabul edilmis olmali).</p>\n<label>E-posta</label><input name=\"libremail\" value=\"",
   "lines": [
-   3517
+   3519
   ],
   "calls": []
  },
@@ -9302,7 +9305,7 @@
   "kind": "W",
   "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"librepass\" type=\"password\" value=\"",
   "lines": [
-   3522
+   3524
   ],
   "calls": []
  },
@@ -9310,7 +9313,7 @@
   "kind": "W",
   "tr": "\" autocomplete=\"off\">\n<label>Bolge</label><input name=\"librereg\" value=\"",
   "lines": [
-   3525
+   3527
   ],
   "calls": []
  },
@@ -9318,7 +9321,7 @@
   "kind": "W",
   "tr": "\" id=\"box-medtrum\">\n<h2 style=\"color:#9b59b6\">Medtrum</h2>\n<p style=\"color:#aaa;font-size:.85rem\">EasyView / Medtrum uygulamasindan (Takip / Paylas) davet ettiginiz <b>EasyFollow hesabinin</b> e-posta ve sifresi. Sunucu: Avrupa (easyview.medtrum.eu).</p>\n<label>EasyFollow e-posta</label><input name=\"medemail\" value=\"",
   "lines": [
-   3533
+   3535
   ],
   "calls": []
  },
@@ -9326,7 +9329,7 @@
   "kind": "W",
   "tr": "\">\n<label>Sifre (yildizlar = kayitli sifre; silmek icin bosaltin)</label><input name=\"medpass\" type=\"password\" value=\"",
   "lines": [
-   3538
+   3540
   ],
   "calls": []
  },
@@ -9334,7 +9337,7 @@
   "kind": "W",
   "tr": "\" autocomplete=\"off\">\n</div>\n\n<button class=\"btn\" type=\"submit\">Kaydet</button>\n</form>\n</div>\n<script>\nfunction showSrc(v){\n  document.querySelectorAll('.srcbox').forEach(function(el){\n    el.classList.toggle('on', el.id === 'box-' + v);\n  });\n  document.querySelectorAll('.nsonly').forEach(function(el){\n    el.classList.toggle('on', v === 'nightscout');\n  });\n  document.querySelectorAll('.manonly').forEach(function(el){\n    el.classList.toggle('on', v !== 'nightscout');\n  });\n}\nfunction toggleBox(id, v){\n  document.getElementById(id).classList.toggle('on', v === '1');\n}\n</script>",
   "lines": [
-   3541
+   3543
   ],
   "calls": []
  },
@@ -9342,7 +9345,7 @@
   "kind": "W",
   "tr": "\n<div class=\"card\">\n<h1>Sensor / Set Suresi</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Kalan sure = omur - gecen sure. Nightscout'ta gecen sure otomatik gelir. Dexcom / Libre kullaniyorsaniz takma zamanini asagiya (veya cihazda Uygulamalar &gt; Sensor'e) girin. Sure dolmaya 12 saat / 3 saat / 1 saat / 15 dakika kala cihazda kisa bir uyari cikar. Pompa kullanmiyorsaniz Set/Pompa takibini kapatabilirsiniz.</p>\n<form method=\"POST\" action=\"/save\">\n<div class=\"manonly",
   "lines": [
-   3563
+   3565
   ],
   "calls": []
  },
@@ -9350,7 +9353,7 @@
   "kind": "W",
   "tr": "\">\n<label>Sensor takilma zamani</label><input name=\"sensins\" type=\"datetime-local\" value=\"",
   "lines": [
-   3570
+   3572
   ],
   "calls": []
  },
@@ -9358,7 +9361,7 @@
   "kind": "W",
   "tr": "\">\n<label>Set / pompa degisim zamani</label><input name=\"setins\" type=\"datetime-local\" value=\"",
   "lines": [
-   3573
+   3575
   ],
   "calls": []
  },
@@ -9366,7 +9369,7 @@
   "kind": "W",
   "tr": "\">\n</div>\n<label>Sensor takibi</label><select name=\"strackon\" onchange=\"toggleBox('box-strack',this.value)\"><option value=\"1\"",
   "lines": [
-   3576
+   3578
   ],
   "calls": []
  },
@@ -9374,11 +9377,11 @@
   "kind": "W",
   "tr": ">Acik</option><option value=\"0\"",
   "lines": [
-   3580,
-   3597,
-   3642,
-   3647,
-   3655
+   3582,
+   3599,
+   3644,
+   3649,
+   3657
   ],
   "calls": []
  },
@@ -9386,8 +9389,8 @@
   "kind": "W",
   "tr": ">Kapali</option></select>\n<div class=\"modebox",
   "lines": [
-   3582,
-   3599
+   3584,
+   3601
   ],
   "calls": []
  },
@@ -9395,7 +9398,7 @@
   "kind": "W",
   "tr": "\" id=\"box-strack\">\n<div class=\"row\">\n<div><label>Sensor omru - gun</label><input name=\"slifed\" type=\"number\" min=\"0\" max=\"30\" value=\"",
   "lines": [
-   3585
+   3587
   ],
   "calls": []
  },
@@ -9403,7 +9406,7 @@
   "kind": "W",
   "tr": "\"></div>\n<div><label>saat (0-23)</label><input name=\"slifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"",
   "lines": [
-   3589
+   3591
   ],
   "calls": []
  },
@@ -9411,7 +9414,7 @@
   "kind": "W",
   "tr": "\"></div>\n</div>\n</div>\n<label>Set / Pompa takibi</label><select name=\"ctrackon\" onchange=\"toggleBox('box-ctrack',this.value)\"><option value=\"1\"",
   "lines": [
-   3592
+   3594
   ],
   "calls": []
  },
@@ -9419,7 +9422,7 @@
   "kind": "W",
   "tr": "\" id=\"box-ctrack\">\n<div class=\"row\">\n<div><label>Set/Pompa omru - gun</label><input name=\"clifed\" type=\"number\" min=\"0\" max=\"14\" value=\"",
   "lines": [
-   3602
+   3604
   ],
   "calls": []
  },
@@ -9427,7 +9430,7 @@
   "kind": "W",
   "tr": "\"></div>\n<div><label>saat (0-23)</label><input name=\"clifeh\" type=\"number\" min=\"0\" max=\"23\" value=\"",
   "lines": [
-   3606
+   3608
   ],
   "calls": []
  },
@@ -9435,7 +9438,7 @@
   "kind": "W",
   "tr": "\"></div>\n</div>\n</div>\n<button class=\"btn\" type=\"submit\">Sensor/Set kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Alarm esikleri</h1>\n<script>\nfunction chkTh(f){var c=+f.acrit.value,l=+f.alow.value,h=+f.ahigh.value,v=+f.avhigh.value,m='';\nif(c>l-5)m='Kritik dusuk, dusuk esikten en az 5 asagida olmali.';\nelse if(l>h-10)m='Dusuk esik, yuksek esikten en az 10 asagida olmali.';\nelse if(h>v-10)m='Yuksek esik, cok yuksek esikten en az 10 asagida olmali.';\nif(m){alert(m);return false;}return true;}\n</script>\n<form method=\"POST\" action=\"/save\" onsubmit=\"return chkTh(this)\">\n<label>Kritik dusuk</label><input name=\"acrit\" type=\"number\" min=\"40\" max=\"80\" value=\"",
   "lines": [
-   3609
+   3611
   ],
   "calls": []
  },
@@ -9443,7 +9446,7 @@
   "kind": "W",
   "tr": "\">\n<label>Dusuk</label><input name=\"alow\" type=\"number\" min=\"40\" max=\"200\" value=\"",
   "lines": [
-   3627
+   3629
   ],
   "calls": []
  },
@@ -9451,7 +9454,7 @@
   "kind": "W",
   "tr": "\">\n<label>Yuksek</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"",
   "lines": [
-   3630
+   3632
   ],
   "calls": []
  },
@@ -9459,7 +9462,7 @@
   "kind": "W",
   "tr": "\">\n<label>Cok yuksek</label><input name=\"avhigh\" type=\"number\" min=\"150\" max=\"400\" value=\"",
   "lines": [
-   3633
+   3635
   ],
   "calls": []
  },
@@ -9467,7 +9470,7 @@
   "kind": "W",
   "tr": "\">\n<label>Veri yok (dk)</label><input name=\"stale\" type=\"number\" min=\"5\" max=\"60\" value=\"",
   "lines": [
-   3636
+   3638
   ],
   "calls": []
  },
@@ -9475,7 +9478,7 @@
   "kind": "W",
   "tr": "\">\n<label>Hizli dusus alarmi (cift asagi ok)</label><select name=\"afdn\"><option value=\"1\"",
   "lines": [
-   3639
+   3641
   ],
   "calls": []
  },
@@ -9483,7 +9486,7 @@
   "kind": "W",
   "tr": ">Kapali</option></select>\n<label>Hizli yukselis alarmi (cift yukari ok)</label><select name=\"afup\"><option value=\"1\"",
   "lines": [
-   3644
+   3646
   ],
   "calls": []
  },
@@ -9491,7 +9494,7 @@
   "kind": "W",
   "tr": ">Kapali</option></select>\n<label>Erteleme dk (0=yok)</label><input name=\"snooze\" type=\"number\" min=\"0\" max=\"60\" value=\"",
   "lines": [
-   3649
+   3651
   ],
   "calls": []
  },
@@ -9499,7 +9502,7 @@
   "kind": "W",
   "tr": "\">\n<label>Gorsel alarm</label><select name=\"visalm\"><option value=\"1\"",
   "lines": [
-   3652
+   3654
   ],
   "calls": []
  },
@@ -9507,7 +9510,7 @@
   "kind": "W",
   "tr": ">Kapali</option></select>\n<button class=\"btn\" type=\"submit\">Alarm kaydet</button>\n</form>\n</div>",
   "lines": [
-   3657
+   3659
   ],
   "calls": []
  },
@@ -9515,7 +9518,7 @@
   "kind": "W",
   "tr": "Birim: ",
   "lines": [
-   3661
+   3663
   ],
   "calls": []
  },
@@ -9523,39 +9526,13 @@
   "kind": "W",
   "tr": "<div class=\"card\">\n<h1>Cihaz</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Parlaklik</label><select name=\"bright\">",
   "lines": [
-   3672
+   3674
   ],
   "calls": []
  },
  "39ee84c7": {
   "kind": "W",
   "tr": ">Dusuk</option>",
-  "lines": [
-   3676,
-   3682,
-   3710,
-   3716,
-   3742,
-   3748
-  ],
-  "calls": []
- },
- "c58f687f": {
-  "kind": "W",
-  "tr": ">Orta</option>",
-  "lines": [
-   3677,
-   3683,
-   3711,
-   3717,
-   3743,
-   3749
-  ],
-  "calls": []
- },
- "532ed959": {
-  "kind": "W",
-  "tr": ">Yuksek</option>",
   "lines": [
    3678,
    3684,
@@ -9566,11 +9543,37 @@
   ],
   "calls": []
  },
+ "c58f687f": {
+  "kind": "W",
+  "tr": ">Orta</option>",
+  "lines": [
+   3679,
+   3685,
+   3713,
+   3719,
+   3745,
+   3751
+  ],
+  "calls": []
+ },
+ "532ed959": {
+  "kind": "W",
+  "tr": ">Yuksek</option>",
+  "lines": [
+   3680,
+   3686,
+   3714,
+   3720,
+   3746,
+   3752
+  ],
+  "calls": []
+ },
  "b0dde471": {
   "kind": "W",
   "tr": "</select>\n<label>Alarm sesi</label><select name=\"sound\">",
   "lines": [
-   3679
+   3681
   ],
   "calls": []
  },
@@ -9578,9 +9581,9 @@
   "kind": "W",
   "tr": ">Sessiz</option>",
   "lines": [
-   3681,
-   3715,
-   3747
+   3683,
+   3717,
+   3749
   ],
   "calls": []
  },
@@ -9588,7 +9591,7 @@
   "kind": "W",
   "tr": "Saat dilimi",
   "lines": [
-   3685
+   3687
   ],
   "calls": []
  },
@@ -9596,7 +9599,7 @@
   "kind": "W",
   "tr": "</select>\n<button class=\"btn\" type=\"submit\">Cihaz kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Gece modu</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Durum</label><select name=\"nighton\" onchange=\"toggleBox('box-night',this.value)\"><option value=\"0\"",
   "lines": [
-   3688
+   3690
   ],
   "calls": []
  },
@@ -9604,8 +9607,8 @@
   "kind": "W",
   "tr": ">Kapali</option><option value=\"1\"",
   "lines": [
-   3697,
-   3729
+   3699,
+   3731
   ],
   "calls": []
  },
@@ -9613,8 +9616,8 @@
   "kind": "W",
   "tr": ">Acik</option></select>\n<div class=\"modebox",
   "lines": [
-   3699,
-   3731
+   3701,
+   3733
   ],
   "calls": []
  },
@@ -9622,7 +9625,7 @@
   "kind": "W",
   "tr": "\" id=\"box-night\">\n<label>Baslangic</label><input name=\"nighth\" type=\"time\" step=\"60\" value=\"",
   "lines": [
-   3702
+   3704
   ],
   "calls": []
  },
@@ -9630,7 +9633,7 @@
   "kind": "W",
   "tr": "\">\n<label>Bitis</label><input name=\"nighte\" type=\"time\" step=\"60\" value=\"",
   "lines": [
-   3705
+   3707
   ],
   "calls": []
  },
@@ -9638,7 +9641,7 @@
   "kind": "W",
   "tr": "\">\n<label>Gece parlaklik</label><select name=\"nightb\">",
   "lines": [
-   3708
+   3710
   ],
   "calls": []
  },
@@ -9646,7 +9649,7 @@
   "kind": "W",
   "tr": "</select>\n<label>Gece ses</label><select name=\"nights\">",
   "lines": [
-   3713
+   3715
   ],
   "calls": []
  },
@@ -9654,7 +9657,7 @@
   "kind": "W",
   "tr": "</select>\n</div>\n<button class=\"btn\" type=\"submit\">Gece kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Okul modu</h1>\n<form method=\"POST\" action=\"/save\">\n<label>Durum</label><select name=\"schoolon\" onchange=\"toggleBox('box-school',this.value)\"><option value=\"0\"",
   "lines": [
-   3719
+   3721
   ],
   "calls": []
  },
@@ -9662,7 +9665,7 @@
   "kind": "W",
   "tr": "\" id=\"box-school\">\n<label>Baslangic</label><input name=\"schoolsh\" type=\"time\" step=\"60\" value=\"",
   "lines": [
-   3734
+   3736
   ],
   "calls": []
  },
@@ -9670,7 +9673,7 @@
   "kind": "W",
   "tr": "\">\n<label>Bitis</label><input name=\"schooleh\" type=\"time\" step=\"60\" value=\"",
   "lines": [
-   3737
+   3739
   ],
   "calls": []
  },
@@ -9678,7 +9681,7 @@
   "kind": "W",
   "tr": "\">\n<label>Okul parlaklik</label><select name=\"schoolb\">",
   "lines": [
-   3740
+   3742
   ],
   "calls": []
  },
@@ -9686,7 +9689,7 @@
   "kind": "W",
   "tr": "</select>\n<label>Okul ses</label><select name=\"schools\">",
   "lines": [
-   3745
+   3747
   ],
   "calls": []
  },
@@ -9694,7 +9697,7 @@
   "kind": "W",
   "tr": "</select>\n</div>\n<button class=\"btn\" type=\"submit\">Okul kaydet</button>\n</form>\n</div>\n<div class=\"card\">\n<h1>Guvenlik</h1>\n<p style=\"color:#aaa;font-size:.9rem\">Bu tarayici 30 gun boyunca hatirlanir. Sifre cihazin Bilgi ekraninda da yazar; unutursan oradan bakabilirsin. Cihaz Sifirla, sifreyi ilk (fabrika) sifresine dondurur; yeni sifre yine Bilgi ekraninda yazar.</p>\n<form method=\"POST\" action=\"/pass\">\n<label>Mevcut sifre</label><input name=\"cur\" type=\"password\" autocomplete=\"current-password\">\n<label>Yeni sifre (6-32 karakter, Turkce harf ve bosluk yok)</label><input name=\"np\" type=\"password\" autocomplete=\"new-password\">\n<label>Yeni sifre (tekrar)</label><input name=\"np2\" type=\"password\" autocomplete=\"new-password\">\n<button class=\"btn\" type=\"submit\">Sifreyi degistir</button>\n</form>\n<p><a class=\"btn btn2\" href=\"/logout\">Cikis yap</a></p>\n</div>\n</body></html>",
   "lines": [
-   3751
+   3753
   ],
   "calls": []
  },
@@ -9702,7 +9705,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><title>Esikler</title>",
   "lines": [
-   3839
+   3841
   ],
   "calls": [
    "String"
@@ -9712,7 +9715,7 @@
   "kind": "W",
   "tr": "</p><p>Hicbir ayar degistirilmedi.</p><p><a href='javascript:history.back()'>&larr; Geri don</a></p></div></body></html>",
   "lines": [
-   3841
+   3843
   ],
   "calls": []
  },
@@ -9720,7 +9723,7 @@
   "kind": "W",
   "tr": "<!DOCTYPE html><html><head><meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\">\n<title>Foto yukle</title>\n<link rel=\"icon\" href=\"/logo.png\">\n<style>\nbody{font-family:system-ui;background:#0f1115;color:#eee;padding:16px}\n.card{background:#1a1d24;border-radius:12px;padding:16px;max-width:480px;margin:auto}\n.btn{display:inline-block;margin-top:12px;padding:12px 18px;background:#1a73e8;color:#fff;border:none;border-radius:8px}\ncanvas{max-width:100%;background:#000;margin-top:8px}\nlabel{display:block;font-size:.85rem;color:#aaa;margin:14px 0 4px}\ninput[type=number]{width:100%;max-width:110px;padding:8px;border-radius:8px;border:1px solid #333;background:#111;color:#eee;font-size:1rem}\n#st{white-space:pre-wrap;font-family:monospace;font-size:12px;color:#ddd}\n</style></head><body><div class=\"card\">\n<h1>Foto yukle (256x192)</h1>\n<p>En fazla ",
   "lines": [
-   4036
+   4038
   ],
   "calls": []
  },
@@ -9728,7 +9731,7 @@
   "kind": "W",
   "tr": " fotograf saklanabilir. Su an: <b id=\"cnt\">",
   "lines": [
-   4052
+   4054
   ],
   "calls": []
  },
@@ -9736,7 +9739,7 @@
   "kind": "W",
   "tr": "</b> foto.</p>\n<p style=\"color:#888;font-size:13px\">Birden fazla dosya secebilirsiniz, sirayla otomatik yuklenir. ",
   "lines": [
-   4054
+   4056
   ],
   "calls": []
  },
@@ -9744,7 +9747,7 @@
   "kind": "W",
   "tr": " doluysa once \"Fotograflari Sil\"e basip yer acin.</p>\n<p style=\"color:#888;font-size:13px\">SPIFFS bos alan (su an): ",
   "lines": [
-   4057
+   4059
   ],
   "calls": []
  },
@@ -9752,7 +9755,7 @@
   "kind": "W",
   "tr": "</p>\n<input type=\"file\" id=\"f\" accept=\"image/*\" multiple>\n<canvas id=\"c\" width=\"256\" height=\"192\" style=\"width:100%;max-width:320px\"></canvas>\n<button class=\"btn\" id=\"clr\" style=\"background:#666\">Fotograflari Sil</button>\n<p id=\"st\"></p>\n\n<label>Fotograf arayuzunde kac dakikada bir bir sonrakine gecilsin</label>\n<input type=\"number\" id=\"rot\" min=\"1\" max=\"180\" value=\"",
   "lines": [
-   4064
+   4066
   ],
   "calls": []
  },
@@ -9760,7 +9763,7 @@
   "kind": "W",
   "tr": "\">\n<button class=\"btn\" id=\"rotsave\" style=\"margin-top:10px\">Bu ayari kaydet</button>\n<p id=\"rotst\" style=\"color:#888;font-size:13px\">Sadece birden fazla foto yuklendiyse gecerli olur.</p>\n\n<p><a href=\"/\" style=\"color:#8af\">← Geri</a></p>\n</div>\n<script>\nconst W=256,H=192,FMAX=",
   "lines": [
-   4073
+   4075
   ],
   "calls": []
  },
@@ -9768,7 +9771,7 @@
   "kind": "W",
   "tr": "Yukleniyor",
   "lines": [
-   4083
+   4085
   ],
   "calls": []
  },
@@ -9776,7 +9779,7 @@
   "kind": "W",
   "tr": "HATA",
   "lines": [
-   4083
+   4085
   ],
   "calls": []
  },
@@ -9784,7 +9787,7 @@
   "kind": "W",
   "tr": "%1 foto doldu, %2 tanesi yuklendi. Kalanlar icin once sil.",
   "lines": [
-   4084
+   4086
   ],
   "calls": []
  },
@@ -9792,7 +9795,7 @@
   "kind": "W",
   "tr": "%1 foto yuklendi - Arayuz > Foto Cerceve sec",
   "lines": [
-   4085
+   4087
   ],
   "calls": []
  },
@@ -9800,7 +9803,7 @@
   "kind": "W",
   "tr": "%1 yuklendi, %2 hata verdi",
   "lines": [
-   4086
+   4088
   ],
   "calls": []
  },
@@ -9808,7 +9811,7 @@
   "kind": "W",
   "tr": "Siliniyor...",
   "lines": [
-   4087
+   4089
   ],
   "calls": []
  },
@@ -9816,7 +9819,7 @@
   "kind": "W",
   "tr": "Kaydediliyor...",
   "lines": [
-   4087
+   4089
   ],
   "calls": []
  },
@@ -9824,7 +9827,7 @@
   "kind": "W",
   "tr": "Depolama okunamadi",
   "lines": [
-   4201
+   4203
   ],
   "calls": [
    "send"
@@ -9834,7 +9837,7 @@
   "kind": "W",
   "tr": "Tum fotograflar silindi, bos alan=",
   "lines": [
-   4211
+   4213
   ],
   "calls": [
    "send"
@@ -9844,7 +9847,7 @@
   "kind": "W",
   "tr": " dk",
   "lines": [
-   4223
+   4225
   ],
   "calls": []
  },
@@ -9852,7 +9855,7 @@
   "kind": "W",
   "tr": "metematik Ayarlar",
   "lines": [
-   14253
+   14329
   ],
   "calls": [
    "setTitle"
@@ -9862,7 +9865,7 @@
   "kind": "W",
   "tr": "Kuruluma Devam Et",
   "lines": [
-   14289
+   14365
   ],
   "calls": []
  },
@@ -9870,7 +9873,7 @@
   "kind": "W",
   "tr": "Kuruluma Devam Et (Taramasiz)",
   "lines": [
-   14289
+   14365
   ],
   "calls": []
  },
@@ -9878,7 +9881,7 @@
   "kind": "W",
   "tr": "<div class='c'><p style='margin:0;color:#ccc;font-size:0.95em'>Asagida <b>sadece bir kaynak</b> doldurun. Daha sonra http://IP/ adresinden de degistirebilirsiniz.</p></div>",
   "lines": [
-   14301
+   14377
   ],
   "calls": [
    "p_note"
@@ -9888,7 +9891,7 @@
   "kind": "W",
   "tr": "<div class='c' style='border-left:4px solid #e67e22'><b style='color:#e67e22'>Dexcom</b><br><small>Kendi Dexcom hesabiniz (Follow degil)</small></div>",
   "lines": [
-   14309
+   14385
   ],
   "calls": [
    "p_hd_dx"
@@ -9898,7 +9901,7 @@
   "kind": "W",
   "tr": "Dexcom kullanici adi / e-posta / telefon (+905XXXXXXXXX)",
   "lines": [
-   14310
+   14386
   ],
   "calls": [
    "p_dexu"
@@ -9908,7 +9911,7 @@
   "kind": "W",
   "tr": "Dexcom sifre",
   "lines": [
-   14311
+   14387
   ],
   "calls": [
    "p_dexp"
@@ -9918,7 +9921,7 @@
   "kind": "W",
   "tr": "us veya ous",
   "lines": [
-   14312
+   14388
   ],
   "calls": [
    "p_dexs"
@@ -9928,7 +9931,7 @@
   "kind": "W",
   "tr": "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Takipci (LibreLinkUp) hesabi</small></div>",
   "lines": [
-   14313
+   14389
   ],
   "calls": [
    "p_hd_lb"
@@ -9938,7 +9941,7 @@
   "kind": "W",
   "tr": "Libre e-posta",
   "lines": [
-   14314
+   14390
   ],
   "calls": [
    "p_leu"
@@ -9948,7 +9951,7 @@
   "kind": "W",
   "tr": "Libre sifre",
   "lines": [
-   14315
+   14391
   ],
   "calls": [
    "p_lep"
@@ -9958,7 +9961,7 @@
   "kind": "W",
   "tr": "<div class='c' style='border-left:4px solid #9b59b6'><b style='color:#9b59b6'>Medtrum</b><br><small>EasyFollow hesabi</small></div>",
   "lines": [
-   14317
+   14393
   ],
   "calls": [
    "p_hd_md"
@@ -9968,7 +9971,7 @@
   "kind": "W",
   "tr": "EasyFollow e-posta",
   "lines": [
-   14318
+   14394
   ],
   "calls": [
    "p_mdu"
@@ -9978,7 +9981,7 @@
   "kind": "W",
   "tr": "EasyFollow sifre",
   "lines": [
-   14319
+   14395
   ],
   "calls": [
    "p_mdp"

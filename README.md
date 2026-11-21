@@ -28,7 +28,7 @@ MeteMatik is **not sold** and there is no ready-made device. You buy the display
 
 ## What's new
 
-**4.1.0:** time zone setting, the meal timer can start by itself on a Nightscout bolus, a countdown pill on every page, a new finish screen, mmol/L limits, WiFi bar fix. See [CHANGELOG.md](CHANGELOG.md).
+**4.1.0 – 4.1.1:** time zone setting, the meal timer can start by itself on a Nightscout bolus, a countdown pill on every page, a new finish screen, mmol/L limits with a decimal key, WiFi bar fix. See [CHANGELOG.md](CHANGELOG.md).
 
 ## ⚠️ Important — please read
 

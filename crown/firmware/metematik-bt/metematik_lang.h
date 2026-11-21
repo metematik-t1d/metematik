@@ -48,33 +48,33 @@ static const uint32_t LANG_KEYS[LANG_TABLE_N] = {
   0x54dd8c7fu, 0x54f44407u, 0x551a030eu, 0x555fdc04u, 0x55f5222bu, 0x5617eed0u, 0x5627ad15u, 0x5668db59u,
   0x56be160du, 0x578e7a3eu, 0x57932a59u, 0x57eff133u, 0x58138fe9u, 0x582b7b17u, 0x59430b7eu, 0x5a8a96ddu,
   0x5aebfb4au, 0x5b08c7d1u, 0x5b53b045u, 0x5b748e2au, 0x5b818d0fu, 0x5bacd9a1u, 0x5bd986bau, 0x5c35f9f5u,
-  0x5c363498u, 0x5c68e05au, 0x5c6994d8u, 0x5cd99201u, 0x5dc555c6u, 0x5de3af16u, 0x5e099e66u, 0x5e192a64u,
-  0x5e2bf7bbu, 0x5ec9d25du, 0x5f67cd6bu, 0x5f6caeceu, 0x6001a119u, 0x602d4800u, 0x60893147u, 0x608f4754u,
-  0x60a5947fu, 0x61725ac1u, 0x61ba8805u, 0x61db2077u, 0x625e3b27u, 0x629daa7du, 0x62a17f7bu, 0x6318022au,
-  0x6398eb3au, 0x639a6250u, 0x63d9eef6u, 0x63f7e593u, 0x64c78d97u, 0x64e0ec34u, 0x6582cca2u, 0x66335366u,
-  0x66c3d749u, 0x6701ea36u, 0x6807bafau, 0x68307073u, 0x68bde224u, 0x692c3f8bu, 0x693b6c0du, 0x694710a5u,
-  0x69575c59u, 0x6978fb70u, 0x6b59075eu, 0x6b7a5fa9u, 0x6b7d450au, 0x6ba94dbfu, 0x6bb442a2u, 0x6bb91142u,
-  0x6c1e9b20u, 0x6cb734bbu, 0x6ce29d12u, 0x6ce514ccu, 0x6cf77956u, 0x6d224992u, 0x6d3c1b22u, 0x6d3ca1c8u,
-  0x6d449681u, 0x6d4dbf3cu, 0x6d9f3c58u, 0x6db86bf0u, 0x6e35f83au, 0x6e3eef5bu, 0x6e5b2db2u, 0x6ea4f231u,
-  0x6ebe882du, 0x6ef56445u, 0x6f2176c2u, 0x6f7f8867u, 0x6fbe6c83u, 0x70d81158u, 0x7119c737u, 0x719ed898u,
-  0x71af8e54u, 0x71d808d6u, 0x71fc5d07u, 0x724e478cu, 0x72579194u, 0x726ff8aeu, 0x72cb13fbu, 0x72ef7050u,
-  0x738a22eau, 0x739f9fffu, 0x73a039e8u, 0x73ebfd55u, 0x741258aau, 0x742512dbu, 0x752592bfu, 0x755fdd06u,
-  0x756b1bf4u, 0x757aaaceu, 0x75d07c3eu, 0x761b5996u, 0x7631776bu, 0x763abfe0u, 0x763e50f6u, 0x765dfc7bu,
-  0x76b3ee4eu, 0x76c1725bu, 0x76f570a8u, 0x7707ca1au, 0x7763a316u, 0x77a5696eu, 0x77cb1fe5u, 0x77cb3a52u,
-  0x7808e0e5u, 0x784f6467u, 0x78a24139u, 0x78ef2febu, 0x7916e1eeu, 0x7953b285u, 0x7983e56fu, 0x79dadd1eu,
-  0x7aa7078fu, 0x7ab08c87u, 0x7ae3d9beu, 0x7ae6b03cu, 0x7b1d17dfu, 0x7b2d3712u, 0x7b65a30au, 0x7b6cc14au,
-  0x7bb6868au, 0x7be5b4d1u, 0x7c2ef34au, 0x7c3e7b67u, 0x7c849446u, 0x7c8765c7u, 0x7c91a3d3u, 0x7cf9e41eu,
-  0x7d3ea30du, 0x7e73209fu, 0x7e7ef6fbu, 0x7ec705f9u, 0x7f6dd2f4u, 0x7f962138u, 0x7f9a3712u, 0x8085f244u,
-  0x80d003dcu, 0x81093ebdu, 0x81382823u, 0x81891934u, 0x81ce6ffeu, 0x81de7b2bu, 0x81de9789u, 0x81f52e4cu,
-  0x82885d57u, 0x82a65a3eu, 0x82b7fdccu, 0x830c0a6du, 0x8324b240u, 0x834b575bu, 0x83a46195u, 0x83cad710u,
-  0x83ce1520u, 0x83f563feu, 0x83fdf3b8u, 0x8409e329u, 0x8463f036u, 0x84ae2ddau, 0x850bfc04u, 0x851ee762u,
-  0x8541dc61u, 0x8571be23u, 0x866405dau, 0x86aa1dd7u, 0x870c32cbu, 0x870ddb5du, 0x8725b746u, 0x8739e8c4u,
-  0x8788f366u, 0x87954eb3u, 0x879c608eu, 0x882b1140u, 0x88c2a8f8u, 0x88d9b9cbu, 0x8949fadbu, 0x89a22894u,
-  0x89b18742u, 0x89b46fd2u, 0x89cd352eu, 0x8a19be83u, 0x8a33b5a0u, 0x8a97ad37u, 0x8ae6e8b7u, 0x8b2c6c42u,
-  0x8b7c6ebcu, 0x8b7c8752u, 0x8bf9026fu, 0x8c65170cu, 0x8cfaceb7u, 0x8d1629dbu, 0x8d208d35u, 0x8d343e23u,
-  0x8d72e1bcu, 0x8dffd44au, 0x8e1543cbu, 0x8e862e40u, 0x8ef0fa8du, 0x8f3dfe38u, 0x8f9c3476u, 0x8fc94b99u,
-  0x8ffd0fdau, 0x9000ced9u, 0x9072a7c3u, 0x907efd44u, 0x915302b9u, 0x91707445u, 0x91c06f66u, 0x91c398b0u,
-  0x92038c07u, 0x921b15b2u, 0x925581dbu, 0x9286923du, 0x92b4e846u, 0x92d635e6u, 0x9346f7b4u, 0x93aad056u,
+  0x5c363498u, 0x5c68e05au, 0x5c6994d8u, 0x5cd99201u, 0x5d09ab6fu, 0x5dc555c6u, 0x5de3af16u, 0x5e099e66u,
+  0x5e192a64u, 0x5e2bf7bbu, 0x5ec9d25du, 0x5f67cd6bu, 0x5f6caeceu, 0x6001a119u, 0x602d4800u, 0x60893147u,
+  0x608f4754u, 0x60a5947fu, 0x61725ac1u, 0x61ba8805u, 0x61db2077u, 0x625e3b27u, 0x629daa7du, 0x62a17f7bu,
+  0x6318022au, 0x6398eb3au, 0x639a6250u, 0x63d9eef6u, 0x63f7e593u, 0x64c78d97u, 0x64e0ec34u, 0x6582cca2u,
+  0x66335366u, 0x66c3d749u, 0x6701ea36u, 0x6807bafau, 0x68307073u, 0x68bde224u, 0x692c3f8bu, 0x693b6c0du,
+  0x694710a5u, 0x69575c59u, 0x6978fb70u, 0x6b59075eu, 0x6b7a5fa9u, 0x6b7d450au, 0x6ba94dbfu, 0x6bb442a2u,
+  0x6bb91142u, 0x6c1e9b20u, 0x6cb734bbu, 0x6ce29d12u, 0x6ce514ccu, 0x6cf77956u, 0x6d224992u, 0x6d3c1b22u,
+  0x6d3ca1c8u, 0x6d449681u, 0x6d4dbf3cu, 0x6d9f3c58u, 0x6db86bf0u, 0x6e35f83au, 0x6e3eef5bu, 0x6e5b2db2u,
+  0x6ea4f231u, 0x6ebe882du, 0x6ef56445u, 0x6f2176c2u, 0x6f7f8867u, 0x6fbe6c83u, 0x70d81158u, 0x7119c737u,
+  0x719ed898u, 0x71af8e54u, 0x71d808d6u, 0x71fc5d07u, 0x724e478cu, 0x72579194u, 0x726ff8aeu, 0x72cb13fbu,
+  0x72ef7050u, 0x738a22eau, 0x739f9fffu, 0x73a039e8u, 0x73ebfd55u, 0x741258aau, 0x742512dbu, 0x752592bfu,
+  0x755fdd06u, 0x756b1bf4u, 0x757aaaceu, 0x75d07c3eu, 0x761b5996u, 0x7631776bu, 0x763abfe0u, 0x763e50f6u,
+  0x765dfc7bu, 0x76b3ee4eu, 0x76c1725bu, 0x76f570a8u, 0x7707ca1au, 0x7763a316u, 0x77a5696eu, 0x77cb1fe5u,
+  0x77cb3a52u, 0x7808e0e5u, 0x784f6467u, 0x78a24139u, 0x78ef2febu, 0x7916e1eeu, 0x7953b285u, 0x7983e56fu,
+  0x79dadd1eu, 0x7aa7078fu, 0x7ab08c87u, 0x7ae3d9beu, 0x7ae6b03cu, 0x7b1d17dfu, 0x7b2d3712u, 0x7b65a30au,
+  0x7b6cc14au, 0x7bb6868au, 0x7be5b4d1u, 0x7c2ef34au, 0x7c3e7b67u, 0x7c849446u, 0x7c8765c7u, 0x7c91a3d3u,
+  0x7cf9e41eu, 0x7d3ea30du, 0x7e73209fu, 0x7e7ef6fbu, 0x7ec705f9u, 0x7f6dd2f4u, 0x7f962138u, 0x7f9a3712u,
+  0x8085f244u, 0x80d003dcu, 0x81093ebdu, 0x81382823u, 0x81891934u, 0x81ce6ffeu, 0x81de7b2bu, 0x81de9789u,
+  0x81f52e4cu, 0x82885d57u, 0x82a65a3eu, 0x82b7fdccu, 0x830c0a6du, 0x8324b240u, 0x834b575bu, 0x83a46195u,
+  0x83cad710u, 0x83ce1520u, 0x83f563feu, 0x83fdf3b8u, 0x8409e329u, 0x8463f036u, 0x84ae2ddau, 0x850bfc04u,
+  0x851ee762u, 0x8541dc61u, 0x8571be23u, 0x866405dau, 0x86aa1dd7u, 0x870c32cbu, 0x870ddb5du, 0x8725b746u,
+  0x8739e8c4u, 0x8788f366u, 0x87954eb3u, 0x879c608eu, 0x882b1140u, 0x88c2a8f8u, 0x88d9b9cbu, 0x8949fadbu,
+  0x89a22894u, 0x89b18742u, 0x89b46fd2u, 0x89cd352eu, 0x8a19be83u, 0x8a33b5a0u, 0x8a97ad37u, 0x8ae6e8b7u,
+  0x8b2c6c42u, 0x8b7c6ebcu, 0x8b7c8752u, 0x8bf9026fu, 0x8c65170cu, 0x8cfaceb7u, 0x8d1629dbu, 0x8d208d35u,
+  0x8d343e23u, 0x8d72e1bcu, 0x8dffd44au, 0x8e1543cbu, 0x8e862e40u, 0x8ef0fa8du, 0x8f3dfe38u, 0x8f9c3476u,
+  0x8fc94b99u, 0x8ffd0fdau, 0x9000ced9u, 0x9072a7c3u, 0x907efd44u, 0x915302b9u, 0x91707445u, 0x91c06f66u,
+  0x91c398b0u, 0x92038c07u, 0x921b15b2u, 0x9286923du, 0x92b4e846u, 0x92d635e6u, 0x9346f7b4u, 0x93aad056u,
   0x93d588d9u, 0x94232a11u, 0x945d4391u, 0x94a48a3au, 0x94cffd4au, 0x94d1fb35u, 0x959ca29fu, 0x95ef7054u,
   0x9613db53u, 0x967d9c8bu, 0x96f88e4fu, 0x96fcfc90u, 0x971d495fu, 0x977cbe81u, 0x979829acu, 0x97cc2d15u,
   0x97e74964u, 0x980740eau, 0x9813718du, 0x982a74c0u, 0x983bd5abu, 0x98a9b10du, 0x98dc31cbu, 0x99113421u,
@@ -499,6 +499,7 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"\">\n<label>High</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Alto</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Alto</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Haut</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Hoch</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Alto</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Высокий</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\"", "\">\n<label>Tinggi</label><input name=\"ahigh\" type=\"number\" min=\"100\" max=\"400\" value=\""},  // 5c68e05a
   {"Number of people", "Número de personas", "Número de pessoas", "Nombre de personnes", "Anzahl Personen", "Numero di persone", "Количество человек", "Jumlah orang"},  // 5c6994d8
   {"us or ous", "us u ous", "us ou ous", "us ou ous", "us oder ous", "us o ous", "us или ous", "us atau ous"},  // 5cd99201
+  {nullptr, "Toque un valor para escribirlo (mmol/L). El altavoz de la derecha activa o desactiva el sonido de esa alarma.", "Toque num valor para o escrever (mmol/L). O altifalante à direita liga/desliga o som desse alarme.", "Touchez une valeur pour la saisir (mmol/L). Le haut-parleur à droite active ou coupe le son de cette alarme.", "Wert antippen und eingeben (mmol/L). Der Lautsprecher rechts schaltet den Ton dieses Alarms ein/aus.", "Tocca un valore per scriverlo (mmol/L). L'altoparlante a destra attiva/disattiva il suono di quell'allarme.", "Нажмите на значение, чтобы ввести его (ммоль/л). Динамик справа включает/выключает звук этой тревоги.", "Ketuk nilai untuk mengetiknya (mmol/L). Speaker di kanan menyalakan/mematikan suara alarm itu."},  // 5d09ab6f
   {nullptr, "Fuente no configurada", "Fonte não configurada", "Source non configurée", "Quelle nicht eingerichtet", "Fonte non configurata", "Источник не настроен", "Sumber belum diatur"},  // 5dc555c6
   {nullptr, "El video no está instalado.", "O vídeo não está instalado.", "La vidéo n'est pas installée.", "Das Video ist nicht installiert.", "Il video non è installato.", "Видео не установлено.", "Video belum terpasang."},  // 5de3af16
   {nullptr, "Animado", "Animado", "Animé", "Animiert", "Animato", "Анимация", "Animasi"},  // 5e099e66
@@ -705,7 +706,6 @@ static const char* const LANG_TXT[LANG_TABLE_N][8] = {
   {"if(f.size>4000000)return 'File too large: choose the update file (.bin).';return '';}", "if(f.size>4000000)return 'Archivo demasiado grande: elija el archivo de actualización (.bin).';return '';}", "if(f.size>4000000)return 'Arquivo grande demais: escolha o arquivo de atualização (.bin).';return '';}", "if(f.size>4000000)return 'Fichier trop gros : choisissez le fichier de mise à jour (.bin).';return '';}", "if(f.size>4000000)return 'Datei zu groß: die Update-Datei (.bin) wählen.';return '';}", "if(f.size>4000000)return 'File troppo grande: scegli il file di aggiornamento (.bin).';return '';}", "if(f.size>4000000)return 'Файл слишком большой: выберите файл обновления (.bin).';return '';}", "if(f.size>4000000)return 'File terlalu besar: pilih file pembaruan (.bin).';return '';}"},  // 91c398b0
   {nullptr, "Bolo de", "Bólus de", "Bolus de", "Bolus von", "Bolo di", "Чей болюс", "Bolus milik"},  // 92038c07
   {"<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Follower (LibreLinkUp) account</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Cuenta seguidora (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Conta seguidora (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Compte abonné (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Follower-Konto (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Account follower (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Аккаунт наблюдателя (LibreLinkUp)</small></div>", "<div class='c' style='border-left:4px solid #27ae60'><b style='color:#27ae60'>LibreLinkUp</b><br><small>Akun pengikut (LibreLinkUp)</small></div>"},  // 921b15b2
-  {nullptr, "Toque un valor y escríbalo sin la coma (39 para 3,9). El altavoz de la derecha activa o desactiva el sonido de esa alarma.", "Toque num valor e escreva-o sem a vírgula (39 para 3,9). O altifalante à direita liga/desliga o som desse alarme.", "Touchez une valeur et tapez-la sans la virgule (39 pour 3,9). Le haut-parleur à droite active ou coupe le son de cette alarme.", "Wert antippen und ohne Komma eingeben (39 für 3,9). Der Lautsprecher rechts schaltet den Ton dieses Alarms ein/aus.", "Tocca un valore e scrivilo senza la virgola (39 per 3,9). L'altoparlante a destra attiva/disattiva il suono di quell'allarme.", "Нажмите на значение и введите его без запятой (39 для 3,9). Динамик справа включает/выключает звук этой тревоги.", "Ketuk nilai dan ketik tanpa koma (39 untuk 3,9). Speaker di kanan menyalakan/mematikan suara alarm itu."},  // 925581db
   {"Login required", "Se requiere acceso", "Login necessário", "Connexion requise", "Anmeldung nötig", "Accesso richiesto", "Нужен вход", "Perlu masuk"},  // 9286923d
   {"The new password must be 6-32 characters.", "La clave nueva debe tener 6-32 caracteres.", "A nova senha deve ter 6-32 caracteres.", "Le nouveau mot de passe doit faire 6 à 32 caractères.", "Das neue Passwort muss 6-32 Zeichen haben.", "La nuova password deve avere 6-32 caratteri.", "Новый пароль: от 6 до 32 символов.", "Sandi baru harus 6-32 karakter."},  // 92b4e846
   {nullptr, "WiFi / acceso", "WiFi / login", "WiFi / connexion", "WLAN / Login", "WiFi / accesso", "WiFi / вход", "WiFi / masuk"},  // 92d635e6

@@ -68,7 +68,7 @@ static const uint32_t GLK_EN_LEN = 0;
 #include "metematik_assets.h"   // yazi tipleri + logo (ayni klasorde olmali)
 
 
-#define FIRMWARE_VERSION "4.1.0"
+#define FIRMWARE_VERSION "4.1.1"
 
 // ---- forward declarations (Arduino sirasi icin) ----
 bool fetchData();
@@ -807,6 +807,8 @@ void openTzPicker();
 void drawTzPicker();
 void tzPickerTap(int x, int y);
 void openGlucosePicker(const char* title, int* v, int mn, int mx);
+void drawGluPicker();
+void gluPickerTap(int x, int y);
 int wifiRssiNow();
 int wifiBarsNow();
 void drawBatteryGlyph(lgfx::LovyanGFX* g, int x, int y);
@@ -9072,6 +9074,90 @@ void openGlucosePicker(const char* title, int* v, int mn, int mx) {
   if (tpGlu) tpUnit = "mmol/L";
 }
 
+// 4.1.0: mmol/L esik girisi: 1 2 3 Sil / 4 5 6 , / 7 8 9 0 / Tamam (genis). Deger mg/dL saklanir.
+static const char* GLU_KEYS[12] = {"1", "2", "3", "<", "4", "5", "6", ",", "7", "8", "9", "0"};
+void drawGluPicker() {
+  char sep = (langIdx == 1) ? '.' : ',';
+  char disp[12];
+  uint16_t col = TFT_WHITE;
+  if (tpLen == 0) { snprintf(disp, sizeof(disp), "%s", formatGlucose(*tpNum).c_str()); col = UI_SUBTEXT; }
+  else {
+    int n = 0;
+    for (int i = 0; i < tpLen && n < 10; i++) disp[n++] = (tpDig[i] == '.') ? sep : tpDig[i];
+    disp[n] = 0;
+  }
+  if (tpLen == 0 && sep == ',') { for (char* p = disp; *p; p++) if (*p == '.') *p = ','; }
+  cv->setTextColor(col, UI_BG);
+  cv->setTextDatum(MC_DATUM);
+  cv->setTextSize(1.5f);
+  dsN(cv, disp, 140, 64, 4);
+  cv->setTextSize(1);
+  cv->setTextColor(UI_SUBTEXT, UI_BG);
+  cv->setTextDatum(ML_DATUM);
+  dsN(cv, tpUnit.c_str(), 214, 68, 2);
+  char rng[40];
+  String a = formatGlucose(tpMinV), b = formatGlucose(tpMaxV);
+  if (sep == ',') { a.replace('.', ','); b.replace('.', ','); }
+  snprintf(rng, sizeof(rng), "%s %s - %s", L("Aralık:", "Range:"), a.c_str(), b.c_str());
+  bool err = (long)(millis() - tpErrUntil) < 0;
+  cv->setTextColor(err ? sevColor(0) : UI_SUBTEXT, UI_BG);
+  cv->setTextDatum(TC_DATUM);
+  drawFreeTitle(rng, 160, 84, &FreeSansTR7pt);
+  for (int k = 0; k < 12; k++) {
+    int c = k % 4, r = k / 4;
+    int x = 10 + c * 76, y = 102 + r * 34;
+    uint16_t bg = UI_CARD;
+    if (k == 3) bg = 0x6124;
+    cv->fillRoundRect(x, y, 70, 30, 7, bg);
+    cv->setTextColor(TFT_WHITE, bg);
+    cv->setTextDatum(MC_DATUM);
+    if (k == 3) drawFreeTitle(L("Sil", "Del"), x + 35, y + 15, &FreeSansTR7pt);
+    else if (k == 7) {                                  // buyuk virgul / nokta (yazi tipinde cok kucuk kaliyor)
+      cv->fillCircle(x + 35, y + 17, 4, TFT_WHITE);
+      if (sep == ',') cv->fillTriangle(x + 35, y + 17, x + 39, y + 18, x + 32, y + 26, TFT_WHITE);
+    }
+    else dsN(cv, GLU_KEYS[k], x + 35, y + 16, 4);
+  }
+  cv->fillRoundRect(10, 204, 298, 32, 8, 0x0B5E);
+  cv->setTextColor(TFT_WHITE, 0x0B5E);
+  cv->setTextDatum(MC_DATUM);
+  drawFreeTitle(L("Tamam", "OK"), 160, 220, &FreeSansTR9pt);
+  cv->setTextDatum(TL_DATUM);
+}
+void gluPickerTap(int x, int y) {
+  if (y < LIST_Y) { if (x < 70) timePickerActive = false; return; }   // iptal
+  bool hasDot = strchr(tpDig, '.') != nullptr;
+  if (y >= 202) {                                       // Tamam
+    if (tpLen == 0) { timePickerActive = false; return; }
+    float mm = atof(tpDig);
+    int v = (int)lroundf(mm * 18.0f);
+    if (v >= tpMinV - 1 && v < tpMinV) v = tpMinV;      // yuvarlama payi
+    if (v <= tpMaxV + 1 && v > tpMaxV) v = tpMaxV;
+    if (v < tpMinV || v > tpMaxV) { tpErrUntil = millis() + 2000; tpLen = 0; memset(tpDig, 0, sizeof(tpDig)); return; }
+    *tpNum = v;
+    timePickerActive = false;
+    return;
+  }
+  if (y < 102) return;
+  int c = (x - 10) / 76, r = (y - 102) / 34;
+  if (c < 0 || c > 3 || r < 0 || r > 2) return;
+  int k = r * 4 + c;
+  if (k == 3) { if (tpLen > 0) tpDig[--tpLen] = 0; return; }
+  if (k == 7) {                                         // virgul
+    if (!hasDot && tpLen > 0 && tpLen < 3) { tpDig[tpLen++] = '.'; tpDig[tpLen] = 0; }
+    return;
+  }
+  char d = GLU_KEYS[k][0];
+  if (hasDot) {
+    const char* p = strchr(tpDig, '.');
+    if (tpLen - (int)(p - tpDig) - 1 >= 1) return;      // tek ondalik hane
+  } else {
+    if (tpLen >= 2) return;                             // en fazla 2 tam hane (22,2)
+    if (tpLen == 0 && d == '0') return;
+  }
+  if (tpLen < 6) { tpDig[tpLen++] = d; tpDig[tpLen] = 0; }
+}
+
 static const char* TP_KEYS[12] = {"1", "2", "3", "<", "4", "5", "6", "0", "7", "8", "9", "OK"};
 
 // 4.1.0: saat dilimi secimi - 2 sutun x 4 satir, sag ustte sayfa degistirme
@@ -9157,6 +9243,7 @@ void drawTimePicker() {
   drawListHeader(tpTitle.c_str(), false);
   if (tpMode == 4) { drawLangPicker(); return; }
   if (tpMode == 5) { drawTzPicker(); return; }   // 4.1.0
+  if (tpMode == 1 && tpGlu) { drawGluPicker(); return; }   // 4.1.0: mmol/L, virgul tuslu
   char disp[12];
   uint16_t col = TFT_WHITE;
   if (tpMode == 3) {
@@ -9181,10 +9268,6 @@ void drawTimePicker() {
     drawFreeTitle(L("Gün, ay, saat, dakika: 8 rakam", "Day, month, hour, minute: 8 digits"), 160, 80, &FreeSansTR7pt);
   } else if (tpMode == 1) {
     if (tpLen == 0) { if (tpGlu) snprintf(disp, sizeof(disp), "%s", formatGlucose(*tpNum).c_str()); else sprintf(disp, "%d", *tpNum); col = UI_SUBTEXT; }
-    else if (tpGlu) {                         // 4.1.0: son rakamdan once nokta (39 -> 3.9)
-      if (tpLen == 1) snprintf(disp, sizeof(disp), "0.%c", tpDig[0]);
-      else { int n = 0; for (int i = 0; i < tpLen; i++) { if (i == tpLen - 1) disp[n++] = '.'; disp[n++] = tpDig[i]; } disp[n] = 0; }
-    }
     else { strncpy(disp, tpDig, sizeof(disp)); disp[tpLen] = 0; }
     cv->setTextColor(col, UI_BG);
     cv->setTextDatum(MC_DATUM);
@@ -9229,6 +9312,7 @@ void drawTimePicker() {
 void timePickerTap(int x, int y) {
   if (tpMode == 4) { langPickerTap(x, y); return; }
   if (tpMode == 5) { tzPickerTap(x, y); return; }   // 4.1.0
+  if (tpMode == 1 && tpGlu) { gluPickerTap(x, y); return; }   // 4.1.0
   if (y < LIST_Y) { if (x < 70) timePickerActive = false; return; }   // iptal
   if (y < 104) return;
   int c = (x - 10) / 76, r = (y - 104) / 45;
@@ -9241,11 +9325,6 @@ void timePickerTap(int x, int y) {
     if (k == 11) {
       if (tpLen == 0) { timePickerActive = false; return; }
       int v = atoi(tpDig);
-      if (tpGlu) {                            // 4.1.0: mmol/L (x10) -> mg/dL
-        v = (int)lroundf(v * 1.8f);
-        if (v >= tpMinV - 1 && v < tpMinV) v = tpMinV;      // yuvarlama payi
-        if (v <= tpMaxV + 1 && v > tpMaxV) v = tpMaxV;
-      }
       if (v < tpMinV || v > tpMaxV) { tpErrUntil = millis() + 2000; tpLen = 0; memset(tpDig, 0, sizeof(tpDig)); return; }
       *tpNum = v;
       timePickerActive = false;
@@ -11387,8 +11466,8 @@ void formBuild(int id) {
     case F_TARGETS: {
       fTitle = L("HEDEFLER", "TARGETS");
       if (personCount > 1) fNote(String(L("Bu eşikler: ", "These limits: ")) + personLabel(dispCtx), TFT_CYAN);   // 4.0
-      if (unitIdx == 1) fNote(L("Değere dokun ve virgülsüz yaz (3,9 için 39). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
-                                "Tap a value and type it without the decimal point (39 for 3.9). The speaker on the right turns that alarm's sound on/off."));   // 4.1.0
+      if (unitIdx == 1) fNote(L("Değere dokun ve yaz (mmol/L). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
+                                "Tap a value to type it (mmol/L). The speaker on the right turns that alarm's sound on/off."));   // 4.1.0
       else fNote(L("Değere dokun ve yaz (mg/dL). Sağdaki hoparlör o alarmın sesini açar/kapatır.",
               "Tap a value to type it (mg/dL). The speaker on the right turns that alarm's sound on/off."));
       { String w = soundWarnText(); if (w.length()) fNote(w + L(" - bu durumda alarm sesi çalmaz.", " - alarm sound will not play."), sevColor(0)); }
